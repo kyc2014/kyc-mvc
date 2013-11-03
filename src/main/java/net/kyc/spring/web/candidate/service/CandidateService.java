@@ -1,6 +1,6 @@
-package net.kyc.spring.web.candidate.service;
+package net.knowyourcandidate.spring.web.candidate.service;
 
-import net.kyc.spring.web.candidate.model.Candidate;
+import net.knowyourcandidate.spring.web.candidate.model.Candidate;
 
 public interface CandidateService {
 	public Candidate retrieveCandidateByName(String name);

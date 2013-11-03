@@ -2,6 +2,14 @@
 
 <web-app>
     <display-name>Know your candidate</display-name>
+     <context-param>  
+        <param-name>contextConfigLocation</param-name>  
+        <param-value>/WEB-INF/mvc-dispatcher-servlet.xml</param-value>  
+    </context-param>  
+  
+    <listener>  
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  
+    </listener>  
     <servlet>  
         <servlet-name>mvc-dispatcher</servlet-name>  
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>  
@@ -11,28 +19,14 @@
     <servlet-mapping>  
         <servlet-name>mvc-dispatcher</servlet-name>  
         <url-pattern>/candidate/*</url-pattern>  
-    </servlet-mapping>  
-  
-    <context-param>  
-        <param-name>contextConfigLocation</param-name>  
-        <param-value>/WEB-INF/mvc-dispatcher-servlet.xml</param-value>  
-    </context-param>
-    <context-param>  
-        <param-name>contextConfigLocation</param-name>  
-        <param-value>/WEB-INF/user-dispatcher-servlet.xml</param-value>  
-    </context-param>  
-  
-    <servlet>  
-        <servlet-name>user-dispatcher</servlet-name>  
-        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>  
-        <load-on-startup>1</load-on-startup>  
-    </servlet>  
-
-	<servlet-mapping>  
-        <servlet-name>user-dispatcher</servlet-name>  
-        <url-pattern>/user/*</url-pattern>  
-    </servlet-mapping>  
-    <listener>  
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  
-    </listener>  
+    </servlet-mapping> 
+    <error-page>
+	<error-code>404</error-code>
+	<location>/WEB-INF/pages/404.html</location>
+  </error-page>
+  <error-page>
+	<error-code>500</error-code>
+	<location>/WEB-INF/pages/500.html</location>
+  </error-page>
+   
 </web-app>

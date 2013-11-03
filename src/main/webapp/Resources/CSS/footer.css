@@ -1,0 +1,103 @@
+@import url(fonts.css);
+#footer
+{
+	min-width:1024px;
+	margin:0 auto;
+	min-height:60px;
+	font-family:'hattori_hanzolight';
+	font-size:12pt;
+	color:#666666;
+	background-color:#f3f1f1;  
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding: 10px;
+	position: relative;
+
+	
+}
+
+#footerContents
+{
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+	letter-spacing: 1px;
+	
+
+}
+ #copyright
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20%;
+	letter-spacing: 1px;
+
+
+}
+
+#footerLinks
+{
+	display:inline-block;
+	vertical-align: middle;
+	width: 55%;
+	margin: 0;
+	padding: 0;
+
+} 
+#footerLinks li
+{
+	display:inline;
+}
+#footerLinks li > a
+
+{
+	
+	text-decoration:none;
+	color:#666;
+
+}
+#footerSocial
+{
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle;
+	
+}
+.SocialImage
+{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+
+
+}
+.SocialImage>img
+{
+	width: 100%;
+	height: 100%;
+}
+@media screen and (max-width:800px){
+
+	#footer
+	{
+		min-width: 800px;
+		max-width: 800px;
+	}
+	#copyright
+	{
+		width: 100%;
+		margin: 2% auto;
+	}
+	#footerLinks
+	{
+		width: 100%;
+		margin: 2% auto;
+	}
+	#footerSocial
+	{
+		width: 100%;
+		margin: 2% auto;
+	}
+}

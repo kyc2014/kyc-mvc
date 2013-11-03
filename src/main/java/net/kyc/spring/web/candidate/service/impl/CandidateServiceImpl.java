@@ -1,8 +1,8 @@
-package net.kyc.spring.web.candidate.service.impl;
+package net.knowyourcandidate.spring.web.candidate.service.impl;
 
-import net.kyc.spring.web.candidate.dao.CandidateDao;
-import net.kyc.spring.web.candidate.model.Candidate;
-import net.kyc.spring.web.candidate.service.CandidateService;
+import net.knowyourcandidate.spring.web.candidate.dao.CandidateDao;
+import net.knowyourcandidate.spring.web.candidate.model.Candidate;
+import net.knowyourcandidate.spring.web.candidate.service.CandidateService;
 
 public class CandidateServiceImpl implements CandidateService{
 
