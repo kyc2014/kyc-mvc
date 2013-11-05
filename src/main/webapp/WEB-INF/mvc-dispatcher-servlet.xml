@@ -28,12 +28,12 @@ http://www.springframework.org/schema/mvc
 	</bean>
 
 	<bean id="candidateDao"
-		class="net.knowyourcandidate.spring.web.candidate.dao.impl.CandidateDaoImpl">
+		class="net.kyc.spring.web.candidate.dao.impl.CandidateDaoImpl">
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
 	<bean id="candidateService"
-		class="net.knowyourcandidate.spring.web.candidate.service.impl.CandidateServiceImpl">
+		class="net.kyc.spring.web.candidate.service.impl.CandidateServiceImpl">
 		<property name="candidateDao" ref="candidateDao" />
 	</bean>
 

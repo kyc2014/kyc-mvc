@@ -1,4 +1,4 @@
-package net.knowyourcandidate.spring.web.candidate.model;
+package net.kyc.spring.web.candidate.model;
 
 public class Candidate {
 	private int id,supporters;

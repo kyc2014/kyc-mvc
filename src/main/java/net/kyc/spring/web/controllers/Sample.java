@@ -1,10 +1,10 @@
-package net.knowyourcandidate.spring.web.controllers;
+package net.kyc.spring.web.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.knowyourcandidate.spring.web.candidate.model.Candidate;
-import net.knowyourcandidate.spring.web.candidate.service.CandidateService;
+import net.kyc.spring.web.candidate.model.Candidate;
+import net.kyc.spring.web.candidate.service.CandidateService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

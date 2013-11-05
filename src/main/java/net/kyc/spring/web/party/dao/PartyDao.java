@@ -1,4 +1,4 @@
-package net.knowyourcandidate.spring.web.party.dao;
+package net.kyc.spring.web.party.dao;
 
 public interface PartyDao {
 	public Object retrieveParty(String name);

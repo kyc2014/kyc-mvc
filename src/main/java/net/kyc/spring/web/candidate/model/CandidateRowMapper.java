@@ -1,4 +1,4 @@
-package net.knowyourcandidate.spring.web.candidate.model;
+package net.kyc.spring.web.candidate.model;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

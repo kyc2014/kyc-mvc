@@ -1,4 +1,4 @@
-package net.knowyourcandidate.spring.web.candidate.dao.impl;
+package net.kyc.spring.web.candidate.dao.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import javax.sql.DataSource;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import net.knowyourcandidate.spring.web.candidate.dao.CandidateDao;
-import net.knowyourcandidate.spring.web.candidate.model.CandidateRowMapper;
-import net.knowyourcandidate.spring.web.candidate.model.CandidateSearchRowMapper;
+import net.kyc.spring.web.candidate.dao.CandidateDao;
+import net.kyc.spring.web.candidate.model.CandidateRowMapper;
+import net.kyc.spring.web.candidate.model.CandidateSearchRowMapper;
 
 public class CandidateDaoImpl implements CandidateDao{
 
