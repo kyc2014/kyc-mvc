@@ -15,7 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="../Resources/CSS/SuggestionBox.css">
 		<script src="../Resources/Libraries/jquery-2.0.2.min.js"></script>
 		<script src="../Resources/Libraries/prettyCheckable.js"></script>
-		
+		<script src="../Resources/Libraries/"></script>
 
 	</head>
 	<script>
