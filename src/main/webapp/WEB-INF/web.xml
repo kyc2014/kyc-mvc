@@ -4,7 +4,7 @@
     <display-name>Know your candidate</display-name>
      <context-param>  
         <param-name>contextConfigLocation</param-name>  
-        <param-value>/WEB-INF/mvc-dispatcher-servlet.xml</param-value>  
+        <param-value>/WEB-INF/mvc-dispatcher-servlet.xml /WEB-INF/user-dispatcher-servlet.xml</param-value>  
     </context-param>  
   
     <listener>  

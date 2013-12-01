@@ -24,7 +24,7 @@ http://www.springframework.org/schema/mvc
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost/kyc?useUnicode=true" />
 		<property name="username" value="root" />
-		<property name="password" value="root" />
+		<property name="password" value="6141104" />
 	</bean>
 
 	<bean id="candidateDao"
@@ -36,6 +36,4 @@ http://www.springframework.org/schema/mvc
 		class="net.kyc.spring.web.candidate.service.impl.CandidateServiceImpl">
 		<property name="candidateDao" ref="candidateDao" />
 	</bean>
-
-
 </beans>
