@@ -21,12 +21,25 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+<<<<<<< HEAD
 			<name>org.eclipse.wst.validation.validationbuilder</name>
+=======
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+>>>>>>> 8bc59cf148c9a08d2cdd16bd052a0b2fd804a15d
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+<<<<<<< HEAD
 			<name>org.eclipse.m2e.core.maven2Builder</name>
+=======
+			<name>org.springframework.ide.eclipse.core.springbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+>>>>>>> 8bc59cf148c9a08d2cdd16bd052a0b2fd804a15d
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -34,6 +47,10 @@
 	<natures>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+<<<<<<< HEAD
+=======
+		<nature>org.springframework.ide.eclipse.core.springnature</nature>
+>>>>>>> 8bc59cf148c9a08d2cdd16bd052a0b2fd804a15d
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
