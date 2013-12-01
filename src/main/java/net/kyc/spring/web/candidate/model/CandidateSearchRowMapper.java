@@ -4,6 +4,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Calendar;
 
+import net.kyc.spring.web.party.model.Party;
+
 import org.springframework.jdbc.core.RowMapper;
 
 public class CandidateSearchRowMapper implements RowMapper {
@@ -12,15 +14,17 @@ public class CandidateSearchRowMapper implements RowMapper {
 	public Object mapRow(ResultSet rs, int arg1) throws SQLException {
 		// TODO Auto-generated method stub
 		Candidate candidate = new Candidate();
-		candidate.setName(rs.getString("CandidateName"));
-		candidate.setId(rs.getInt("CandidateID"));
-		candidate.setCurrentPosition(rs.getString("CandidatePosition"));
-		candidate.setParty(rs.getString("PartyName"));
-		candidate.setPartyImage(rs.getString("PartyImage"));
-		candidate.setDob(rs.getString("CandidateDOB"));
-		candidate.setAge(String.valueOf(Calendar.getInstance().get(Calendar.YEAR)-Integer.parseInt((candidate.getDob().split("-"))[0])));
-		candidate.setSupporters(rs.getInt("CandidateSupporters"));
+		Party party=new Party();
+		candidate.setCandidateName(rs.getString("CandidateName"));
+		candidate.setCandidateID(rs.getInt("CandidateID"));
+		candidate.setCandidateCurrentPosition(rs.getString("CandidatePosition"));
+		candidate.setCandidateDOB(rs.getString("CandidateDOB"));
+		candidate.setCandidateAge(Calendar.getInstance().get(Calendar.YEAR)-Integer.parseInt((candidate.getCandidateDOB().split("-"))[0]));
+		candidate.setCandidateSupporters(rs.getInt("CandidateSupporters"));
 		candidate.setCandidateImage(rs.getString("CandidateImage"));
+		party.setPartyName(rs.getString("PartyName"));
+		party.setPartyImage(rs.getString("PartyImage"));
+		candidate.setParty(party);
 		return candidate;
 	}
 	

@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* CSS Document */
 a {
   text-decoration: none; }
@@ -46,7 +47,7 @@ input {
   padding: 10px; }
   #smallSuggestionBox > a {
     display: block;
-    font: normal normal 100 12pt/normal 'hattori';
+    font: normal normal 100 12pt/normal "hattori";
     color: #000;
     padding: 5px;
     min-height: 10px;
@@ -120,20 +121,20 @@ input {
       margin: 0;
       border: 0; }
     #topCP #candidateDetailsCP #nameCP {
-      font: normal normal 600 14pt/normal "hattori_hanzolight";
-      color: #7c7878; }
+      font: normal normal 600 14pt/normal "arial";
+      color: black; }
     #topCP #candidateDetailsCP #partyNameCP {
       margin: 0 2px;
-      font: normal normal 100 12pt/normal "hattori_hanzolight";
-      color: #c2bfbf; }
+      font: normal normal 100 12pt/normal "arial";
+      color: #333333; }
     #topCP #candidateDetailsCP #educationCP, #topCP #candidateDetailsCP #genderCP {
-      font: normal normal 100 12pt/normal "hattori_hanzolight";
-      color: #c2bfbf; }
+      font: normal normal 100 12pt/normal "arial";
+      color: #333333; }
     #topCP #candidateDetailsCP #supporterCP #supporterButton {
       background-color: white;
       color: #464647;
       border: 1px solid #999;
-      font: normal normal 100 9pt/normal "ralewaylight";
+      font: normal normal 100 9pt/normal "arial";
       font-weight: 500;
       margin-left: 5px;
       -webkit-transition: background-color  0.5s;
@@ -144,7 +145,7 @@ input {
       cursor: pointer;
       background-color: #f9fad0; }
     #topCP #candidateDetailsCP #supporterCP > span:not(:last-child) {
-      font: normal normal 100 9pt/normal "ralewaylight"; }
+      font: normal normal 100 9pt/normal "arial"; }
 
 /**---------------------------------------------------------------------bottom------------------------------------**/
 #topAndBottom {
@@ -184,7 +185,7 @@ input {
   height: 100px;
   border: 0;
   padding: 10px;
-  font: normal normal 100 12pt/normal "hattori_hanzolight"; }
+  font: normal normal 100 12pt/normal "arial"; }
 
 #closeButton {
   position: absolute;
@@ -201,16 +202,16 @@ input {
 #leftCP {
   display: inline-block;
   height: auto;
-  width: 50%; }
+  width: 100%; }
 
 .ElectionContainerCP {
   padding: 10px;
   border-spacing: 0;
   color: #6d93ff;
-  font: normal normal 100 12pt/normal "ralewaylight"; }
+  font: normal normal 100 12pt/normal "arial"; }
 
 .BoxContentCP {
-  font: normal normal 100 12pt/normal "ralewaylight";
+  font: normal normal 100 12pt/normal "arial";
   color: #6d93ff;
   padding: 5px 10px 5px 5px;
   text-align: center; }
@@ -232,7 +233,7 @@ input {
 
 #firstBoxCP .FirstBoxTitle {
   width: 33%;
-  font: normal normal 100 13pt/normal "ralewaylight";
+  font: normal normal 100 13pt/normal "arial";
   color: #656060;
   text-align: center; }
 
@@ -240,7 +241,7 @@ input {
   margin-top: 1.5%; }
   #secondBoxCP .SecondBoxTitle {
     width: 50%;
-    font: normal normal 100 13pt/normal "ralewaylight";
+    font: normal normal 100 13pt/normal "arial";
     color: #656060; }
 
 #thirdBoxCP {
@@ -252,7 +253,7 @@ input {
   height: auto;
   background-color: white; }
   #thirdBoxCP > p {
-    font: normal normal 100 13pt/normal "ralewaylight";
+    font: normal normal 100 13pt/normal "arial";
     color: #656060;
     padding: 0;
     margin: 0;
@@ -271,7 +272,7 @@ input {
   position: absolute;
   left: 20px;
   width: 70px;
-  background-color: #7c7878;
+  background-color: black;
   color: white;
   content: "Write more !";
   z-index: 1000;
@@ -300,10 +301,10 @@ input {
     #rightCP #recentArticles #contentRA {
       width: inherit;
       padding: 5px;
-      font: normal normal 100 12pt/normal "ralewaylight";
+      font: normal normal 100 12pt/normal "arial";
       color: #6d93ff; }
   #rightCP #recentArticles > p:not(:last-child), #rightCP #recentPhotos > p:not(:last-child) {
-    font: normal normal 100 13pt/normal "ralewaylight";
+    font: normal normal 100 13pt/normal "arial";
     color: #656060;
     padding: 0;
     margin: 0;
@@ -401,18 +402,16 @@ input {
   overflow: hidden;
   color: #333;
   background-color: rgba(234, 234, 234, 0.9);
-  font-family: ralewaylight;
+  font-family: arial;
   margin-top: 5px;
-  margin-bottom: 5px; 
-  vertical-align:top;
-  }
+  margin-bottom: 5px; }
 
 /**------------------------------------------------------------reviews-------------------------------------------------------**/
 #writeReviewCP {
   width: 100%;
   margin-top: 1.5%; }
   #writeReviewCP > p {
-    font: normal normal 400 14pt/normal "hattori_hanzolight";
+    font: normal normal 400 14pt/normal "arial";
     color: #656060; }
   #writeReviewCP > p #reviewCountCP {
     margin: 0 2px; }
@@ -424,7 +423,7 @@ input {
     padding: 0;
     margin: 0 0 5px 0;
     border: 0;
-    font: normal normal 400 13pt/normal "hattori_hanzolight";
+    font: normal normal 400 13pt/normal "arial";
     color: #656060; }
   #reviewWrapperCP > p #pencil {
     font-size: 14pt;
@@ -436,18 +435,18 @@ input {
     outline: 0;
     border: 0;
     padding: 10px;
-    font: normal normal 100 12pt/normal "hattori_hanzolight";
+    font: normal normal 100 12pt/normal "arial";
     resize: none;
     display: inline-block; }
   #reviewWrapperCP #radioBoxCP label {
-    font: normal normal 100 12pt/normal "hattori_hanzolight";
+    font: normal normal 100 12pt/normal "arial";
     color: #999999; }
   #reviewWrapperCP #postButton {
     border-radius: 5px;
     margin-top: 5px;
     background-color: white;
     border: 1px solid #999;
-    font: normal normal 100 12pt/normal "hattori_hanzolight";
+    font: normal normal 100 12pt/normal "arial";
     color: #464647;
     display: inline-block;
     vertical-align: top;
@@ -492,8 +491,8 @@ input {
     width: 0;
     height: 0;
     border-top: 20px solid white;
-    border-left: 13.33333px solid transparent;
-    border-right: 13.33333px solid transparent;
+    border-left: 13.333px solid transparent;
+    border-right: 13.333px solid transparent;
     position: absolute;
     margin: 0 auto;
     display: none; }
@@ -507,7 +506,7 @@ input {
 .insideORC button {
   background: transparent;
   border: 0;
-  font: normal normal 400 13pt/normal "hattori_hanzolight";
+  font: normal normal 400 13pt/normal "arial";
   color: #656060;
   width: 100%; }
 
@@ -554,18 +553,18 @@ input {
   .ReviewsCP .DecreasePoints:hover {
     border-top: 15px solid #6d93ff; }
   .ReviewsCP .Points {
-    font: normal normal 100 12pt/normal "hattori_hanzolight";
+    font: normal normal 100 12pt/normal "arial";
     color: #999999;
     text-align: center; }
   .ReviewsCP .Points > span {
-    font: normal normal 100 12pt/normal "hattori_hanzolight";
+    font: normal normal 100 12pt/normal "arial";
     color: #999999; }
 
 #leftFrame:hover, #rightFrame:hover {
   cursor: pointer;
   background-color: #f9fad0; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
   #wrapperCP {
     width: 800px; }
 

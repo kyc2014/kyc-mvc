@@ -1,121 +1,109 @@
 package net.kyc.spring.web.candidate.model;
 
+import net.kyc.spring.web.party.model.Party;
+
 public class Candidate {
-	private int id,supporters;
-	private String name,shortname,gender,dob,education,achievements,agenda,candidateImage,positions,age,currentPosition,partyName,party,partyImage;
+	private int candidateID,candidateSupporters,candidateParty,candidateAge;
+	private String candidateName,candidateShortName,candidateGender,candidateDOB,candidateEducation;
+	private String candidateAgenda,candidateImage,candidatePreviousPositions,candidateCurrentPosition;
+	private String candidateAchievements,candidateCompetingFor,candidateConstituency;
+	private Party party;
+	public int getCandidateID() {
+		return candidateID;
+	}
+	public void setCandidateID(int candidateID) {
+		this.candidateID = candidateID;
+	}
+	public int getCandidateSupporters() {
+		return candidateSupporters;
+	}
+	public void setCandidateSupporters(int candidateSupporters) {
+		this.candidateSupporters = candidateSupporters;
+	}
+	public int getCandidateParty() {
+		return candidateParty;
+	}
+	public void setCandidateParty(int candidateParty) {
+		this.candidateParty = candidateParty;
+	}
+	public int getCandidateAge() {
+		return candidateAge;
+	}
+	public void setCandidateAge(int candidateAge) {
+		this.candidateAge = candidateAge;
+	}
+	public String getCandidateName() {
+		return candidateName;
+	}
+	public void setCandidateName(String candidateName) {
+		this.candidateName = candidateName;
+	}
+	public String getCandidateShortName() {
+		return candidateShortName;
+	}
+	public void setCandidateShortName(String candidateShortName) {
+		this.candidateShortName = candidateShortName;
+	}
+	public String getCandidateGender() {
+		return candidateGender;
+	}
+	public void setCandidateGender(String candidateGender) {
+		this.candidateGender = candidateGender;
+	}
+	public String getCandidateDOB() {
+		return candidateDOB;
+	}
+	public void setCandidateDOB(String candidateDOB) {
+		this.candidateDOB = candidateDOB;
+	}
+	public String getCandidateEducation() {
+		return candidateEducation;
+	}
+	public void setCandidateEducation(String candidateEducation) {
+		this.candidateEducation = candidateEducation;
+	}
+	public String getCandidateAgenda() {
+		return candidateAgenda;
+	}
+	public void setCandidateAgenda(String candidateAgenda) {
+		this.candidateAgenda = candidateAgenda;
+	}
 	public String getCandidateImage() {
 		return candidateImage;
 	}
 	public void setCandidateImage(String candidateImage) {
 		this.candidateImage = candidateImage;
 	}
-	public String getAge() {
-		return age;
+	public String getCandidatePreviousPositions() {
+		return candidatePreviousPositions;
 	}
-	public void setAge(String age) {
-		this.age = age;
+	public void setCandidatePreviousPositions(String candidatePreviousPositions) {
+		this.candidatePreviousPositions = candidatePreviousPositions;
 	}
-	public String getName() {
-		return name;
-	} 
-	public void setName(String name) {
-		this.name = name;
+	public String getCandidateCurrentPosition() {
+		return candidateCurrentPosition;
 	}
-
-	public int getId() {
-		return id;
+	public void setCandidateCurrentPosition(String candidateCurrentPosition) {
+		this.candidateCurrentPosition = candidateCurrentPosition;
 	}
-
-	public void setId(int id) {
-		this.id = id;
+	public String getCandidateAchievements() {
+		return candidateAchievements;
 	}
-
-	public int getSupporters() {
-		return supporters;
+	public void setCandidateAchievements(String candidateAchievements) {
+		this.candidateAchievements = candidateAchievements;
 	}
-
-	public void setSupporters(int supporters) {
-		this.supporters = supporters;
-	}
-
-	public String getParty() {
+	public Party getParty() {
 		return party;
 	}
-
-	public void setParty(String party) {
+	public void setParty(Party party) {
 		this.party = party;
 	}
-
-	public String getShortname() {
-		return shortname;
+	public String getCandidateCompetingFor() {
+		return candidateCompetingFor;
 	}
-
-	public void setShortname(String shortname) {
-		this.shortname = shortname;
+	public void setCandidateCompetingFor(String candidateCompetingFor) {
+		this.candidateCompetingFor = candidateCompetingFor;
 	}
-
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
-
-	public String getDob() {
-		return dob;
-	}
-
-	public void setDob(String dob) {
-		this.dob = dob;
-	}
-
-	public String getEducation() {
-		return education;
-	}
-
-	public void setEducation(String education) {
-		this.education = education;
-	}
-
-	public String getAchievements() {
-		return achievements;
-	}
-
-	public void setAchievements(String achievements) {
-		this.achievements = achievements;
-	}
-
-	public String getAgenda() {
-		return agenda;
-	}
-
-	public void setAgenda(String agenda) {
-		this.agenda = agenda;
-	}
-	public String getPositions() {
-		return positions;
-	}
-	public void setPositions(String positions) {
-		this.positions = positions;
-	}
-	public String getCurrentPosition() {
-		return currentPosition;
-	}
-	public void setCurrentPosition(String currentPosition) {
-		this.currentPosition = currentPosition;
-	}
-	public String getPartyImage() {
-		return partyImage;
-	}
-	public void setPartyImage(String partyImage) {
-		this.partyImage = partyImage;
-	}
-	public String getPartyName() {
-		return partyName;
-	}
-	public void setPartyName(String partyName) {
-		this.partyName = partyName;
-	}
+	
 	
 }

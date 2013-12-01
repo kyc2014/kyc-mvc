@@ -66,7 +66,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', end
 {
 		float:right;
 		
-		font:16px raleway;
+		font:16px arial;
 		transition:color 0.5s;
 		position: absolute;
 		top: 5px;
@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', end
 	color:#646464;
 	display:table-cell;
 	vertical-align:middle;
-	font-family: raleway;
+	font-family: arial;
 	letter-spacing: 1px;
 
 /*	text-shadow:1px 0px 1px #333;*/
@@ -134,7 +134,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', end
 	border:1px solid #CCC;
 	height:23px;
 	width:170px;
-	font:16px hattori;
+	font:16px arial;
 	padding-left:10px;
 	padding-right:28px;
 	display: inline;
@@ -147,7 +147,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', end
 	box-sizing: border-box;
 	margin:-4px;
 	box-shadow:inset 0px 1px 1px #666666;
-	font-family:raleway;
+	font-family:arial;
 }
 .SearchBox:focus
 {

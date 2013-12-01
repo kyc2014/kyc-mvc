@@ -4,6 +4,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Calendar;
 
+import net.kyc.spring.web.party.model.Party;
+
 import org.springframework.jdbc.core.RowMapper;
 
 
@@ -13,21 +15,24 @@ public class CandidateRowMapper implements RowMapper{
 	@Override
 	public Object mapRow(ResultSet rs, int rowNum) throws SQLException {
 		Candidate candidate = new Candidate();
-		candidate.setName(rs.getString("CandidateName"));
-		candidate.setId(rs.getInt("CandidateID"));
-		candidate.setAgenda(rs.getString("CandidateAgenda"));
-		candidate.setEducation(rs.getString("CandidateEducationalQualification"));
-		candidate.setParty(rs.getString("CandidateParty"));
-		candidate.setPartyName(rs.getString("Party.PartyName"));
-		candidate.setPartyImage(rs.getString("Party.PartyImage"));
-		candidate.setDob(rs.getString("CandidateDOB"));
-		candidate.setAge(String.valueOf(Calendar.getInstance().get(Calendar.YEAR)-Integer.parseInt((candidate.getDob().split("-"))[0])));
-		candidate.setSupporters(rs.getInt("CandidateSupporters"));
-		candidate.setGender(rs.getString("CandidateGender"));
-		candidate.setShortname(rs.getString("CandidateShortName"));
+		Party party=new Party();
+		candidate.setCandidateName(rs.getString("CandidateName"));
+		candidate.setCandidateID(rs.getInt("CandidateID"));
+		candidate.setCandidateAgenda(rs.getString("CandidateAgenda"));
+		candidate.setCandidateEducation(rs.getString("CandidateEducationalQualification"));
+		candidate.setCandidateParty(rs.getInt("CandidateParty"));
+		candidate.setCandidateDOB(rs.getString("CandidateDOB"));
+		candidate.setCandidateAge(Calendar.getInstance().get(Calendar.YEAR)-Integer.parseInt((candidate.getCandidateDOB().split("-"))[0]));
+		candidate.setCandidateSupporters(rs.getInt("CandidateSupporters"));
+		candidate.setCandidateGender(rs.getString("CandidateGender"));
+		candidate.setCandidateShortName(rs.getString("CandidateShortName"));
 		candidate.setCandidateImage(rs.getString("CandidateImage"));
-		candidate.setCurrentPosition(rs.getString("CandidatePosition"));
-		candidate.setPositions(rs.getString("CandidatePreviousPositions"));
+		candidate.setCandidateCurrentPosition(rs.getString("CandidatePosition"));
+		candidate.setCandidateCompetingFor(rs.getString("CandidateCompetingFor"));
+		candidate.setCandidatePreviousPositions(rs.getString("CandidatePreviousPositions"));
+		party.setPartyName(rs.getString("Party.PartyName"));
+		party.setPartyImage(rs.getString("Party.PartyImage"));
+		candidate.setParty(party);
 		return candidate;
 	}
 

@@ -1,30 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
 
-$smallhatori :normal normal 100 12pt/normal 'hattori_hanzolight';
-$largehatori:normal normal 600 14pt/normal 'hattori_hanzolight';
-$smallhatoricolor:#c2bfbf;
-$largehatoricolor:#7c7878;
+$smallhatori :normal normal 100 12pt/normal 'arial';
+$largehatori:normal normal 600 14pt/normal 'arial';
+$smallhatoricolor:#333;
+$largehatoricolor:#000;
 $firstboxbg:white;
 $bgcolor:#f3f1f1;
-$boxTitleFont:normal normal 100 13pt/normal 'ralewaylight';
+$boxTitleFont:normal normal 100 13pt/normal 'arial';
 $boxTitleFontColor:#656060;
-$boxContentFont:normal normal 100 12pt/normal 'ralewaylight';
+$boxContentFont:normal normal 100 12pt/normal 'arial';
 $boxContentFontColor:#6d93ff;
-$name:normal normal 100 14pt/normal 'ralewaylight';
-$supportFont:normal normal 100 9pt/normal 'ralewaylight';
+$name:normal normal 100 14pt/normal 'arial';
+$supportFont:normal normal 100 9pt/normal 'arial';
 $supportFontColor:#464647;
 $leftWidth:510px;
-$reviewsHeadingFont:normal normal 400 14pt/normal 'hattori_hanzolight';
+$reviewsHeadingFont:normal normal 400 14pt/normal 'arial';
 $wrapper:1024px;
-$writeReview:normal normal 400 13pt/normal 'hattori_hanzolight';
-$reviews:normal normal 100 12pt/normal 'hattori_hanzolight';
-$posneg:normal normal 100 12pt/normal 'hattori_hanzolight';
+$writeReview:normal normal 400 13pt/normal 'arial';
+$reviews:normal normal 100 12pt/normal 'arial';
+$posneg:normal normal 100 12pt/normal 'arial';
 $posnegColor:#999;
 $writeReviewColor:#656060;
 $seperatorColor:#949393;
 $otherReviews:600px;
-$otherReviewsFont:normal normal 400 13pt/normal 'hattori_hanzolight';
+$otherReviewsFont:normal normal 400 13pt/normal 'arial';
 $biegecolor:#f9fad0;
 a
 {
@@ -345,7 +345,7 @@ input
 {
 	display: inline-block;
 	height: auto;
-	width: 50%;
+	width: 100%;
 }
 .ElectionContainerCP
 {
@@ -631,7 +631,7 @@ input
 	overflow: hidden;
 	color:#333;
 	background-color:rgba(234,234,234,0.9);
-	font-family: ralewaylight;
+	font-family: arial;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }

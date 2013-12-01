@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+ <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,7 +14,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="../Resources/CSS/prettyCheckable.css">
 		<link rel="stylesheet" type="text/css" href="../Resources/CSS/SuggestionBox.css">
-		<script src="../Resources/Libraries/jquery-2.0.2.min.js"></script>
+		<script src=""></script>
 		<script src="../Resources/Libraries/prettyCheckable.js"></script>
 		<script src="../Resources/Libraries/"></script>
 
@@ -266,8 +267,6 @@ Login/Sign Up
 <li>Articles</li>
 <li>Candidates</li>
 <li>Ballot Box</li>
-<li><span style="visibility:hidden;">d</span><input type="text" id="searchBox" class="SearchBox" spellCheck="false" /></li>
-
 </ul>
 <div style="clear:both"></div>
 <section id="suggestionBox">
@@ -374,15 +373,15 @@ Login/Sign Up
 							<img src="../Resources/images/<c:out value="${candidate.candidateImage}" />" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
-							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    <span id="partyNameCP"><span id="value"><c:out value="${candidate.partyName}" /></span></span></p>
-							<p id="genderCP"><span id="age"><c:out value="${candidate.age}" /></span> <span id="gender"><c:out value="${candidate.gender}" /></span> </p>
-							<p id="educationCP"><c:out value="${candidate.education}" /></p>
-							<p id="supporterCP"><span id="supporterCount"><c:out value="${candidate.supporters}" /></span><span> supporters</span><span><button id="supporterButton" value="Support">&#10003; Support</button></span></p>
+							<p id="nameCP">  <span id="name"><c:out value="${candidate.candidateName}" /></span>    
+							<p id="partyNameCP"><span id="value"><c:out value="${candidate.party.partyName}" /></span></p>
+							<p id="genderCP"><span id="age">Age : <c:out value="${candidate.candidateAge}" /></span> , <span id="gender">Gender : <c:out value="${candidate.candidateGender}" /></span> </p>
+							<p id="supporterCP"><span id="supporterCount"><c:out value="${candidate.candidateSupporters}" /></span><span> supporters</span><span><button id="supporterButton" value="Support">&#10003; Support</button></span></p>
 							
 
 						</section>
 						<section id="wpartyImageCP" class="col"> 
-							<img src="../Resources/Images/<c:out value="${candidate.partyImage}" />.png" alt="" id="partyImageCP">
+							<img src="../Resources/images/party/<c:out value="${candidate.party.partyImage}" />" alt="" id="partyImageCP">
 						</section>
 					
 						
@@ -394,22 +393,18 @@ Login/Sign Up
 								<div id="firstBoxCP" class="BoxSettingCP">
 									<table class="ContainerCP">
 										<th class="FirstBoxTitle" >Position</th>
-										<th class="FirstBoxTitle" >Competing For</th>
-										<th class="FirstBoxTitle" >Constituency</th>
+										<th class="FirstBoxTitle" >Educational Qualification</th>
 										<tr>
-											<td class="BoxContentCP" id="position"><c:out value="${candidate.currentPosition}" /></td>
-											<td class="BoxContentCP" id="competingFor">Prime Minister</td>
-											<td class="BoxContentCP" id="constituency">Constituency</td>
+											<td class="BoxContentCP" id="position"><c:out value="${candidate.candidateCurrentPosition}" />,<c:out value="${candidate.candidateConstituency}" /></td>
+											<td class="BoxContentCP" id="competingFor"><c:out value="${candidate.candidateEducation}" /></td>
 										</tr>
 									</table>
 								</div>
 								<div id="secondBoxCP" class="BoxSettingCP">
 								      <table class="ContainerCP">
-								      	<th class="SecondBoxTitle">Achievements<spam id="achievementsEdit">&#9998;</spam></th>
 								      	<th class="SecondBoxTitle">Past Positions</th>
 								      		<tr>
-								      			<td class="BoxContentCP" id="achievements"></td>
-								      			<td class="BoxContentCP" id="pastPositions"><c:out value="${candidate.positions}" /></td>
+								      			<td class="BoxContentCP" id="pastPositions"><c:out value="${candidate.candidatePreviousPositions}" /></td>
 
 								      		</tr>
 								      </table>
@@ -421,106 +416,6 @@ Login/Sign Up
 										</section>
 								</div>
 							</div>
-						<div id="rightCP">
-							<section id="recentPhotos">
-								<p>Recent Photos</p>
-						
-									<div id="imageFrame">
-										<div id="slides">
-										<img id="10"src="../Resources/Images/10influential.jpg"/>
-										<img id="20" src="../Resources/Images/"/>
-										<img id="30" src="../Resources/Images/last5Congress.jpg"/>
-										</div>
-										
-									</div>
-									<div id ="bottomCon">
-									<div id="leftFrame" class="LeftRightFrame"><</div>
-									<div id="navigateSlides">
-										
-										
-										<div class="small">1</div>
-										<div class="small">2</div>
-										<div class="small">3</div>
-										<div class="small">1</div>
-										<div class="small">2</div>
-										<div class="small">3</div>
-										<div class="small">3</div>
-										<div class="small">1</div>
-										<div class="small">2</div>
-										<div class="small">3</div>
-										<div class="small">3</div>
-										<div class="small">1</div>
-										<div class="small">2</div>
-										<div class="small">3</div>
-										
-										
-									</div>
-									<div id="rightFrame" class="LeftRightFrame">></div>
-									
-									</div>
-						
-							</section>
-							<section id="recentArticles">
-								<p>Recent Articles</p>
-								<section id="contentRA">
-									
-								</section>
-							</section>
-						</div>
-						
-					</div>
-					<div id="writeReviewCP">
-						<p><span>Reviews</span><span> (<span id="reviewCountCP">1700</span>)</span></p>
-						<section id="reviewWrapperCP">
-							
-							
-								<p>Write a review<span id="pencil">&#9998;</span></p>
-								<textarea id="reviewContainerCP" spellcheck=false></textarea>
-								<section id="radioBoxCP">
-
-									<input type="radio" class="MyClass" name="radioReview" data-color="green" data-label="Positive" data-customClass="styleRadio"/>
-									
-									
-									<input type="radio" class="MyClass" name="radioReview" data-color="red" data-label="Negative" data-customClass="styleRadio"/>
-									<button id="postButton">
-										 Post
-									</button>
-									<section id="alertRadio"></section>
-									
-								</section>
-							
-						</section>
-					</div>
-					<div id="otherReviewsWrapperCP">
-						<table id="otherReviewsContainerCP">
-						<th class="insideORC"><button id="allReviews">All Reviews</button></th><th class="insideORC"><button id="positiveReviews">Positive Reviews</button></th><th class="insideORC"
-						><button id="negativeReviews">Negative Reviews</button></th>
-						</table>
-						<div id="containerEffect">
-
-							<div class="DownTriangleWrapper"><div class="DownTriangle" id="downTriangle1"></div></div>
-							<div class ="DownTriangleWrapper"><div class="DownTriangle" id="downTriangle2"></div></div>
-							<div class="DownTriangleWrapper"><div class="DownTriangle" id="downTriangle3"></div></div>
-						</div>
-						<section class="ReviewsCP">
-							<div class="LeftOfReviews">
-								<section class="Points"><span class="PointsValue">1600000</span><spam> points</spam></section>
-								<div class="IncreasePoints"></div>
-								<div class="DecreasePoints"></div>
-							</div>
-							
-						</section>
-						<section class="ReviewsCP">
-							<div class="LeftOfReviews" style="background-color:#e7d0d0">
-								<section class="Points"><span class="PointsValue">0</span><spam> points</spam></section>
-								<div class="IncreasePoints"></div>
-								<div class="DecreasePoints"></div>
-							</div>
-							
-						</section>
-
-					</div>
-					<div id="bottomOtherReviewsCP">
 					</div>
 				</div>
 			</div>
@@ -541,9 +436,9 @@ Login/Sign Up
 					           
 					    </ul>
 					    <div id="footerSocial">
-						    <div class="SocialImage"><img src="fb.png"/></div>
-						    <div class="SocialImage"><img src="gp.png"/></div>
-						    <div class="SocialImage"><img src="t.png"/></div>
+						    <div class="SocialImage"><img src="../Resources/Images/fb.png"/></div>
+						    <div class="SocialImage"><img src="../Resources/Images/gp.png"/></div>
+						    <div class="SocialImage"><img src="../Resources/Images/t.png"/></div>
 						   
 					    
 					    </div>

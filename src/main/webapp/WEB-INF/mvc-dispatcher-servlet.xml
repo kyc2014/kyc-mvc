@@ -27,8 +27,8 @@ http://www.springframework.org/schema/mvc
 		<property name="password" value="root" />
 	</bean>
 
-	<bean id="candidateDao"
-		class="net.kyc.spring.web.candidate.dao.impl.CandidateDaoImpl">
+	<bean id="candidateDao" 
+	class="net.kyc.spring.web.candidate.dao.impl.CandidateDaoImpl">
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 

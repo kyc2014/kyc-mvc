@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class UserControllerImpl {
 	
-	@Autowired
+	@Autowired(required=false)
 	private UserService userService;
 
 	@RequestMapping(value="/add")

@@ -1,5 +1,6 @@
 package net.kyc.spring.web.controllers;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,10 +23,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class Sample {
 	@Autowired
 	private CandidateService candidateService;
-	@RequestMapping("/test")
-	public String test(){
-		return "test";
-	}
+
 	@RequestMapping(value="{candidateName}")
 	public String retrieveCandidate(@PathVariable String candidateName, ModelMap model){
 		Candidate candidate = candidateService.retrieveCandidateByName(candidateName);
