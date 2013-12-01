@@ -1,4 +1,4 @@
-package net.knowyourcandidate.spring.web.candidate.dao.impl;
+package net.kyc.spring.web.candidate.dao.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,13 +7,19 @@ import javax.sql.DataSource;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import net.knowyourcandidate.spring.web.candidate.dao.CandidateDao;
-import net.knowyourcandidate.spring.web.candidate.model.CandidateRowMapper;
-import net.knowyourcandidate.spring.web.candidate.model.CandidateSearchRowMapper;
+import net.kyc.spring.web.candidate.dao.CandidateDao;
+import net.kyc.spring.web.candidate.model.Candidate;
+import net.kyc.spring.web.candidate.model.CandidateAbstractRowMapper;
+import net.kyc.spring.web.candidate.model.CandidateRowMapper;
+import net.kyc.spring.web.candidate.model.CandidateSearchRowMapper;
+import net.kyc.spring.web.candidate.model.MinisterCandidateRowMapper;
+import net.kyc.spring.web.candidate.model.MinisterialCandidate;
 
 public class CandidateDaoImpl implements CandidateDao{
 
 	private JdbcTemplate jdbcTemplate;
+	public static String candidateListSQL = "SELECT candidate_id,candidate_name,constituency_name,district,party from ";
+	public static String ministerCandidate = "SELECT * from minister";
 	
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
@@ -31,10 +37,45 @@ public class CandidateDaoImpl implements CandidateDao{
 	@Override
 	public Object retrieveCandidateForSearch(String name) {
 		// TODO Auto-generated method stub
-		List<Object> candidate=new ArrayList<Object>();
 		String sql="SELECT CandidateID,CandidateName,CandidateDOB,CandidateParty,CandidateImage,CandidateSupporters,CandidatePosition,Party.PartyName,Party.PartyImage from Candidate INNER JOIN Party ON Candidate.CandidateParty=Party.PartyID WHERE Candidate.CandidateName like '%?%' ORDER BY Party.PartyID;";
 		Object candidateObject = jdbcTemplate.queryForList(sql, new Object[] {name}, new CandidateSearchRowMapper());
 		return candidateObject;
 	}
+	@Override
+	public Object retrieveCandidateUsingID(int id, String table) {
+		// TODO Auto-generated method stub
+		String sql="SELECT * from "+table+" where candidate_id=?";
+		Object[] obj = new Object[]{id};
+		Object candidateObject = jdbcTemplate.queryForObject(sql, obj,new CandidateRowMapper());
+		System.out.println("Test "+candidateObject);
+		return candidateObject;
+	}
 
+
+	@Override
+	public List retrieveCandidateAbstractList() {
+		// TODO Auto-generated method stub
+		List candidateList = new ArrayList(); 
+		String sql="SELECT candidate_id,candidate_name,constituency_name,district,party from TNCandidates";
+		candidateList = jdbcTemplate.queryForList(sql, new CandidateAbstractRowMapper());
+		System.out.println(candidateList.size());
+		return candidateList;
+	}
+
+
+	@Override
+	public List<Candidate> retrieveStateCandidateList(String stateName) {
+		List<Candidate> candidateList = new ArrayList(); 
+		candidateList = jdbcTemplate.query(candidateListSQL+stateName, new CandidateAbstractRowMapper());
+		System.out.println(candidateList.size());
+		return candidateList;
+	}
+
+
+	@Override
+	public List<MinisterialCandidate> retrieveMinisterList() {
+		List<Candidate> candidateList = new ArrayList(); 
+		candidateList = jdbcTemplate.query(ministerCandidate, new MinisterCandidateRowMapper());
+		return null;
+	}
 }

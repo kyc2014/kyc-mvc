@@ -1,4 +1,4 @@
-package net.knowyourcandidate.spring.web.candidate.model;
+package net.kyc.spring.web.candidate.model;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,13 +14,31 @@ public class CandidateSearchRowMapper implements RowMapper {
 		Candidate candidate = new Candidate();
 		candidate.setName(rs.getString("CandidateName"));
 		candidate.setId(rs.getInt("CandidateID"));
-		candidate.setCurrentPosition(rs.getString("CandidatePosition"));
-		candidate.setParty(rs.getString("PartyName"));
-		candidate.setPartyImage(rs.getString("PartyImage"));
 		candidate.setDob(rs.getString("CandidateDOB"));
-		candidate.setAge(String.valueOf(Calendar.getInstance().get(Calendar.YEAR)-Integer.parseInt((candidate.getDob().split("-"))[0])));
-		candidate.setSupporters(rs.getInt("CandidateSupporters"));
-		candidate.setCandidateImage(rs.getString("CandidateImage"));
+		candidate.setConstituencyName(rs.getString("constituencyName"));
+		//candidate.set(rs.getString("2,image"));
+		candidate.setConstituencyNumber(rs.getString("constituencyNumber"));
+		
+		candidate.setDistrict(rs.getString("district"));
+		candidate.setParty(rs.getString("party"));
+		candidate.setDob(rs.getString("dob"));
+		candidate.setPob(rs.getString("pob"));
+		candidate.setEducation(rs.getString("education"));
+		candidate.setMaritalStatus(rs.getString("marital_status"));
+		candidate.setOccupation(rs.getString("occupation"));
+		
+		candidate.setPoliticalCarreer(rs.getString("political_carreer"));
+		candidate.setSocial(rs.getString("social"));
+		candidate.setChennaiAddress(rs.getString("chennai_address"));
+		candidate.setMofussilAddress(rs.getString("mofussil_address"));
+		candidate.setChennaiResidenceNumber(rs.getString("chennai_residence_number"));
+		candidate.setChennaiOfficeNumber(rs.getString("chennai_office_number"));
+		candidate.setMofussilResidenceNumber(rs.getString("mofussil_residence_number"));
+		candidate.setMofussilOfficeNumber(rs.getString("mofussil_office_number"));
+		candidate.setMobile(rs.getString("mobile"));
+		candidate.setEmail(rs.getString("email"));
+		candidate.setSupporters(rs.getInt("supporters"));
+
 		return candidate;
 	}
 	

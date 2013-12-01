@@ -1,4 +1,4 @@
-package net.knowyourcandidate.spring.web.constituency.dao;
+package net.kyc.spring.web.constituency.dao;
 
 public interface ConstituencyDao {
 	public Object retrieveConstituency(String name);

@@ -1,5 +1,7 @@
 package net.kyc.spring.web.user.service;
 
+
+
 import net.kyc.spring.web.user.model.User;
 
 public interface UserService {
@@ -9,6 +11,8 @@ public interface UserService {
 	
 	//Fetching user details based on userName
 	public User fetchUserDetailsByUserId(int userId);
+	
+	public User validateUserLogin(String identifier, String password);
 
 	//Updating userDetails
 	public String updateUserDetails(User userDetails);

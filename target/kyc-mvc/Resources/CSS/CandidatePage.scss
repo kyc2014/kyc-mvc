@@ -1,0 +1,945 @@
+@charset "utf-8";
+/* CSS Document */
+
+$smallhatori :normal normal 100 12pt/normal 'hattori_hanzolight';
+$largehatori:normal normal 600 14pt/normal 'hattori_hanzolight';
+$smallhatoricolor:#c2bfbf;
+$largehatoricolor:#7c7878;
+$firstboxbg:white;
+$bgcolor:#f3f1f1;
+$boxTitleFont:normal normal 100 13pt/normal 'ralewaylight';
+$boxTitleFontColor:#656060;
+$boxContentFont:normal normal 100 12pt/normal 'ralewaylight';
+$boxContentFontColor:#6d93ff;
+$name:normal normal 100 14pt/normal 'ralewaylight';
+$supportFont:normal normal 100 9pt/normal 'ralewaylight';
+$supportFontColor:#464647;
+$leftWidth:510px;
+$reviewsHeadingFont:normal normal 400 14pt/normal 'hattori_hanzolight';
+$wrapper:1024px;
+$writeReview:normal normal 400 13pt/normal 'hattori_hanzolight';
+$reviews:normal normal 100 12pt/normal 'hattori_hanzolight';
+$posneg:normal normal 100 12pt/normal 'hattori_hanzolight';
+$posnegColor:#999;
+$writeReviewColor:#656060;
+$seperatorColor:#949393;
+$otherReviews:600px;
+$otherReviewsFont:normal normal 400 13pt/normal 'hattori_hanzolight';
+$biegecolor:#f9fad0;
+a
+{
+	text-decoration: none;
+}
+th,td
+{
+	padding: 5px;
+}
+
+div,section
+{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 	
+}
+
+@mixin borderboxsetting
+{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
+@mixin buttontransition
+{
+	-webkit-transition: background-color  0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color  0.5s;
+	transition: background-color  0.5s;
+}
+input
+{
+	outline: none;
+}
+*:focus
+{
+	outline: none;
+}
+.styleRadio
+{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+#mask
+{
+
+	background-color: #000;
+	z-index:500;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+	opacity: 0.5;
+	display: none;
+	
+}
+#smallSuggestionBox
+{
+	display: none;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+	position: absolute;
+	z-index: 100;
+	padding: 10px;
+
+	
+		
+
+
+	&>a
+	{
+		display: block;
+		font:normal normal 100 12pt/normal 'hattori';
+	    color:#000;
+	    padding: 5px;
+	    min-height: 10px;
+	    width: 200px;
+	    background-color: white;
+	    border-right: 1px solid #ccc;
+	    border-left: 1px solid #ccc;
+	    border-top: 1px solid #ccc;
+	    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+	}
+	&>a:nth-child(1)
+	{
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+	&>a:last-child
+	{
+		border-bottom: 1px solid #ccc;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		
+	}
+	&>a:hover
+	{
+		background-color: #f9fad0;
+		cursor: pointer;
+	}
+}
+
+#wrapperCP
+{
+	
+	width: $wrapper;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+	.Cont
+	{
+		width: 100%;
+	}
+ 	#containerCP
+	{
+		
+		margin: 0 auto;
+		min-height: 720px;
+		height: auto;
+		background-color: $bgcolor;
+		
+		
+		#innerContainerCP
+		{
+			margin: 10px;
+
+			
+		}
+
+	}
+
+}
+
+#topCP
+{
+	text-align: center;
+
+	.col
+	{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#wcandidateImageCP
+	{
+		border-radius: 50%;
+		height: 100px;
+		width: 10%;
+		
+		padding: 10px;
+		#candidateImageCP
+		{
+			max-height: 100%;
+			max-width: 100%;
+		}
+		#candidateImageCP:hover
+		{
+			cursor: pointer;
+		}
+	}
+	#wpartyImageCP
+	{
+		
+		border-radius: 50%;
+		height: 100px;
+		width: 10%;
+		
+		padding: 10px;
+		#partyImageCP
+		{
+			max-height: 100%;
+			max-width: 100%;
+		}
+		#partyImageCP:hover
+		{
+			cursor: pointer;
+		}
+	}
+	#candidateDetailsCP 
+	{
+		
+		text-align: left;
+		width: 75%;
+		
+		padding: 20px 10px;
+		&>p
+		{
+			padding: 0;
+	        margin: 0;
+	        border: 0;
+
+		}
+		#nameCP
+		{
+			font: $largehatori;
+			color: $largehatoricolor;
+		}
+		#partyNameCP
+		{
+			margin: 0 2px;
+			font:$smallhatori;
+			color: $smallhatoricolor;
+		}
+		#educationCP,#genderCP
+		{
+			font: $smallhatori;
+			color: $smallhatoricolor;
+		}
+		#supporterCP
+		{
+                #supporterButton
+				{
+					background-color:white;
+					color: $supportFontColor;
+					border:1px solid #999;
+					font: $supportFont;
+					font-weight: 500;
+					margin-left: 5px;
+					@include buttontransition;
+
+				}
+				#supporterButton:hover
+				{
+					cursor: pointer;
+					background-color: $biegecolor;
+					
+					
+				}
+				&>span:not(:last-child)
+				{
+		         	font: $supportFont; 
+		         	          
+				}
+		}
+		
+
+	}
+}
+/**---------------------------------------------------------------------bottom------------------------------------**/
+#topAndBottom
+{
+	border:0px;
+	
+
+}
+#topAndBottom:before
+{
+	display: block;
+	content: "";
+	height: 1px;
+	width: 100%;
+	margin: 5px auto;
+	background-color: $seperatorColor;
+}
+#bottomCP
+{
+	width: auto;
+	min-height: 300px;
+	height: auto;
+	padding-top: 5px;
+	position: relative;
+
+}
+
+/** ------------------------------------------------------------------------ left side of bottom -------------------------------------------**/
+#popupForAchievements
+{
+	width: 40%;
+	height: 200px;
+	position: fixed;
+	background-color:$bgcolor;
+	margin: 0 auto;
+	z-index: 999;
+	
+	
+   display: none;
+
+}
+#writeAchievements
+{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	resize:none;
+	width: 60%;
+	height: 100px;
+	border:0;
+	padding: 10px;
+	font: $reviews;
+	
+}
+
+#closeButton
+{
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	font:16px Verdana;
+	font-weight: 900;
+	
+	
+	
+}
+#closeButton:hover
+{
+    color: #990000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+
+#leftCP
+{
+	display: inline-block;
+	height: auto;
+	width: 50%;
+}
+.ElectionContainerCP
+{
+
+	
+	padding: 10px;
+	border-spacing: 0;
+	color: $boxContentFontColor;
+	font:$boxContentFont;
+}
+.BoxContentCP
+{
+	font: $boxContentFont;
+	color: $boxContentFontColor;
+	padding: 5px 10px 5px 5px;
+	text-align: center;
+	
+}
+.BoxSettingCP
+{
+	background-color: $firstboxbg;
+	width: 100%;
+	min-height: 50px;
+	margin: 0 auto;
+	padding: 5px;
+	height: auto;
+	th:not(:last-child),td:not(:last-child)
+			{
+					border-right:1px solid $bgcolor;
+			}
+
+}
+.ContainerCP
+{
+	width: 100%;
+	table-layout: fixed;
+	word-wrap:break-word;
+}
+	#firstBoxCP
+	{
+		
+			.FirstBoxTitle
+			{
+				width: 33%;
+				font: $boxTitleFont;
+				color: $boxTitleFontColor;
+				text-align: center;
+
+			}
+			
+			
+		
+    }	
+    #secondBoxCP
+	{
+		margin-top: 1.5%;
+
+		.SecondBoxTitle
+		{
+			width: 50%;
+			font: $boxTitleFont;
+			color: $boxTitleFontColor;
+
+		}
+	}
+	#thirdBoxCP
+	{
+		margin-top: 1.5%;
+		margin-bottom: 1.5%;
+		
+		padding: 5px;
+		width: 100%;
+		min-height: 50px;
+		height: auto;
+		background-color: white;
+		&>p
+		{
+			font:$boxTitleFont;
+			color: $boxTitleFontColor;
+			padding: 0;
+			margin: 0;
+			border:0;
+			text-align: center;
+
+		}
+	}
+#achievementsEdit
+{
+	margin-left: 10px;
+	position: relative;
+}
+#achievementsEdit:hover
+{
+	color: $boxContentFontColor;
+	cursor: pointer;
+}
+#achievementsEdit:hover:after
+{
+	position: absolute;
+	left: 20px;
+	width: 70px;
+	background-color:$largehatoricolor;
+	color: white;
+	content: "Write more !";
+	z-index: 1000;
+	border: 1px solid #ccc;
+	font: 12px raleway;
+}
+/**-----------------------------------------------------------right side of bottom----------------------------------**/
+#rightCP
+{
+	width: 25%;
+	min-height: 300px;
+	
+
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+	
+
+	#recentPhotos
+	{
+		width:100%;
+		height:230px;
+		padding: 5px;
+		
+		border-bottom: 1px solid $bgcolor;
+		
+		vertical-align: top;
+		background-color: white;
+
+	}
+
+	#recentArticles
+	{
+		padding: 5px;
+		min-height: 200px;
+		
+		width: 100%;
+		background-color: white;
+		
+		
+		
+		
+		#contentRA
+		{
+			width: inherit;
+			
+			padding: 5px;
+			font: $boxContentFont;
+			color: $boxContentFontColor;
+
+		}
+		
+	}
+	#recentArticles>p:not(:last-child),#recentPhotos>p:not(:last-child)
+	{	
+		font: $boxTitleFont;
+		color: $boxTitleFontColor;
+		padding: 0;
+		margin: 0;
+		border:0;
+	}
+
+}
+#imageFrame
+		{
+			width: 90%;
+			height: 140px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+#slides
+{
+	position: relative;
+	
+	height: inherit;
+}
+#slides img
+{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	position: absolute;
+	left: 250px;
+	top: 0px;
+}
+#slides img:nth-child(1)
+{
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	opacity: 1;
+}
+
+.small:not(:last-child)
+{
+	width: 50px;
+	height: 50px;
+	background-color: rgba(234,234,234,0.9);
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+
+	
+}
+.small:last-child
+{
+	width: 50px;
+	height: 50px;
+	background-color: rgba(234,234,234,0.9);
+	float: left;
+	margin-top: 5px;
+	
+
+	
+}
+#bottomCon
+{
+	height: 60px;
+	width: 100%;
+	position: relative;
+	margin-left: -1px;
+	margin-right: -10px;
+	text-align: center;
+}
+#next
+{
+	cursor: pointer;
+}
+#pre
+{
+	cursor: pointer;
+}
+.slideFrame
+{
+	
+	height: 60px;
+	min-width: 235px;
+	width: 235px;
+	position: absolute;
+	left: 250px;
+	top: 0px;
+	display: inline-block;
+	z-index: 1;
+	opacity: 0;
+	transition:all linear 500ms;
+	-webkit-transition:all linear 500ms;
+
+
+
+}
+.slideFrame:nth-child(1)
+{
+	height: 60px;
+	width: auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: inline-block;
+	z-index: 5;
+	opacity: 1;
+
+}
+#navigateSlides
+{
+	height: 60px;
+	width: 90%;
+
+	overflow: hidden;
+	position: relative;
+	
+	display: inline-block;
+}
+
+.LeftRightFrame
+{
+	height: 50px;
+	width: 3%;
+	display: inline-block;
+	line-height: 50px;
+	overflow: hidden;
+	color:#333;
+	background-color:rgba(234,234,234,0.9);
+	font-family: ralewaylight;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+/**------------------------------------------------------------reviews-------------------------------------------------------**/
+#writeReviewCP
+{
+    width: 100%;
+    margin-top: 1.5%;
+	&>p
+	{
+		font: $reviewsHeadingFont;
+		color: #656060;
+	}
+	&>p #reviewCountCP
+	{
+		margin:0 2px;
+	}
+
+
+}
+#reviewWrapperCP
+{
+	
+	width:60%;
+	margin: 0 auto;
+
+	
+	&>p
+	{
+		padding: 0;
+		margin:0 0 5px 0;
+		border:0;
+		font: $writeReview;
+	
+		color: $writeReviewColor;
+	}
+	&>p #pencil
+	{
+
+		font-size: 14pt;
+		color: $boxContentFontColor;
+		margin-left: 5px;
+	
+	}
+	
+	#reviewContainerCP
+	{
+		
+		width:100%;
+		height:60px;
+		outline: 0;
+		border:0;
+		padding: 10px;
+		
+		font: $reviews;
+		resize:none;
+		display: inline-block;
+		
+
+	}
+	
+	
+	
+	#radioBoxCP label
+	{
+	
+		font: $posneg;
+		color: $posnegColor;
+
+	}
+	#postButton
+	{
+
+			border-radius: 5px;
+			margin-top: 5px;
+			background-color: white;
+			border:1px solid #999;
+			font: $posneg;
+			color: $supportFontColor;
+			display: inline-block;
+			vertical-align: top;
+			@include buttontransition;
+					
+	}
+	#postButton:hover
+	{
+		cursor: pointer;
+		background-color: $biegecolor;
+		
+	}
+}
+#alertRadio
+{
+
+}
+#otherReviewsWrapperCP
+{
+	
+	width: 60%;
+	margin:1.5% auto 0 auto;
+	border-top:1px solid $seperatorColor; 
+	min-height: 10px;
+	height: auto;
+	position: relative;
+	#otherReviewsContainerCP
+	{
+		margin-top: 10px;
+		height:auto;
+		width: 100%;
+		
+		padding: 5px;
+		background-color: white;
+		.insideORC
+		{
+			width: 33%;
+			text-align: center;
+
+		}
+		
+
+		th:not(:last-child)
+		{
+			border-right:1px solid $bgcolor;
+		}
+	}
+	#containerEffect
+	{
+		height: 40px;
+		margin-bottom: 10px;
+		position: relative;
+		width: 100%;
+		
+		
+	}
+	.DownTriangleWrapper
+	{
+			width: 32%;
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			min-height: 30px;
+	}
+	.DownTriangle
+	{
+	  	$tribordertop: 20px;	
+		width: 0; 
+	   height: 0;
+	   border-top: $tribordertop solid white;
+	   border-left: $tribordertop*2/3 solid transparent; 
+	   border-right: $tribordertop*2/3 solid transparent; 
+	   position: absolute;
+	   margin: 0 auto;
+	   display: none;
+	  
+	}
+	#downTriangle1
+	{
+		display: block;
+	}
+
+}
+
+.insideCE
+		{
+			width:$otherReviews / 3 - 10px;
+			display: inline-block;
+		}
+
+
+.insideORC button
+{
+	background:transparent;
+	border:0;
+	font:$otherReviewsFont;
+	color:$writeReviewColor;
+	width: 100%;
+
+}
+.insideORC>button:hover
+{
+	color: $boxContentFontColor;
+	cursor: pointer;
+	text-shadow:1px 1px 2px $bgcolor;
+	border:0;
+}
+#bottomOtherReviewsCP
+{
+	margin-bottom: 10px;
+	height: 10px;
+}
+
+/**---------------------------------------------------------------------reviews -----------------------------------**/
+.ReviewsCP
+{
+	width: 100%;
+	margin: 0 auto 5px auto;
+	min-height:60px;
+	height: auto;
+	
+	background-color: white;
+	
+	.LeftOfReviews
+	{
+		display: inline-block;
+		width: 15%;
+		min-height: 50px;
+		height: auto;
+		
+		padding: 5px;
+		background-color: #d7e7d0;
+		
+	}
+	.IncreasePoints
+	{
+		width: 0;
+		height: 0;
+		border-bottom:15px solid $posnegColor;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		margin:5px auto 5px auto;
+	}
+	.IncreasePoints:hover
+	{
+		border-bottom:15px solid $boxContentFontColor;
+	}
+	.DecreasePoints
+	{
+		width: 0;
+		height: 0;
+		border-top:15px solid $posnegColor;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		margin:5px auto 5px auto;
+	}
+	.DecreasePoints:hover
+	{
+		border-top:15px solid $boxContentFontColor;
+	}
+	.Points
+	{
+		font: $posneg;
+		color: $posnegColor;
+		text-align: center;
+	
+	}
+	.Points>span
+	{
+		font: $posneg;
+		color: $posnegColor;
+	}
+}
+
+
+#leftFrame:hover,#rightFrame:hover
+{
+	cursor: pointer;
+	background-color:$biegecolor;
+}
+
+
+@media screen and (max-width:800px){
+
+	body
+	{
+		
+	}
+	#wrapperCP
+	{
+		width:800px;
+
+	}
+	#topCP #wcandidateImageCP
+	{
+		width: 15%;
+
+	}
+	#topCP #wpartyImageCP
+	{
+		width: 10%;
+	}
+	#topCP #candidateDetailsCP
+	{
+		width: 70%;
+	}
+	#leftCP
+	{
+		width: 100%;
+	}
+	#rightCP
+	{
+		margin: 0;
+		width: 100%;
+	}
+	#rightCP #recentPhotos,#rightCP #recentArticles
+	{
+		width: 250px;
+		padding: 0;
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#rightCP #recentArticles
+	{
+		margin-left: 1.5%;
+	}
+
+
+	
+}

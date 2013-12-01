@@ -1,0 +1,184 @@
+
+#suggestionBox
+{
+	width:280px;
+	border:1px solid #e1e1e1;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top:none;
+	position: absolute;
+	display: none;
+	background-color:white;
+	z-index:999;
+	
+	
+	
+}
+.Candidate
+{
+	width:280px;
+	
+}
+.Candidate > a
+{
+	min-height:60px;
+	display:block;
+	width:inherit;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	
+}
+.Candidate > a:not(:last-child)
+{
+	border-bottom:1px solid #e1e1e1;
+}
+.Candidate > a:hover
+{
+	background-color:#f9fad0;
+	cursor:pointer;
+}
+.Candidate > a:last-child:hover
+{
+	
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.CandidateImage
+{
+ 
+  width:50px;
+  height:50px;
+  display: inline-block;
+  vertical-align: top;
+  margin:5px 0 0 5px;
+ 
+}
+.Opinion
+{
+	
+	width: inherit;
+	table-layout: fixed;
+	word-wrap:break-word;
+	cell-spacing:2;
+
+}
+
+
+.Candidate
+{
+	display:block;
+   
+	margin:0;
+	padding:0;
+	width:inherit;
+
+	
+}
+
+.SearchDetails
+{
+	
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	
+}
+.Supporters
+{
+	
+}
+.Name
+{
+	
+	font:normal normal 100 12pt/normal 'hattori';
+	color:#000000;
+	
+}
+.Position
+{
+	color:#999999;
+	font:normal normal 100 10pt/normal 'hattori';
+	
+}
+.Constituency
+{
+	color:#cccc99;
+	font:normal normal 100 10pt/normal 'hattori';
+}
+.Reviews,.Supporters
+{
+	color:#6699ff;
+	font:normal normal 100 10pt/normal 'hattori';
+	width: auto;
+	text-align: left;
+	padding:0 5px;
+	
+}
+.CandidateDetails
+{
+
+	margin:5px 0 0 5px;
+	
+}
+.PartyImage
+{
+    height:30px;
+	width:30px; 
+	display:inline-block;
+	margin-left:5px;
+	vertical-align:top;
+}
+.PartyImage img
+{
+	max-height:100%;
+	max-width:100%;
+}
+.CandidateDetailsContent
+{
+	display:inline-block;
+	width:150px;
+	text-align: left;
+	
+}
+.CandidateDetailsContent p
+{
+	margin:0;
+	padding:0;
+	border:0;
+	word-wrap:break-word;
+}
+
+.CandidateImage img
+{
+
+	max-height:100%;
+	max-width:100%;
+}
+/*-------------------------------------------------------------See all Results ------------------------------------------------------------------*/
+#moreResults
+{
+	line-height:40px;
+}
+#moreResults a
+{
+	
+	height:40px;
+		line-height:40px;
+	width:inherit;
+	display:block;
+	text-align:center;
+	font:normal normal 100 13.5pt/normal 'hattori';
+	color:#000000;
+	text-decoration:none;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+#moreResults a:hover
+{
+    background-color:#f9fad0;
+	cursor:pointer;
+}
