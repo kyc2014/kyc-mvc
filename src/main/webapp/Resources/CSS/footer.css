@@ -1,10 +1,9 @@
-@import url(fonts.css);
 #footer
 {
 	min-width:1024px;
 	margin:0 auto;
 	min-height:60px;
-	font-family:'hattori_hanzolight';
+	font-family:'arial';
 	font-size:12pt;
 	color:#666666;
 	background-color:#f3f1f1;  

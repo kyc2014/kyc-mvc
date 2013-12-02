@@ -17,12 +17,13 @@
     </servlet>  
     <servlet-mapping>  
         <servlet-name>mvc-dispatcher</servlet-name>  
-        <url-pattern>/candidate/*</url-pattern>  
+        <url-pattern>/web/*</url-pattern>  
     </servlet-mapping> 
+
     <error-page>
-	<error-code>404</error-code>
-	<location>/WEB-INF/pages/404.html</location>
-  </error-page>
-  
+		<error-code>404</error-code>
+		<location>/WEB-INF/pages/404.html</location>
+  	</error-page>
+
    
 </web-app>

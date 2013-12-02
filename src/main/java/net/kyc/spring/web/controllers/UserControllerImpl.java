@@ -24,7 +24,7 @@ public class UserControllerImpl {
 		User user = new User();
 		user.setUserName(userName);
 		//user.setUserId(userId);
-		user.setName(name);
+		user.setFirstName(name);
 		user.setPassword(password);
 		user.setEmail(email);
 		user.setConstituencyCode(constituencyCode);
@@ -44,7 +44,7 @@ public class UserControllerImpl {
 		User user = new User();
 		user.setUserName(userName);
 		//user.setUserId(userId);
-		user.setName(name);
+		user.setFirstName(name);
 		user.setPassword(password);
 		user.setEmail(email);
 		user.setConstituencyCode(constituencyCode);

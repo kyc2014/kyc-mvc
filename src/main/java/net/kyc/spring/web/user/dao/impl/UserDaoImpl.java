@@ -1,7 +1,10 @@
 package net.kyc.spring.web.user.dao.impl;
 
 import javax.sql.DataSource;
+
 import org.springframework.jdbc.core.JdbcTemplate;
+
+
 
 
 import net.kyc.spring.web.user.model.UserRowMapper;
@@ -11,6 +14,8 @@ import net.kyc.spring.web.user.model.User;
 public class UserDaoImpl implements UserDao{
 
 	private JdbcTemplate jdbcTemplate;
+	public static String addUserSQL = "insert into users (user_name,first_name,second_name,dob,gender,password,email,points,constituency_code) values (?,?,?,?,?,?,?,?,?)";
+	public static String updateUserSQL = "select * from users where user_name=? OR email=?";
 	
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
@@ -19,9 +24,8 @@ public class UserDaoImpl implements UserDao{
 	public String addUser(User userDetails) {
 		// TODO Auto-generated method stub
 		String msg = "";
-		//Object[] params = new Object[] { userDetails.getUserName(), userDetails.getName(), userDetails.getEmail(), userDetails.getPassword(), userDetails.getPoints(), userDetails.getConstituencyCode()};
-		String sql = "insert into User (UserName,FirstName)values(\""+userDetails.getUserName()+"\",\""+userDetails.getName()+"\")";
-		int count  = jdbcTemplate.update(sql);
+		Object[] params = new Object[] { userDetails.getUserName(), userDetails.getFirstName(), userDetails.getSecondName(), userDetails.getDob(), userDetails.getGender(), userDetails.getEmail(), userDetails.getPassword(), 100, userDetails.getConstituencyCode()};	
+		int count  = jdbcTemplate.update(addUserSQL,params);
 		if (count==1)
 		{
 			msg = "Registration Successful";
@@ -45,16 +49,16 @@ public class UserDaoImpl implements UserDao{
 		// TODO Auto-generated method stub
 		String msg = "";
 		//Object[] params = new Object[] { userDetails.getName(), userDetails.getEmail(), userDetails.getPassword(), userDetails.getConstituencyCode()};
-		String sql = "update user set Name = '"+userDetails.getName()+"', Email = '"+userDetails.getEmail()+"', Password = '"+userDetails.getPassword()+"' ,ConstituencyCode = '"+userDetails.getConstituencyCode()+"' where UserID = '"+userDetails.getUserId()+"'";
-		int count  = jdbcTemplate.update(sql);
-		if (count==1)
-		{
-			msg = "Update Successful";
-		}
-		else
-		{
-			msg = "Update Unsuccessful";
-		}
+//		String sql = "update user set Name = '"+userDetails.getName()+"', Email = '"+userDetails.getEmail()+"', Password = '"+userDetails.getPassword()+"' ,ConstituencyCode = '"+userDetails.getConstituencyCode()+"' where UserID = '"+userDetails.getUserId()+"'";
+//		int count  = jdbcTemplate.update(sql);
+//		if (count==1)
+//		{
+//			msg = "Update Successful";
+//		}
+//		else
+//		{
+//			msg = "Update Unsuccessful";
+//		}
 		return msg;
 	}
 
@@ -74,6 +78,18 @@ public class UserDaoImpl implements UserDao{
 			msg = "Delete Unsuccessful";
 		}
 		return msg;
+	}
+
+	@Override
+	public User validateLogin(String identifier, String password) {
+		User returnObj = null;
+		User userDetails = (User)jdbcTemplate.queryForObject(updateUserSQL, new Object[]{identifier, identifier, password}, new UserRowMapper());
+		if(userDetails !=null){
+			if(userDetails.getPassword().equals(password)){
+				returnObj = userDetails;
+			}
+		}
+		return returnObj;
 	}
 
 

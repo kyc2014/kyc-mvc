@@ -18,11 +18,14 @@ http://www.springframework.org/schema/mvc
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	<bean id="customAuthenticationProvider" class="net.kyc.spring.web.security.CustomAuthenticationProvider">
+  		<property name="dataSource" ref="dataSource"></property>
+  	</bean>
 
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost/kyc?useUnicode=true" />
+		<property name="url" value="jdbc:mysql://localhost/kyc2?useUnicode=true" />
 		<property name="username" value="root" />
 		<property name="password" value="root" />
 	</bean>
@@ -36,6 +39,18 @@ http://www.springframework.org/schema/mvc
 		class="net.kyc.spring.web.candidate.service.impl.CandidateServiceImpl">
 		<property name="candidateDao" ref="candidateDao" />
 	</bean>
+	
+	<bean id="userDao"
+		class="net.kyc.spring.web.user.dao.impl.UserDaoImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>	
+	
+	<bean id="userService" class="net.kyc.spring.web.user.service.impl.UserServiceImpl">
+		<property name="userDao" ref="userDao" />
+	</bean>
 
 
 </beans>
+
+
+

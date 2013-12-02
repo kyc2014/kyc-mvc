@@ -1,7 +1,7 @@
 package net.kyc.spring.web.user.service.impl;
 
+
 import net.kyc.spring.web.user.dao.UserDao;
-import net.kyc.spring.web.user.dao.impl.UserDaoImpl;
 import net.kyc.spring.web.user.model.User;
 import net.kyc.spring.web.user.service.UserService;
 
@@ -35,6 +35,12 @@ public class UserServiceImpl implements UserService{
 		// TODO Auto-generated method stub
 		String status = userDao.updateUser(userDetails);
 		return status;
+	}
+
+	@Override
+	public User validateUserLogin(String identifier, String password) {
+		User userDetails = userDao.validateLogin(identifier, password);
+		return userDetails;
 	}
 
 }

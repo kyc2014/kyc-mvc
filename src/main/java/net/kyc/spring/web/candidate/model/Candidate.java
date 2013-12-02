@@ -1,109 +1,158 @@
 package net.kyc.spring.web.candidate.model;
 
-import net.kyc.spring.web.party.model.Party;
 
 public class Candidate {
-	private int candidateID,candidateSupporters,candidateParty,candidateAge;
-	private String candidateName,candidateShortName,candidateGender,candidateDOB,candidateEducation;
-	private String candidateAgenda,candidateImage,candidatePreviousPositions,candidateCurrentPosition;
-	private String candidateAchievements,candidateCompetingFor,candidateConstituency;
-	private Party party;
-	public int getCandidateID() {
-		return candidateID;
+	private int id,supporters;
+	private String name,constituencyName,constituencyNumber,district,party,dob,pob,education,maritalStatus,occupation,politicalCarreer,social,chennaiAddress,mofussilAddress,chennaiResidenceNumber,chennaiOfficeNumber,mofussilResidenceNumber,mofussilOfficeNumber,mobile,email;
+	private String partyShortName,gender,pastPositions;
+	public String getPastPositions() {
+		return pastPositions;
 	}
-	public void setCandidateID(int candidateID) {
-		this.candidateID = candidateID;
+	public void setPastPositions(String pastPositions) {
+		this.pastPositions = pastPositions;
 	}
-	public int getCandidateSupporters() {
-		return candidateSupporters;
+	public String getPartyShortName() {
+		return partyShortName;
 	}
-	public void setCandidateSupporters(int candidateSupporters) {
-		this.candidateSupporters = candidateSupporters;
+	public void setPartyShortName(String partyShortName) {
+		this.partyShortName = partyShortName;
 	}
-	public int getCandidateParty() {
-		return candidateParty;
+	public String getConstituencyName() {
+		return constituencyName;
 	}
-	public void setCandidateParty(int candidateParty) {
-		this.candidateParty = candidateParty;
+	public String getGender() {
+		return gender;
 	}
-	public int getCandidateAge() {
-		return candidateAge;
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
-	public void setCandidateAge(int candidateAge) {
-		this.candidateAge = candidateAge;
+	public void setConstituencyName(String constituencyName) {
+		this.constituencyName = constituencyName;
 	}
-	public String getCandidateName() {
-		return candidateName;
+	public String getConstituencyNumber() {
+		return constituencyNumber;
 	}
-	public void setCandidateName(String candidateName) {
-		this.candidateName = candidateName;
+	public void setConstituencyNumber(String constituencyNumber) {
+		this.constituencyNumber = constituencyNumber;
 	}
-	public String getCandidateShortName() {
-		return candidateShortName;
+	public String getDistrict() {
+		return district;
 	}
-	public void setCandidateShortName(String candidateShortName) {
-		this.candidateShortName = candidateShortName;
+	public void setDistrict(String district) {
+		this.district = district;
 	}
-	public String getCandidateGender() {
-		return candidateGender;
+	public String getPob() {
+		return pob;
 	}
-	public void setCandidateGender(String candidateGender) {
-		this.candidateGender = candidateGender;
+	public void setPob(String pob) {
+		this.pob = pob;
 	}
-	public String getCandidateDOB() {
-		return candidateDOB;
+	public String getMaritalStatus() {
+		return maritalStatus;
 	}
-	public void setCandidateDOB(String candidateDOB) {
-		this.candidateDOB = candidateDOB;
+	public void setMaritalStatus(String maritalStatus) {
+		this.maritalStatus = maritalStatus;
 	}
-	public String getCandidateEducation() {
-		return candidateEducation;
+	public String getOccupation() {
+		return occupation;
 	}
-	public void setCandidateEducation(String candidateEducation) {
-		this.candidateEducation = candidateEducation;
+	public void setOccupation(String occupation) {
+		this.occupation = occupation;
 	}
-	public String getCandidateAgenda() {
-		return candidateAgenda;
+	public String getPoliticalCarreer() {
+		return politicalCarreer;
 	}
-	public void setCandidateAgenda(String candidateAgenda) {
-		this.candidateAgenda = candidateAgenda;
+	public void setPoliticalCarreer(String politicalCarreer) {
+		this.politicalCarreer = politicalCarreer;
 	}
-	public String getCandidateImage() {
-		return candidateImage;
+	public String getSocial() {
+		return social;
 	}
-	public void setCandidateImage(String candidateImage) {
-		this.candidateImage = candidateImage;
+	public void setSocial(String social) {
+		this.social = social;
 	}
-	public String getCandidatePreviousPositions() {
-		return candidatePreviousPositions;
+	public String getChennaiAddress() {
+		return chennaiAddress;
 	}
-	public void setCandidatePreviousPositions(String candidatePreviousPositions) {
-		this.candidatePreviousPositions = candidatePreviousPositions;
+	public void setChennaiAddress(String chennaiAddress) {
+		this.chennaiAddress = chennaiAddress;
 	}
-	public String getCandidateCurrentPosition() {
-		return candidateCurrentPosition;
+	public String getMofussilAddress() {
+		return mofussilAddress;
 	}
-	public void setCandidateCurrentPosition(String candidateCurrentPosition) {
-		this.candidateCurrentPosition = candidateCurrentPosition;
+	public void setMofussilAddress(String mofussilAddress) {
+		this.mofussilAddress = mofussilAddress;
 	}
-	public String getCandidateAchievements() {
-		return candidateAchievements;
+	public String getChennaiResidenceNumber() {
+		return chennaiResidenceNumber;
 	}
-	public void setCandidateAchievements(String candidateAchievements) {
-		this.candidateAchievements = candidateAchievements;
+	public void setChennaiResidenceNumber(String chennaiResidenceNumber) {
+		this.chennaiResidenceNumber = chennaiResidenceNumber;
 	}
-	public Party getParty() {
+	public String getChennaiOfficeNumber() {
+		return chennaiOfficeNumber;
+	}
+	public void setChennaiOfficeNumber(String chennaiOfficeNumber) {
+		this.chennaiOfficeNumber = chennaiOfficeNumber;
+	}
+	public String getMofussilResidenceNumber() {
+		return mofussilResidenceNumber;
+	}
+	public void setMofussilResidenceNumber(String mofussilResidenceNumber) {
+		this.mofussilResidenceNumber = mofussilResidenceNumber;
+	}
+	public String getMofussilOfficeNumber() {
+		return mofussilOfficeNumber;
+	}
+	public void setMofussilOfficeNumber(String mofussilOfficeNumber) {
+		this.mofussilOfficeNumber = mofussilOfficeNumber;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getDob() {
+		return dob;
+	}
+	public String getParty() {
 		return party;
 	}
-	public void setParty(Party party) {
+	public void setParty(String party) {
 		this.party = party;
 	}
-	public String getCandidateCompetingFor() {
-		return candidateCompetingFor;
+	public int getId() {
+		return id;
 	}
-	public void setCandidateCompetingFor(String candidateCompetingFor) {
-		this.candidateCompetingFor = candidateCompetingFor;
+	public void setId(int id) {
+		this.id = id;
 	}
-	
-	
+	public int getSupporters() {
+		return supporters;
+	}
+	public void setSupporters(int supporters) {
+		this.supporters = supporters;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getEducation() {
+		return education;
+	}
+	public void setEducation(String education) {
+		this.education = education;
+	}
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
 }

@@ -6,16 +6,10 @@ public class User {
 	
 	private String userName;
 	
-	private String name;
+	private String secondName;
 	
-	private String password;
+	private String firstName;
 	
-	private String email;
-	
-	private int points;
-	
-	private int constituencyCode;
-
 	public int getUserId() {
 		return userId;
 	}
@@ -32,12 +26,20 @@ public class User {
 		this.userName = userName;
 	}
 
-	public String getName() {
-		return name;
+	public String getSecondName() {
+		return secondName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
 	public String getPassword() {
@@ -46,6 +48,22 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public String getDob() {
+		return dob;
+	}
+
+	public void setDob(String dob) {
+		this.dob = dob;
 	}
 
 	public String getEmail() {
@@ -71,6 +89,30 @@ public class User {
 	public void setConstituencyCode(int constituencyCode) {
 		this.constituencyCode = constituencyCode;
 	}
+
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	private String password;
+	
+	private String gender;
+	
+	private String dob;
+	
+	private String email;
+	
+	private int points;
+	
+	private int constituencyCode;
+	
+	private String mobile;
+
+
 	
 	
 }

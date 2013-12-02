@@ -2,7 +2,7 @@ package net.kyc.spring.web.candidate.model;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Calendar;
+import net.kyc.spring.web.candidate.model.Candidate;
 
 import net.kyc.spring.web.party.model.Party;
 
@@ -15,24 +15,28 @@ public class CandidateRowMapper implements RowMapper{
 	@Override
 	public Object mapRow(ResultSet rs, int rowNum) throws SQLException {
 		Candidate candidate = new Candidate();
-		Party party=new Party();
-		candidate.setCandidateName(rs.getString("CandidateName"));
-		candidate.setCandidateID(rs.getInt("CandidateID"));
-		candidate.setCandidateAgenda(rs.getString("CandidateAgenda"));
-		candidate.setCandidateEducation(rs.getString("CandidateEducationalQualification"));
-		candidate.setCandidateParty(rs.getInt("CandidateParty"));
-		candidate.setCandidateDOB(rs.getString("CandidateDOB"));
-		candidate.setCandidateAge(Calendar.getInstance().get(Calendar.YEAR)-Integer.parseInt((candidate.getCandidateDOB().split("-"))[0]));
-		candidate.setCandidateSupporters(rs.getInt("CandidateSupporters"));
-		candidate.setCandidateGender(rs.getString("CandidateGender"));
-		candidate.setCandidateShortName(rs.getString("CandidateShortName"));
-		candidate.setCandidateImage(rs.getString("CandidateImage"));
-		candidate.setCandidateCurrentPosition(rs.getString("CandidatePosition"));
-		candidate.setCandidateCompetingFor(rs.getString("CandidateCompetingFor"));
-		candidate.setCandidatePreviousPositions(rs.getString("CandidatePreviousPositions"));
-		party.setPartyName(rs.getString("Party.PartyName"));
-		party.setPartyImage(rs.getString("Party.PartyImage"));
-		candidate.setParty(party);
+		candidate.setName(rs.getString("candidate_name"));
+		candidate.setId(rs.getInt("candidate_id"));
+		candidate.setDistrict(rs.getString("district"));
+		candidate.setParty(rs.getString("party"));
+		candidate.setDob(rs.getString("dob"));
+		candidate.setPob(rs.getString("pob"));
+		candidate.setEducation(rs.getString("education"));
+		candidate.setMaritalStatus(rs.getString("marital_status"));
+		candidate.setOccupation(rs.getString("occupation"));
+		candidate.setPoliticalCarreer(rs.getString("political_carreer"));
+		candidate.setSocial(rs.getString("social"));
+		candidate.setChennaiAddress(rs.getString("chennai_address"));
+		candidate.setMofussilAddress(rs.getString("mofussil_address"));
+		candidate.setChennaiResidenceNumber(rs.getString("chennai_residence_number"));
+		candidate.setChennaiOfficeNumber(rs.getString("chennai_office_number"));
+		candidate.setMofussilResidenceNumber(rs.getString("mofussil_residence_number"));
+		candidate.setMofussilOfficeNumber(rs.getString("mofussil_office_number"));
+		candidate.setMobile(rs.getString("mobile"));
+		candidate.setEmail(rs.getString("email"));
+		candidate.setSupporters(rs.getInt("supporters"));
+		candidate.setPartyShortName(rs.getString("party_short_name"));
+		candidate.setPastPositions(rs.getString("previous_positions"));
 		return candidate;
 	}
 

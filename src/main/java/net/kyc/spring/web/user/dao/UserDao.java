@@ -11,4 +11,6 @@ public interface UserDao {
 	public String updateUser(User userDetails);
 	
 	public String deleteUser(int userId);
+	
+	public User validateLogin(String identifier, String password);
 }
