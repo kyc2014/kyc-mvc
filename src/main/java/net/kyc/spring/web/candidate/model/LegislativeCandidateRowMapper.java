@@ -13,6 +13,7 @@ public class LegislativeCandidateRowMapper implements RowMapper {
 		LegislativeCandidate candidate=new LegislativeCandidate();
 		candidate.setName(rs.getString("candidate_name"));
 		candidate.setId(rs.getInt("candidate_id"));
+		candidate.setConstituencyName(rs.getString("constituency_name"));
 		candidate.setDistrict(rs.getString("district"));
 		candidate.setParty(rs.getString("party"));
 		candidate.setDob(rs.getString("dob"));
@@ -20,7 +21,6 @@ public class LegislativeCandidateRowMapper implements RowMapper {
 		candidate.setEducation(rs.getString("education"));
 		candidate.setMaritalStatus(rs.getString("marital_status"));
 		candidate.setOccupation(rs.getString("occupation"));
-		candidate.setPoliticalCarreer(rs.getString("political_carreer"));
 		candidate.setSocial(rs.getString("social"));
 		candidate.setChennaiAddress(rs.getString("chennai_address"));
 		candidate.setMofussilAddress(rs.getString("mofussil_address"));
@@ -31,7 +31,8 @@ public class LegislativeCandidateRowMapper implements RowMapper {
 		candidate.setMobile(rs.getString("mobile"));
 		candidate.setEmail(rs.getString("email"));
 		candidate.setSupporters(rs.getInt("supporters"));
-		candidate.setPastPositions(rs.getString("political_carreer"));
+		candidate.setPoliticalCarreer(rs.getString("political_carreer"));
+		candidate.setImage(candidate.getName().toLowerCase().replaceAll("\\.","").replaceAll(" ",""));
 		return candidate;
 	}
 

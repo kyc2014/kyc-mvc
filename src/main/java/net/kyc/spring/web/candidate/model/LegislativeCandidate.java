@@ -4,12 +4,13 @@ public class LegislativeCandidate {
 
 	private int id,supporters;
 		private String name,constituencyName,constituencyNumber,district,party,dob,pob,education,maritalStatus,occupation,politicalCarreer,social,chennaiAddress,mofussilAddress,chennaiResidenceNumber,chennaiOfficeNumber,mofussilResidenceNumber,mofussilOfficeNumber,mobile,email;
-		private String partyShortName,gender,pastPositions;
-		public String getPastPositions() {
-			return pastPositions;
+		private String partyShortName,gender;
+		private String image;
+		public String getImage() {
+			return image;
 		}
-		public void setPastPositions(String pastPositions) {
-			this.pastPositions = pastPositions;
+		public void setImage(String image) {
+			this.image = image;
 		}
 		public String getPartyShortName() {
 			return partyShortName;

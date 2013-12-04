@@ -46,7 +46,7 @@
 				<div id="innerContainerCP" >
 					<div id="topCP">
 						<section id="wcandidateImageCP" class="col">
-							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/ id="candidateImageCP">
+							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/mla/tamilnadu/<c:out value="${candidate.image}" />.png" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    <span id="partyNameCP"><span id="value"><c:out value="${candidate.party}" /></span></span></p>
@@ -69,7 +69,7 @@
 										<th class="FirstBoxTitle" >Education</th>
 										<th class="FirstBoxTitle" >Mobile Number</th>
 										<tr>
-											<td class="BoxContentCP" id="position">MLA,Constituency</td>
+											<td class="BoxContentCP" id="position">MLA , <c:out value="${candidate.constituencyName}"/></td>
 											<td class="BoxContentCP" id="competingFor"><c:out value="${candidate.education}"/></td>
 											<td class="BoxContentCP" id="competingFor"><c:out value="${candidate.mobile}"/></td>
 										</tr>
@@ -79,8 +79,7 @@
 								      <table class="ContainerCP">
 								      	<th class="SecondBoxTitle">Past Positions</th>
 								      		<tr>
-								      			<td class="BoxContentCP" id="achievements"></td>
-								      			<td class="BoxContentCP" id="pastPositions"></td>
+								      			<td class="BoxContentCP" id="pastPositions"><c:out value="${candidate.politicalCarreer}"/></td>
 
 								      		</tr>
 								      </table>
@@ -106,9 +105,9 @@
 					           
 					    </ul>
 					    <div id="footerSocial">
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/fb.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/gp.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/t.png"/></div>
+						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/fb.png"/></div>
+						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/gp.png"/></div>
+						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/t.png"/></div>
 						   
 					    
 					    </div>

@@ -23,7 +23,14 @@ public class MinisterialCandidate {
 	private String delhiContact;
 	private String position;
 	private String competing;
+	private String constituencyCode;
 	
+	public String getConstituencyCode() {
+		return constituencyCode;
+	}
+	public void setConstituencyCode(String constituencyCode) {
+		this.constituencyCode = constituencyCode;
+	}
 	public int getCandidateId()
 	{
 		return candidateId;

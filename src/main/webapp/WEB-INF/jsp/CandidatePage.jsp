@@ -11,6 +11,47 @@
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/CandidatePage.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/SuggestionBox.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="<c:out value="${pageContext.request.contextPath}" />/Resources/Libraries/jquery-2.0.2.min.js" /></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script src="<c:out value="${pageContext.request.contextPath}" />/Resources/scripts/mapPlugin.js"></script>
+		<style>
+		#map{
+			width:350px;
+			height:300px;
+			position:absolute;
+			border:1px solid #ccc;
+			display:none;
+			top:50%;
+			left:50%;
+			margin-top:-225px;
+			margin-left:-225px;
+		}
+		#constituency:hover
+		{
+			cursor:pointer;
+			text-decoration:underline;
+		}		
+		</style>
+		<script>
+		$(function()
+		{
+			var i=0;
+			$('#constituency,#map').hover(function()
+					{
+							if(i==0)
+							{
+								i=1;
+								initialize();
+							}
+							$('#map').css('display','block');
+							
+					},function(){
+						$('#map').css('display','none');
+					});
+		});
+		</script>
+		
 	</head>
 	<body>	
 	<!-- ********************************************************************************header **********************************************************************-->
@@ -43,7 +84,7 @@ Login/Sign Up
 				<div id="innerContainerCP" >
 					<div id="topCP">
 						<section id="wcandidateImageCP" class="col">
-							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/<c:out value="${candidate.name}" />.jpg" id="candidateImageCP">
+							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/ministers/<c:out value="${candidate.name}" />.jpg" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    
@@ -68,7 +109,8 @@ Login/Sign Up
 										<th class="FirstBoxTitle" >Position</th>
 										<th class="FirstBoxTitle" >Educational Qualification</th>
 										<tr>
-											<td class="BoxContentCP" id="position">Minister,<c:out value="${candidate.constituency}" /></td>
+											<td class="BoxContentCP" id="position">Minister , <span id="constituency"><c:out value="${candidate.constituency}" /><input type="hidden" id="ccode" value="<c:out value="${candidate.constituencyCode}" />" /></span></td>
+											<div id="map"></div>
 											<td class="BoxContentCP" id="education"><c:out value="${candidate.education}" /></td>
 										</tr>
 									</table>

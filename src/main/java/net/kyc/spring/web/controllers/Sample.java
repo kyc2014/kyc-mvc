@@ -9,6 +9,7 @@ import net.kyc.spring.web.candidate.model.MinisterialCandidate;
 import net.kyc.spring.web.candidate.service.CandidateService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -26,7 +27,15 @@ public class Sample {
 	private static String allCandidateSQL = "select CandidateID,CandidateName,CandidateConstituency,CandidateParty from minister";
 	@RequestMapping(value="minister/{candidateName}")
 	public String retrieveCandidate(@PathVariable String candidateName, ModelMap model){
-		MinisterialCandidate candidate = candidateService.retrieveMinisterialCandidateByName(candidateName);
+		MinisterialCandidate candidate;
+		try
+		{
+		candidate = candidateService.retrieveMinisterialCandidateByName(candidateName);
+		}
+		catch(EmptyResultDataAccessException e)
+		{
+			return "CandidateMissing";
+		}
 		model.addAttribute("candidate",candidate);
 		return "CandidatePage";
 	}

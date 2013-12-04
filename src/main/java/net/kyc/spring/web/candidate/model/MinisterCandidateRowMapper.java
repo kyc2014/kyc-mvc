@@ -30,6 +30,7 @@ public class MinisterCandidateRowMapper implements RowMapper{
 		ministerCandidate.setPosition(rs.getString("position"));
 		ministerCandidate.setCompeting(rs.getString("competing"));
 		ministerCandidate.setPartyShortName(rs.getString("party_short_name"));
+		ministerCandidate.setConstituencyCode(rs.getString("candidate_constituency_code"));
 		return ministerCandidate;
 	}
 }
