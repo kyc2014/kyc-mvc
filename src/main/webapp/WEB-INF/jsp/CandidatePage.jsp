@@ -7,6 +7,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/reset.css">
+		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/Map.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/CandidatePage.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
@@ -16,22 +17,6 @@
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 		<script src="<c:out value="${pageContext.request.contextPath}" />/Resources/scripts/mapPlugin.js"></script>
 		<style>
-		#map{
-			width:350px;
-			height:300px;
-			position:absolute;
-			border:1px solid #ccc;
-			display:none;
-			top:50%;
-			left:50%;
-			margin-top:-225px;
-			margin-left:-225px;
-		}
-		#constituency:hover
-		{
-			cursor:pointer;
-			text-decoration:underline;
-		}		
 		</style>
 		<script>
 		$(function()
@@ -44,7 +29,10 @@
 								i=1;
 								initialize();
 							}
+							$("#map").css("left",$('#constituency').position().left-$('#map').width());
+							$("#map").css("top",$('#constituency').top());
 							$('#map').css('display','block');
+							$('#map').css('position','relative');
 							
 					},function(){
 						$('#map').css('display','none');
@@ -54,31 +42,8 @@
 		
 	</head>
 	<body>	
-	<!-- ********************************************************************************header **********************************************************************-->
-	<header>
-<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" />
-
-<div id="logArea">
-Login/Sign Up
-</div>
-
-</header>
-<div id="menuBar">
-<div id="menuWrapper">
-<div id="menuContainer">
-<ul id="menuList">
-<li>Home</li>
-<li>Assembly Candidates</li>
-<li>Parliamentary Candidates</li>
-</ul>
-<div style="clear:both"></div>
-</div>
-</div>
-</div>
+	<jsp:include page="header.jsp"></jsp:include>
 <!--*********************************************************************candidate page ***********************************************************************-->
-
-	
-
 		<div id="wrapperCP">
 			<div id="containerCP" class="Cont">
 				<div id="innerContainerCP" >
@@ -89,10 +54,7 @@ Login/Sign Up
 						<section id="candidateDetailsCP" class="col">
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    
 							<p id="partyNameCP"><span id="value"><c:out value="${candidate.partyName}" /></span></p>
-							<p id="genderCP"><span id="age">Age : <c:out value="${candidate.dob}" /></span> , <span id="gender">Gender : <c:out value="${candidate.gender}" /></span> </p>
-							<p id="supporterCP"><span id="supporterCount"><c:out value="${candidate.supporters}" /></span><span> supporters</span><span><button id="supporterButton" value="Support">&#10003; Support</button></span></p>
-							
-
+							<p id="genderCP"><span id="gender"><c:out value="${candidate.gender}" /></span> </p>
 						</section>
 						<section id="wpartyImageCP" class="col"> 
 							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/party/<c:out value="${candidate.partyShortName}" />.png" alt="" id="partyImageCP">
@@ -106,20 +68,26 @@ Login/Sign Up
 						  <div id="leftCP">
 								<div id="firstBoxCP" class="BoxSettingCP">
 									<table class="ContainerCP">
+										<th class="FirstBoxTitle" >Date Of Birth</th>
+										<th class="FirstBoxTitle" >Age</th>
 										<th class="FirstBoxTitle" >Position</th>
-										<th class="FirstBoxTitle" >Educational Qualification</th>
 										<tr>
+											<td class="BoxContentCP" id="dob"><c:out value="${candidate.dob}" /></td>
+											<td class="BoxContentCP" id="age"><c:out value="${candidate.age}" /></td>
 											<td class="BoxContentCP" id="position">Minister , <span id="constituency"><c:out value="${candidate.constituency}" /><input type="hidden" id="ccode" value="<c:out value="${candidate.constituencyCode}" />" /></span></td>
 											<div id="map"></div>
-											<td class="BoxContentCP" id="education"><c:out value="${candidate.education}" /></td>
 										</tr>
 									</table>
 								</div>
 								<div id="secondBoxCP" class="BoxSettingCP">
 								      <table class="ContainerCP">
-								      	<th class="SecondBoxTitle">Past Positions</th>
+								      	<th class="SecondBoxTitle">Education</th>
+								      	<th class="SecondBoxTitle">Past Position</th>
+								      	<th class="SecondBoxTitle">Contact</th>
 								      		<tr>
+								      			<td class="BoxContentCP" id="education"><c:out value="${candidate.education}" /></td>
 								      			<td class="BoxContentCP" id="pastPositions"><c:out value="${candidate.previousPositions}" /></td>
+								      			<td class="BoxContentCP" id="contact"><c:out value="${candidate.contact}" /></td>
 								      		</tr>
 								      </table>
 								</div>
@@ -128,34 +96,7 @@ Login/Sign Up
 				</div>   
 			</div>
 		</div>
-<!-- *********************************************************************************footer**********************************************************-->
-		<footer id="footer">
-
-			    <section id="footerContents">
-						 <div id="copyright">
-						    Copyright &copy;  2013-2014 
-						 </div>
-					    <ul id="footerLinks">
-					      <li><a href="#">About-</a></li>
-					        <li><a href="#">Contact Us-</a></li>
-					        <li><a href="#">PrivacyPolicy-</a></li>
-					        <li><a href="#">SiteMap-</a></li>
-					        <li><a href="#">Feedback </a></li>
-					           
-					    </ul>
-					    <div id="footerSocial">
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/fb.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/gp.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/t.png"/></div>
-						   
-					    
-					    </div>
-			    </section>
-    
-	
-		</footer>
-	<div id="mask">
-	</div>
+		<jsp:include page="footer.jsp"></jsp:include>
 	</body>
 	
 	

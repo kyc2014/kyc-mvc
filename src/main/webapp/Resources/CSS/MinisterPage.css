@@ -1,0 +1,112 @@
+a
+{
+	text-decoration:none;
+	color: inherit;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+.Row
+{
+	width:750px;
+	
+}
+.Row
+{
+	margin-top:25px;
+	font-size: 12px;
+}
+.Row > div
+{
+	margin-left:15px;
+}
+.Row div,.Row
+{
+	box-sizing:border-box;
+	text-align:center;
+}
+img
+{
+	width:auto;
+	height:auto;
+}
+#wrapper
+{
+	width:900px;
+	margin:35px auto;
+	height:auto;
+}
+.Box
+{
+	width:220px;
+	min-height:200px;
+	height:auto;
+	border:1px solid #f2f2f2;
+	border-radius:15px;
+	-webkit-transition:background-color 0.5s ease;
+	transition:background-color 0.5s ease;
+	font-family: sans-serif;
+}
+.Box:hover
+{
+	background-color:#f9f9f9;
+
+}
+.ImageWrapper
+{
+	border-bottom:1px solid #f2f2f2;
+	padding:5px;
+}
+.Name
+{
+	padding:5px;
+	color:#6d93ff;
+}
+.Constituency
+{
+	padding:5px;
+}
+.PartyWrapper
+{
+	padding:5px;
+	width:auto;
+}
+.Party
+{
+	width:auto;
+	padding:5px;
+	height:auto;
+}
+.Supporters
+{
+	padding:5px;
+}
+.Image
+{
+	vertical-align:middle;
+	width:100px;
+	height:130px;
+}
+.Box
+{
+	position:relative;
+	display:inline-block;
+
+}
+.Box > a
+{
+	position:absolute;
+	right:-18px;
+	top:-18px;
+}
+.ImageWrapper a
+{
+	width:100px;
+	height:130px;
+}
+.PartyImage
+{
+	width:35px;
+	height:auto;	
+}

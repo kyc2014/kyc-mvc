@@ -12,6 +12,6 @@ public interface CandidateService {
 	public LegislativeCandidate retrieveLegislativeCandidateByID(int id,String state);
 	public Candidate retrieveCandidateByID(int id, String tableName);
 	public List<Candidate> retrieveCandidateList();
-	public Object retrieveStateCandidateList(String stateName);
-	public List<MinisterialCandidate> retrieveMinistersList();
+	public List<LegislativeCandidate> retrieveStateCandidateList(String stateName,int pageNo);
+	public List<MinisterialCandidate> retrieveMinistersList(int pageNo);
 }

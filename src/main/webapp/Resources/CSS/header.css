@@ -1,4 +1,8 @@
-
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
 header
 {
 	background: #fff url(../Images/stripe.png) repeat top center;
@@ -244,6 +248,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', end
 		margin:10px auto;
 
 	}
-
-
-}
+	#assemblyCandidatesBox
+	{
+		position:absolute;
+		z-index:999;
+		min-width:400px;
+		min-height:300px;
+		border-bottom:1px solid #EAEAEA;
+		border-left:1px solid #EAEAEA;
+		border-right:1px solid #EAEAEA;
+	}

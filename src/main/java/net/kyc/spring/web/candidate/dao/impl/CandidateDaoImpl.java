@@ -2,25 +2,29 @@ package net.kyc.spring.web.candidate.dao.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.sql.DataSource;
-
-import org.springframework.jdbc.core.JdbcTemplate;
 
 import net.kyc.spring.web.candidate.dao.CandidateDao;
 import net.kyc.spring.web.candidate.model.Candidate;
 import net.kyc.spring.web.candidate.model.CandidateAbstractRowMapper;
 import net.kyc.spring.web.candidate.model.CandidateRowMapper;
-import net.kyc.spring.web.candidate.model.CandidateSearchRowMapper;
+import net.kyc.spring.web.candidate.model.LegislativeCandidate;
 import net.kyc.spring.web.candidate.model.LegislativeCandidateRowMapper;
 import net.kyc.spring.web.candidate.model.MinisterCandidateRowMapper;
 import net.kyc.spring.web.candidate.model.MinisterialCandidate;
+
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+
 
 public class CandidateDaoImpl implements CandidateDao{
 
 	private JdbcTemplate jdbcTemplate;
 	public static String candidateListSQL = "SELECT candidate_id,candidate_name,constituency_name,district,party from ";
-	public static String ministerCandidate = "SELECT * from minister";
+	public static String ministerCandidate = "SELECT candidate_name,candidate_constituency,party,party_short_name,supporters from minister where candidate_id > ? order by candidate_id limit 15";
 	
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
@@ -73,18 +77,28 @@ public class CandidateDaoImpl implements CandidateDao{
 
 
 	@Override
-	public List<Candidate> retrieveStateCandidateList(String stateName) {
-		List<Candidate> candidateList = new ArrayList(); 
-		candidateList = jdbcTemplate.query(candidateListSQL+stateName, new CandidateAbstractRowMapper());
-		System.out.println(candidateList.size());
+	public List<LegislativeCandidate> retrieveStateCandidateList(String stateName,int pageNo) {
+		List<LegislativeCandidate> candidateList = new ArrayList(); 
+		candidateList = jdbcTemplate.query(candidateListSQL+stateName+" where candidate_id > "+(pageNo-1)*15+" order by candidate_id", new CandidateAbstractRowMapper());
 		return candidateList;
 	}
 
 
 	@Override
-	public List<MinisterialCandidate> retrieveMinisterList() {
-		List<Candidate> candidateList = new ArrayList(); 
-		candidateList = jdbcTemplate.query(ministerCandidate, new MinisterCandidateRowMapper());
-		return null;
+	public List<MinisterialCandidate> retrieveMinisterList(int pageNo) {
+		List<MinisterialCandidate> candidateList = new ArrayList<MinisterialCandidate>(); 
+		List<Map<String,Object>> rows = jdbcTemplate.queryForList(ministerCandidate,new Object[]{(pageNo-1)*15});
+		for (Map row : rows) {
+			MinisterialCandidate candidate=new MinisterialCandidate();
+			candidate.setName((String)row.get("candidate_name"));
+			candidate.setPartyShortName((String)row.get("party_short_name"));
+			candidate.setConstituency((String)row.get("candidate_constituency"));
+			candidate.setPartyName((String)row.get("party"));
+			candidate.setSupporters((String)row.get("supporters"));
+			candidateList.add(candidate);
+		}
+		
+	 
+		return candidateList;
 	}
 }

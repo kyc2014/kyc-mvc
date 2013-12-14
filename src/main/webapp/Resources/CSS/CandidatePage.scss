@@ -22,7 +22,7 @@ $reviews:normal normal 100 12pt/normal 'arial';
 $posneg:normal normal 100 12pt/normal 'arial';
 $posnegColor:#999;
 $writeReviewColor:#656060;
-$seperatorColor:#949393;
+$seperatorColor:#d6d6d6;
 $otherReviews:600px;
 $otherReviewsFont:normal normal 400 13pt/normal 'arial';
 $biegecolor:#f9fad0;
@@ -149,7 +149,7 @@ input
 		min-height: 720px;
 		height: auto;
 		background-color: $bgcolor;
-		
+		border:1px solid #ededed;
 		
 		#innerContainerCP
 		{
@@ -362,7 +362,6 @@ input
 	color: $boxContentFontColor;
 	padding: 5px 10px 5px 5px;
 	text-align: center;
-	
 }
 .BoxSettingCP
 {
@@ -372,6 +371,8 @@ input
 	margin: 0 auto;
 	padding: 5px;
 	height: auto;
+	border:1px solid #eaeaea;
+	
 	th:not(:last-child),td:not(:last-child)
 			{
 					border-right:1px solid $bgcolor;

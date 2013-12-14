@@ -83,7 +83,8 @@ input {
     margin: 0 auto;
     min-height: 720px;
     height: auto;
-    background-color: #f3f1f1; }
+    background-color: #f3f1f1;
+    border: 1px solid #ededed; }
     #wrapperCP #containerCP #innerContainerCP {
       margin: 10px; }
 
@@ -157,7 +158,7 @@ input {
   height: 1px;
   width: 100%;
   margin: 5px auto;
-  background-color: #949393; }
+  background-color: #d6d6d6; }
 
 #bottomCP {
   width: auto;
@@ -222,7 +223,8 @@ input {
   min-height: 50px;
   margin: 0 auto;
   padding: 5px;
-  height: auto; }
+  height: auto;
+  border: 1px solid #eaeaea; }
   .BoxSettingCP th:not(:last-child), .BoxSettingCP td:not(:last-child) {
     border-right: 1px solid #f3f1f1; }
 
@@ -461,7 +463,7 @@ input {
 #otherReviewsWrapperCP {
   width: 60%;
   margin: 1.5% auto 0 auto;
-  border-top: 1px solid #949393;
+  border-top: 1px solid #d6d6d6;
   min-height: 10px;
   height: auto;
   position: relative; }

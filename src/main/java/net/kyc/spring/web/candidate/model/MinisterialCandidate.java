@@ -22,6 +22,7 @@ public class MinisterialCandidate {
 	private String delhiAddress;
 	private String delhiContact;
 	private String position;
+	private String age;
 	private String competing;
 	private String constituencyCode;
 	
@@ -164,6 +165,12 @@ public class MinisterialCandidate {
 	}
 	public void setPartyShortName(String partyShortName) {
 		this.partyShortName = partyShortName;
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
 	}
 	
 }

@@ -1,0 +1,285 @@
+@import url(fonts.css);
+div
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+th,td
+{
+	padding:2px;
+}
+img
+{
+	max-height: 100%;
+	max-width: 100%;
+	height: 100%;
+	width: 100%;
+	box-shadow: #ccc 1px 1px 1px 1px;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	cursor: pointer;
+}
+#wrapper
+{
+	width: 1024px;
+	min-height: 720px;
+	height: auto;
+	background-color: #f3f1f1;
+	margin: 0 auto;
+}
+#container
+{
+	width: 100%;
+	height: auto;
+	min-height: inherit;
+}
+#stateInfo
+{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 5px;
+	position: relative;
+}
+#stateName
+{
+	height: 20px;
+	text-align: center;
+	font-family: opensans;
+	font-size: 16pt;
+	font-weight: bolder;
+	color: #7c7878;
+
+}
+#dof
+{
+	width: 30%;
+	min-height: 30px;
+	height: auto;
+	margin: 20px 0 0 20px;
+	border-radius:10px;
+	float: left;
+	background-color: white;
+	padding: 5px;
+	text-align: center;
+	color: #7c7878;
+	font: 12pt opensans;
+
+}
+#totConst
+{
+	width: 30%;
+	min-height: 30px;
+	height: auto;
+	margin: 20px 0 0 20px;
+	border-radius:10px;
+	float:right;
+	background-color: white;
+	padding: 5px;
+	text-align: center;
+	color: #7c7878;
+	font: 12pt opensans;
+}
+#dofValue,#totConstValue>a
+{
+	color: #6d93ff;
+
+}
+#totConstValue>a:hover
+{
+	text-decoration: underline;
+}
+#personalities
+{
+	height: 200px;
+	width: 100%;
+	position: relative;
+	border-bottom:1px solid #e6e6e6; 
+	clear: both;
+}
+.mainPersonalityBlock
+{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	float: left;
+
+}
+.mdesignation
+{
+	font: 14pt opensans;
+	color: #7c7878;
+	text-align: center;
+	border-bottom:1px solid #e6e6e6;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.mphoto
+{
+	min-height: 80%;
+	height: 80%;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px 8px 0 0 ;
+}
+
+.mphotoDetails
+{
+	min-height: 50px;
+	max-height: 144px;
+	height:auto;
+	background-color:white;
+	opacity: 0.9;
+	width: 180px; 
+	padding: 5px;
+	text-align: center;
+	-webkit-transition: all 200ms linear 50ms;
+    -moz-transition: all 200ms linear 50ms;
+    -o-transition: all 200ms linear 50ms;
+    transition: all 200ms linear 50ms;
+    
+    overflow: hidden;
+    color: #6d93ff;
+
+
+}
+.mname
+{
+	font:14pt opensans ;
+}
+.mparty
+{
+	font:12pt opensans ;
+}
+.mpost
+{
+	font:10pt opensans ;
+}
+.mphotoDetails div a
+{
+	
+	text-decoration: none;
+	color: #6d93ff;
+
+}
+#leftPersonalities,#rightPersonalities
+{
+	
+	float: left;
+}
+#leftPersonalities
+{
+	width: 40%;
+}
+#rightPersonalities
+{
+	width: 60%;
+	padding: 10px;
+	height:auto;
+}
+.otherPoliticians
+{
+	height: auto;
+}
+.mphotoWrapper
+{
+	float: left;
+}
+.photo
+{
+	height: 144px;
+	min-height: 144px;
+	width: 180px;
+	display: inline-block;
+	margin:0 5px 0;
+	overflow: hidden;
+	border-radius: 8px 8px 0 0;
+}
+.wrapperOthers
+{
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+#chartContainer
+{
+	margin: 0 auto;
+}
+#partiesInfo
+{
+	width: 100%;
+	padding: 10px;
+	min-height: 50px;
+	height: auto; 
+}
+#partiesInfoHeading
+{
+	font: 14pt opensans;
+	color: #7c7878;
+	text-align:center;
+
+
+}
+#partiesInfoCont
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10px;
+	min-height: 50px;
+	height: auto;
+	background-color: white;
+	border-radius:10px;
+	padding: 10px;
+	text-align: center;
+}
+.PartiesList
+{
+	font: 12pt opensans;
+	color:#6d93ff;
+	margin:0 5px 0; 
+	-webkit-transitiHon: all 300ms linear 0ms;
+    -moz-transition: all 300ms linear 0ms;
+    -o-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+
+}
+.PartiesList:hover
+{
+	color: #7c7878;
+}
+#pastChiefMinisters
+{
+	padding: 10px;
+}
+#chiefMinistersHeading
+{
+	color: #7c7878;
+	font:14pt opensans;
+	height: 30px;
+	width: 100%;
+	padding: 2px;
+	text-align: center;
+	border-bottom: 1px solid #e6e6e6;
+}
+#chartContainer
+{
+	width: 500px;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+#pastChiefMinisters
+{
+	width: 100%;
+	height:500px;
+}
+#povertyStatus
+{
+	display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top;
+}

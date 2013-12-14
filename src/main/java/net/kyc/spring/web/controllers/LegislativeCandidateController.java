@@ -29,9 +29,9 @@ public class LegislativeCandidateController {
 	model.addAttribute("candidate",candidate);
 	return "tamilnadu/candidate";
 	}
-	@RequestMapping(value="list/{stateName}/mla")
-	public String tamilnaduCandidate(@PathVariable String stateName, ModelMap model){
-		model.addAttribute("candidate",candidateService.retrieveStateCandidateList(stateName));
+	@RequestMapping(value="{stateName}/mla/list/{pageNo}")
+	public String tamilnaduCandidate(@PathVariable String stateName,@PathVariable int pageNo, ModelMap model){
+		model.addAttribute("candidate",candidateService.retrieveStateCandidateList(stateName,pageNo));
 		return stateName+"/candidatelist";
 	}
 	

@@ -31,13 +31,13 @@ public class CandidateServiceImpl implements CandidateService{
 		return candidate;
 	}
 	@Override
-	public List<Candidate> retrieveStateCandidateList(String stateName) {
-		List<Candidate> list = candidateDao.retrieveStateCandidateList(stateName);
+	public List<LegislativeCandidate> retrieveStateCandidateList(String stateName,int pageNo) {
+		List<LegislativeCandidate> list = candidateDao.retrieveStateCandidateList(stateName,pageNo);
 		return list;
 	}
 	@Override
-	public List<MinisterialCandidate> retrieveMinistersList() {
-		List<MinisterialCandidate> list = candidateDao.retrieveMinisterList();
+	public List<MinisterialCandidate> retrieveMinistersList(int pageNo) {
+		List<MinisterialCandidate> list = candidateDao.retrieveMinisterList(pageNo);
 		return list;		
 	}
 	@Override

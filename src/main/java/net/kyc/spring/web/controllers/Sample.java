@@ -40,13 +40,13 @@ public class Sample {
 		return "CandidatePage";
 	}
 	
-	@RequestMapping(value="ministers/list")
-	public String retrieveMinisterList(ModelMap model){
-		List<MinisterialCandidate> candidate = candidateService.retrieveMinistersList();
+	@RequestMapping(value="ministers/list/{pageNo}")
+	public String retrieveMinisterList(@PathVariable int pageNo, ModelMap model){
+		List<MinisterialCandidate> candidate = candidateService.retrieveMinistersList(pageNo);
 		model.addAttribute("candidate",candidate);
-		return "minister/ministerpage";
+		return "ministerpage";
 	}
-	
+
 	@RequestMapping(value="/search.jsp",method=RequestMethod.POST)
     public List<Candidate> addUser(@RequestParam("searchString") String searchText, BindingResult result ){
 		List<Candidate> list=new ArrayList<Candidate>();

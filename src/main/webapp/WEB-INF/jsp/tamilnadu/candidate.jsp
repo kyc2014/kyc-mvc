@@ -12,7 +12,6 @@
 	</head>
 	<body>	
 	<!-- ********************************************************************************header **********************************************************************-->
-	<header>
 <img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" />
 <div id="smallMenu">
 <div></div>
