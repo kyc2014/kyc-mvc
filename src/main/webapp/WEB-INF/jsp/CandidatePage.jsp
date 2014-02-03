@@ -8,7 +8,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/Map.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header.css">
+		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/CandidatePage.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
 		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/SuggestionBox.css">
@@ -42,7 +42,7 @@
 		
 	</head>
 	<body>	
-	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="header.jsp" />
 <!--*********************************************************************candidate page ***********************************************************************-->
 		<div id="wrapperCP">
 			<div id="containerCP" class="Cont">
@@ -57,7 +57,7 @@
 							<p id="genderCP"><span id="gender"><c:out value="${candidate.gender}" /></span> </p>
 						</section>
 						<section id="wpartyImageCP" class="col"> 
-							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/party/<c:out value="${candidate.partyShortName}" />.png" alt="" id="partyImageCP">
+							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/party/<c:out value="${candidate.partyShortName}" />-RO.png" alt="" id="partyImageCP">
 						</section>
 					
 						

@@ -121,7 +121,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Mizoram/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/state/Mizoram/cm.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Lal Thanhawla</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -134,7 +134,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Mizoram/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/state/Mizoram/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Vakkom Purushothaman</div>
 						<div class="mparty"></div>
@@ -150,7 +150,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Mizoram/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/state/Mizoram/1.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Pu Zoramthanga</a></div>
 						<div class="mparty"><a href="">MNF</a></div>
@@ -158,7 +158,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Mizoram/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/state/Mizoram/2.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Thenphunga Sailo</a></div>
 						<div class="mparty"><a href="">MPC</a></div>
@@ -166,7 +166,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Mizoram/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/state/Mizoram/3.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">C.L Ruala</a></div>
 						<div class="mparty"><a href="">INC</a></div>

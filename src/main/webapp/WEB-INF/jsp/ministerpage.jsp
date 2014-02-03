@@ -4,8 +4,9 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/MinisterPage.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header.css">
+<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
 <body>
 <jsp:include page="header.jsp" />
 <div id="wrapper">
@@ -14,7 +15,7 @@
 		<div class="Row">	
 	</c:if>
 	<div class="Box">
-		<a href="#"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/images/party/<c:out value="${candidate.partyShortName}" />.png" class="PartyImage" /></a>
+		<a href="#"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/images/party/<c:out value="${candidate.partyShortName}" />-RO.png" class="PartyImage" /></a>
 		<div class="ImageWrapper"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/images/ministers/<c:out value="${candidate.name}" />.jpg" class="Image" /></div>
 		<div class="Name"><a href="<c:out value="${pageContext.request.contextPath}" />/web/minister/<c:out value="${candidate.name}" />"><c:out value="${candidate.name}" /></a></div>
 		<div class="Constituency"><a href="#"><c:out value="${candidate.constituency}" /></a></div>

@@ -46,6 +46,12 @@ public class Sample {
 		model.addAttribute("candidate",candidate);
 		return "ministerpage";
 	}
+	
+	@RequestMapping(value="editor")
+	public String displayEditorsPage(){
+		return "editorLogin";
+	}
+	
 
 	@RequestMapping(value="/search.jsp",method=RequestMethod.POST)
     public List<Candidate> addUser(@RequestParam("searchString") String searchText, BindingResult result ){

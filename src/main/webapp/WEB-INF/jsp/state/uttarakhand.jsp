@@ -14,6 +14,8 @@
 <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization',
        'version':'1','packages':['timeline','corechart']}]}"></script>
 
+
+
 <script type="text/javascript">
 $(document).ready(function(){
 	
@@ -22,30 +24,24 @@ $(document).ready(function(){
 		ht = ht+10;
 		var neg = -ht;
 		neg = neg+'px';
-		if($(this).find('.mphotoDetails').height() == 134)
-		{
-			$(this).find('.mname').css({"font":"12pt opensans"});
-		}
 		$(this).find('.mphotoDetails').css({"transform":"translate(0px,"+neg+")","-ms-transform":"translate(0px,"+neg+")","-webkit-transform":"translate(0px,"+neg+")"});
-		
 	},function(){
-		
+		var ht = $(this).find('.mphotoDetails').height();
+		ht = ht+10;
+		ht = ht+'px';
 		$(this).find('.mphotoDetails').css({"transform":"translate(0px,0px)","-ms-transform":"translate(0px,0px)","-webkit-transform":"translate(0px,0px)"});
 	});
-		
 	
 		function drawChart()
 		{
 
 		var data1 = google.visualization.arrayToDataTable([
-          ['Year',  'BJP','BSP','INC','UKD','Others'],
-          ['2012',7,19,36,4,7  ],
-          ['2007', 34,8,21,3,4 ],
-          ['2002',  31,3,32,1,3],
-          
-         
-        ]);
-/*total assembly const - 70 + 1 elected anglo indian member*/
+          ['Year', 'INC', 'BJP', 'BSP','Others'],
+          ['2012',  32,      31, 3,4],
+          ['2007',  34,     21, 8,6],
+          ['2002',  36,       19, 7,8]
+          ]);
+/*total assembly const - 224*/
         var options1 = {
           title: 'Past Legislative Assembly Elections',
           titleTextStyle:{color:'#7c7878',bold:false,fontName:'opensans',fontSize:'18'},
@@ -69,19 +65,14 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-			  ['Nityanand Swami','BJP',new Date(2000, 11, 9), new Date(2001, 10, 29) ],
-			  [ 'Bhagat Singh Koshiyari', 'BJP',  new Date(2001, 10, 30),  new Date(2002,3,1) ],
-		  	  [ 'N. D. Tiwari', 'INC',  new Date(2002,3,2),  new Date(2007,3,7) ],
-		  	  [ 'B. C. Khanduri', 'BJP',  new Date(2007,3,8),  new Date(2009,6,23) ],
-		  	  [ 'Ramesh Pokhriyal Nishank', 'BJP',new Date(2009,6,24),  new Date(2011,9,10)],
-		  	  [ 'B. C. Khanduri', 'BJP',  new Date(2011, 9, 11),  new Date(2012,9,13) ],
-		  	  [ 'Vijay Bahuguna', 'INC',  new Date(2012,9,13),  new Date() ],
-		  	  
-
+		  [ 'Nityanand Swami','BJP',new Date(2000, 11, 9), new Date(2001, 10, 29) ],
+		  [ 'Bhagat Singh Koshiyari', 'BJP',  new Date(2001, 10, 30),  new Date(2002, 3, 1) ],
+		  [ 'N.D.Tiwari','INC' , new Date(2002, 3, 2),  new Date(2007,3,7) ],
+		    [ 'B.C.Khanduri', 'BJP', new Date(2007,3,8),  new Date(2009, 6, 23) ],
+		    [ 'Ramesh Pokhriyal Nishank','BJP', new Date(2009, 6, 24), new Date(2011, 9, 10) ],
+		    ['B.C.Khanduri','BJP',new Date(2011,9,11),new Date(2012,3,13)],
+		    ['Vijay Bahuguna','INC',new Date(2012,3,13),new Date()]
 		    
-		    
-
-
 		    ]);
 			var options2 = {
 				timeline:{
@@ -123,7 +114,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Uttarakhand/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/cm.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Vijay Bahuguna</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -136,7 +127,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Uttarakhand/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Aziz Qureshi</div>
 						<div class="mparty"></div>
@@ -152,27 +143,27 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Uttarakhand/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">B.C Khanduri</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
-						<div class="mpost">Former CM, Recipient of Ati Vishisht Seva Medal</div>
+						<div class="mname"><a href="">H.D Deve Gowda</a></div>
+						<div class="mparty"><a href="">JD(S)</a></div>
+						<div class="mpost">Former PM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Uttarakhand/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Harish Rawat</a></div>
+						<div class="mname"><a href="">K.H Muniyappa</a></div>
 						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Union Minister of Water Resources</div>
+						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Uttarakhand/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pradeep Tamta</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">MP - LokSabha</div>
+						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
+						<div class="mparty"><a href="">JD(S)</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 				</div>
@@ -181,25 +172,22 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			
-				
+			    
+			    <a href="" class="PartiesList">INC</a>
 			    <a href="" class="PartiesList">BJP</a>
 			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">INC</a>
-			   <a href="" class="PartiesList">UKD</a>
-			   
 			    
 			   
 
 			</div>
 		</div>
-		<div id="chartContainer">
+		<div id="chartContainer" style="width:500px;height:400px;display:inline-block;vertical-align:top;">
 
 		</div>
-		<div id="povertyStatus" style=" ">
+		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
 		<div id="chiefMinistersHeading">Chief Ministers of Uttarakhand</div>
-		<div id="pastChiefMinisters" >
+		<div id="pastChiefMinisters" style="width:100%;height:400px">
 		</div>
 		
 

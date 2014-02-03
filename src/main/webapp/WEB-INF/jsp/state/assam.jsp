@@ -135,7 +135,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Assam/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Assam/cm.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Tarun Gogoi</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -148,7 +148,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Assam/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Assam/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">J.B Patnaik</div>
 						<div class="mparty"></div>
@@ -164,7 +164,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Assam/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Assam/1.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Badruddin Ajmal</a></div>
 						<div class="mparty"><a href="">AIUDF</a></div>
@@ -172,7 +172,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Assam/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Assam/2.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Paban Singh Ghatowar</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -180,7 +180,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Assam/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Assam/3.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Prafulla Kumar Mahanta</a></div>
 						<div class="mparty"><a href="">AGP</a></div>

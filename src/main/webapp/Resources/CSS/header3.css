@@ -1,0 +1,408 @@
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
+header
+{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+padding:10px 0 0 10px;
+	min-height:120px;
+	min-width:1024px;
+	width: 100%;
+	border-bottom:1px solid #EAEAEA;
+	position: relative;
+}
+#logo
+{
+	-webkit-filter:brightness(105%);
+}
+#logo:hover
+{
+	-webkit-filter:brightness(110%);
+	cursor:pointer;
+}
+#menuBar
+{
+	
+	top:0px;
+	height:35px;
+	height: auto;
+	color:#646464;
+}
+#menuWrapper
+{
+	width:1024px;
+	margin:0px auto;
+	height: 35px;
+	line-height:35px;
+	position: relative;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+#logArea
+{
+		float:right;
+		font:16px raleway;
+		transition:color 0.5s;
+		position: absolute;
+		top: 5px;
+		right: 10px;
+}
+#logArea:hover
+{
+	color:#90ACFD;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+
+#menuList li
+{
+	display:inline;
+	float: left;
+	text-align:center;
+	padding:0 25px 0 25px;
+	width:auto;
+	transition:background 0.1s linear 0.1s,border 0.3s,box-shadow 0.2s linear 0.3s;
+	color:#646464;
+	display:table-cell;
+	vertical-align:middle;
+	font-family: raleway;
+	border-bottom:1px solid #EAEAEA;
+}
+#menuList li:last-child
+{
+	border-right:1px solid #EAEAEA;
+}
+#menuList li
+{
+	border-left:1px solid #EAEAEA;
+}
+#menuList li:hover
+{
+	color:black;
+	background: #f9f9f9;
+	cursor:pointer;	
+}
+.SearchBox
+{
+	border-radius:5px 13px;
+	border:1px solid #CCC;
+	height:23px;
+	width:170px;
+	font:16px hattori;
+	padding-left:10px;
+	padding-right:28px;
+	display: inline;
+	transition:background 0.5s,width 0.5s,padding 0.4s,box-shadow 0.9s ease-out 0.2s;
+	background:url(../Images/searchGrey.png) no-repeat right;
+	background-color: #FFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:-4px;
+	box-shadow:inset 0px 1px 1px #666666;
+	font-family:raleway;
+}
+.SearchBox:focus
+{
+		background:url(../Images/searchWhite.png) no-repeat left;
+		border:1px solid #ccc;
+		background-color:#EAEAEA;
+		width:240px;
+		border-bottom:none;
+		padding-left:28px;
+		padding-right:10px;
+		box-shadow:inset 0px 1px 1px #666666;
+		color:#999;
+}
+#smallMenu
+{	
+	position: absolute;
+	right: 50px;
+	bottom: 10px;
+	display: none;
+}
+
+#smallMenu>div
+{
+	min-height: 5px;
+	max-height: 5px;
+	width: 30px;
+	margin: 4px auto;
+	background-color: #999;
+	border-radius: 20%;
+
+}
+#smallSearchBox
+{
+	display: none;
+}
+#smallSuggestionBox
+	{
+		display: none;
+	}
+.assemblyStatesListColumn a
+	{
+		display:list-item;
+		width:auto;
+		font-size:14px;
+	}
+	.assemblyStatesListColumn a:hover
+	{
+		text-decoration:underline;
+	}
+	#assemblyCandidatesBox
+	{
+		position:absolute;
+		left:0px;
+		border:1px solid #63d9f4;
+		z-index:999;
+		background-color:white;
+		border-bottom:1px solid #EAEAEA;
+		border-left:1px solid #EAEAEA;
+		border-left-radius:5px;
+		border-right:1px solid #EAEAEA;
+		border-right-radius:5px;
+		
+	}
+	.assemblyStatesListColumn
+	{
+		display:inline-block;
+		color:#6d93ff;
+		width:auto;
+		height:auto;	
+		text-align:left;
+		padding:10px;
+	}
+	.assemblyStatesListColumn img
+	{
+		width: 20px;
+		height:20px;
+		border-radius: 15px;
+		border: 1px solid #EAEAEA;
+		padding: 3px;
+		vertical-align: middle;
+	}
+	.stateName
+	{
+		padding-left:4px;
+	}
+
+
+#signupPop
+{
+	width: 600px;
+	min-height: 250px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -300px;
+	background-color: white;
+	border:1px solid #ccc;
+	-webkit-box-shadow: 0 0 5px 2px #ccc;
+    -moz-box-shadow: 0 0 5px 2px #ccc;
+    box-shadow: 0 0 5px 2px #ccc;
+	z-index: 999;
+	display: none;
+}
+#signupPopCloseButton
+{
+	font-weight: bold;
+	font: 16px hattori;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	background-color: red;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#signupPopCloseButton:hover
+{
+	cursor: pointer;
+}
+#signupContainer
+{
+	margin-top: 10px;
+	margin-bottom:10px;
+	padding:0px 10px 0px 10px;
+	width: 100%;
+	height: 220px;
+	overflow:hidden;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	
+}
+#signupLeft
+{
+	width: 49%;
+	display:inline-block;
+	vertical-align: top;
+	padding: 5px;
+	border-right: 1px solid #f1f1f1;
+	min-height: 200px;
+}
+.diffSignup
+{
+	width: 200px;
+	height: 30px;
+	margin-bottom: 10px;
+	padding: 3px;
+	-webkit-box-shadow: 0 0 2px 1px #ccc;
+    -moz-box-shadow: 0 0 2px 1px #ccc;
+    box-shadow: 0 0 2px 1px #ccc;
+}
+
+.diffSignup>img
+{
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: top;
+}
+.diffSignup>span
+{
+	color: #656060;
+	font: 14px raleway;
+	line-height: 24px;
+	margin-left: 5px;
+}
+#signupRight
+{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	text-align: left;
+	position: relative;
+}
+#createAccount
+{
+	margin-top:100px;
+	font: 13px raleway;
+	color: #656060;
+}
+#accountExists
+{
+	font: 13px raleway;
+	color: #656060;
+	margin-top:20px;
+}
+#createAccount:hover,#accountExists:hover
+{
+	cursor: pointer;
+	color: #6d93ff;
+}
+.signupFormBox
+{
+	padding: 2px 5px 2px;
+	font: 14px raleway;
+	-webkit-box-shadow: 0 0 2px 1px #ccc;
+    -moz-box-shadow: 0 0 2px 1px #ccc;
+    box-shadow: 0 0 2px 1px #ccc;
+    border: 0;
+    color: #464647;
+    height: 20px;
+    width: 150px;
+    display: block;
+    margin-bottom:10px;
+}
+
+.signupFormButton
+{
+	
+	font: 14px raleway;
+	border: 0;
+	
+	display: block;
+	margin-top: 10px;
+	height: 22px;
+	padding: 2px;
+		
+}
+
+#loginForm #loginButton
+{
+	background-color: #6d93ff;
+	color: white;
+}
+#signupForm
+{
+	margin-top:15px;
+}
+#signupForm #signupButton
+{
+	color:#464647;
+	background-color:#f9fad0;
+	border:1px solid #999;
+
+}
+
+
+@media screen and (max-width:800px){
+	header
+	{
+		min-width: 800px;
+		
+	}
+	#logo 
+	{
+		width: 60%;
+	}
+	#logo > img
+	{
+		max-width: 100%;
+	}
+	#smallMenu
+	{
+		display: block;
+	}
+	#menuWrapper,#menuBar
+	{
+		max-width: 800px;
+		min-width: 800px;
+		height: auto;
+
+	}
+	#menuBar
+	{
+		display: none;
+
+	}
+	
+	#menuList li
+	{
+		width: 100%;
+		box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	background: #f5f5f5;
+
+	}
+	#menuList li:last-child
+	{
+		display: none;
+	}
+	#smallSearchBox
+	{
+		display: block;
+		width: 800px;
+		min-height: 5px;
+		text-align: center;
+		position: relative;
+		background-color: #f5f5f5;
+	}
+	#smallSearchBox .SearchBox
+	{
+		margin:10px auto;
+	}
+}

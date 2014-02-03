@@ -128,7 +128,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Jharkhand/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Jharkhand/cm.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Hemant Soren</a></div>
 						<div class="mparty"><a href="">JMM</a></div>
@@ -141,7 +141,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Jharkhand/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Jharkhand/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Syed Ahmed</div>
 						<div class="mparty"></div>
@@ -157,7 +157,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Jharkhand/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Jharkhand/1.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Yashwant Sinha</a></div>
 						<div class="mparty"><a href="">BJP</a></div>
@@ -165,7 +165,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Jharkhand/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Jharkhand/2.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Arjun Munda</a></div>
 						<div class="mparty"><a href="">BJP</a></div>
@@ -173,7 +173,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Jharkhand/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Jharkhand/3.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Shibu Soren</a></div>
 						<div class="mparty"><a href="">JMM</a></div>

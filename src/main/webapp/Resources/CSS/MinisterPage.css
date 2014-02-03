@@ -108,5 +108,8 @@ img
 .PartyImage
 {
 	width:35px;
-	height:auto;	
+	height:auto;
+	border-radius:50px;
+	border:1px solid #dadada;
+	background-color:white;	
 }

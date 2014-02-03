@@ -195,7 +195,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Kerala/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Kerala/cm.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Oommen Chandy</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -208,7 +208,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Kerala/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Kerala/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Nikhil Kumar</div>
 						<div class="mparty"></div>
@@ -225,7 +225,7 @@ $(document).ready(function(){
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
 					
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Kerala/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Kerala/2.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">A.K Antony</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -234,7 +234,7 @@ $(document).ready(function(){
 						
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Kerala/1.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Kerala/1.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">K.V Thomas</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -243,7 +243,7 @@ $(document).ready(function(){
 						
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/Kerala/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Kerala/3.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Shashi Tharoor</a></div>
 						<div class="mparty"><a href="">INC</a></div>

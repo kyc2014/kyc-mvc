@@ -16,9 +16,9 @@
 					           
 					    </ul>
 					    <div id="footerSocial">
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/fb.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/gp.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/t.png"/></div>
+						    <div class="SocialImage"><a href="www.facebook.com/knowyourcandidate"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/fb.png"/></a></div>
+						    <div class="SocialImage"><a href="www.google.com/"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/gp.png"/></a></div>
+						    <div class="SocialImage"><a href="www.twitter.com/"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/t.png"/></div>
 						   
 					    
 					    </div>
