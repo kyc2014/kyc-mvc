@@ -114,9 +114,9 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vijay Bahuguna</a></div>
+						<div class="mname"><a href="">Harish Rawat</a></div>
 						<div class="mparty"><a href="">INC</a></div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/governor.png">
 						<div class="mphotoDetails">
 						<div class="mname">Aziz Qureshi</div>
 						<div class="mparty"></div>
@@ -143,27 +143,27 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Deve Gowda</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former PM</div>
+						<div class="mname"><a href="">Bhuwan Chandra Khanduri</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.H Muniyappa</a></div>
+						<div class="mname"><a href="">Vijay Bahuguna</a></div>
 						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former CM</div>
+						<div class="mname"><a href="">Pradeep Tamta</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Member of Lok Sabha </div>
 						</div>
 					</div>
 				</div>
