@@ -4,7 +4,7 @@
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
  <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/menu.js"></script>
 <header>
-<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" />
+<a href="<c:out value="${pageContext.request.contextPath}"/>/"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <div id="logArea">
 Login/Sign Up
 </div>
