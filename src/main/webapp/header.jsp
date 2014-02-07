@@ -13,8 +13,8 @@ Login/Sign Up
 <div id="menuWrapper">
 <div id="menuContainer">
 <ul id="menuList">
-<li><a href="<c:out value="${pageContext.request.contextPath}"/>/web/ministers/list/1">Home</a></li>
-<li><a href="<c:out value="${pageContext.request.contextPath}"/>/web/mla/tamilnadu/list/1">Assembly Candidates</a>
+<li><a href="<c:out value="${pageContext.request.contextPath}"/>/">Home</a></li>
+<li>Assembly Candidates
 <div id="assemblyCandidatesBox">
 <div class="assemblyStatesListColumn">
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/andaman-and-nicobar-islands/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/andaman-and-nicobar-islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
