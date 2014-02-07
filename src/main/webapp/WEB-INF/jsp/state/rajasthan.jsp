@@ -97,11 +97,11 @@ $(document).ready(function(){
 		{
 
 		var data1 = google.visualization.arrayToDataTable([
-          ['Year', 'DMK Alliance', 'AIADMK Alliance', 'Others'],
-          ['2011',  31,      203, 0],
-          ['2006',  163,      69, 2],
-          ['2001',  37,       196, 1],
-          ['1996',  221,      4, 9]
+          ['Year', 'BJP', 'INC', 'Others'],
+          ['2013',  163,      21, 16],
+          ['2008',  78,      96, 26],
+          ['2003',  120,       56, 24],
+          ['1998',  33,      153, 14]
         ]);
 
         var options1 = {
@@ -178,7 +178,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			TAMIL NADU
+			RAJASTHAN
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
@@ -194,10 +194,10 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/jayalalitha.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">J.Jayalalitha</a></div>
-						<div class="mparty"><a href="">AIADMK</a></div>
+						<div class="mname"><a href="">Vasundhara Raje</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
 						</div>
 					</div>
 					
@@ -207,9 +207,9 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/rosaiah.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/governor.png">
 						<div class="mphotoDetails">
-						<div class="mname">K.Rosiah</div>
+						<div class="mname">Margaret Alva</div>
 						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
@@ -223,27 +223,27 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/chidambaram.png">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">P.Chidambaram</a></div>
+						<div class="mname"><a href="">Jitendra Singh</a></div>
 						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Union Finance Minister</div>
+						<div class="mpost">Ministers Of State (Independent Charges) - Youth Affairs and Sports</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/karunanidhi.png">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">M.Karunanidhi</a></div>
-						<div class="mparty"><a href="">DMK</a></div>
-						<div class="mpost">Party President</div>
+						<div class="mname"><a href="">Sachin Pilot</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Ministers Of State (Independent Charges) - Corporate Affairs</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/vijayakanth.png">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vijayakanth</a></div>
-						<div class="mparty"><a href="">DMDK</a></div>
-						<div class="mpost">Party President</div>
+						<div class="mname"><a href="">Ashok Gehlot</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 				</div>
@@ -252,14 +252,12 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">AIADMK</a>
 			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">CPI</a>
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">DMDK</a>
-			    <a href="" class="PartiesList">DMK</a>
 			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">PMK</a>
+			    <a href="" class="PartiesList">IND</a>
+			    <a href="" class="PartiesList">BSP</a>
+			    <a href="" class="PartiesList">CPM</a>
+			    
 
 			</div>
 		</div>
