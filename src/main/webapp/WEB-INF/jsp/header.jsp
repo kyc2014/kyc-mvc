@@ -2,13 +2,13 @@
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/menu.js"></script>
+ <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/menu.js"></script>
 <header>
 <img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" />
 <div id="logArea">
 Login/Sign Up
 </div>
-</header>
+</header>	
 <div id="menuBar">
 <div id="menuWrapper">
 <div id="menuContainer">
@@ -56,7 +56,7 @@ Login/Sign Up
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/tamil-nadu/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/tamil-nadu.png" /></span><span class="stateName">Tamil Nadu</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/tripura/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/tripura.png" /></span><span class="stateName">Tripura</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/uttar-pradhesh/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/uttar-pradhesh.png" /></span><span class="stateName">Uttar Pradesh</span></a>
-<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/uttarkhand/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/uttarkhand.png" /></span><span class="stateName">Uttarakhand</span></a>
+<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/uttarakhand/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/uttarakhand.png" /></span><span class="stateName">Uttarakhand</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/west-bengal/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/west-bengal.png" /></span><span class="stateName">West Bengal</span></a>
 </div>
 </div>
