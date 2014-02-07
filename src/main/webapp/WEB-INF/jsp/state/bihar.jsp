@@ -13,8 +13,6 @@
 </head>
 <body>
 <jsp:include page="../header.jsp" />
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
-
 <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization',
        'version':'1','packages':['timeline','corechart']}]}"></script>
 
