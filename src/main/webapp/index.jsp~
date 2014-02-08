@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}" />/Resources/Libraries/jquery-2.0.2.min.js"></script>
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/menu.js"></script>
 </head>
 <body>
 <jsp:include page="header.jsp" />

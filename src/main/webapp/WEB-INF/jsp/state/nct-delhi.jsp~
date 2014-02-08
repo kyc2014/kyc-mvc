@@ -45,9 +45,9 @@ $(document).ready(function(){
 		var data1 = google.visualization.arrayToDataTable([
           ['Year',  'AAP','BJP','INC','Others'],
           ['2013',28,31,8,3 ],
-          ['2008',0,43,23,4]
+          ['2008',0,43,23,4],
           ['2003',0,20,47,3],
-          ['1998', 0,15,52,3 ],
+          ['1998', 0,15,52,3 ]
          
           
          
@@ -76,30 +76,17 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-			  ['Edouard Goubert','INC',new Date(1963, 7, 1), new Date(1964, 8, 24) ],
-			  [ 'V. Venkatasubha Reddiar', 'INC',  new Date(1964, 9, 11),  new Date(1967,4,9) ],
-		  	  [ 'M. O. H. Farook', 'INC',  new Date(1967,4,9),  new Date(1968,3,6) ],
-		  	  [ 'V. Venkatasubha Reddiar', 'INC',  new Date(1968,3,6),  new Date(1968,9,18) ],
-		  	  [ 'President rule', '',new Date(1968,9,18),  new Date(1969,3,17)],
-		  	  [ 'M. O. H. Farook', 'DMK',  new Date(1969,3,17),  new Date(1974,1,3) ],
-		  	  [ 'President rule', '',  new Date(1974,1,3),  new Date(1974,3,6) ],
-		  	  [ 'Subramanyan ramaswamy', 'AIADMK',  new Date(1974,3,6),  new Date(1974,3,24) ],
-		  	  [ 'President rule', '',  new Date(1974,3,24),  new Date(1977,7,2) ],
-		  	  [ 'Subramanyan ramaswamy', 'AIADMK',  new Date(1977,7,2),  new Date(1978,11,12) ],
-		  	  [ 'President rule', '',  new Date(1978,11,12),  new Date(1980,1,16) ],
-		  	  [ 'M. D. R. Ramachandran', 'DMK',  new Date(1980,1,16),  new Date(1983,6,24) ],
-		  	  [ 'President rule', '',  new Date(1983,6,24),  new Date(1985,3,16) ],
-		  	  [ 'M. O. H. Farook', 'INC',  new Date(1985,3,16),  new Date(1990,3,4) ],
-		  	  [ 'M. D. R. Ramachandran', 'DMK',  new Date(1990,3,4),  new Date(1991,3,3) ],
-		  	  [ 'President rule', '',  new Date(1991,3,3),  new Date(1991,7,4) ],
-		  	  [ 'V. Vaithilingam', 'INC',  new Date(1991,7,4),  new Date(1996,5,13) ],
-		  	  [ 'R. V. Janakiraman', 'DMK',  new Date(1996,5,13),  new Date(2000,3,21) ],
-	  	      [ 'P. Shanmugam', 'INC',  new Date(2000,3,21),  new Date(2001,5,15) ],
-	  	   	  [ 'P. Shanmugam', 'INC',  new Date(2001,5,15),  new Date(2001,8,26) ],
-	  	      [ 'N. Rangaswamy', 'INC',  new Date(2001,8,26),  new Date(2006,5,12) ],
-	  	      [ 'N. Rangaswamy', 'INC',  new Date(2006,5,12),  new Date(2008,9,4) ],
-	  	      [ 'V. Vaithilingam', 'INC',  new Date(2008,9,4),  new Date(2011,5,14) ],
-	  	      [ 'N. Rangaswamy', 'INC',  new Date(2011,5,14),  new Date() ],
+			 ['Chaudhary Brahm Prakash',' INC',new Date(1952,0,0),new Date(1955,0,0)],
+ 			['G N Singh',' INC',new Date(1955,0,0),new Date(1956,0,0)],
+			['President\'s Rule',' ',new Date(1956,0,0),new Date(1993,0,0)],
+			['Madan Lal Khurana',' BJP',new Date(1993,0,0),new Date(1996,0,0)],
+			['Sahib Singh Verma',' BJP',new Date(1996,0,0),new Date(1998,0,0)],
+			['Sushma Swaraj',' BJP',new Date(1998,0,0),new Date(1998,0,0)],
+			['Sheila Dikshit',' INC',new Date(1998,0,0),new Date(2003,0,0)],
+			['Sheila Dikshit',' INC',new Date(2003,0,0),new Date(2008,0,0)],
+			['Sheila Dikshit',' INC',new Date(2008,0,0),new Date(2013,0,0)],
+			['Arvind Kejriwal',' Aam Aadmi Party',new Date(2013,0,0),new Date()]
+
 		    
 		    
 
@@ -132,10 +119,10 @@ $(document).ready(function(){
 			DELHI
 			</div>
 			<div id="dof">
-				<span>Date of Formation - </span><span id="dofValue">1 July 1963</span>
+				<span>Date of Formation - </span><span id="dofValue">1911</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">7</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -145,22 +132,22 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Puducherry/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/nct-delhi/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">N.Rangaswamy</a></div>
-						<div class="mparty"><a href="">AINRC</a></div>
+						<div class="mname"><a href="">Arvind Kejriwal</a></div>
+						<div class="mparty"><a href="">Aam Aadmi Party</a></div>
 						</div>
 					</div>
 					
 				</div>
 				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
-					Lieutenant-Governor
+					Lieutenant Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Puducherry/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/nct-delhi/governor.png">
 						<div class="mphotoDetails">
-						<div class="mname">Virendra Kataria</div>
+						<div class="mname">Najeeb Jung</div>
 						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
@@ -174,7 +161,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Puducherry/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/nct-delhi/1.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Sheila Dikshit</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -182,19 +169,19 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Puducherry/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/nct-delhi/2.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Krishna Tirath</a></div>
 						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State(Independent Charges) - Women and Child Development</div>
+						<div class="mpost">Minister of State (Independent Charges) - Women and Child Development</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Puducherry/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/nct-delhi/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Arvind Kejriwal</a></div>
-						<div class="mparty"><a href="">AAP</a></div>
-						<div class="mpost">Party Leader</div>
+						<div class="mname"><a href="">Dr. Harsh Vardhan</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mpost">Delhi Cheif Minister Candidate</div>
 						</div>
 					</div>
 				</div>
