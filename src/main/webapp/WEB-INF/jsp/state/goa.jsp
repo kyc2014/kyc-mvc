@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Andhra Pradhesh</title>
+<title>Goa</title>
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
@@ -38,11 +38,11 @@ $(document).ready(function(){
 		{
 
 		var data1 = google.visualization.arrayToDataTable([
-          ['Year', 'SDF', 'INC', 'SSP','Others'],
-          ['2009',  32,      0, 0,0],
-          ['2004',  31,     1, 0,0],
-          ['1999',  24,      0, 7,1],
-          ['1994',  19,    2, 10,1]
+          ['Year', 'BJP', 'INC', 'IND','Others'],
+          ['2012',  21,      9, 5,5],
+          ['2007',  14,     16, 2,8],
+          ['2002',  17,      16, 1,6],
+          ['1999',  10,    21, 1,8]
         ]);
 /*total assembly const - 224*/
         var options1 = {
@@ -119,13 +119,13 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			SIKKIM
+			GOA
 			</div>
 			<div id="dof">
-				<span>Date of Formation - </span><span id="dofValue">16 May 1975</span>
+				<span>Date of Formation - </span><span id="dofValue">1987</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -135,10 +135,10 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/goa/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pawan Kumar Chamling</a></div>
-						<div class="mparty"><a href="">SDF</a></div>
+						<div class="mname"><a href="">Manohar Parrikar</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
 						</div>
 					</div>
 					
@@ -148,10 +148,10 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/goa/governor.png">
 						<div class="mphotoDetails">
-						<div class="mname">Shriniwas Dadasaheb Patil</div>
-						<div class="mparty">NCP</div>
+						<div class="mname">Bharat Vir Wanchoo</div>
+						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
 					</div>
@@ -164,27 +164,27 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/goa/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Deve Gowda</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former PM</div>
+						<div class="mname"><a href="">Digambar Kamat</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/goa/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.H Muniyappa</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
+						<div class="mname"><a href="">Shripad Naik</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mpost">Member of Parliament - Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/goa/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former CM</div>
+						<div class="mname"><a href="">Shantaram Naik</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Member of Parliament - Rajya Sabha</div>
 						</div>
 					</div>
 				</div>
@@ -194,9 +194,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">SDF</a>
+			    <a href="" class="PartiesList">BJP</a>
 			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">SHRP</a>
+			    <a href="" class="PartiesList">MAG</a>
 			    
 			   
 
@@ -207,7 +207,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Chief Ministers of Sikkim</div>
+		<div id="chiefMinistersHeading">Chief Ministers of Goa</div>
 		<div id="pastChiefMinisters" style="width:100%;height:400px">
 		</div>
 		
