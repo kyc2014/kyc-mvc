@@ -1,16 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
- <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
-<html>
 <head>
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/reset.css" />
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/state.css" />
+<title>Uttarakhand</title>
+<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
+<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/state.css">
+<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
+<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
 </head>
 <body>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
-
+<jsp:include page="../header.jsp" />
 <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization',
        'version':'1','packages':['timeline','corechart']}]}"></script>
 
@@ -149,25 +151,25 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Deve Gowda</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former PM</div>
+						<div class="mname"><a href="">Samir Ranjan Barman</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.H Muniyappa</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
+						<div class="mname"><a href="">*******</a></div>
+						<div class="mparty"><a href="">****</a></div>
+						<div class="mpost">*****</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former CM</div>
+						<div class="mname"><a href="">******</a></div>
+						<div class="mparty"><a href="">****</a></div>
+						<div class="mpost">*******</div>
 						</div>
 					</div>
 				</div>

@@ -151,25 +151,25 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Deve Gowda</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former PM</div>
+						<div class="mname"><a href="">Samir Ranjan Barman</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.H Muniyappa</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
+						<div class="mname"><a href="">*******</a></div>
+						<div class="mparty"><a href="">****</a></div>
+						<div class="mpost">*****</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former CM</div>
+						<div class="mname"><a href="">******</a></div>
+						<div class="mparty"><a href="">****</a></div>
+						<div class="mpost">*******</div>
 						</div>
 					</div>
 				</div>

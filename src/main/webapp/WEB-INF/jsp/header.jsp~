@@ -13,8 +13,8 @@ Login/Sign Up
 <div id="menuWrapper">
 <div id="menuContainer">
 <ul id="menuList">
-<li><a href="<c:out value="${pageContext.request.contextPath}"/>/web/ministers/list/1">Home</a></li>
-<li><a href="<c:out value="${pageContext.request.contextPath}"/>/web/mla/tamilnadu/list/1">Assembly Candidates</a>
+<li><a href="<c:out value="${pageContext.request.contextPath}"/>/">Home</a></li>
+<li>Assembly Candidates
 <div id="assemblyCandidatesBox">
 <div class="assemblyStatesListColumn">
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/andaman-and-nicobar-islands/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/andaman-and-nicobar-islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
@@ -23,7 +23,7 @@ Login/Sign Up
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/assam/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/assam.png" /></span><span class="stateName">Assam</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/bihar/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/bihar.png" /></span><span class="stateName">Bihar</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/chandigarh/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/chandigarh.png" /></span><span class="stateName">Chandigarh</span></a> 
-<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/chattisgarh/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/chattisgarh.png" /></span><span class="stateName">Chattisgarh</span></a>
+<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/chhattisgarh/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/chhattisgarh.png" /></span><span class="stateName">Chhattisgarh</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/dadra-and-nagar-haveli/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/dadra-and-nagar-haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/daman-and-diu/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/daman-and-diu.png" /></span><span class="stateName">Daman and Diu</span></a> 
 </div>
