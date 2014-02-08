@@ -38,11 +38,11 @@ $(document).ready(function(){
 		{
 
 		var data1 = google.visualization.arrayToDataTable([
-          ['Year', 'SDF', 'INC', 'SSP','Others'],
-          ['2009',  32,      0, 0,0],
-          ['2004',  31,     1, 0,0],
-          ['1999',  24,      0, 7,1],
-          ['1994',  19,    2, 10,1]
+          ['Year', 'BJP', 'INC','Others'],
+          ['2012',  115,      61,6],
+          ['2007',  117,     59,6],
+          ['2002',  127,      51,4],
+          ['1998',  117,    53,12]
         ]);
 /*total assembly const - 224*/
         var options1 = {
@@ -126,13 +126,13 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			SIKKIM
+			GUJARAT
 			</div>
 			<div id="dof">
-				<span>Date of Formation - </span><span id="dofValue">16 May 1975</span>
+				<span>Date of Formation - </span><span id="dofValue">1 May 1960</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">33</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -142,10 +142,10 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pawan Kumar Chamling</a></div>
-						<div class="mparty"><a href="">SDF</a></div>
+						<div class="mname"><a href="">Narendra Modi</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
 						</div>
 					</div>
 					
@@ -155,10 +155,10 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/governor.png">
 						<div class="mphotoDetails">
-						<div class="mname">Shriniwas Dadasaheb Patil</div>
-						<div class="mparty">NCP</div>
+						<div class="mname">Kamla Beniwal</div>
+						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
 					</div>
@@ -171,27 +171,27 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Deve Gowda</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former PM</div>
+						<div class="mname"><a href="">Bharatsinh Madhavsinh Solanki</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Ministers of State (Independent Charges) - Drinking Water and Sanitation</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.H Muniyappa</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
+						<div class="mname"><a href="">Keshubhai Patel</a></div>
+						<div class="mparty"><a href="">GPP</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/sikkim/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
-						<div class="mpost">Former CM</div>
+						<div class="mname"><a href="">Ahmed Patel</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Senior Leader (INC)</div>
 						</div>
 					</div>
 				</div>
@@ -201,9 +201,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">SDF</a>
+			    <a href="" class="PartiesList">BJP</a>
 			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">SHRP</a>
+			    <a href="" class="PartiesList">GPP</a>
 			    
 			   
 
@@ -214,7 +214,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Chief Ministers of Sikkim</div>
+		<div id="chiefMinistersHeading">Chief Ministers of Gujarat</div>
 		<div id="pastChiefMinisters" style="width:100%;height:400px">
 		</div>
 		
