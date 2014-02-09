@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Uttarakhand</title>
+<title>Tripura</title>
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
@@ -120,7 +120,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/cm.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/cm.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Manik Sarkar</a></div>
 						<div class="mparty"><a href="">CPI(M)</a></div>
@@ -133,7 +133,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/governor.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/governor.png">
 						<div class="mphotoDetails">
 						<div class="mname">Devanand Konwar</div>
 						<div class="mparty"></div>
@@ -149,27 +149,27 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/1.jpg">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Samir Ranjan Barman</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Former CM</div>
+						<div class="mname"><a href="">Khagen Das</a></div>
+						<div class="mparty"><a href="">CPI(M)</a></div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/2.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">*******</a></div>
-						<div class="mparty"><a href="">****</a></div>
-						<div class="mpost">*****</div>
+						<div class="mname"><a href="">Baju Ban Riyan</a></div>
+						<div class="mparty"><a href="">CPI(M)</a></div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/3.jpg">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/tripura/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">******</a></div>
-						<div class="mparty"><a href="">****</a></div>
-						<div class="mpost">*******</div>
+						<div class="mname"><a href="">Jharna Das</a></div>
+						<div class="mparty"><a href="">CPI(M)</a></div>
+						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
 				</div>

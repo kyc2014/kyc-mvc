@@ -196,7 +196,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/cm.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/rajasthan/cm.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Vasundhara Raje</a></div>
 						<div class="mparty"><a href="">BJP</a></div>
@@ -209,7 +209,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/governor.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/rajasthan/governor.png">
 						<div class="mphotoDetails">
 						<div class="mname">Margaret Alva</div>
 						<div class="mparty"></div>
@@ -225,7 +225,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/1.png">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/rajasthan/1.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Jitendra Singh</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -233,7 +233,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/2.png">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/rajasthan/2.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Sachin Pilot</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -241,7 +241,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/Rajasthan/3.png">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/rajasthan/3.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Ashok Gehlot</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -258,7 +258,7 @@ $(document).ready(function(){
 			    <a href="" class="PartiesList">INC</a>
 			    <a href="" class="PartiesList">IND</a>
 			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">CPM</a>
+			    <a href="" class="PartiesList">NPP</a>
 			    
 
 			</div>
@@ -268,6 +268,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
+		<div id="chiefMinistersHeading">Chief Ministers of Rajasthan</div>
 		<div id="pastChiefMinisters" style="width:100%;height:400px">
 		</div>
 		

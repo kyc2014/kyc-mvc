@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Mizoram</title>
+<title>Meghalaya</title>
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
@@ -38,13 +38,13 @@ $(document).ready(function(){
 		{
 
 		var data1 = google.visualization.arrayToDataTable([
-          ['Year', 'INC', 'MNF', 'MPC','ZNP','Others'],
-          ['2013',  32,      5, 0,0,0],
-          ['2008',  32,     3, 2,2,0],
-          ['2003',  12,       21, 3,2,1],
-          ['1998',  6,    21, 12,0,1]
+          ['Year', 'INC', 'UDP', 'IND','Others'],
+          ['2013',  29,      8, 13,10],
+          ['2008',  25,     11, 5,18],
+          ['2003',  22,       9, 5,24],
+          ['1998',  25,    20, 5,10]
         ]);
-/*total assembly const - 40*/
+/*total assembly const - 224*/
         var options1 = {
           title: 'Past Legislative Assembly Elections',
           titleTextStyle:{color:'#7c7878',bold:false,fontName:'opensans',fontSize:'18'},
@@ -68,18 +68,34 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Ch. Chhunga','Mizo Union',new Date(1972, 5, 3), new Date(1977, 5, 10) ],
-		    [ 'President\'s Rule', '',  new Date(1977, 5, 11),  new Date(1978, 6, 1) ],
-		  [ 'Thenphunga Sailo','MPC' , new Date(1978, 6, 2),  new Date(1978,11,10) ],
-		    [ 'President\'s Rule', '', new Date(1978,11,10),  new Date(1979, 5, 8) ],
-		    [ 'Thenphunga Sailo','MPC', new Date(1979, 5, 8), new Date(1984, 5,4) ],
-		    ['Pu Lalthanhawla','INC',new Date(1984,5,5),new Date(1986,8,20)],
-		    ['Pu Laldenga','MNF',new Date(1986,8,21),new Date(1988,9,7)],
-		    ['President\'s rule','',new Date(1988,9,7),new Date(1989,1,24)],
-		    ['Pu Lalthanhawla','INC',new Date(1989,1,24),new Date(1998,12,3)],
-		    ['Pu Zoramthanga','MNF',new Date(1998,12,3),new Date(2008,12,11)],
-		    ['Pu Lalthanhawla','INC',new Date(2008,12,11),new Date()]
-		    
+		  ['Williamson A. Sangma','APHLC',new Date(1970,4,2),new Date(1972,7,21)],
+		['W.A. Sangma','APHLC',new Date(1972,7,21),new Date(1973,3,18)],
+		['W.A. Sangma','APHLC',new Date(1973,3,18),new Date(1976,11,21)],
+		['W.A. Sangma','INC',new Date(1976,11,22),new Date(1978,3,3)],
+		['Darwin Diengdoh Pugh','APHLC',new Date(1978,3,10),new Date(1979,2,21)],
+		['Darwin Diengdoh Pugh','APHLC',new Date(1979,2,21),new Date(1979,5,6)],
+		['B.B. Lyngdoh','APHLC',new Date(1979,5,7),new Date(1981,5,7)],
+		['W.A. Sangma','INC',new Date(1981,5,7),new Date(1983,2,24)],
+		['B.B. Lyngdoh','APHLC',new Date(1983,3,2),new Date(1983,3,31)],
+		['W.A. Sangma','INC',new Date(1983,4,2),new Date(1988,2,5)],
+		['P.A. Sangma','INC',new Date(1988,2,6),new Date(1990,3,25)],
+		['B.B. Lyngdoh','HPU',new Date(1990,3,26),new Date(1991,10,10)],
+		['President\'s rule','',new Date(1991,10,11),new Date(1992,2,5)],
+		['D.D. Lapang','INC',new Date(1992,2,5),new Date(1993,2,19)],
+		['S.C. Marak','INC',new Date(1993,2,19),new Date(1998,2,27)],
+		['S.C. Marak','INC',new Date(1998,2,27),new Date(1998,3,10)],
+		['B.B. Lyngdoh','UDP',new Date(1998,3,10),new Date(2000,3,8)],
+		['E.K. Mawlong','UDP',new Date(2000,3,8),new Date(2001,12,8)],
+		['Flinder Anderson Khonglam','Independent',new Date(2001,12,8),new Date(2003,3,4)],
+		['D.D. Lapang','INC',new Date(2003,3,4),new Date(2006,6,15)],
+		['J. D. Rymbai','INC',new Date(2006,6,15),new Date(2007,3,10)],
+		['D.D. Lapang','INC',new Date(2007,3,10),new Date(2008,3,4)],
+		['D.D. Lapang','INC',new Date(2008,3,4),new Date(2008,3,19)],
+		['Donkupar Roy','UDP',new Date(2008,3,19),new Date(2009,3,18)],
+		['President\'s rule','',new Date(2009,3,18),new Date(2009,5,12)],
+		['D.D. Lapang','INC',new Date(2009,5,13),new Date(2010,4,19)],
+		['Mukul Sangma','INC',new Date(2010,4,20),new Date()]
+
 
 
 		    ]);
@@ -107,13 +123,13 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			MIZORAM
+			MEGHALAYA
 			</div>
 			<div id="dof">
-				<span>Date of Formation - </span><span id="dofValue">20 February 1987</span>
+				<span>Date of Formation - </span><span id="dofValue">21 January 1972</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -123,9 +139,9 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/mizoram/cm.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/meghalaya/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Lal Thanhawla</a></div>
+						<div class="mname"><a href="">Mukul Sangma</a></div>
 						<div class="mparty"><a href="">INC</a></div>
 						</div>
 					</div>
@@ -136,9 +152,9 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/mizoram/governor.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/meghalaya/governor.png">
 						<div class="mphotoDetails">
-						<div class="mname">Vakkom Purushothaman</div>
+						<div class="mname">Krishan Kant Paul</div>
 						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
@@ -152,27 +168,27 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/mizoram/1.png">
+					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/meghalaya/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pu Zoramthanga</a></div>
-						<div class="mparty"><a href="">MNF</a></div>
-						<div class="mpost">Party President, Former CM</div>
+						<div class="mname"><a href="">Vincent H Pala</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/mizoram/2.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/meghalaya/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Thenphunga Sailo</a></div>
-						<div class="mparty"><a href="">MPC</a></div>
-						<div class="mpost">Former CM</div>
+						<div class="mname"><a href="">Agatha K. Sangma</a></div>
+						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/mizoram/3.png">
+						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/meghalaya/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">C.L Ruala</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">MP-LokSabha</div>
+						<div class="mname"><a href="">Thomas A Sangma</a></div>
+						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
 				</div>
@@ -183,9 +199,8 @@ $(document).ready(function(){
 			<div id="partiesInfoCont">
 			    
 			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">MNF</a>
-			    <a href="" class="PartiesList">MPC</a>
-			       <a href="" class="PartiesList">ZNF</a>
+			    <a href="" class="PartiesList">UDP</a>
+			    <a href="" class="PartiesList">IND</a>
 			    
 			   
 
@@ -196,7 +211,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Chief Ministers of Mizoram</div>
+		<div id="chiefMinistersHeading">Chief Ministers of Meghalaya</div>
 		<div id="pastChiefMinisters" style="width:100%;height:400px">
 		</div>
 		
