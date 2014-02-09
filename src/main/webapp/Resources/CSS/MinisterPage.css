@@ -113,3 +113,19 @@ img
 	border:1px solid #dadada;
 	background-color:white;	
 }
+#pager li
+{
+	display:inline;
+	width:50px;
+	heigth:50px;
+	border:1px solid #EAEAEA;
+	border-radius:25px;
+	padding:5px;
+	color:#EAEAEA;
+	transition:background-color ease-in;
+}
+#pager li:hover
+{
+	background-color: #63d9f4;
+	color:white;	
+}

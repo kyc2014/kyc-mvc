@@ -95,10 +95,7 @@ public class CandidateDaoImpl implements CandidateDao{
 			candidate.setConstituency((String)row.get("candidate_constituency"));
 			candidate.setPartyName((String)row.get("party"));
 			candidate.setSupporters((String)row.get("supporters"));
-			candidateList.add(candidate);
 		}
-		
-	 
 		return candidateList;
 	}
 }

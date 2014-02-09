@@ -71,7 +71,7 @@ Login/Sign Up
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
             <div id="signupLeft">
-              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gsignup.png" alt=""><span>Sign up using Google</span></div>
+              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gp.png" alt=""><span>Sign up using Google</span></div>
               <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/fb.png" alt=""><span>Sign up using Facebook</span></div>
               
             </div>
