@@ -73,8 +73,8 @@ $(document).ready(function(){
 		    [ 'B.C.Khanduri', 'BJP', new Date(2007,3,8),  new Date(2009, 6, 23) ],
 		    [ 'Ramesh Pokhriyal Nishank','BJP', new Date(2009, 6, 24), new Date(2011, 9, 10) ],
 		    ['B.C.Khanduri','BJP',new Date(2011,9,11),new Date(2012,3,13)],
-		    ['Vijay Bahuguna','INC',new Date(2012,3,13),new Date()]
-		    
+		    ['Vijay Bahuguna','INC',new Date(2012,3,13),new Date(/*2014,1,31*/)]
+		    /*['Harish Rawat','INC',new Date(2014,2,1),new Date()]*/
 		    ]);
 			var options2 = {
 				timeline:{
@@ -147,7 +147,7 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/uttarakhand/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Bhuwan Chandra Khanduri</a></div>
+						<div class="mname"><a href="">B. C. Khanduri</a></div>
 						<div class="mparty"><a href="">BJP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
@@ -165,7 +165,7 @@ $(document).ready(function(){
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Pradeep Tamta</a></div>
 						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Member of Lok Sabha </div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 				</div>

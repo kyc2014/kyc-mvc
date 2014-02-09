@@ -46,7 +46,7 @@ Login/Sign Up
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/meghalaya/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/meghalaya.png" /></span><span class="stateName">Meghalaya</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/mizoram/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/mizoram.png" /></span><span class="stateName">Mizoram</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/nagaland/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/nagaland.png" /></span><span class="stateName">Nagaland</span></a>
-<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/orissa/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/orissa.png" /></span><span class="stateName">Orissa</span></a>
+<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/odisha/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/odisha.png" /></span><span class="stateName">Odisha</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/puducherry/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
 </div>
 <div class="assemblyStatesListColumn">
