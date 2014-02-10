@@ -46,6 +46,15 @@ http://www.springframework.org/schema/mvc
 		<property name="candidateDao" ref="candidateDao" />
 	</bean>
 	
+	<bean id="feedbackDao" class="net.kyc.spring.web.feedback.dao.FeedbackDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="feedbackService"
+		class="net.kyc.spring.web.feedback.service.FeedbackServiceImpl">
+		<property name="feedbackDao" ref="feedbackDao" />
+	</bean>
+	
 	<bean id="userDao"
 		class="net.kyc.spring.web.user.dao.impl.UserDaoImpl">
 		<property name="dataSource" ref="dataSource" />
