@@ -8,9 +8,11 @@
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/pagination.js"></script>
 <body>
 <jsp:include page="header.jsp" />
 <div id="wrapper">
+
 <c:forEach var="candidate" items="${candidate}" varStatus="candidateStatus">
 	<c:if test="${candidateStatus.index%3==0}">
 		<div class="Row">	
@@ -26,18 +28,9 @@
 	<c:if test="${candidateStatus.index%3==2}">
 		</div>
 	</c:if>
-</c:forEach>	
-<div id="pager">
-<ul>
-<li><a href="<c:out value="${pageContext.request.contextPath}" />/web/ministers/list/1">1</a></li>
-<li><a href="<c:out value="${pageContext.request.contextPath}" />/web/ministers/list/2">2</a></li>
-<li>....</li>
-<li><a href="<c:out value="${pageContext.request.contextPath}" />/web/ministers/list/"></a></li>
-<li>....</li>
-<li><a href="<c:out value="${pageContext.request.contextPath}" />/web/ministers/list/37">37</a></li>
-<li><a href="<c:out value="${pageContext.request.contextPath}" />/web/ministers/list/38">38</a></a></li>
-</ul>
-</div>
+</c:forEach>
+<select id="pager">
+</select>	
 </div>
 <jsp:include page="footer.jsp" />
 </body>

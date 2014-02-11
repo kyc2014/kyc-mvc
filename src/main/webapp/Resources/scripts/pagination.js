@@ -1,6 +1,8 @@
 $(document).ready(function(){
-		pageno=window.location.href;
-		for(j=pageno.length;j>0;j--)
-			if(pageno.charAt)
-		$("#pager").find("ul li:nth-child:(4)").find("a").attr("href","/web/ministers/list/"+pageno);
+	var s=$('#pager');
+	for(i=1;i<39;i++)
+		s[0].options[s[0].options.length]=new Option(i,i);
+	$('#pager').onchange(function(){
+		window.location.href="/kyc-mvc/web/ministers/list/"+$('#pager').val();		
+	});
 });
