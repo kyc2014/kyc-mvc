@@ -42,7 +42,7 @@
 		
 	</head>
 	<body>	
-	<jsp:include page="header.jsp" />
+	<jsp:include page="../../header.jsp" />
 <!--*********************************************************************candidate page ***********************************************************************-->
 		<div id="wrapperCP">
 			<div id="containerCP" class="Cont">

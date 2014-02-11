@@ -10,9 +10,8 @@
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/pagination.js"></script>
 <body>
-<jsp:include page="header.jsp" />
+<jsp:include page="../../header.jsp" />
 <div id="wrapper">
-
 <c:forEach var="candidate" items="${candidate}" varStatus="candidateStatus">
 	<c:if test="${candidateStatus.index%3==0}">
 		<div class="Row">	
@@ -29,8 +28,10 @@
 		</div>
 	</c:if>
 </c:forEach>
+<div class="Row">
 <select id="pager">
 </select>	
+</div>
 </div>
 <jsp:include page="footer.jsp" />
 </body>

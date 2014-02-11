@@ -99,11 +99,8 @@ public class UserController {
 	}
 	
 	@RequestMapping(value="/user/add", method=RequestMethod.POST)
-	public String addUser(@RequestParam(value="first_name", required=true) String firstName, 
-			@RequestParam("second_name") String secondName,
-			@RequestParam(value="email", required=true) String email,
+	public String addUser(	@RequestParam(value="email", required=true) String email,
 			@RequestParam(value="password", required=true) String password,
-			@RequestParam("constituency_code") int constituencyCode,
 			@RequestParam(value="dob", required=true) String dob,
 			@RequestParam(value="user_name", required=true) String userName,
 			@RequestParam(value="gender", required=true) String gender,
@@ -112,13 +109,10 @@ public class UserController {
 		User user = new User();
 		user.setUserName(userName);
 		//user.setUserId(userId);
-		user.setFirstName(firstName);
-		user.setSecondName(secondName);
 		user.setPassword(password);
 		user.setEmail(email);
 		user.setGender(gender);
 		user.setDob(dob);
-		user.setConstituencyCode(constituencyCode);
 		String status = userService.addUser(user);
 		System.out.println(status);
 		model.addAttribute("status", status);

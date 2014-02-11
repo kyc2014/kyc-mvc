@@ -12,7 +12,7 @@
 					        <li><a href="#">Contact Us-</a></li>
 					        <li><a href="#">PrivacyPolicy-</a></li>
 					        <li><a href="#">SiteMap-</a></li>
-					        <li><a href="#">Feedback </a></li>
+					        <li><a href="/feedback/">Feedback </a></li>
 					           
 					    </ul>
 					    <div id="footerSocial">

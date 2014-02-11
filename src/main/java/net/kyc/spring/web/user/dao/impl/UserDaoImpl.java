@@ -14,7 +14,7 @@ import net.kyc.spring.web.user.model.User;
 public class UserDaoImpl implements UserDao{
 
 	private JdbcTemplate jdbcTemplate;
-	public static String addUserSQL = "insert into users (user_name,first_name,second_name,dob,gender,password,email,points,constituency_code) values (?,?,?,?,?,?,?,?,?)";
+	public static String addUserSQL = "insert into users (user_name,first_name,dob,gender,password,email,points,constituency_code) values (?,?,?,?,?,?,?,?)";
 	public static String updateUserSQL = "select * from users where user_name=? OR email=?";
 	
 	public void setDataSource(DataSource dataSource) {
@@ -24,7 +24,7 @@ public class UserDaoImpl implements UserDao{
 	public String addUser(User userDetails) {
 		// TODO Auto-generated method stub
 		String msg = "";
-		Object[] params = new Object[] { userDetails.getUserName(), userDetails.getFirstName(), userDetails.getSecondName(), userDetails.getDob(), userDetails.getGender(), userDetails.getEmail(), userDetails.getPassword(), 100, userDetails.getConstituencyCode()};	
+		Object[] params = new Object[] { userDetails.getUserName(), userDetails.getFirstName(), userDetails.getDob(), userDetails.getGender(), userDetails.getEmail(), userDetails.getPassword(), 100, userDetails.getConstituencyCode()};	
 		int count  = jdbcTemplate.update(addUserSQL,params);
 		if (count==1)
 		{

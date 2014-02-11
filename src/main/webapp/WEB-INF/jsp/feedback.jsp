@@ -1,5 +1,10 @@
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<!DOCTYPE html>
 <head>
+<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
+<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script>
 $(function(){
@@ -40,5 +45,6 @@ Feedback:<textarea name="feedback" id="feedback"></textarea><br/>
 <button id="feedback_submit">Submit</button>
 </form>
 </div>
+<jsp:include page="footer.jsp" />
 </body>
 </html>
