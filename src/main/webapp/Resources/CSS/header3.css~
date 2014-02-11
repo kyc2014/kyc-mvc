@@ -193,7 +193,7 @@ padding:10px 0 0 10px;
 	{
 		padding-left:4px;
 	}
-	.stateTitle
+	#stateTitle
 	{
 		text-align:center;
 		font-size: 18px;
