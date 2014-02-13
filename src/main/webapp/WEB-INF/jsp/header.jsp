@@ -81,7 +81,7 @@ Login/Sign Up
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
             <div id="signupLeft">
-              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gsignup.png" alt=""><span>Sign up using Google</span></div>
+              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gp.png" alt=""><span>Sign up using Google</span></div>
               <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/fb.png" alt=""><span>Sign up using Facebook</span></div>
               
             </div>
@@ -92,11 +92,22 @@ Login/Sign Up
               <input type="submit" id="loginButton" value="Sign in" class="signupFormButton">
               </form>
               <div id="createAccount">Create an account with us !!</div>
-              <form id="signupForm">
-              <input type="text" placeholder="username" spellcheck="false" class="signupFormBox">
-              <input type="password" placeholder="password" spellcheck="false" class="signupFormBox">
-              <input type="text" placeholder="constituency" spellcheck="false" class="signupFormBox">
-              <input type="text" placeholder="email" spellcheck="false" class="signupFormBox">
+              <form id="signupForm" method="POST" action="<c:out value="${pageContext.request.contextPath}" />/web/user/add">
+              <input type="text" name="user_name" placeholder="username" spellcheck="false" class="signupFormBox">
+              <input type="password" name="password" placeholder="password" spellcheck="false" class="signupFormBox">
+              <input type="text" name="constituency" placeholder="constituency" spellcheck="false" class="signupFormBox">
+              <div id="constituencySuggest"></div>
+              <input type="text" name="email" placeholder="email" spellcheck="false" class="signupFormBox">
+              <select name="date" id="date">
+              </select>
+              <select name="month" id="month">
+              </select>
+              <select name="year" id="year">
+              </select>
+              <select name="gender" id="gender">
+              <option>Male</option>
+              <option>Female</option>
+              </select>
               <input type="submit" id="signupButton" value="Sign up" class="signupFormButton">
               </form>
               <div id ="accountExists">Already have an account ?</div>
