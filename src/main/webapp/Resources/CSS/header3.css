@@ -354,7 +354,15 @@ padding:10px 0 0 10px;
 	border:1px solid #999;
 
 }
-
+#constituencySuggest
+{
+	width:200px;
+	height:300px;
+}
+#constituencySuggest li
+{
+	border-bottom:1px solid #EAEAEA;
+}
 
 @media screen and (max-width:800px){
 	header

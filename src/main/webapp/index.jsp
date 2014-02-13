@@ -152,43 +152,17 @@ Who do you think will be the next Prime Minister?
 </div>
 <div style="clear:both">
 </div>
-<footer id="footer">
 
-    <section id="footerContents">
-  <div id="copyright">
-    CopyRights(c) Reserved 2014 
-    </div>
-    <ul id="footerLinks">
-      <li><a href="">About-</a></li>
-        <li><a href="#">Contact Us</a>-</li>
-        <li><a href="#">PrivacyPolicy</a>-</li>
-        <li><a href="#">SiteMap</a>-</li>
-        <li><a href="#">Feedback</a></li>
-         
-        
-    </ul>
-    <div id="footerSocial">
-    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/fb.png"/></div>
-    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gp.png"/></div>
-    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/t.png"/></div>
-   
-    
-    </div>
-    </section>
-    <div id="madeWithLove">
-          Proudly made with <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/heart.svg"> in INDIA
-    </div>
-    
-</footer>
 <div id="mask">
 </div>
+<jsp:include page="footer.jsp" />
 </body>
 <script type="text/javascript">
 $(function()
 {
-	$('#suggestionBox').css({"display":"none","left":$('#searchBox').position().left,"top":$('#searchBox').position().top+23,"position":"absolute"});
+	/*$('#suggestionBox').css({"display":"none","left":$('#searchBox').position().left,"top":$('#searchBox').position().top+23,"position":"absolute"});
 	$('#searchBox').focusin(function(e){$('#suggestionBox').fadeIn();});
-	$('#searchBox').focusout(function(e){$('#suggestionBox').fadeOut();});
+	$('#searchBox').focusout(function(e){$('#suggestionBox').fadeOut();});*/
 	$('#comicWrapper img').add('#cmcRightArrow').add('#cmcLeftArrow').hover(
 		function(){
 			$('#cmcRightArrow').add('#cmcLeftArrow').height($('#comic').height());

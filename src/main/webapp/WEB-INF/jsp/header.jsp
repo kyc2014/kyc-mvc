@@ -82,7 +82,7 @@ Login/Sign Up
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
             <div id="signupLeft">
-              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gsignup.png" alt=""><span>Sign up using Google</span></div>
+              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gp.png" alt=""><span>Sign up using Google</span></div>
               <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/fb.png" alt=""><span>Sign up using Facebook</span></div>
               
             </div>
@@ -97,11 +97,18 @@ Login/Sign Up
               <input type="text" name="user_name" placeholder="username" spellcheck="false" class="signupFormBox">
               <input type="password" name="password" placeholder="password" spellcheck="false" class="signupFormBox">
               <input type="text" name="constituency" placeholder="constituency" spellcheck="false" class="signupFormBox">
+<<<<<<< HEAD
+=======
+              <div id="constituencySuggest"></div>
+>>>>>>> 3c37b84eb50938be9931e57ece7078d966b7ff50
               <input type="text" name="email" placeholder="email" spellcheck="false" class="signupFormBox">
               <select name="date" id="date">
               </select>
               <select name="month" id="month">
+<<<<<<< HEAD
               <option></option>
+=======
+>>>>>>> 3c37b84eb50938be9931e57ece7078d966b7ff50
               </select>
               <select name="year" id="year">
               </select>
