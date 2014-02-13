@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/analytics.js"></script>
 </head>
 <body>
 <jsp:include page="../header.jsp" />
@@ -204,5 +205,6 @@ $(document).ready(function(){
 
 	</div><!-- end of container -->
 </div><!-- end of wrapper -->
+<jsp:include page="../footer.jsp" />
 </body>
 </html>

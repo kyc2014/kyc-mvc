@@ -69,7 +69,6 @@ Login/Sign Up
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 </div>
 </li>
