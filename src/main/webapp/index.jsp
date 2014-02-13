@@ -28,7 +28,7 @@
 <div id="contentWrapper">
 <div id="newsBarWrapper">
   <div id="newsBarLeft">
-      <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/left2.svg">
+      <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/left2.png">
   </div>
   <div id="newsBar">
   
@@ -68,7 +68,7 @@
   </div>
   </div>
   <div id="newsBarRight">
-        <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/right2.svg">
+        <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/right2.png">
   </div> 
 </div>
 <div id="mainContent">
