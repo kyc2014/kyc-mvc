@@ -60,12 +60,12 @@ Login/Sign Up
 
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/andaman-and-nicobar-islands/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/andaman-and-nicobar-islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
+<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/chandigarh/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/chandigarh.png" /></span><span class="stateName">Chandigarh</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/dadra-and-nagar-haveli/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/dadra-and-nagar-haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/daman-and-diu/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/daman-and-diu.png" /></span><span class="stateName">Daman and Diu</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/puducherry/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
-<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
@@ -97,18 +97,11 @@ Login/Sign Up
               <input type="text" name="user_name" placeholder="username" spellcheck="false" class="signupFormBox">
               <input type="password" name="password" placeholder="password" spellcheck="false" class="signupFormBox">
               <input type="text" name="constituency" placeholder="constituency" spellcheck="false" class="signupFormBox">
-<<<<<<< HEAD
-=======
               <div id="constituencySuggest"></div>
->>>>>>> 3c37b84eb50938be9931e57ece7078d966b7ff50
               <input type="text" name="email" placeholder="email" spellcheck="false" class="signupFormBox">
               <select name="date" id="date">
               </select>
               <select name="month" id="month">
-<<<<<<< HEAD
-              <option></option>
-=======
->>>>>>> 3c37b84eb50938be9931e57ece7078d966b7ff50
               </select>
               <select name="year" id="year">
               </select>

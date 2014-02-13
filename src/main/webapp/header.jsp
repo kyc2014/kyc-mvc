@@ -60,12 +60,12 @@ Login/Sign Up
 
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/andaman-and-nicobar-islands/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/andaman-and-nicobar-islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
+<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/chandigarh/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/chandigarh.png" /></span><span class="stateName">Chandigarh</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/dadra-and-nagar-haveli/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/dadra-and-nagar-haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/daman-and-diu/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/daman-and-diu.png" /></span><span class="stateName">Daman and Diu</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/puducherry/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
-<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>

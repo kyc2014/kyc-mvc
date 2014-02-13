@@ -60,6 +60,7 @@ Login/Sign Up
 
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/andaman-and-nicobar-islands/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/andaman-and-nicobar-islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
+<a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/chandigarh/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/chandigarh.png" /></span><span class="stateName">Chandigarh</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/dadra-and-nagar-haveli/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/dadra-and-nagar-haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/daman-and-diu/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/daman-and-diu.png" /></span><span class="stateName">Daman and Diu</span></a> 
 <a href="<c:out value="${pageContext.request.contextPath}"/>/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
@@ -82,7 +83,7 @@ Login/Sign Up
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
             <div id="signupLeft">
-              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gsignup.png" alt=""><span>Sign up using Google</span></div>
+              <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/gp.png" alt=""><span>Sign up using Google</span></div>
               <div class="diffSignup"><img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/fb.png" alt=""><span>Sign up using Facebook</span></div>
               
             </div>
@@ -97,11 +98,11 @@ Login/Sign Up
               <input type="text" name="user_name" placeholder="username" spellcheck="false" class="signupFormBox">
               <input type="password" name="password" placeholder="password" spellcheck="false" class="signupFormBox">
               <input type="text" name="constituency" placeholder="constituency" spellcheck="false" class="signupFormBox">
+              <div id="constituencySuggest"></div>
               <input type="text" name="email" placeholder="email" spellcheck="false" class="signupFormBox">
               <select name="date" id="date">
               </select>
               <select name="month" id="month">
-              <option></option>
               </select>
               <select name="year" id="year">
               </select>
