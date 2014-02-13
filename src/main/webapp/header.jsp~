@@ -3,6 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
  <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/menu.js"></script>
+ <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/analytics.js"></script>
 <header>
 <a href="<c:out value="${pageContext.request.contextPath}"/>/"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <div id="logArea">
@@ -92,11 +93,22 @@ Login/Sign Up
               <input type="submit" id="loginButton" value="Sign in" class="signupFormButton">
               </form>
               <div id="createAccount">Create an account with us !!</div>
-              <form id="signupForm">
-              <input type="text" placeholder="username" spellcheck="false" class="signupFormBox">
-              <input type="password" placeholder="password" spellcheck="false" class="signupFormBox">
-              <input type="text" placeholder="constituency" spellcheck="false" class="signupFormBox">
-              <input type="text" placeholder="email" spellcheck="false" class="signupFormBox">
+              <form id="signupForm" method="POST" action="<c:out value="${pageContext.request.contextPath}" />/web/user/add">
+              <input type="text" name="user_name" placeholder="username" spellcheck="false" class="signupFormBox">
+              <input type="password" name="password" placeholder="password" spellcheck="false" class="signupFormBox">
+              <input type="text" name="constituency" placeholder="constituency" spellcheck="false" class="signupFormBox">
+              <input type="text" name="email" placeholder="email" spellcheck="false" class="signupFormBox">
+              <select name="date" id="date">
+              </select>
+              <select name="month" id="month">
+              <option></option>
+              </select>
+              <select name="year" id="year">
+              </select>
+              <select name="gender" id="gender">
+              <option>Male</option>
+              <option>Female</option>
+              </select>
               <input type="submit" id="signupButton" value="Sign up" class="signupFormButton">
               </form>
               <div id ="accountExists">Already have an account ?</div>

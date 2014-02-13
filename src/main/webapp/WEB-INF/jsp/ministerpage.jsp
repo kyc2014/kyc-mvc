@@ -9,6 +9,7 @@
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/pagination.js"></script>
+<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/analytics.js"></script>
 <body>
 <jsp:include page="../../header.jsp" />
 <div id="wrapper">
