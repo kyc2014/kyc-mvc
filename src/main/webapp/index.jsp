@@ -5,14 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Know Your Candidate</title>
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css" />
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/generic2.css"/>
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css" />
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/SuggestionBox.css" />
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}" />/Resources/Libraries/jquery-2.0.2.min.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/generic2.css"/>
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css" />
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/SuggestionBox.css" />
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
+<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/Resources/scripts/signin.js"></script>
+<script type="text/javascript" src="/Resources/scripts/menu.js"></script>
 </head>
 <body>
 <jsp:include page="header.jsp" />
@@ -28,7 +28,7 @@
 <div id="contentWrapper">
 <div id="newsBarWrapper">
   <div id="newsBarLeft">
-      <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/left2.png">
+      <img src="/Resources/Images/left2.png">
   </div>
   <div id="newsBar">
   
@@ -68,7 +68,7 @@
   </div>
   </div>
   <div id="newsBarRight">
-        <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/right2.png">
+        <img src="/Resources/Images/right2.png">
   </div> 
 </div>
 <div id="mainContent">
@@ -88,7 +88,7 @@
       </div>
       <div style="clear:both"></div>
       <div id="content">
-      <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/congressThree.jpg"/>
+      <img src="/Resources/Images/congressThree.jpg"/>
       India National Congress was founded for the independence of India under the vision of 
       But hundreds of thousands of workers would be sent home. 
       Parks, museums and monuments would be closed. Medical research would be curtailed, and much federal loan processing halted. Social Security and Medicare checks would still go out â they come from a trust fund, not from discretionary payments â but new claims might be delayed.
@@ -125,7 +125,7 @@ Who do you think will be the next Prime Minister?
 <div id="comicWrapper">
 <div id="comicText">Comic<span class="arrow"></span></div>
 <div id="comicContainer">
-<div id="cmcLeftArrow"><</div><img id="comic" src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/Poor-Politics-In-India.jpg" /><div id="cmcRightArrow">></div>
+<div id="cmcLeftArrow"><</div><img id="comic" src="/Resources/Images/Poor-Politics-In-India.jpg" /><div id="cmcRightArrow">></div>
 <div id="cmcInfoBar">
   <img src="Resources/Images/heart.png" id="heart" width="29" height="24">
   <div id='comicLikes'>+145</div>

@@ -4,13 +4,13 @@
 <!DOCTYPE html>
 <head>
 <title>Jammu and Kashmir</title>
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/state.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/analytics.js"></script>
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
+<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/Resources/scripts/signin.js"></script>
+<script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
 </head>
 <body>
 <jsp:include page="../header.jsp" />
@@ -125,7 +125,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/jammu-and-kashmir/cm.jpg">
+						<img src="/Resources/images/state/jammu-and-kashmir/cm.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Omar Abdullah</a></div>
 						<div class="mparty"><a href="">JKN</a></div>
@@ -138,7 +138,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/jammu-and-kashmir/governor.jpg">
+						<img src="/Resources/images/state/jammu-and-kashmir/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Narinder Nath Vohra</div>
 						<div class="mparty"></div>
@@ -154,7 +154,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/jammu-and-kashmir/1.jpg">
+					<img src="/Resources/images/state/jammu-and-kashmir/1.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Ghulam Nabi Azad</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -162,7 +162,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/jammu-and-kashmir/2.jpg">
+						<img src="/Resources/images/state/jammu-and-kashmir/2.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Farooq Abdullah</a></div>
 						<div class="mparty"><a href="">JKN</a></div>
@@ -170,7 +170,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/jammu-and-kashmir/3.jpg">
+						<img src="/Resources/images/state/jammu-and-kashmir/3.jpg">
 						<div class="mphotoDetails">
 						<div class="mname"><a href=""></a>Mohammad Shafi Uri</div>
 						<div class="mparty"><a href="">JKN</a></div>

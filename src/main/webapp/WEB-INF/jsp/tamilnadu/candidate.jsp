@@ -5,14 +5,14 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/reset.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/CandidatePage.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/header.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/CandidatePage.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
 	</head>
 	<body>	
 	<!-- ********************************************************************************header **********************************************************************-->
-<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" />
+<img src="/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" />
 <div id="smallMenu">
 <div></div>
 <div></div>
@@ -45,7 +45,7 @@
 				<div id="innerContainerCP" >
 					<div id="topCP">
 						<section id="wcandidateImageCP" class="col">
-							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/mla/tamilnadu/<c:out value="${candidate.image}" />.png" id="candidateImageCP">
+							<img src="/Resources/images/mla/tamilnadu/<c:out value="${candidate.image}" />.png" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    <span id="partyNameCP"><span id="value"><c:out value="${candidate.party}" /></span></span></p>
@@ -53,7 +53,7 @@
 							<p id="supporterCP"><span id="supporterCount"><c:out value="${candidate.supporters}" /></span><span> supporters</span><span><button id="supporterButton" value="Support">&#10003; Support</button></span></p>
 						</section>
 						<section id="wpartyImageCP" class="col"> 
-							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/party/<c:out value="${candidate.party}"/>.png" alt="" id="partyImageCP">
+							<img src="/Resources/images/party/<c:out value="${candidate.party}"/>.png" alt="" id="partyImageCP">
 						</section>
 					
 						
@@ -104,9 +104,9 @@
 					           
 					    </ul>
 					    <div id="footerSocial">
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/fb.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/gp.png"/></div>
-						    <div class="SocialImage"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/t.png"/></div>
+						    <div class="SocialImage"><img src="/Resources/Images/fb.png"/></div>
+						    <div class="SocialImage"><img src="/Resources/Images/gp.png"/></div>
+						    <div class="SocialImage"><img src="/Resources/Images/t.png"/></div>
 						   
 					    
 					    </div>

@@ -4,13 +4,13 @@
 <!DOCTYPE html>
 <head>
 <title>Gujarat</title>
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/state.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/analytics.js"></script>
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
+<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/Resources/scripts/signin.js"></script>
+<script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
 </head>
 <body>
 <jsp:include page="../header.jsp" />
@@ -143,7 +143,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/cm.png">
+						<img src="/Resources/images/state/gujarat/cm.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Narendra Modi</a></div>
 						<div class="mparty"><a href="">BJP</a></div>
@@ -156,7 +156,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/governor.png">
+						<img src="/Resources/images/state/gujarat/governor.png">
 						<div class="mphotoDetails">
 						<div class="mname">Kamla Beniwal</div>
 						<div class="mparty"></div>
@@ -172,7 +172,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/1.png">
+					<img src="/Resources/images/state/gujarat/1.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Bharatsinh Madhavsinh Solanki</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -180,7 +180,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/2.png">
+						<img src="/Resources/images/state/gujarat/2.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Keshubhai Patel</a></div>
 						<div class="mparty"><a href="">GPP</a></div>
@@ -188,7 +188,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/gujarat/3.png">
+						<img src="/Resources/images/state/gujarat/3.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Ahmed Patel</a></div>
 						<div class="mparty"><a href="">INC</a></div>

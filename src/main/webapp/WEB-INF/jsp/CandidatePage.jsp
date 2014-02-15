@@ -6,17 +6,17 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/reset.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}"/>/Resources/CSS/Map.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/CandidatePage.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
-		<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/SuggestionBox.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/Map.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/CandidatePage.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/SuggestionBox.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script src="<c:out value="${pageContext.request.contextPath}" />/Resources/Libraries/jquery-2.0.2.min.js" /></script>
+		<script src="/Resources/Libraries/jquery-2.0.2.min.js" /></script>
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-		<script src="<c:out value="${pageContext.request.contextPath}" />/Resources/scripts/mapPlugin.js"></script>
-		<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/analytics.js"></script>
+		<script src="/Resources/scripts/mapPlugin.js"></script>
+		<script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
 		<style>
 		</style>
 		<script>
@@ -50,7 +50,7 @@
 				<div id="innerContainerCP" >
 					<div id="topCP">
 						<section id="wcandidateImageCP" class="col">
-							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/ministers/<c:out value="${candidate.name}" />.jpg" id="candidateImageCP">
+							<img src="/Resources/images/ministers/<c:out value="${candidate.name}" />.jpg" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    
@@ -58,7 +58,7 @@
 							<p id="genderCP"><span id="gender"><c:out value="${candidate.gender}" /></span> </p>
 						</section>
 						<section id="wpartyImageCP" class="col"> 
-							<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/party/<c:out value="${candidate.partyShortName}" />-RO.png" alt="" id="partyImageCP">
+							<img src="/Resources/images/party/<c:out value="${candidate.partyShortName}" />-RO.png" alt="" id="partyImageCP">
 						</section>
 					
 						

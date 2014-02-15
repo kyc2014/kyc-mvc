@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 
-<form method="POST" action="<c:out value="${pageContext.request.contextPath}"/>/web/user/add">
+<form method="POST" action="/web/user/add">
 First Name:<input name="first_name" type="text" value=""/><br/>
 Second Name:<input name="second_name" type="text" value=""/><br/>
 User Name:<input name="user_name" type="text" value=""/><br/>

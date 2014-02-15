@@ -4,13 +4,13 @@
 <!DOCTYPE html>
 <head>
 <title>Tamil Nadu</title>
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/reset.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/state.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/header3.css">
-<link rel="stylesheet" type="text/css" href="<c:out value="${pageContext.request.contextPath}" />/Resources/CSS/footer.css">
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Libraries/jquery-2.0.2.min.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/signin.js"></script>
-<script type="text/javascript" src="<c:out value="${pageContext.request.contextPath}"/>/Resources/scripts/analytics.js"></script>
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
+<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/Resources/scripts/signin.js"></script>
+<script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
 </head>
 <body>
 <jsp:include page="../header.jsp" />
@@ -194,7 +194,7 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/jayalalitha.png">
+						<img src="/Resources/images/state/TamilNadu/jayalalitha.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">J.Jayalalitha</a></div>
 						<div class="mparty"><a href="">AIADMK</a></div>
@@ -207,7 +207,7 @@ $(document).ready(function(){
 					Governor
 					</div>
 					<div class="mphoto">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/rosaiah.png">
+						<img src="/Resources/images/state/TamilNadu/rosaiah.png">
 						<div class="mphotoDetails">
 						<div class="mname">K.Rosiah</div>
 						<div class="mparty"></div>
@@ -223,7 +223,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/chidambaram.png">
+					<img src="/Resources/images/state/TamilNadu/chidambaram.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">P.Chidambaram</a></div>
 						<div class="mparty"><a href="">INC</a></div>
@@ -231,7 +231,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id="minister2" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/karunanidhi.png">
+						<img src="/Resources/images/state/TamilNadu/karunanidhi.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">M.Karunanidhi</a></div>
 						<div class="mparty"><a href="">DMK</a></div>
@@ -239,7 +239,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
-						<img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/images/state/TamilNadu/vijayakanth.png">
+						<img src="/Resources/images/state/TamilNadu/vijayakanth.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Vijayakanth</a></div>
 						<div class="mparty"><a href="">DMDK</a></div>

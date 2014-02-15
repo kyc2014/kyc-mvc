@@ -16,14 +16,14 @@
            
     </ul>
     <div id="footerSocial">
-	    <div class="SocialImage"><a href="http://www.facebook.com/knowyourcandidate"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/fb.png"/></a></div>
-	    <div class="SocialImage"><a href="http://www.google.com/"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/gp.png"/></a></div>
-	    <div class="SocialImage"><a href="http://www.twitter.com/"><img src="<c:out value="${pageContext.request.contextPath}"/>/Resources/Images/t.png"/></div>
+	    <div class="SocialImage"><a href="http://www.facebook.com/knowyourcandidate"><img src="/Resources/Images/fb.png"/></a></div>
+	    <div class="SocialImage"><a href="http://www.google.com/"><img src="/Resources/Images/gp.png"/></a></div>
+	    <div class="SocialImage"><a href="http://www.twitter.com/"><img src="/Resources/Images/t.png"/></div>
     </div>
 </section>
     
     <div id="madeWithLove">
-          Proudly made with <img src="<c:out value="${pageContext.request.contextPath}" />/Resources/Images/heart.svg"> in INDIA
+          Proudly made with <img src="/Resources/Images/heart.svg"> in INDIA
     </div>
     
 </footer>
