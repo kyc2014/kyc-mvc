@@ -2,3 +2,6 @@
 database.properties
 deploy.sh
 *.~
+.settings/
+.project
+.classpath
