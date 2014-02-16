@@ -6,9 +6,9 @@
  <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
 <header>
 <a href="/"><img src="/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
-<div id="logArea">
+<!--<div id="logArea">
 Login/Sign Up
-</div>
+</div>-->
 </header>	
 <div id="menuBar">
 <div id="menuWrapper">

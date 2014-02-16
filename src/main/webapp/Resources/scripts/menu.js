@@ -1,6 +1,6 @@
 $(function(){
 $('#assemblyCandidatesBox').hide();
-$('#menuList li:nth-child(2)').add('#assemblyCandidatesBox').hover(function(){$('#assemblyCandidatesBox').show()},function(){$('#assemblyCandidatesBox').hide()});
+$('#menuList li:nth-child(2)').hover(function(){$('#assemblyCandidatesBox').show()},function(){$('#assemblyCandidatesBox').hide()});
 for(i=1;i<=31;i++)
 	$('#date')[0].options[$('#date')[0].options.length]=new Option(i,i);
 for(i=1;i<=12;i++)

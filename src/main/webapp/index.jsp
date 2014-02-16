@@ -93,7 +93,7 @@
       <img src="/Resources/Images/congressThree.jpg"/>
       India National Congress was founded for the independence of India under the vision of 
       But hundreds of thousands of workers would be sent home. 
-      Parks, museums and monuments would be closed. Medical research would be curtailed, and much federal loan processing halted. Social Security and Medicare checks would still go out â they come from a trust fund, not from discretionary payments â but new claims might be delayed.
+      Parks, museums and monuments would be closed. Medical research would be curtailed, and much federal loan processing halted. Social Security and Medicare checks would still go out â they come from a trust fund, not from discretionary payments â but new claims might be delayed.
       Members of Congress, incidentally, are deemed essential and would continue to be paid.
       
       <div style="clear:both">

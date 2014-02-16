@@ -19,7 +19,7 @@ div,footer
 #wrapper
 {
 	width:1024px;
-	margin:-4px auto 0px;
+	margin:0px auto 0px;
 	height: auto;
 	background-color:rgba(255,255,255,0.1);
 	
@@ -296,6 +296,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	border:1px solid #CCC;
 	box-sizing:border-box;
 	-webkit-transition:-webkit-filter 0.4s;
+	-webkit-transform:scale3d(1,1,1);
+	-ms-transform:scale3d(1,1,1);
+	transform:scale3d(1,1,1);
 }
 .ThumbImage img:hover
 {
