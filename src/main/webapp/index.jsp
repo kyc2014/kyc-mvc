@@ -226,7 +226,6 @@ $(function()
         $('#newsBarRight').css({"visibility":"visible"});
         var position = $('#newsBarBackground').position().left;
         position = convert(position);
-        var position = $('#newsBarBackground').position().left;
         if(position!=0)
         { 
           
