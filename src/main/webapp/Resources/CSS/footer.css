@@ -7,7 +7,10 @@
 	font-family:'opensans';
 	font-size:15px;
 	color:#666666;
-	background: -webkit-linear-gradient(bottom,#f3f1f1, #f3f1f1,#f3f1f1,#ffffff); 
+	background: -webkit-linear-gradient(bottom,#f3f1f1, #f3f1f1,#f3f1f1,#ffffff);
+	background:-moz-linear-gradient(bottom,#f3f1f1, #f3f1f1,#f3f1f1,#ffffff); 
+	background:-o-linear-gradient(bottom,#f3f1f1, #f3f1f1,#f3f1f1,#ffffff);	 
+	background:linear-gradient(bottom,#f3f1f1, #f3f1f1,#f3f1f1,#ffffff); 
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
