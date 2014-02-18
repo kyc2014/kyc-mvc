@@ -36,7 +36,7 @@ Login/Sign Up
 <a href="/web/state/jharkhand/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/jharkhand.png" /></span><span class="stateName">Jharkhand</span></a>
 <a href="/web/state/karnataka/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/karnataka.png" /></span><span class="stateName">Karnataka</span></a>
 <a href="/web/state/kerala/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/kerala.png" /></span><span class="stateName">Kerala</span></a>
-<a href="/web/state/madhya-pradhesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/madhya-pradhesh.png" /></span><span class="stateName">Madhya Pradesh</span></a>
+<a href="/web/state/madhya_pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/madhya_pradesh.png" /></span><span class="stateName">Madhya Pradesh</span></a>
 <a href="/web/state/maharastra/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/maharashtra.png" /></span><span class="stateName">Maharashtra</span></a>
 <a href="/web/state/manipur/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/manipur.png" /></span><span class="stateName">Manipur</span></a>
 <a href="/web/state/meghalaya/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/meghalaya.png" /></span><span class="stateName">Meghalaya</span></a>
