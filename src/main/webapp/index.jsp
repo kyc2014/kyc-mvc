@@ -14,7 +14,7 @@
 <script type="text/javascript" src="/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Knowyourcanidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps Indian voters select the best candidate contesting in polls" name="description">
+<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps Indian voters select the best candidate contesting in polls" name="description">
 </head>
 <body>
 <jsp:include page="header.jsp" />
@@ -67,6 +67,26 @@
     <div class="ThumbImage"><img src="Resources/Images/10influential.jpg" /></div>
     <div class="TemptationText">Top Ten Influential People in India</div>
     </div>
+     <div id="news4" class="News">
+    <div class="ThumbImage"><img src="Resources/Images/10influential.jpg" /></div>
+    <div class="TemptationText">Top Ten Influential People in India</div>
+    </div>
+    <div id="news3" class="News">
+    <div class="ThumbImage"><div class="ThumbImgWrapper"><img src="Resources/Images/modi.jpg"/></div></div>
+    <div class="TemptationText">Narendra Modi : Look Back</div>
+    </div>
+    <div id="news4" class="News">
+    <div class="ThumbImage"><img src="Resources/Images/10influential.jpg" /></div>
+    <div class="TemptationText">Top Ten Influential People in India</div>
+    </div>
+    <div id="news3" class="News">
+    <div class="ThumbImage"><div class="ThumbImgWrapper"><img src="Resources/Images/modi.jpg"/></div></div>
+    <div class="TemptationText">Narendra Modi : Look Back</div>
+    </div>
+    <div id="news4" class="News">
+    <div class="ThumbImage"><img src="Resources/Images/10influential.jpg" /></div>
+    <div class="TemptationText">Top Ten Influential People in India</div>
+    </div>
   </div>
   </div>
   <div id="newsBarRight">
@@ -93,7 +113,7 @@
       <img src="/Resources/Images/congressThree.jpg"/>
       India National Congress was founded for the independence of India under the vision of 
       But hundreds of thousands of workers would be sent home. 
-      Parks, museums and monuments would be closed. Medical research would be curtailed, and much federal loan processing halted. Social Security and Medicare checks would still go out â they come from a trust fund, not from discretionary payments â but new claims might be delayed.
+      Parks, museums and monuments would be closed. Medical research would be curtailed, and much federal loan processing halted. Social Security and Medicare checks would still go out â they come from a trust fund, not from discretionary payments â but new claims might be delayed.
       Members of Congress, incidentally, are deemed essential and would continue to be paid.
       
       <div style="clear:both">
@@ -194,26 +214,37 @@ $(function()
 	});
   var barleft = true;
   var barright = true;
-	
+  var totalnews = $('#newsBarBackground').children().size();
+  var transitionend = "-webkitTransitionEnd transitionend otransitionend oTransitionEnd";
+	$('#newsBarLeft').css({"visibility":"hidden"});
   $('#newsBarLeft').click(function()
 
       {
         
         if(barleft == true)
         {
-        
+        $('#newsBarRight').css({"visibility":"visible"});
         var position = $('#newsBarBackground').position().left;
+        position = convert(position);
         if(position!=0)
         { 
           
-            var newposition = position + 681;
+             var newposition = position + 681;
             barleft = false;
             newposition+='px';
-            $('#newsBarBackground').css({"-webkit-transform":"translate("+newposition+",0px)"}).on('webkitTransitionEnd',function(){
-                       barleft = true;
+            $('#newsBarBackground').css({"-webkit-transform":"translate("+newposition+",0px)","transform":"translate("+newposition+",0px)","-ms-transform":"translate("+newposition+",0px)"}).on(transitionend,function(e){
+                       
+                      var ev = e.originalEvent;
+                      var s = ev.propertyName;
+                     if(s == "-webkit-transform" || s=="transform")
+                      barleft = true;
                        
             });
              
+        }
+        if(position==-681)
+        {
+         $('#newsBarLeft').css({"visibility":"hidden"});
         }
       }
       }
@@ -223,14 +254,26 @@ $(function()
 	       if(barright === true)
         {
           
+          var limit = Math.floor(totalnews/5);
+          limit=limit*681;
+          neg = -limit;
           var position = $('#newsBarBackground').position().left;
+          position = convert(position);
+
           if(position!=-4767)
           { 
-
+             $('#newsBarLeft').css({"visibility":"visible"});
               var newposition = position - 681;
+              if(newposition==neg)
+              $('#newsBarRight').css({"visibility":"hidden"});
               newposition+='px';
               barright = false;
-              $('#newsBarBackground').css({"-webkit-transform":"translate("+newposition+",0px)"}).on('webkitTransitionEnd',function(){
+              $('#newsBarBackground').css({"-webkit-transform":"translate("+newposition+",0px)","transform":"translate("+newposition+",0px)","-ms-transform":"translate("+newposition+",0px)"}).on(transitionend,function(e){
+                      
+                      //console.log(barright);
+                      var ev = e.originalEvent;
+                      var s = ev.propertyName;
+                   if(s == "-webkit-transform" || s=="transform")
                       barright = true;
               });
                
@@ -275,6 +318,29 @@ function resetForm()
       $('#loginForm input:not(:last-child)').val("");
       $('#signupForm input:not(:last-child)').val("");
     }
+    function convert(position)
+{
+     var isneg=false;
+     if(position<0)
+      isneg = true;
+     var tt = (position-parseInt(position))*100;
+     tt=parseInt(tt);
+     if(isneg)
+     {
+        if(tt==-99)
+          position= Math.floor(position);
+        else
+          position=Math.ceil(position);
+     }
+     else
+     {
+        if(tt==-99)
+          position= Math.ceil(position);
+        else
+          position=Math.floor(position);
 
+     }
+    return position;
+}
 </script>
 </html>
