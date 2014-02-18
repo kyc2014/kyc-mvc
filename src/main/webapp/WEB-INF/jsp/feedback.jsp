@@ -111,6 +111,10 @@ function invalid(mail)
   else
     return false;
   }
+function resetForm()
+{
+  $('.Ta,.Textbox,.Age').val("");
+}
 </script>
 <div id="container">
 
@@ -118,8 +122,8 @@ function invalid(mail)
       <input type="text" name="email" id="email" placeholder="E-mail" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
 
       <div id="genderWrapper">
-          <input type="radio" checked="true" class="MyClass" id="default" value="Male" name="sex" data-color="green" data-label="Male" data-customClass="styleRadio"/>
-          <input type="radio" class="MyClass" name="sex" value="Female" data-color="green" data-label="Female" data-customClass="styleRadio"/>
+          <input type="radio" checked="true" class="MyClass" id="default" value="Male" name="sex" data-color="gray" data-label="Male" data-customClass="styleRadio"/>
+          <input type="radio" class="MyClass" name="sex" value="Female" data-color="gray" data-label="Female" data-customClass="styleRadio"/>
     </div>
     <input type="text" name="age" id="age" placeholder="Age" class="Age normal" spellcheck="false" autocomplete="off" maxlength="3" /><br/>
     <textarea name="feedback" id="feedback" placeholder="Write your feedback" class="Ta normal ours" rows="8" cols="40"  spellcheck="false" autocomplete="off"></textarea><br/>
@@ -135,13 +139,11 @@ function invalid(mail)
      <input type="hidden" name="recaptcha_response_field"
          value="manual_challenge">
   </noscript>
-<button id="feedback_submit">Submit</button>
+<button id="feedback_submit">Send</button>
 
 </div>
-<<<<<<< HEAD
  <jsp:include page="footer.jsp" /> 
 
-=======
->>>>>>> f272b26a2c3188fc0fc697fa819d947a20a81122
+
 </body>
 </html>
