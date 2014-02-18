@@ -135,11 +135,13 @@ Similar Posts</div>
 <div id="pollWrapper">
 <div id="pollText">Poll<span class="arrow"></span></div>
 <div id="question">
-Who do you think will be the next Prime Minister?
+<c:
 </div>
 <div id="options">
 <input type="radio" name="opt1" id="rahul"><label for="rahul">Rahul Gandhi</label><br>
 <input type="radio" name="opt1" id="naren"><label for="naren">Narendra Modi</label>
+<input type="button" id="pollSubmit" value="Submit">
+<a href="" id="viewResults">View Results</a>
 </div>
 <div id="rightArrowBar"><div id="pollRightArrow"></div></div>
 <hr>
