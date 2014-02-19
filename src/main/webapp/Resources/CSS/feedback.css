@@ -99,6 +99,8 @@ input[type="text"]:first-child
 .required
 {
 	-webkit-box-shadow:0 0 2px 1px #aa3311;
+	-moz-box-shadow:0 0 2px 1px #aa3311;
+	box-shadow:0 0 2px 1px #aa3311;
 }
 .Ta
 {
@@ -114,4 +116,6 @@ input[type="text"]:first-child
 .normal
 {
 	-webkit-box-shadow:0 0 2px 1px #ccc;
+	-moz-box-shadow:0 0 2px 1px #ccc;
+	box-shadow:0 0 2px 1px #ccc;
 }

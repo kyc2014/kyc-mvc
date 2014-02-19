@@ -20,8 +20,8 @@
   $(document).ready(function()
   {
       $('input.MyClass').prettyCheckable();
-     
-      $('.age').keydown(function(e)
+      $('#male').parent().find('a').addClass('checked');
+      $('#age').keydown(function(e)
       {
         c = e.keyCode;
         if((c>=48&&c<=57 || c>=96&&c<=105 )&&(!e.shiftKey))
@@ -32,12 +32,12 @@
         return false;
       });
       $("#feedback_submit").click(function(){
-         $('#default').prettyCheckable('check');
+         
           var url = "/kyc-mvc/web/user/feedback";
           var name = $.trim($('#name').val());
           var mail = $.trim($('#email').val());
           var sex = $('input:radio[name="sex"]:checked').val();
-          var age = $.trim($('.age').val());
+          var age = $.trim($('#age').val());
           var fb = $.trim($('#feedback').val());
           var flag = true;
           if(name=="")
@@ -58,7 +58,7 @@
           }
           if(fb=="")
           {
-            console.log("in");
+            
             $('#feedback').removeClass('normal').addClass('required');
             flag=false;
           }
@@ -73,7 +73,7 @@
                   success: function(data){
                         alert(data);
                       }
-                  });*/
+                  });*///use resetForm() after sending to db................................
           }
          
       });
@@ -114,6 +114,9 @@ function invalid(mail)
 function resetForm()
 {
   $('.Ta,.Textbox,.Age').val("");
+  $('#male').parent().find('a').addClass('checked');
+  if($('#female').parent().find('a').hasClass('checked'))
+  $('#female').parent().find('a').removeClass('checked');
 }
 </script>
 <div id="container">
@@ -122,7 +125,7 @@ function resetForm()
       <input type="text" name="email" id="email" placeholder="E-mail" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
 
       <div id="genderWrapper">
-          <input type="radio" checked="true" class="MyClass" id="default" value="Male" name="sex" data-color="gray" data-label="Male" data-customClass="styleRadio"/>
+          <input type="radio" class="MyClass" id="default" value="Male" name="sex" data-color="gray" data-label="Male" data-customClass="styleRadio"/>
           <input type="radio" class="MyClass" name="sex" value="Female" data-color="gray" data-label="Female" data-customClass="styleRadio"/>
     </div>
     <input type="text" name="age" id="age" placeholder="Age" class="Age normal" spellcheck="false" autocomplete="off" maxlength="3" /><br/>
