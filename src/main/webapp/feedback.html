@@ -1,27 +1,27 @@
-	<%@ page language="java" contentType="text/html; charset=UTF-8"
+<!--<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
- <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+ <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>-->
 <!DOCTYPE html>
 <head>
-<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />
-<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
-<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
-<link rel="stylesheet" type="text/css" href="/Resources/CSS/feedback.css">
-<link rel="stylesheet" type="text/css" href="/Resources/CSS/prettyCheckable.css">
-<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
-<script src="/Resources/Libraries/prettyCheckable.js"></script>
+<link rel="stylesheet" type="text/css" href="Resources/CSS/reset.css" />
+<link rel="stylesheet" type="text/css" href="Resources/CSS/header3.css">
+<link rel="stylesheet" type="text/css" href="Resources/CSS/footer.css">
+<link rel="stylesheet" type="text/css" href="Resources/CSS/feedback.css">
+<link rel="stylesheet" type="text/css" href="Resources/CSS/prettyCheckable.css">
+<script type="text/javascript" src="Resources/Libraries/jquery-2.0.2.min.js"></script>
+<script src="Resources/Libraries/prettyCheckable.js"></script>
 
 </head>
 
 <body>
 
-<jsp:include page="header.jsp" />
+<!--<jsp:include page="header.jsp" />-->
 <script>
   $(document).ready(function()
   {
       $('input.MyClass').prettyCheckable();
-      $('#male').parent().find('a').addClass('checked');
-      $('#age').keydown(function(e)
+       $('#male').parent().find('a').addClass('checked');
+      $('.Age').keydown(function(e)
       {
         c = e.keyCode;
         if((c>=48&&c<=57 || c>=96&&c<=105 )&&(!e.shiftKey))
@@ -32,42 +32,47 @@
         return false;
       });
       $("#feedback_submit").click(function(){
-         
+        
           var url = "/kyc-mvc/web/user/feedback";
           var name = $.trim($('#name').val());
           var mail = $.trim($('#email').val());
           var sex = $('input:radio[name="sex"]:checked').val();
           var age = $.trim($('#age').val());
           var fb = $.trim($('#feedback').val());
+
+          
           var flag = true;
           if(name=="")
           {
+            
             $('#name').removeClass('normal').addClass('required');
             flag= false;
           }
           if(mail=="" || invalid(mail))
           {
+            
             $('#email').removeClass('normal').addClass('required');
             flag= false;
 
           }
           if(age=="")
           {
+            
               $('#age').removeClass('normal').addClass('required');
               flag= false;
           }
           if(fb=="")
           {
-            
+           
             $('#feedback').removeClass('normal').addClass('required');
             flag=false;
           }
           if(flag==true)
           {
 
-
-                  
-                 var serial = "name="+name+"&mail="+mail+"&sex="+sex+"&age"+age;
+                
+                 var serial = "name="+name+"&mail="+mail+"&sex="+sex+"&age="+age+"&fb="+fb;
+                 resetForm();
                 /*$.ajax({
                   type: 'POST',
                   url: url,
@@ -75,14 +80,13 @@
                   success: function(data){
                         alert(data);
                       }
-                  });*///use resetForm() after sending to db................................
+                  });*///use resetForm() after validating---------------------------------------
           }
          
       });
       $('.Textbox,.Ta,.Age').on('focusout',function()
       {
-         
-          var val = $.trim($(this).val());
+         var val = $.trim($(this).val());
           if(val!="")
           {
           
@@ -112,14 +116,16 @@ function invalid(mail)
     return true;
   else
     return false;
-  }
+   
+}
 function resetForm()
 {
   $('.Ta,.Textbox,.Age').val("");
   $('#male').parent().find('a').addClass('checked');
   if($('#female').parent().find('a').hasClass('checked'))
   $('#female').parent().find('a').removeClass('checked');
-}
+
+}  
 </script>
 <div id="container">
 
@@ -127,8 +133,8 @@ function resetForm()
       <input type="text" name="email" id="email" placeholder="E-mail" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
 
       <div id="genderWrapper">
-          <input type="radio" class="MyClass" id="male" value="Male" name="sex" data-color="gray" data-label="Male" data-customClass="styleRadio"/>
-          <input type="radio" class="MyClass" id="female" name="sex" value="Female" data-color="gray" data-label="Female" data-customClass="styleRadio"/>
+          <input type="radio" class="MyClass" id="male" value="Male" name="sex" data-color="green" data-label="Male" data-customClass="styleRadio"/>
+          <input type="radio" class="MyClass" id="female" name="sex" value="Female" data-color="green" data-label="Female" data-customClass="styleRadio"/>
     </div>
     <input type="text" name="age" id="age" placeholder="Age" class="Age normal" spellcheck="false" autocomplete="off" maxlength="3" /><br/>
     <textarea name="feedback" id="feedback" placeholder="Write your feedback" class="Ta normal ours" rows="8" cols="40"  spellcheck="false" autocomplete="off"></textarea><br/>
@@ -144,11 +150,10 @@ function resetForm()
      <input type="hidden" name="recaptcha_response_field"
          value="manual_challenge">
   </noscript>
-<button id="feedback_submit">Send</button>
+<button id="feedback_submit">Submit</button>
 
 </div>
- <jsp:include page="footer.jsp" /> 
-
+<!-- <jsp:include page="footer.jsp" /> -->
 
 </body>
 </html>
