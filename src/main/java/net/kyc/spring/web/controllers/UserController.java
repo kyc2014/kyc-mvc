@@ -65,10 +65,10 @@ public class UserController {
 			feedback.setGender(gender);
 			feedback.setName(name);
 			feedbackService.saveFeedback(feedback);
-			message = "{status:success}";
+			message = "success";
 		}
 		else{
-			message = "{status:error, message: invalid captcha}";
+			message = "Invalid Captcha";
 		}
 		return message;
 	}
