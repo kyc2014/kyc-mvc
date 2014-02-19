@@ -95,10 +95,12 @@ $("#feedback_submit").click(function(e){
                   url: $("#feedback_form").attr("action"),
                   data: $("#feedback_form").serialize()+'&gender='+gender,
                   success: function(data){
-                        if(data == "success"){
+                  		var obj = eval("("+data+")");
+                  		alert(obj.state);
+                        if(obj.state == "success"){
                         	$("#container").html("Thanks for your valuable feedback");
                         }
-                        else if(data == "Invalid Captcha")
+                        else if(obj.state == "Invalid Captcha")
                         	alert("Please retry entering captcha");
                         	Recaptcha.reload();
                       }
@@ -125,6 +127,7 @@ function resetForm()
 }
 </script>
 <div id="container">
+	  <span>Feedback</span>
 	  <form id="feedback_form" action="/web/user/feedback">
       <input type="text" name="name" id="name" placeholder="Name" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
       <input type="text" name="email" id="email" placeholder="E-mail" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
