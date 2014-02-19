@@ -3,16 +3,11 @@ package net.kyc.spring.web.controllers;
 import javax.servlet.http.HttpServletRequest;
 
 import net.kyc.errorcodes.ErrorCodes;
+import net.kyc.spring.web.candidate.model.Poll;
 import net.kyc.spring.web.feedback.model.Feedback;
 import net.kyc.spring.web.feedback.service.FeedbackService;
 import net.kyc.spring.web.user.model.User;
 import net.kyc.spring.web.user.service.UserService;
-
-
-
-
-
-
 import net.tanesha.recaptcha.ReCaptchaImpl;
 import net.tanesha.recaptcha.ReCaptchaResponse;
 
@@ -42,6 +37,14 @@ public class UserController {
 	@RequestMapping(value="/feedback")
 	public String feedBackPage(){
 		return "feedback";
+	}
+	
+	@RequestMapping(value="/user/poll", method = RequestMethod.POST)
+	public @ResponseBody String getPoll()
+	{
+		String message;
+		message="{\"question\":\"Next PM\",\"options\":\"2\",\"option\":{\"Rahul Gandhi\":23,\"Narendra Modi\":49}}";
+		return message;
 	}
 	
 	@RequestMapping(value="/user/feedback", method = RequestMethod.POST)

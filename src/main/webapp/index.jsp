@@ -14,7 +14,8 @@
 <script type="text/javascript" src="/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps Indian voters select the best candidate contesting in polls" name="description">
+<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps
+Indian voters select the best candidate contesting in polls" name="description">
 </head>
 <body>
 <jsp:include page="header.jsp" />
@@ -135,13 +136,8 @@ Similar Posts</div>
 <div id="pollWrapper">
 <div id="pollText">Poll<span class="arrow"></span></div>
 <div id="question">
-<c:
 </div>
 <div id="options">
-<input type="radio" name="opt1" id="rahul"><label for="rahul">Rahul Gandhi</label><br>
-<input type="radio" name="opt1" id="naren"><label for="naren">Narendra Modi</label>
-<input type="button" id="pollSubmit" value="Submit">
-<a href="" id="viewResults">View Results</a>
 </div>
 <div id="rightArrowBar"><div id="pollRightArrow"></div></div>
 <hr>
@@ -182,8 +178,34 @@ Similar Posts</div>
 <jsp:include page="footer.jsp" />
 </body>
 <script type="text/javascript">
+var json;
 $(function()
 {
+	$.ajax({
+		url :"/web/user/poll",
+		type:"POST",
+		error:function(e,st,string)
+		{
+			console.log("Error "+e);
+		},
+		success:function(response){
+			json=jQuery.parseJSON(response);
+			console.log(json);
+			$('#question').html(json.question);
+			var i=0;
+			for(key in json.option)
+			{
+				radio="<input type='radio' name='opt'"+i+" id='"+key+"'><label for='"+key+"'>"+key+"</label><br>";
+				$('#options').append(radio);
+				i++;
+			}
+			$('#options').append("<span id='pollButtons'></span>");
+			var submit="<input type='button' id='pollVote' value='Vote'>";
+			var viewresults="<a href='' id='viewResults'>View Results</a>";
+			$('#pollButtons').append(submit+viewresults);
+		}					
+		});		
+
 	/*$('#suggestionBox').css({"display":"none","left":$('#searchBox').position().left,"top":$('#searchBox').position().top+23,"position":"absolute"});
 	$('#searchBox').focusin(function(e){$('#suggestionBox').fadeIn();});
 	$('#searchBox').focusout(function(e){$('#suggestionBox').fadeOut();});*/
