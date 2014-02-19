@@ -135,7 +135,6 @@ Similar Posts</div>
 <div id="pollWrapper">
 <div id="pollText">Poll<span class="arrow"></span></div>
 <div id="question">
-<c:
 </div>
 <div id="options">
 <input type="radio" name="opt1" id="rahul"><label for="rahul">Rahul Gandhi</label><br>
