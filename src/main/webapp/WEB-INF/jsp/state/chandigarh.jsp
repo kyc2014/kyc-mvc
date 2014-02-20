@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>chandigarh</title>
+<title>Chandigarh</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -126,8 +126,10 @@ $(document).ready(function(){
 		<div id="personalities">
 			<div id="leftPersonalities">
 				<div class="mainPersonalityBlock">
+				</div>
+				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
-					Governor
+					Lieutenant Governor
 					</div>
 					<div class="mphoto">
 						<img src="/Resources/images/state/chandigarh/governor.jpg">
