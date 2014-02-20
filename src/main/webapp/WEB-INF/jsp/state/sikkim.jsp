@@ -138,7 +138,7 @@ $(document).ready(function(){
 						<img src="/Resources/images/state/sikkim/governor.png">
 						<div class="mphotoDetails">
 						<div class="mname">Shriniwas Dadasaheb Patil</div>
-						<div class="mparty">NCP</div>
+						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
 					</div>

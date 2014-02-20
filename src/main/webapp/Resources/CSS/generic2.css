@@ -110,6 +110,69 @@ div,footer
 	height:auto;
 	width:100%;
 }
+/* button */
+#pollButtons
+{
+	margin-left:15px;
+}
+#pollVote,#backPoll
+{
+	border: 1px solid #EAEAEA;
+	background-color: #FAFAFA;
+	padding: 3px 10px 3px 10px;
+	font-size: 12px;
+}	
+#pollVote:hover
+{
+	cursor:pointer;
+	background-color:#EEEEEE;
+}
+#viewResults
+{
+	font-size: 12px;
+	margin-left: 20%;
+}
+#viewResults:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+	
+}
+#afterVote
+{
+	display:none;
+	position:relative;
+	top:10px;
+}
+#holder
+{
+	width:200px;
+	margin:0px auto;
+}
+#bar0
+{
+	background-color:#c40202;
+}
+#bar1
+{
+	background-color:#02c47D;	
+}
+#bar2
+{
+	background-color:#026DC4;	
+}
+#bar3
+{
+	background-color:#c40273;	
+}
+#bar4
+{
+	background-color:#02c49a;
+}
+.bar
+{
+	height:15px;
+}
 #comicWrapper
 {
 	min-height:200px;

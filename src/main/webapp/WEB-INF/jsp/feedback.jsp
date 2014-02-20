@@ -31,12 +31,38 @@
         else
         return false;
       });
-      $("#feedback_submit").click(function(){
+      
+      $('.Textbox,.Ta,.Age').on('focusout',function()
+      {
          
+          var val = $.trim($(this).val());
+          if(val!="")
+          {
+          
+          if($(this).attr('id')=="email")
+          {
+            
+              if(invalid(val))
+                $(this).removeClass('normal').addClass('required');
+              else
+                $(this).removeClass('required').addClass('normal');
+          }
+          else
+          $(this).removeClass('required').addClass('normal');
+          
+          }
+          else
+          {
+            if($(this).hasClass('normal'))
+              $(this).removeClass('normal').addClass('required');
+          }
+      });
+$("#feedback_submit").click(function(e){
+      	  e.preventDefault();
           var url = "/kyc-mvc/web/user/feedback";
           var name = $.trim($('#name').val());
           var mail = $.trim($('#email').val());
-          var sex = $('input:radio[name="sex"]:checked').val();
+          var gender = $('input:radio[name="gender"]:checked').val();
           var age = $.trim($('#age').val());
           var fb = $.trim($('#feedback').val());
           var flag = true;
@@ -63,46 +89,25 @@
             flag=false;
           }
           if(flag==true)
-          {
-
-
-                  
-                 var serial = "name="+name+"&mail="+mail+"&sex="+sex+"&age"+age;
-                /*$.ajax({
+          {       
+                 $.ajax({
                   type: 'POST',
-                  url: url,
-                  data:serial,
+                  url: $("#feedback_form").attr("action"),
+                  data: $("#feedback_form").serialize()+'&gender='+gender,
                   success: function(data){
-                        alert(data);
+                  		var obj = eval("("+data+")");
+                  		alert(obj.state);
+                        if(obj.state == "success"){
+                        	$("#container").html("Thanks for your valuable feedback");
+                        }
+                        else if(obj.state == "Invalid Captcha")
+                        	alert("Please retry entering captcha");
+                        	Recaptcha.reload();
                       }
-                  });*///use resetForm() after sending to db................................
+                  });
           }
+          return false;
          
-      });
-      $('.Textbox,.Ta,.Age').on('focusout',function()
-      {
-         
-          var val = $.trim($(this).val());
-          if(val!="")
-          {
-          
-          if($(this).attr('id')=="email")
-          {
-            
-              if(invalid(val))
-                $(this).removeClass('normal').addClass('required');
-              else
-                $(this).removeClass('required').addClass('normal');
-          }
-          else
-          $(this).removeClass('required').addClass('normal');
-          
-          }
-          else
-          {
-            if($(this).hasClass('normal'))
-              $(this).removeClass('normal').addClass('required');
-          }
       });
   });
 function invalid(mail)
@@ -122,29 +127,26 @@ function resetForm()
 }
 </script>
 <div id="container">
-
+	  <span>Feedback</span>
+	  <form id="feedback_form" action="/web/user/feedback">
       <input type="text" name="name" id="name" placeholder="Name" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
       <input type="text" name="email" id="email" placeholder="E-mail" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
 
       <div id="genderWrapper">
-          <input type="radio" class="MyClass" id="male" value="Male" name="sex" data-color="gray" data-label="Male" data-customClass="styleRadio"/>
-          <input type="radio" class="MyClass" id="female" name="sex" value="Female" data-color="gray" data-label="Female" data-customClass="styleRadio"/>
+          <input type="radio" class="MyClass" id="male" value="Male" checked name="gender" data-color="gray" data-label="Male" data-customClass="styleRadio"/>
+          <input type="radio" class="MyClass" id="female" name="gender" value="Female" data-color="gray" data-label="Female" data-customClass="styleRadio"/>
     </div>
     <input type="text" name="age" id="age" placeholder="Age" class="Age normal" spellcheck="false" autocomplete="off" maxlength="3" /><br/>
     <textarea name="feedback" id="feedback" placeholder="Write your feedback" class="Ta normal ours" rows="8" cols="40"  spellcheck="false" autocomplete="off"></textarea><br/>
-  <script type="text/javascript"
-
-     src="http://www.google.com/recaptcha/api/challenge?k=6Lc7au4SAAAAAEAJ_3BehGUGkzB5S8zs-zLA-a5Y ">
-  </script>
+  <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6Lc7au4SAAAAAEAJ_3BehGUGkzB5S8zs-zLA-a5Y"></script>
   <noscript>
-     <iframe id="captcha" src="http://www.google.com/recaptcha/api/noscript?k=6Lc7au4SAAAAAEAJ_3BehGUGkzB5S8zs-zLA-a5Y "
-         height="300" width="500" frameborder="0"></iframe><br>
-     <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-     </textarea>
-     <input type="hidden" name="recaptcha_response_field"
-         value="manual_challenge">
+     <iframe id="captcha" src="http://www.google.com/recaptcha/api/noscript?k=6Lc7au4SAAAAAEAJ_3BehGUGkzB5S8zs-zLA-a5Y" height="300" width="500" frameborder="0"></iframe><br>
+     <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+     <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
   </noscript>
 <button id="feedback_submit">Send</button>
+</form>
+
 
 </div>
  <jsp:include page="footer.jsp" /> 

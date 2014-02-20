@@ -61,7 +61,7 @@ Login/Sign Up
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
 <a href="/web/state/andaman_and_nicobar_islands/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/andaman_and_nicobar_islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
 <a href="/web/state/chandigarh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/chandigarh.png" /></span><span class="stateName">Chandigarh</span></a> 
-<a href="/web/state/dadra-and-nagar-haveli/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/dadra-and-nagar-haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
+<a href="/web/state/dadra_and_nagar_haveli/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/dadra_and_nagar_haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
 <a href="/web/state/daman-and-diu/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/daman-and-diu.png" /></span><span class="stateName">Daman and Diu</span></a> 
 <a href="/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
 <a href="/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>

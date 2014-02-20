@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Chandigarh</title>
+<title>DAMAN & DIU</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 		var data1 = google.visualization.arrayToDataTable([
           ['Year', 'BJP', 'INC'],
-          ['2009',  0,     1],
+          ['2009',  1,     0],
           ['2004',  0,     1],
           ['1999',  0,     1],
           ['1998',  1,     0]
@@ -71,24 +71,21 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'Start' });
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
-		  dataTable.addRows([
-		    ['Bhairab Dutt Pande','',new Date(1984,6,2),new Date(1984,7,3)],
-['Kershasp Tehmurasp Satarawala','',new Date(1984,7,3),new Date(1984,8,2)],
-['Arjun Singh','',new Date(1985,5,30),new Date(1985,11,14)],
-['Hokishe Sema','',new Date(1985,11,14),new Date(1985,11,26)],
-['Shankar Dayal Sharma','',new Date(1985,11,26),new Date(1986,4,2)],
-['Siddharta Shankar Ray','',new Date(1986,4,2),new Date(1989,12,8)],
-['Nirmal Mukarji','',new Date(1989,12,8),new Date(1990,6,14)],
-['Virendra Verma','',new Date(1990,6,14),new Date(1990,12,18)],
-['Om Prakash Malhotra','',new Date(1990,12,18),new Date(1991,8,7)],
-['Surendra Nath','',new Date(1991,8,7),new Date(1994,7,9)],
-['Sudhakar Panditrao Kurdukar','',new Date(1994,7,10),new Date(1994,9,18)],
-['B.K.N. Chhibber','',new Date(1994,9,18),new Date(1999,11,27)],
-['J. F. R. Jacob','',new Date(1999,11,27),new Date(2003,5,8)],
-['Om Prakash Verma','',new Date(2003,5,8),new Date(2004,11,3)],
-['Akhlaqur Rahman Kidwai','',new Date(2004,11,3),new Date(2004,11,16)],
-['Sunith Francis Rodrigues','',new Date(2004,11,16),new Date(2010,1,22)],
-['Shivraj Patil','',new Date(2010,1,22),new Date()]
+		 dataTable.addRows([['Gopal Singh','',new Date(1987,5,30),new Date(1989,7,18)],
+['Khurshed Alam Khan','',new Date(1989,7,18),new Date(1991,3,25)],
+['Bhanu Prakash Singh','',new Date(1991,3,25),new Date(1992,3,16)],
+['K.S. Baidwan','',new Date(1992,3,16),new Date(1994,3,28)],
+['Ramesh Chandra','',new Date(1994,3,28),new Date(1995,7,15)],
+['S.P. Aggarwal','',new Date(1995,7,15),new Date(1998,6,26)],
+['Ramesh Negi','',new Date(1998,6,26),new Date(1999,2,23)],
+['Sanat Kaul','',new Date(1999,2,23),new Date(1999,4,23)],
+['Ramesh Negi','',new Date(1999,4,23),new Date(1999,7,19)],
+['O.P. Kelkar','',new Date(1999,7,19),new Date(2003,7,19)],
+['Arun Mathur','',new Date(2003,7,20),new Date(2006,7,20)],
+['R.K. Verma','',new Date(2006,7,21),new Date(2009,7,21)],
+['Shri Satya Gopal','',new Date(2009,7,22),new Date(2011,7,22)],
+['Shri. Narendra Kumar','',new Date(2011,7,23),new Date(2012,7,23)],
+['B. S. Bhalla','',new Date(2012,7,23),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -114,10 +111,10 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			CHANDIGARH
+			DAMAN AND DIU
 			</div>
 			<div id="dof">
-				<span>Date of Formation - </span><span id="dofValue">1 November 1966</span>
+				<span>Date of Formation - </span><span id="dofValue">30 May 1987</span>
 			</div>
 			<div id="totConst">
 				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
@@ -125,26 +122,18 @@ $(document).ready(function(){
 		</div>
 		<div id="personalities">
 			<div id="leftPersonalities">
-
-				<div  class="mainPersonalityBlock">
-					<!--<div class="mdesignation">
-					
-					</div>-->
-					
-					
-				</div>
-
 				<div class="mainPersonalityBlock">
-				</div>
+				</div>					
 				<div class="mainPersonalityBlock">
-					<div class="mdesignation">
-					Administrator
+                                				
+                                 <div class="mdesignation">
+					Lieutenant Governor
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/chandigarh/governor.jpg">
+						<img src="/Resources/images/state/daman-and-diu/governor.jpg">
 						<div class="mphotoDetails">
-						<div class="mname">Shivraj V.Patil</div>
-						<div class="mparty">INC</div>
+						<div class="mname">Bhupinder S. Bhalla</div>
+						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
 					</div>
@@ -157,9 +146,9 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="/Resources/images/state/chandigarh/1.jpg">
+					<img src="/Resources/images/state/daman-and-diu/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pawan kumar bansal</a></div>
+						<div class="mname"><a href="">Lallubhai Babubhai Patel</a></div>
 						<div class="mparty"><a href="">INC</a></div>
 						<div class="mpost">Member of Parliament</div>
 						</div>
@@ -183,13 +172,13 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Administrators of Chandigarh</div>
+		<div id="chiefMinistersHeading">Administrators of Daman and Diu</div>
 		<div id="pastAdministrators" >
 		</div>
 		
 
 
-	</div><!-- end of container --> 
+	</div><!-- end of container -->
 </div><!-- end of wrapper -->
 <jsp:include page="../footer.jsp" />
 </body>
