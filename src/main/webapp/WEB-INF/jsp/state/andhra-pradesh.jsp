@@ -150,9 +150,7 @@ $(document).ready(function(){
 		    ['N. Chandrababu Naidu','TDP',new Date(1995,9,1),new Date(2004,5,14)],
 		    ['Y. S. Rajasekhara Reddy','INC',new Date(2004,5,14), new Date(2009,9,2)],
 		    ['Konijeti Rosaiah','INC',new Date(2009,9,2),new Date(2010,11,24)],
-		    ['N. Kiran Kumar Reddy','INC',new Date(2010,11,25),new Date()],
-
-
+		    ['N. Kiran Kumar Reddy','INC',new Date(2010,11,25),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{

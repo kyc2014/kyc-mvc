@@ -3,7 +3,7 @@ s<%@ page language="java" contentType="text/html; charset=UTF-8"
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Andaman-and-Nicobar</title>
+<title>Andaman & Nicobar Islands</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -72,11 +72,18 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    
-		    
-		    
-
-
+		    	['Manohar L. Kampani','',new Date(1982,11,12),new Date(1985,12,3)],
+			['Tirath Singh Oberoi','',new Date(1985,12,4),new Date(1989,12,0)],
+			['Romesh Bhandari','',new Date(1989,12,0),new Date(1990,2,24)],
+			['Ranjit Singh Dayal','',new Date(1990,2,25),new Date(1990,12,0)],
+			['Surjit Singh Barnala','',new Date(1990,12,0),new Date(1993,3,18)],
+			['Vakkom Purushothaman','',new Date(1993,3,19),new Date(1996,3,18)],
+			['Ishwari Prasad Gupta','',new Date(1996,12,23),new Date(2001,5,25)],
+			['Nagendra Nath Jha','',new Date(2001,5,26),new Date(2004,1,4)],
+			['Ramchandra Kapse','',new Date(2004,1,5),new Date(2006,5,30)],
+			['Madan Mohan Lakhera','',new Date(2006,2,12),new Date(2006,12,29)],
+			['Bhopinder Singh','',new Date(2006,12,29),new Date(2013,6,30)],
+			['A. K. Singh','',new Date(2013,7,8),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -102,7 +109,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			ANDAMAN AND NICOBAR
+			ANDAMAN AND NICOBAR ISLANDS
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
@@ -113,12 +120,20 @@ $(document).ready(function(){
 		</div>
 		<div id="personalities">
 			<div id="leftPersonalities">
+
+				<div  class="mainPersonalityBlock">
+					<!--<div class="mdesignation">
+					
+					</div>-->
+					
+					
+				</div>
 				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
-					Governor
+					Lieutenant Governor
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/andaman-and-nicobar/governor.jpg">
+						<img src="/Resources/images/state/andaman_and_nicobar_islands/governor.png">
 						<div class="mphotoDetails">
 						<div class="mname">A.K Singh</div>
 						<div class="mparty"></div>
@@ -134,7 +149,7 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="/Resources/images/state/andaman-and-nicobar/1.jpg">
+					<img src="/Resources/images/state/andaman_and_nicobar_islands/1.png">
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Bishnu Pada Ray</a></div>
 						<div class="mparty"><a href="">BJP</a></div>
@@ -142,10 +157,10 @@ $(document).ready(function(){
 						</div>
 					</div>
 					
-					</div>
 				</div>
 			</div>
-		</div><!--end of personalities -->
+		</div>
+		<!--end of personalities -->
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
@@ -160,7 +175,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Lt.Governors of Andaman&Nicobar</div>
+		<div id="chiefMinistersHeading">Lieutenant Governors of Andaman & Nicobar Islands</div>
 		<div id="pastGovernors" >
 		</div>
 		
