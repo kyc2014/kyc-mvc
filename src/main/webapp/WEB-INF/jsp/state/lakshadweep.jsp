@@ -139,7 +139,8 @@ $(document).ready(function(){
 		</div>
 		<div id="personalities">
 			<div id="leftPersonalities">
-				
+				<div class="mainPersonalityBlock">
+				</div>	
 				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
 					Administrator
@@ -166,14 +167,6 @@ $(document).ready(function(){
 						<div class="mname"><a href="">Adv.M.Hamdullah Sayeed</a></div>
 						<div class="mparty"><a href="">INC</a></div>
 						<div class="mpost">Member of Parliament</div>
-						</div>
-					</div>
-					<div id="minister2" class="photo">
-						<img src="/Resources/images/state/lakshadweep/2.jpg">
-						<div class="mphotoDetails">
-						<div class="mname"><a href="">J.Ashok Kumar</a></div>
-						<div class="mparty"><a href=""></a></div>
-						<div class="mpost">Collector</div>
 						</div>
 					</div>
 					
