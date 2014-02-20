@@ -46,6 +46,12 @@ public class UserController {
 		message="{\"question\":\"Next PM\",\"options\":\"2\",\"option\":{\"Rahul Gandhi\":23,\"Narendra Modi\":49}}";
 		return message;
 	}
+	@RequestMapping(value="/user/voteforpoll", method = RequestMethod.POST)
+	public @ResponseBody String voteForPoll(@RequestParam(value="qid",required=true) int qid,@RequestParam(value="aid",required=true) int aid)
+	{
+		
+		return "{state:\'success\'}";
+	}
 	
 	@RequestMapping(value="/user/feedback", method = RequestMethod.POST)
 	@ResponseBody
