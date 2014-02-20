@@ -111,7 +111,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			daman-and-diu
+			DAMAN AND DIU
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">30 May 1987</span>
@@ -172,7 +172,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Administrators of daman-and-diu</div>
+		<div id="chiefMinistersHeading">Administrators of Daman and Diu</div>
 		<div id="pastAdministrators" >
 		</div>
 		
