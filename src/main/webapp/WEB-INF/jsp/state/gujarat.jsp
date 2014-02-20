@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Dadra and Nagar Haveli</title>
+<title>Gujarat</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -39,11 +39,11 @@ $(document).ready(function(){
 		{
 
 		var data1 = google.visualization.arrayToDataTable([
-          ['Year', 'NDA', 'UPA','Others'],
-          ['2009',  1,      0,0],
-          ['2004',  0,     0,1],
-          ['1999',  0,      0,1],
-          ['1998',  1,  0,  53]
+          ['Year', 'BJP', 'INC','Others'],
+          ['2012',  115,      61,6],
+          ['2007',  117,     59,6],
+          ['2002',  127,      51,4],
+          ['1998',  117,    53,12]
         ]);
 /*total assembly const - 224*/
         var options1 = {
@@ -69,36 +69,38 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  	
-['Mudras','',new Date(1954,7,22),new Date(1954,8,2)],
-['Vishwanath Lawande','',new Date(1954,8,2),new Date(1954,12,12)],
-['Appasaheb (Atmaram Narsinh) Karmalkar','',new Date(1954,12,12),new Date(,,)],
-['Tumkur Sivasankar','',new Date(,,1962),new Date(1963,9,2)],
-['M.R. Sachdev','',new Date(1963,9,2),new Date(1964,12,8)],
-['Hari Sharma','',new Date(1964,12,12),new Date(1965,2,24)],
-['Kashinath Raghunath Damle','',new Date(1965,2,24),new Date(1967,4,18)],
-['Nakul Sen','',new Date(1967,4,18),new Date(1972,11,16)],
-['S.K. Banerjee','',new Date(1972,11,16),new Date(1977,11,16)],
-['Pratap Singh Gill','',new Date(1977,11,16),new Date(1981,3,31)],
-['Jagmohan','',new Date(1981,3,31),new Date(1982,8,30)],
-['Idris Hasan Latif(acting)','',new Date(1982,8,30),new Date(1983,2,24)],
-['Kershasp Tehmurasp Satarawala','',new Date(1983,2,24),new Date(1984,7,4)],
-['Idris Hasan Latif(acting)','',new Date(1984,7,4),new Date(1984,9,24)],
-['Gopal Singh','',new Date(1984,9,24),new Date(1989,7,18)],
-['Khurshed Alam Khan','',new Date(1989,7,18),new Date(1991,3,25)],
-['Bhanu Prakash Singh','',new Date(1991,3,25),new Date(1992,3,16)],
-['K.S. Baidwan','',new Date(1992,3,16),new Date(1994,3,28)],
-['Ramesh Chandra','',new Date(1994,3,28),new Date(1995,7,15)],
-['S.P. Aggarwal','',new Date(1995,7,15),new Date(1998,6,26)],
-['Ramesh Negi(acting)','',new Date(1998,6,26),new Date(1999,2,23)],
-['Sanat Kaul','',new Date(1999,2,23),new Date(1999,4,23)],
-['Ramesh Negi(acting)','',new Date(1999,4,23),new Date(1999,7,19)],
-['O.P. Kelkar','',new Date(1999,7,19),new Date(,,2003)],
-['Arun Mathur','',new Date(,,2003),new Date(,,2006)],
-['R.K. Verma','',new Date(,,2006),new Date(,,2009)],
-['Shri Satya Gopal, IAS','',new Date(,,2009),new Date(,,2011)],
-['Shri. Narendra Kumar, IAS','',new Date(,,2011),new Date(,,2012)],
-['B. S. Bhalla','',new Date(2012,,28),new Date(,,)]
+		  	['Jivraj Narayan Mehta','INC',new Date(1960,5,1),new Date(1962,3,3)],
+		  	['Jivraj Narayan Mehta','INC',new Date(1962,03,3),new Date(1963,09,19)],
+		  	['Balwantrai Mehta','INC',new Date(1963,09,19),new Date(1965,09,20)],
+		  	['Hitendra K Desai','INC',new Date(1965,9,20),new Date(1967,4,3)],
+		  	['Hitendra K Desai','INC',new Date(1967,04,3),new Date(1971,3,6)],
+		  	['Hitendra K Desai','INC',new Date(1971,04,7),new Date(1971,5,12)],
+		  	['President\'s Rule','INC',new Date(1971,5,12),new Date(1972,3,17)],
+		  	['Ghanshyambhai C. Oza','INC',new Date(1972,3,17),new Date(1973,7,17)],
+		  	['Chimanbhai Patel','INC',new Date(1973,7,18),new Date(1974,2,9)],
+		  	['President\'s rule','INC',new Date(1974,2,9),new Date(1975,6,18)],
+		  	['Babubhai J. Patel','Janata Front',new Date(1975,6,18),new Date(1976,3,12)],
+		  	['President\'s rule','',new Date(1976,3,12),new Date(1976,12,24)],
+		  	['Madhav Singh Solanki','INC',new Date(1976,12,24),new Date(1977,4,10)],
+		  	['Babubhai J. Patel','JP',new Date(1977,4,11),new Date(1980,2,17)],
+		  	['President\'s rule','',new Date(1980,2,17),new Date(1980,6,7)],
+		  	['Madhav Singh Solanki','INC',new Date(1980,6,7),new Date(1985,3,10)],
+		  	['Madhav Singh Solanki','INC',new Date(1985,03,11),new Date(1985,7,6)],
+		  	['Amarsinh Chaudhary','INC',new Date(1985,7,6),new Date(1989,12,9)],
+		  	['Madhav Singh Solanki','BJP',new Date(1989,12,10),new Date(1990,3,4)],
+		  	['Chimanbhai Patel','JD(G) + JD + BJP',new Date(1990,3,4),new Date(1990,10,25)],
+		  	['Chimanbhai Patel','JD(G) + JD + INC',new Date(1990,10,25),new Date(1994,2,17)],
+		  	['Chhabildas Mehta','INC',new Date(1994,2,17),new Date(1995,3,14)],
+		  	['Keshubhai Patel','BJP',new Date(1995,3,14),new Date(1995,10,21)],
+		  	['Suresh Mehta','BJP',new Date(1995,10,21),new Date(1996,9,19)],
+		  	['President\'s rule','',new Date(1996,9,19),new Date(1996,10,23)],
+		  	['Shankersinh Vaghela','RJP',new Date(1996,10,23),new Date(1997,10,27)],
+		  	['Dilipbhai Ramanbhai Parikh','RJP',new Date(1997,10,28),new Date(1998,03,04)],
+		  	['Keshubhai Patel','BJP',new Date(1998,03,04),new Date(2001,10,06)],
+		  	['Narendra Modi','BJP',new Date(2001,10,07),new Date(2002,12,22)],
+		  	['Narendra Modi','BJP',new Date(2002,12,22),new Date(2007,12,22)],
+		  	['Narendra Modi','BJP',new Date(2007,12,23),new Date(2012,12,20)],
+		  	['Narendra Modi','BJP',new Date(2012,12,20),new Date()]
 		    
 		    ]);
 			var options2 = {
@@ -125,37 +127,38 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			Dadra and Nagar Haveli
+			GUJARAT
 			</div>
 			<div id="dof">
-				<span>Date of Formation - </span><span id="dofValue">1961</span>
+				<span>Date of Formation - </span><span id="dofValue">1 May 1960</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">33</a></span>
 			</div>
 		</div>
 		<div id="personalities">
 			<div id="leftPersonalities">
 				<div  class="mainPersonalityBlock">
 					<div class="mdesignation">
-					Lieutenant Governor
+					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/Dadra and Nagar Haveli/cm.png">
+						<img src="/Resources/images/state/gujarat/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">A.K.Singh</a></div>
-						<div class="mparty"><a href=""></a></div>
+						<div class="mname"><a href="">Narendra Modi</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
 						</div>
 					</div>
 					
 				</div>
 				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
+					Governor
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/Dadra and Nagar Haveli/governor.png">
+						<img src="/Resources/images/state/gujarat/governor.png">
 						<div class="mphotoDetails">
-						<div class="mname"></div>
+						<div class="mname">Kamla Beniwal</div>
 						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
@@ -169,14 +172,29 @@ $(document).ready(function(){
 				</div>
 				<div class="wrapperOthers">
 					<div id="minister1" class="photo">
-					<img src="/Resources/images/state/Dadra and Nagar Haveli/1.png">
+					<img src="/Resources/images/state/gujarat/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Natubhai Gomanbhai Patel <a></div>
-						<div class="mparty"><a href="">BJP</a></div>
-						<div class="mpost">Member Of Parliament</div>
+						<div class="mname"><a href="">Bharatsinh Madhavsinh Solanki</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Ministers of State (Independent Charges) - Drinking Water and Sanitation</div>
 						</div>
 					</div>
-					
+					<div id="minister2" class="photo">
+						<img src="/Resources/images/state/gujarat/2.png">
+						<div class="mphotoDetails">
+						<div class="mname"><a href="">Keshubhai Patel</a></div>
+						<div class="mparty"><a href="">GPP</a></div>
+						<div class="mpost">Former CM</div>
+						</div>
+					</div>
+					<div id = "minister3" class="photo">
+						<img src="/Resources/images/state/gujarat/3.png">
+						<div class="mphotoDetails">
+						<div class="mname"><a href="">Ahmed Patel</a></div>
+						<div class="mparty"><a href="">INC</a></div>
+						<div class="mpost">Senior Leader (INC)</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div><!--end of personalities -->
@@ -186,7 +204,7 @@ $(document).ready(function(){
 			    
 			    <a href="" class="PartiesList">BJP</a>
 			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BSP</a>
+			    <a href="" class="PartiesList">GPP</a>
 			    
 			   
 
@@ -197,7 +215,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Administrators of Dadra and Nagar Haveli</div>
+		<div id="chiefMinistersHeading">Chief Ministers of Gujarat</div>
 		<div id="pastChiefMinisters" style="width:100%;height:400px">
 		</div>
 		
