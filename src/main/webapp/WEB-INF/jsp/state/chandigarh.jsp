@@ -129,7 +129,7 @@ $(document).ready(function(){
 				</div>
 				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
-					Lieutenant Governor
+					Administrator
 					</div>
 					<div class="mphoto">
 						<img src="/Resources/images/state/chandigarh/governor.jpg">
