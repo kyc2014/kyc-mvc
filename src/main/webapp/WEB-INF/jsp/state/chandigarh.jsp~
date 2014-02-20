@@ -157,7 +157,7 @@ $(document).ready(function(){
 					</div>
 				</div>
 			</div>
-		</div><!--end of personalities -->
+		<!--end of personalities -->
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
