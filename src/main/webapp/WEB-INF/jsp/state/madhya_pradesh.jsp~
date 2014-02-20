@@ -222,7 +222,7 @@ $(document).ready(function(){
 						<img src="/Resources/images/state/madhya_pradesh/governor.png">
 						<div class="mphotoDetails">
 						<div class="mname">Ram Naresh Yadav</div>
-						<div class="mparty">INC</div>
+						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
 					</div>
