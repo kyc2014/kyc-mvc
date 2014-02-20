@@ -3,16 +3,11 @@ package net.kyc.spring.web.controllers;
 import javax.servlet.http.HttpServletRequest;
 
 import net.kyc.errorcodes.ErrorCodes;
+import net.kyc.spring.web.candidate.model.Poll;
 import net.kyc.spring.web.feedback.model.Feedback;
 import net.kyc.spring.web.feedback.service.FeedbackService;
 import net.kyc.spring.web.user.model.User;
 import net.kyc.spring.web.user.service.UserService;
-
-
-
-
-
-
 import net.tanesha.recaptcha.ReCaptchaImpl;
 import net.tanesha.recaptcha.ReCaptchaResponse;
 
@@ -44,6 +39,20 @@ public class UserController {
 		return "feedback";
 	}
 	
+	@RequestMapping(value="/user/poll", method = RequestMethod.POST)
+	public @ResponseBody String getPoll()
+	{
+		String message;
+		message="{\"question\":\"Next PM\",\"options\":\"2\",\"option\":{\"Rahul Gandhi\":23,\"Narendra Modi\":49}}";
+		return message;
+	}
+	@RequestMapping(value="/user/voteforpoll", method = RequestMethod.POST)
+	public @ResponseBody String voteForPoll(@RequestParam(value="qid",required=true) int qid,@RequestParam(value="aid",required=true) int aid)
+	{
+		
+		return "{state:\'success\'}";
+	}
+	
 	@RequestMapping(value="/user/feedback", method = RequestMethod.POST)
 	@ResponseBody
 	public String feedBack(@RequestParam(value="name", required=true) String name, @RequestParam(value="age", required=true) int age,
@@ -62,10 +71,10 @@ public class UserController {
 			feedback.setGender(gender);
 			feedback.setName(name);
 			feedbackService.saveFeedback(feedback);
-			message = "{status:success}";
+			message = "{state:\'success\'}";
 		}
 		else{
-			message = "{status:error, message: invalid captcha}";
+			message = "{state:\'Invalid Captcha\'}";
 		}
 		return message;
 	}

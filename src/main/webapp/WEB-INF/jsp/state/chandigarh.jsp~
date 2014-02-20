@@ -133,7 +133,7 @@ $(document).ready(function(){
 						<img src="/Resources/images/state/chandigarh/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Shivraj V.Patil</div>
-						<div class="mparty"></div>
+						<div class="mparty">INC</div>
 						<div class="mpost"></div>
 						</div>
 					</div>
@@ -178,7 +178,7 @@ $(document).ready(function(){
 		
 
 
-	</div><!-- end of container -->
+	</div><!-- end of container --> 
 </div><!-- end of wrapper -->
 <jsp:include page="../footer.jsp" />
 </body>

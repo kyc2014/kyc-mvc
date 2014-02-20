@@ -9,16 +9,16 @@
 	 </div>
     <ul id="footerLinks">
 	<li><a href="#">About-</a></li>
-        <li><a href="#">Contact Us-</a></li>
-        <li><a href="#">PrivacyPolicy-</a></li>
-        <li><a href="#">SiteMap-</a></li>
-        <li><a href="/feedback/">Feedback </a></li>
+        <li><a href="/web/contact">Contact Us-</a></li>
+        <li><a href="/web/privacy">PrivacyPolicy-</a></li>
+        <li><a href="/web/sitemap">SiteMap-</a></li>
+        <li><a href="/web/feedback/">Feedback </a></li>
            
     </ul>
     <div id="footerSocial">
 	    <div class="SocialImage"><a href="http://www.facebook.com/knowyourcandidate"><img src="/Resources/Images/fb.png"/></a></div>
 	    <div class="SocialImage"><a href="http://www.google.com/"><img src="/Resources/Images/gp.png"/></a></div>
-	    <div class="SocialImage"><a href="http://www.twitter.com/"><img src="/Resources/Images/t.png"/></div>
+	    <div class="SocialImage"><a href="http://www.twitter.com/"><img src="/Resources/Images/t.png"/></a></div>
     </div>
 </section>
     

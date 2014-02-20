@@ -14,7 +14,8 @@
 <script type="text/javascript" src="/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps Indian voters select the best candidate contesting in polls" name="description">
+<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps
+Indian voters select the best candidate contesting in polls" name="description">
 </head>
 <body>
 <jsp:include page="header.jsp" />
@@ -125,9 +126,6 @@
 <div id="similarPostsText"><span class="SParrow"></span>
 Similar Posts</div>
 <div id="similarPostsContainer"></div>
-
-
-
 </div>
 </div>
 </div>
@@ -135,14 +133,16 @@ Similar Posts</div>
 <div id="pollWrapper">
 <div id="pollText">Poll<span class="arrow"></span></div>
 <div id="question">
-Who do you think will be the next Prime Minister?
 </div>
+<div id="beforeVote">
+
 <div id="options">
-<input type="radio" name="opt1" id="rahul"><label for="rahul">Rahul Gandhi</label><br>
-<input type="radio" name="opt1" id="naren"><label for="naren">Narendra Modi</label>
 </div>
 <div id="rightArrowBar"><div id="pollRightArrow"></div></div>
-<hr>
+</div>
+<div id="afterVote">
+</div>
+<hr />
 </div>
 <div id="comicWrapper">
 <div id="comicText">Comic<span class="arrow"></span></div>
@@ -180,8 +180,75 @@ Who do you think will be the next Prime Minister?
 <jsp:include page="footer.jsp" />
 </body>
 <script type="text/javascript">
+var json;
+var votes=[];
+var total=0;
 $(function()
 {
+	// Poll Functionality
+	$.ajax({
+		url :"/web/user/poll",
+		type:"POST",
+		error:function(e,st,string)
+		{
+			console.log("Error "+e);
+		},
+		success:function(response){
+			json=jQuery.parseJSON(response);
+			console.log(json);
+			$('#question').html(json.question);
+			var i=0;
+			for(key in json.option)
+			{
+				radio="<input type='radio' name='opt' id='"+key+"' value='"+aid+"'><label for='"+key+"'>"+key+"</label><br>";
+				$('#options').append(radio);
+				total+=json.option[key];
+				votes.push(json.option[key]);
+				i++;
+				
+			}
+			$('#beforeVote').append("<span id='pollButtons'></span>");
+			var submit="<input type='button' id='pollVote' value='Vote'>";
+			var viewresults="<a id='viewResults'>View Results</a>";
+			$('#afterVote').append("<div id='holder'>");
+			i=0;
+			for(key in json.option)
+			{
+				$('#holder').append("<div id='bar"+(i++)+"' class='bar'>");
+				$('#holder').append("<div><b>"+key+"</b> ( "+json.option[key]+" votes cast )</div>");
+			}
+				$('.bar').each(function(index){
+					$(this).css({width:(votes[index]/total)*200});
+				});
+			$('#pollButtons').append(submit+viewresults);
+			$('#viewResults').click(function(){
+                	$('#beforeVote').css({position:"relative"});
+-					$('#beforeVote').animate({top:"-10px"},200,function(){
+						$(this).hide();
+						$('#afterVote').show();
+					});
+			});
+			$('#afterVote').append("<input type='button' name='back' id='backPoll' value='Back' />");
+			$('#backPoll').click(function(){
+				$('#afterVote').hide();
+				$('#beforeVote').show();
+				$('#beforeVote').animate({top:"0px"},200);
+			});
+			
+		$('#pollVote').click(function(){
+			var option=$("input[name='opt']:checked").val();
+			$.ajax({
+				url:"/web/user/voteforpoll",
+				type:"POST",
+				data:{qid:pollquestionId,answer:option},
+				success:function(){
+						console.log("Voted");	
+				}
+			});
+		});
+		}
+		});		
+
 	/*$('#suggestionBox').css({"display":"none","left":$('#searchBox').position().left,"top":$('#searchBox').position().top+23,"position":"absolute"});
 	$('#searchBox').focusin(function(e){$('#suggestionBox').fadeIn();});
 	$('#searchBox').focusout(function(e){$('#suggestionBox').fadeOut();});*/

@@ -1,5 +1,4 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
 <head>
 <title>Know Your Candidate Editor's Login</title>
 <script type="text/javascript">

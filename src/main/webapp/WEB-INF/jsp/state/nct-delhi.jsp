@@ -86,10 +86,8 @@ $(document).ready(function(){
 			['Sheila Dikshit',' INC',new Date(1998,0,0),new Date(2003,0,0)],
 			['Sheila Dikshit',' INC',new Date(2003,0,0),new Date(2008,0,0)],
 			['Sheila Dikshit',' INC',new Date(2008,0,0),new Date(2013,0,0)],
-			['Arvind Kejriwal',' Aam Aadmi Party',new Date(2013,0,0),new Date()]
-
-		    
-		    
+			['Arvind Kejriwal',' Aam Aadmi Party',new Date(2013,0,0),new Date(2014,0,0)],
+			['President\'s Rule',' ',new Date(2014,0,0),new Date()]		    
 
 
 		    ]);
@@ -135,8 +133,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/nct-delhi/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Arvind Kejriwal</a></div>
-						<div class="mparty"><a href="">Aam Aadmi Party</a></div>
+						<div class="mname"><a href="">President's Rule</a></div>
+						<div class="mparty"><a href=""></a></div>
 						</div>
 					</div>
 					
@@ -172,9 +170,9 @@ $(document).ready(function(){
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/nct-delhi/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Krishna Tirath</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State (Independent Charges) - Women and Child Development</div>
+						<div class="mname"><a href="">Arvind Kejriwal</a></div>
+						<div class="mparty"><a href="">Aam Aadmi Party</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
