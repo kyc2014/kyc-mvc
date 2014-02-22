@@ -180,7 +180,7 @@ $(document).ready(function(){
 						<div class="mphotoDetails">
 						<div class="mname"><a href="">Dr. Harsh Vardhan</a></div>
 						<div class="mparty"><a href="">BJP</a></div>
-						<div class="mpost">Delhi Cheif Minister Candidate</div>
+						<div class="mpost">Delhi Cheif Ministerial Candidate</div>
 						</div>
 					</div>
 				</div>

@@ -125,8 +125,15 @@ $(document).ready(function(){
 		</div>
 		<div id="personalities">
 			<div id="leftPersonalities">
-				<div class="mainPersonalityBlock">
+
+				<div  class="mainPersonalityBlock">
+					<!--<div class="mdesignation">
+					
+					</div>-->
+					
+					
 				</div>
+
 				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
 					Administrator
