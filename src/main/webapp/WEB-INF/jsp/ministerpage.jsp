@@ -2,6 +2,11 @@
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
+<head>
+<meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
+<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps
+Indian voters select the best candidate contesting in polls" name="description"/>
+<title>List of Minsters</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/MinisterPage.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -10,6 +15,7 @@
 <script type="text/javascript" src="/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="/Resources/scripts/pagination.js"></script>
 <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
+</head>
 <body>
 <jsp:include page="../../header.jsp" />
 <div id="wrapper">
