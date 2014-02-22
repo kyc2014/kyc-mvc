@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Arunachal Pradhesh</title>
+<title>Arunachal Pradesh</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -195,7 +195,7 @@ $(document).ready(function(){
 		</div>
 		<div id="povertyStatus" style="display:inline-block;width:400px;height:400px;margin:0 auto;vertical-align:top; ">
 		</div>
-		<div id="chiefMinistersHeading">Chief Ministers of ArunachalPradesh</div>
+		<div id="chiefMinistersHeading">Chief Ministers of Arunachal Pradesh</div>
 		<div id="pastChiefMinisters" style="width:100%;height:400px">
 		</div>
 		
