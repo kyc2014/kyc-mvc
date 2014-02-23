@@ -135,8 +135,6 @@ $(document).ready(function(){
 				</div>
 
 				<div class="mainPersonalityBlock">
-				</div>
-				<div class="mainPersonalityBlock">
 					<div class="mdesignation">
 					Administrator
 					</div>

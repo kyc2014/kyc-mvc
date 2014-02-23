@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>DAMAN & DIU</title>
+<title>Daman & Diu</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -127,10 +127,10 @@ $(document).ready(function(){
 				<div class="mainPersonalityBlock">
                                 				
                                  <div class="mdesignation">
-					Lieutenant Governor
+					Administrator
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/daman-and-diu/governor.jpg">
+						<img src="/Resources/images/state/daman-and-diu/administrator.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Bhupinder S. Bhalla</div>
 						<div class="mparty"></div>
@@ -148,8 +148,8 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/daman-and-diu/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Lallubhai Babubhai Patel</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="">Lalubhai Babubhai Patel</a></div>
+						<div class="mparty"><a href="">BJP</a></div>
 						<div class="mpost">Member of Parliament</div>
 						</div>
 					</div>
