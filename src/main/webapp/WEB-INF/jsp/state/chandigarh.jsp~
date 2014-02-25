@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Chandigarh</title>
+<meta name="description" content="Chandigarh - Union Territory of India. List of Administrators, Political Parties and Politicians of Chandigarh."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

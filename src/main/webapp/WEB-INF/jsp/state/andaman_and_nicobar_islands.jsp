@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Andaman & Nicobar Islands</title>
+<meta name="description" content="Andaman and Nicobar Islands - Union Territory of India. List of Administrators, Political Parties and Politicians of Andaman and Nicobar Islands."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

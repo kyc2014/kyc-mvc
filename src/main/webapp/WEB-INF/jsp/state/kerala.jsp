@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Kerala</title>
+<meta name="description" content="Kerala - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Kerala."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

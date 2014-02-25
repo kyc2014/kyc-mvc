@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Odisha</title>
+<meta name="description" content="Odisha - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Odisha."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

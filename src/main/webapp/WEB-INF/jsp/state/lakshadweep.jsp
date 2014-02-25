@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Lakshadweep</title>
+<meta name="description" content="Lakshadweep - Union Territory of India. List of Administrators, Political Parties and Politicians of Lakshadweep."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Daman & Diu</title>
+<meta name="description" content="Daman and Diu - Union Territory of India. List of Administrators, Political Parties and Politicians of Daman and Diu."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

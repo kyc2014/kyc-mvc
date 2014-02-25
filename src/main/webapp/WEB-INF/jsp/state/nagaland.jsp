@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Nagaland</title>
+<meta name="description" content="Nagaland - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Nagaland."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Puducherry</title>
+<meta name="description" content="Puducherry - Union Territory of India. List of Chief Ministers (CM), Political Parties and Politicians of Puducherry."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
