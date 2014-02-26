@@ -123,7 +123,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			ASSAM
+			<h1>ASSAM</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">15 August 1947</span>

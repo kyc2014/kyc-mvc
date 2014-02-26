@@ -112,7 +112,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			DAMAN AND DIU
+			<h1>DAMAN AND DIU</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">30 May 1987</span>

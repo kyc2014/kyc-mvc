@@ -107,7 +107,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			SIKKIM
+			<h1>SIKKIM</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">16 May 1975</span>

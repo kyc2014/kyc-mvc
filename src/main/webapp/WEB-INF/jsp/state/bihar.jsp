@@ -135,7 +135,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			BIHAR
+			<h1>BIHAR</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">2 April 1946</span>

@@ -184,7 +184,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			MAHARASHTRA
+			<h1>MAHARASHTRA</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">1 Nov 1960</span>

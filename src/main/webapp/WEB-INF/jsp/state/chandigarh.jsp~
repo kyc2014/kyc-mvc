@@ -115,7 +115,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			CHANDIGARH
+			<h1>CHANDIGARH</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">1 November 1966</span>

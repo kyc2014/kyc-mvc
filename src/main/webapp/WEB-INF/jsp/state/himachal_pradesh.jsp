@@ -172,7 +172,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			HIMACHAL PRADESH
+			<h1>HIMACHAL PRADESH</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">25 January 1971</span>

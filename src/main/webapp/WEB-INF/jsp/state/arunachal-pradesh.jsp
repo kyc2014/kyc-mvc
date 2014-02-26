@@ -107,7 +107,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			ARUNACHAL PRADESH
+			<h1>ARUNACHAL PRADESH</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">20 February 1987</span>

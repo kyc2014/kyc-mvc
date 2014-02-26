@@ -102,7 +102,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			UTTARAKHAND
+			<h1>UTTARAKHAND</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">9 November 2000</span>

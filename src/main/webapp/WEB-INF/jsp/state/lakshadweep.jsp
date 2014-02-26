@@ -129,7 +129,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			LAKSHADWEEP
+			<h1>LAKSHADWEEP</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">10 November 1956</span>

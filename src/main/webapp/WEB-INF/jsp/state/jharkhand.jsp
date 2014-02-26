@@ -116,7 +116,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			JHARKHAND
+			<h1>JHARKHAND</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">15 November 2000</span>

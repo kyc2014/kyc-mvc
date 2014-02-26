@@ -179,7 +179,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			TAMIL NADU
+			<h1>TAMIL NADU</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">26 January 1950</span>

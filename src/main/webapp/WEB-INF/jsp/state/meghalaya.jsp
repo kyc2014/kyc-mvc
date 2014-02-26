@@ -125,7 +125,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			MEGHALAYA
+			<h1>MEGHALAYA</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">21 January 1972</span>

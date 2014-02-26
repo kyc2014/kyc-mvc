@@ -110,7 +110,7 @@ $(document).ready(function(){
 	<div id="container">
 		<div id="stateInfo">
 			<div id="stateName">
-			JAMMU & KASHMIR
+			<h1>JAMMU AND KASHMIR</h1>
 			</div>
 			<div id="dof">
 				<span>Date of Formation - </span><span id="dofValue">30 March 1965</span>
