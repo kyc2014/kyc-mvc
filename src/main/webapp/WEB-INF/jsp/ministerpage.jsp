@@ -5,7 +5,7 @@
 <head>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
 <meta lang="en-US" content="Knowyourcandidate provides unbiased information Indian Policitans MLAs MPs Information 2014 Lok Sabha elections" name="description"/>
-<title>List of Ministers</title>
+<title>Current Parliament Members</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/MinisterPage.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
