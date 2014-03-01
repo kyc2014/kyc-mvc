@@ -25,6 +25,8 @@ public class CandidateDaoImpl implements CandidateDao{
 	private JdbcTemplate jdbcTemplate;
 	public static String candidateListSQL = "SELECT candidate_id,candidate_name,constituency_name,district,party from ";
 	public static String ministerCandidate = "SELECT candidate_name,candidate_constituency,party,party_short_name,supporters from minister where candidate_id > ? order by candidate_id limit 15";
+	public static String ministerCandidateSearch = "SELECT candidate_name,candidate_constituency,party,party_short_name,supporters from minister " +
+													"where lower(candidate_name) like ? order by candidate_id limit 15";
 	
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
@@ -88,6 +90,23 @@ public class CandidateDaoImpl implements CandidateDao{
 	public List<MinisterialCandidate> retrieveMinisterList(int pageNo) {
 		List<MinisterialCandidate> candidateList = new ArrayList<MinisterialCandidate>(); 
 		List<Map<String,Object>> rows = jdbcTemplate.queryForList(ministerCandidate,new Object[]{(pageNo-1)*15});
+		for (Map row : rows) {
+			MinisterialCandidate candidate=new MinisterialCandidate();
+			candidate.setName((String)row.get("candidate_name"));
+			candidate.setPartyShortName((String)row.get("party_short_name"));
+			candidate.setConstituency((String)row.get("candidate_constituency"));
+			candidate.setPartyName((String)row.get("party"));
+			candidate.setSupporters((String)row.get("supporters"));
+			candidateList.add(candidate);
+		}
+		return candidateList;
+	}
+
+
+	@Override
+	public List<MinisterialCandidate> retrieveMinisters(String search) {
+		List<MinisterialCandidate> candidateList = new ArrayList<MinisterialCandidate>(); 
+		List<Map<String,Object>> rows = jdbcTemplate.queryForList(ministerCandidate,new Object[]{"%"+search + "%" });
 		for (Map row : rows) {
 			MinisterialCandidate candidate=new MinisterialCandidate();
 			candidate.setName((String)row.get("candidate_name"));

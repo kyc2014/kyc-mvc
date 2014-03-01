@@ -20,6 +20,13 @@ public class CandidateServiceImpl implements CandidateService{
 		MinisterialCandidate candidate = (MinisterialCandidate)candidateDao.retrieveMinister(name);
 		return candidate;
 	}
+	
+	@Override
+	public List<MinisterialCandidate> retrieveMinisterialCandidatesBySearch(String search) {
+		List<MinisterialCandidate> candidate = (List<MinisterialCandidate>)candidateDao.retrieveMinisters(search);
+		return candidate;
+	}
+	
 	@Override
 	public Candidate retrieveCandidateByID(int id, String table) {
 		Candidate candidate = (Candidate)candidateDao.retrieveCandidateUsingID(id,table);

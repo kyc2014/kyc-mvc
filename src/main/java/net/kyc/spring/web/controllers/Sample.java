@@ -40,6 +40,39 @@ public class Sample {
 		return "CandidatePage";
 	}
 	
+	// For Candidate dialog
+	@RequestMapping(value="minister/q/{candidateName}")
+	public String retrieveCandidatePlain(@PathVariable String candidateName, ModelMap model){
+		MinisterialCandidate candidate;
+		try
+		{
+		candidate = candidateService.retrieveMinisterialCandidateByName(candidateName);
+		}
+		catch(EmptyResultDataAccessException e)
+		{
+			return "CandidateMissing";
+		}
+		model.addAttribute("candidate",candidate);
+		return "CandidateDialog";
+	}
+	
+	// For serach
+	@RequestMapping(value="minister/search/{search}")
+	public String retrieveCandidateSearch(@PathVariable String candidateName, ModelMap model){
+		List<MinisterialCandidate> candidate;
+		try
+		{
+			candidate = candidateService.retrieveMinisterialCandidatesBySearch(candidateName);
+		}
+		catch(EmptyResultDataAccessException e)
+		{
+			return "CandidateMissing";
+		}
+		model.addAttribute("candidate",candidate);
+		return "CandidateDialog";
+	}
+	
+	
 	@RequestMapping(value="ministers/list/{pageNo}")
 	public String retrieveMinisterList(@PathVariable int pageNo, ModelMap model){
 		List<MinisterialCandidate> candidate = candidateService.retrieveMinistersList(pageNo);

@@ -5,16 +5,10 @@
 <!DOCTYPE html>
 
 <html>
-	<title>Honourable Minister <c:out value="${candidate.name}"/></title>
 	<head>
-		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/Map.css">
-		<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/CandidatePage.css">
-		<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/SuggestionBox.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script src="/Resources/Libraries/jquery-2.0.2.min.js" /></script>
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 		<script src="/Resources/scripts/mapPlugin.js"></script>
 		<script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
@@ -41,10 +35,9 @@
 					});
 		});
 		</script>
-		<meta lang="en-US" content="Information about Indian minister <c:out value="${candidate.name}"/> Member of paliament Lok Sabha candidate" name="description"/>
+		
 	</head>
 	<body>	
-	<jsp:include page="../../header.jsp" />
 <!--*********************************************************************candidate page ***********************************************************************-->
 		<div id="wrapperCP">
 			<div id="containerCP" class="Cont">
@@ -54,7 +47,6 @@
 							<img src="/Resources/Images/ministers/<c:out value="${candidate.name}" />.jpg" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
-						<h1 style="display:none">${candidate.name}</h1>
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    
 							<p id="partyNameCP"><span id="value"><c:out value="${candidate.partyName}" /></span></p>
 							<p id="genderCP"><span id="gender"><c:out value="${candidate.gender}" /></span> </p>
@@ -99,8 +91,5 @@
 				</div>   
 			</div>
 		</div>
-		<jsp:include page="footer.jsp"></jsp:include>
 	</body>
-	
-	
 </html>

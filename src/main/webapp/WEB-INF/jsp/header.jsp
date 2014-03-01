@@ -117,3 +117,6 @@ Login/Sign Up
             </div>
           </div>
 </div>
+<div class='modalBg hide'>
+	<div class='contentBox'></div>
+</div>
