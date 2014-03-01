@@ -15,5 +15,10 @@ public class FeedbackServiceImpl implements FeedbackService{
 	public void saveFeedback(Feedback feedback) {
 		feedbackDao.savefeedback(feedback);
 	}
+	
+	@Override
+	public boolean subscribe(String email) {
+		return feedbackDao.subscribe(email);
+	}
 
 }

@@ -2,6 +2,31 @@
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+ <script>
+ $(function(){
+	 $("#footer_subscribe_button").click(function(){
+			var mail = $("#footer_subscribe_email").val();
+			if(mail=="" || invalid(mail))
+	        {
+	          return false;
+	        }
+			$.ajax({
+	            type: 'POST',
+	            url: "/web/user/subscribe",
+	            data: "email="+mail,
+	            success: function(data){	            	
+	                  if(data	 == "success"){
+	                  	$(".subscribe_fields").hide();
+	                  	$(".subscribe_thanks_text").show();           	
+	                  }
+	                  else{
+	                  	alert("Technical problem please again later");
+	                }
+	            }
+	            });
+		});
+ });
+ </script>
 <footer id="footer">
  <section id="footerContents">
 	<div id="copyright">
@@ -20,6 +45,11 @@
 	    <div class="SocialImage"><a href="http://www.google.com/"><img src="/Resources/Images/gp.png"/></a></div>
 	    <div class="SocialImage"><a href="http://www.twitter.com/"><img src="/Resources/Images/t.png"/></a></div>
     </div>
+    <div class="footer_subscribe_div">
+    	<input type="text" class="subscribe_fields footer_subscribe_text" placeholder="Enter email address" name="footer_subscribe_email" id="footer_subscribe_email"/>
+    	<input type="button" class="subscribe_fields footer_subscribe_button" name="footer_subscribe_button" id="footer_subscribe_button" value="Subscribe"/>
+    	<span class="subscribe_thanks_text" style="display:none">Thanks for subscribing</span>
+    </div>    
 </section>
     
     <div id="madeWithLove">
@@ -27,3 +57,12 @@
     </div>
     
 </footer>
+<style>
+.footer_subscribe_button{
+	font: 14px opensans;
+}
+.footer_subscribe_text{
+	width: 143px;
+	height: 21px;
+}
+</style>

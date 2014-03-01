@@ -4,6 +4,7 @@
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
  <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
  <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
+ <script type="text/javascript" src="/Resources/scripts/validator.js"></script>
 <header>
 <a href="/"><img src="/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <!--<div id="logArea">

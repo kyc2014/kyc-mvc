@@ -17,7 +17,7 @@ Indian voters select the best candidate contesting in polls" name="description"/
 <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
 </head>
 <body>
-<jsp:include page="../../header.jsp" />
+<jsp:include page="header.jsp" />
 <div id="wrapper">
 <c:forEach var="candidate" items="${candidate}" varStatus="candidateStatus">
 	<c:if test="${candidateStatus.index%3==0}">

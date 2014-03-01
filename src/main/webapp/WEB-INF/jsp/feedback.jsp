@@ -3,14 +3,15 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/feedback.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/prettyCheckable.css">
-<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
 <script src="/Resources/Libraries/prettyCheckable.js"></script>
-
+<meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
+<meta lang="en-US" content="Give your valuable feedback about knowyourcandidate. Help us get better" name="description"/>
 </head>
 
 <body>
@@ -110,14 +111,7 @@ $("#feedback_submit").click(function(e){
          
       });
   });
-function invalid(mail)
-{
-   var regex = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-  if(regex.test(mail) === false)
-    return true;
-  else
-    return false;
-  }
+
 function resetForm()
 {
   $('.Ta,.Textbox,.Age').val("");

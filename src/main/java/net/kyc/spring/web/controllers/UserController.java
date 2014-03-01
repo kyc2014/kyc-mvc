@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.context.request.WebRequest;
+import org.apache.commons.validator.EmailValidator;
 
 @Controller
 public class UserController {
@@ -79,7 +80,21 @@ public class UserController {
 		return message;
 	}
 	
-	
+	@RequestMapping(value="/user/subscribe", method = RequestMethod.POST)
+	@ResponseBody	
+	public String feedBack(@RequestParam(value="email", required=true) String email){
+		if(EmailValidator.getInstance().isValid(email)){
+			if(feedbackService.subscribe(email)){	
+				return "success";
+			}
+			else{
+				return "Failure";
+			}
+		}
+		else{
+			return "Email Invalid";
+		}
+	}
 	@RequestMapping(value="/user/login")
 	public String login(@RequestParam("user_identifier") String userIdentifier,
 			@RequestParam("password") String password, WebRequest request){
