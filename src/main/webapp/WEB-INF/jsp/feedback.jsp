@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/prettyCheckable.css">
 <script src="/Resources/Libraries/prettyCheckable.js"></script>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Give your valuable feedback about knowyourcandidate. Help us get better" name="description"/>
+<meta lang="en-US" content="Give your valuable feedback about knowyourcandidate. Help us get better. What other political information you will br interested in" name="description"/>
 </head>
 
 <body>
@@ -121,7 +121,7 @@ function resetForm()
 }
 </script>
 <div id="container">
-	  <span>Feedback</span>
+	  <h1 class="feedback_heading">Give Us Your Feedback</h1>
 	  <form id="feedback_form" action="/web/user/feedback">
       <input type="text" name="name" id="name" placeholder="Name" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
       <input type="text" name="email" id="email" placeholder="E-mail" class="justify ours Textbox normal" spellcheck="false" autocomplete="off"/><br/>
@@ -145,6 +145,13 @@ function resetForm()
 </div>
  <jsp:include page="footer.jsp" /> 
 
-
+<style>
+.feedback_heading{
+font: 20px raleway;
+color: #999;
+font-weight: bold;
+margin: 0 0 20px 45px;
+}
+</style>
 </body>
 </html>
