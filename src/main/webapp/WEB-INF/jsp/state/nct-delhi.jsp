@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Delhi</title>
-<meta name="description" content="Delhi - National Capital Territory of India. List of Chief Ministers (CM), Political Parties and Politicians of Delhi."/>
+<meta name="description" content="Delhi - National Capital Territory of India. List of Chief Ministers, Political Parties and Politicians of Delhi."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

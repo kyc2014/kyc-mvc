@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Jammu and Kashmir</title>
-<meta name="description" content="Jammu and Kashmir - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Jammu and Kashmir."/>
+<meta name="description" content="Jammu and Kashmir - State of India. List of Chief Ministers, Political Parties and Politicians of Jammu and Kashmir."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

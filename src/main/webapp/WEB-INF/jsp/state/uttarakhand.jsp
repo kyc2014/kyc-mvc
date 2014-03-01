@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Uttarakhand</title>
-<meta name="description" content="Uttarakhand - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Uttarakhand."/>
+<meta name="description" content="Uttarakhand - State of India. List of Chief Ministers, Political Parties and Politicians of Uttarakhand."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

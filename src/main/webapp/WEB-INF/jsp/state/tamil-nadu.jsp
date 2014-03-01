@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Tamil Nadu</title>
-<meta name="description" content="Tamil Nadu - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Tamil Nadu."/>
+<meta name="description" content="Tamil Nadu - State of India. List of Chief Ministers, Political Parties and Politicians of Tamil Nadu."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

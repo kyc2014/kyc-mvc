@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Andhra Pradesh</title>
-<meta name="description" content="Andhra Pradesh - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Andhra Pradesh."/>
+<meta name="description" content="Andhra Pradesh - State of India. List of Chief Ministers, Political Parties and Politicians of Andhra Pradesh."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
