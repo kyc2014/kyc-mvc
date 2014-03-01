@@ -4,8 +4,7 @@
 <!DOCTYPE html>
 <head>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps
-Indian voters select the best candidate contesting in polls" name="description"/>
+<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans MLAs and MPs Information about 2014 Lok Sabha elections" name="description"/>
 <title>List of Ministers</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/MinisterPage.css">
