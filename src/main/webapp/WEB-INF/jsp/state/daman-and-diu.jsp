@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Daman and Diu</title>
+<title>Daman Diu</title>
 <meta name="description" content="Daman and Diu - Union Territory of India. List of Administrators, Political Parties and Politicians of Daman and Diu."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">

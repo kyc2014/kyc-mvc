@@ -54,6 +54,7 @@
 							<img src="/Resources/images/ministers/<c:out value="${candidate.name}" />.jpg" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
+						<h1 style="display:none">${candidate.name}</h1>
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    
 							<p id="partyNameCP"><span id="value"><c:out value="${candidate.partyName}" /></span></p>
 							<p id="genderCP"><span id="gender"><c:out value="${candidate.gender}" /></span> </p>
