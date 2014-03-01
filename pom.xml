@@ -28,7 +28,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
-		</dependency>    
+		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -45,15 +45,15 @@
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
-	        <groupId>org.springframework.security</groupId>
-	        <artifactId>spring-security-web</artifactId>
-	        <version>3.1.4.RELEASE</version>
-    	</dependency>
-    	<dependency>
-        	<groupId>org.springframework.security</groupId>
-        	<artifactId>spring-security-config</artifactId>
-        	<version>3.1.4.RELEASE</version>
-    	</dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>3.1.4.RELEASE</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.velocity</groupId>
 			<artifactId>velocity</artifactId>
@@ -86,46 +86,46 @@
 		</dependency>
 		<!-- Spring Core -->
 		<dependency>
-		    <groupId>org.springframework.social</groupId>
-		    <artifactId>spring-social-core</artifactId>
-		    <version>${spring-social.version}</version>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-core</artifactId>
+			<version>${spring-social.version}</version>
 		</dependency>
 		<!-- Spring Web -->
 		<dependency>
-		  <groupId>org.springframework.social</groupId>
-		  <artifactId>spring-social-web</artifactId>
-		  <version>${spring-social.version}</version>
-		</dependency> 
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-web</artifactId>
+			<version>${spring-social.version}</version>
+		</dependency>
 		<!-- Spring Social Facebook -->
 		<dependency>
-		  <groupId>org.springframework.social</groupId>
-		  <artifactId>spring-social-facebook</artifactId>
-		  <version>${social-facebook.version}</version>
+			<groupId>org.springframework.social</groupId>
+			<artifactId>spring-social-facebook</artifactId>
+			<version>${social-facebook.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
 			<version>1.7.2</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>net.tanesha.recaptcha4j</groupId>
 			<artifactId>recaptcha4j</artifactId>
 			<version>0.0.7</version>
 		</dependency>
-		
+
 		<!-- Spring Security -->
-		
+
 		<dependency>
-		    <groupId>org.springframework.security</groupId>
-		    <artifactId>spring-security-crypto</artifactId>
-		    <version>3.1.0.RELEASE</version>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-crypto</artifactId>
+			<version>3.1.0.RELEASE</version>
 		</dependency>
-		<!--  Apache HTTP Components -->
+		<!-- Apache HTTP Components -->
 		<dependency>
-		    <groupId>org.apache.httpcomponents</groupId>
-		    <artifactId>httpclient</artifactId>
-		    <version>4.1.2</version>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -142,7 +142,17 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.0</version>
 		</dependency>
-		            
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>oro</groupId>
+			<artifactId>oro</artifactId>
+			<version>2.0.8</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>kyc-mvc</finalName>
@@ -166,10 +176,10 @@
 		<jackson.version>1.9.13</jackson.version>
 	</properties>
 	<repositories>
-    <repository>
-        <id>repo.springsource.org</id>
-        <name>repo.springsource.org-snapshots</name>
-        <url>http://repo.springsource.org/libs-snapshot</url>
-    </repository>
-</repositories>
+		<repository>
+			<id>repo.springsource.org</id>
+			<name>repo.springsource.org-snapshots</name>
+			<url>http://repo.springsource.org/libs-snapshot</url>
+		</repository>
+	</repositories>
 </project>
