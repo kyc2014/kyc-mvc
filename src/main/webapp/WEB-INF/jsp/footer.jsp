@@ -17,14 +17,21 @@
 	            success: function(data){	            	
 	                  if(data	 == "success"){
 	                  	$(".subscribe_fields").hide();
-	                  	$(".subscribe_thanks_text").show();           	
+	                  	$(".subscribe_thanks_text").show();
+	                  	$.cookie("email_subscription","true");
 	                  }
 	                  else{
-	                  	alert("Technical problem please again later");
+	                  	alert("Technical problem please try again later");
 	                }
 	            }
 	            });
 		});
+	var subscribe_cookie = $.cookie("email_subscription");
+	if(subscribe_cookie == 'true')
+	{
+		$(".footer_subscribe_div").hide();
+	}
+	 alert(a);
  });
  </script>
 <footer id="footer">
