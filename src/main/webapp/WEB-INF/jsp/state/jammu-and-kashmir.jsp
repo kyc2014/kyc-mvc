@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Jammu and Kashmir</title>
+<title>Jammu Kashmir</title>
 <meta name="description" content="Jammu Kashmir - State of India. List of Chief Ministers, Political Parties and Politicians of Jammu Kashmir"/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
