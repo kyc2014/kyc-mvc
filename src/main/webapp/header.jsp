@@ -7,7 +7,7 @@
 <header>
 <a href="/"><img src="/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <!--<div id="logArea">
-Login/Sign Up
+Login/Sign Up 
 </div>-->
 </header>	
 <div id="menuBar">
