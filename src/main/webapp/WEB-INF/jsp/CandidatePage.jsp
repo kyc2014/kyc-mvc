@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 
 <html>
-	<title>Honourable Minister ${candidate.name}</title>
+	<title>Honourable Minister <c:out value="${candidate.name}"/></title>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/Map.css">
@@ -41,7 +41,7 @@
 					});
 		});
 		</script>
-		<meta lang="en-US" content="Information about Indian minister ${candidate.name} Member of paliament Lok Sabha candidate" name="description"/>
+		<meta lang="en-US" content="Information about Indian minister <c:out value="${candidate.name}"/> Member of paliament Lok Sabha candidate" name="description"/>
 	</head>
 	<body>	
 	<jsp:include page="../../header.jsp" />
