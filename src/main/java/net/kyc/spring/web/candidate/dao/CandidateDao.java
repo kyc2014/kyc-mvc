@@ -2,7 +2,6 @@ package net.kyc.spring.web.candidate.dao;
 
 import java.util.List;
 
-import net.kyc.spring.web.candidate.model.Candidate;
 import net.kyc.spring.web.candidate.model.LegislativeCandidate;
 import net.kyc.spring.web.candidate.model.MinisterialCandidate;
 
@@ -14,5 +13,5 @@ public interface CandidateDao {
 	public List<Object> retrieveCandidateAbstractList();
 	public List<LegislativeCandidate> retrieveStateCandidateList(String stateName,int pageNo);
 	public List<MinisterialCandidate> retrieveMinisterList(int pageNo);
-	
+	public List<MinisterialCandidate> retrieveMinisters(String search);
 }

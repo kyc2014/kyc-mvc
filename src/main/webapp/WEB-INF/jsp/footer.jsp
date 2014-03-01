@@ -31,7 +31,6 @@
 	{
 		$(".footer_subscribe_div").hide();
 	}
-	 alert(a);
  });
  </script>
 <footer id="footer">

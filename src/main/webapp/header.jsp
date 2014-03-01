@@ -19,53 +19,53 @@ Login/Sign Up
 <div id="assemblyCandidatesBox">
 <div class="assemblyStatesListColumn">
 
-<a href="/web/state/andhra-pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/andhra-pradhesh.png" /></span><span class="stateName">Andhra Pradesh</span></a>
-<a href="/web/state/arunachal-pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/arunachal-pradhesh.png" /></span><span class="stateName">Arunachal Pradesh</span></a>
-<a href="/web/state/assam/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/assam.png" /></span><span class="stateName">Assam</span></a>
-<a href="/web/state/bihar/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/bihar.png" /></span><span class="stateName">Bihar</span></a>
-<a href="/web/state/chhattisgarh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/chhattisgarh.png" /></span><span class="stateName">Chhattisgarh</span></a>
-<a href="/web/state/goa/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/goa.png" /></span><span class="stateName">Goa</span></a>
-<a href="/web/state/gujarat/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/gujarat.png" /></span><span class="stateName">Gujarat</span></a>
-<a href="/web/state/haryana/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/haryana.png" /></span><span class="stateName">Haryana</span></a>
-<a href="/web/state/himachal_pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/himachal_pradhesh.png" /></span><span class="stateName">Himachal Pradesh</span></a>
-<a href="/web/state/jammu-and-kashmir/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/jammu-and-kashmir.png" /></span><span class="stateName">Jammu and Kashmir</span></a>
+<a href="/web/state/andhra-pradesh/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/andhra-pradhesh.png" /></span><span class="stateName">Andhra Pradesh</span></a>
+<a href="/web/state/arunachal-pradesh/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/arunachal-pradhesh.png" /></span><span class="stateName">Arunachal Pradesh</span></a>
+<a href="/web/state/assam/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/assam.png" /></span><span class="stateName">Assam</span></a>
+<a href="/web/state/bihar/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/bihar.png" /></span><span class="stateName">Bihar</span></a>
+<a href="/web/state/chhattisgarh/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/chhattisgarh.png" /></span><span class="stateName">Chhattisgarh</span></a>
+<a href="/web/state/goa/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/goa.png" /></span><span class="stateName">Goa</span></a>
+<a href="/web/state/gujarat/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/gujarat.png" /></span><span class="stateName">Gujarat</span></a>
+<a href="/web/state/haryana/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/haryana.png" /></span><span class="stateName">Haryana</span></a>
+<a href="/web/state/himachal_pradesh/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/himachal_pradhesh.png" /></span><span class="stateName">Himachal Pradesh</span></a>
+<a href="/web/state/jammu-and-kashmir/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/jammu-and-kashmir.png" /></span><span class="stateName">Jammu and Kashmir</span></a>
 </div>
 
 <div class="assemblyStatesListColumn">
 <div class="stateTitle">States</div>
-<a href="/web/state/jharkhand/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/jharkhand.png" /></span><span class="stateName">Jharkhand</span></a>
-<a href="/web/state/karnataka/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/karnataka.png" /></span><span class="stateName">Karnataka</span></a>
-<a href="/web/state/kerala/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/kerala.png" /></span><span class="stateName">Kerala</span></a>
-<a href="/web/state/madhya_pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/madhya_pradesh.png" /></span><span class="stateName">Madhya Pradesh</span></a>
-<a href="/web/state/maharastra/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/maharashtra.png" /></span><span class="stateName">Maharashtra</span></a>
-<a href="/web/state/manipur/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/manipur.png" /></span><span class="stateName">Manipur</span></a>
-<a href="/web/state/meghalaya/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/meghalaya.png" /></span><span class="stateName">Meghalaya</span></a>
-<a href="/web/state/mizoram/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/mizoram.png" /></span><span class="stateName">Mizoram</span></a>
-<a href="/web/state/nagaland/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/nagaland.png" /></span><span class="stateName">Nagaland</span></a>
-<a href="/web/state/odisha/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/odisha.png" /></span><span class="stateName">Odisha</span></a>
+<a href="/web/state/jharkhand/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/jharkhand.png" /></span><span class="stateName">Jharkhand</span></a>
+<a href="/web/state/karnataka/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/karnataka.png" /></span><span class="stateName">Karnataka</span></a>
+<a href="/web/state/kerala/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/kerala.png" /></span><span class="stateName">Kerala</span></a>
+<a href="/web/state/madhya_pradesh/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/madhya_pradesh.png" /></span><span class="stateName">Madhya Pradesh</span></a>
+<a href="/web/state/maharastra/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/maharashtra.png" /></span><span class="stateName">Maharashtra</span></a>
+<a href="/web/state/manipur/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/manipur.png" /></span><span class="stateName">Manipur</span></a>
+<a href="/web/state/meghalaya/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/meghalaya.png" /></span><span class="stateName">Meghalaya</span></a>
+<a href="/web/state/mizoram/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/mizoram.png" /></span><span class="stateName">Mizoram</span></a>
+<a href="/web/state/nagaland/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/nagaland.png" /></span><span class="stateName">Nagaland</span></a>
+<a href="/web/state/odisha/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/odisha.png" /></span><span class="stateName">Odisha</span></a>
 </div>
 
 <div class="assemblyStatesListColumn">
-<a href="/web/state/punjab/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/punjab.png" /></span><span class="stateName">Punjab</span></a>
-<a href="/web/state/rajasthan/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/rajasthan.png" /></span><span class="stateName">Rajasthan</span></a>
-<a href="/web/state/sikkim/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/sikkim.png" /></span><span class="stateName">Sikkim</span></a>
-<a href="/web/state/tamil-nadu/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/tamil-nadu.png" /></span><span class="stateName">Tamil Nadu</span></a>
-<a href="/web/state/tripura/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/tripura.png" /></span><span class="stateName">Tripura</span></a>
-<a href="/web/state/uttar_pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttar_pradesh.png" /></span><span class="stateName">Uttar Pradesh</span></a>
-<a href="/web/state/uttarakhand/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttarakhand.png" /></span><span class="stateName">Uttarakhand</span></a>
-<a href="/web/state/west_bengal/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/west_bengal.png" /></span><span class="stateName">West Bengal</span></a>
+<a href="/web/state/punjab/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/punjab.png" /></span><span class="stateName">Punjab</span></a>
+<a href="/web/state/rajasthan/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/rajasthan.png" /></span><span class="stateName">Rajasthan</span></a>
+<a href="/web/state/sikkim/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/sikkim.png" /></span><span class="stateName">Sikkim</span></a>
+<a href="/web/state/tamil-nadu/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/tamil-nadu.png" /></span><span class="stateName">Tamil Nadu</span></a>
+<a href="/web/state/tripura/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/tripura.png" /></span><span class="stateName">Tripura</span></a>
+<a href="/web/state/uttar_pradesh/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/uttar_pradesh.png" /></span><span class="stateName">Uttar Pradesh</span></a>
+<a href="/web/state/uttarakhand/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/uttarakhand.png" /></span><span class="stateName">Uttarakhand</span></a>
+<a href="/web/state/west_bengal/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/west_bengal.png" /></span><span class="stateName">West Bengal</span></a>
 <a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
-<a href="/web/state/andaman_and_nicobar_islands/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/andaman_and_nicobar_islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
-<a href="/web/state/chandigarh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/chandigarh.png" /></span><span class="stateName">Chandigarh</span></a> 
-<a href="/web/state/dadra_and_nagar_haveli/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/dadra_and_nagar_haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
-<a href="/web/state/daman-and-diu/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/daman-and-diu.png" /></span><span class="stateName">Daman and Diu</span></a> 
-<a href="/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
-<a href="/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>
-<a href="/web/state/puducherry/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
+<a href="/web/state/andaman_and_nicobar_islands/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/andaman_and_nicobar_islands.png" /></span><span class="stateName">Andaman and Nicobar Islands</span></a> 
+<a href="/web/state/chandigarh/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/chandigarh.png" /></span><span class="stateName">Chandigarh</span></a> 
+<a href="/web/state/dadra_and_nagar_haveli/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/dadra_and_nagar_haveli.png" /></span><span class="stateName">Dadra and Nagar Haveli</span></a> 
+<a href="/web/state/daman-and-diu/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/daman-and-diu.png" /></span><span class="stateName">Daman and Diu</span></a> 
+<a href="/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
+<a href="/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>
+<a href="/web/state/puducherry/" id=""><span class="stateSeal"><img src="/Resources/Images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
 <a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 <a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
@@ -87,7 +87,7 @@ Login/Sign Up
               
             </div>
             <div id="signupRight">
-              <form id="loginForm">
+              <form id="loginForm"> 
               <input type="text" placeholder="username" id="userName" spellcheck="false" class="signupFormBox">
               <input type="password" placeholder="password" id="password" spellcheck="false" class="signupFormBox">
               <input type="submit" id="loginButton" value="Sign in" class="signupFormButton">

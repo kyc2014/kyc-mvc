@@ -4,16 +4,11 @@
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
 
-<html> 
+<html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/Map.css">
-		<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/CandidatePage.css">
-		<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/SuggestionBox.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script src="/Resources/Libraries/jquery-2.0.2.min.js" /></script>
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 		<script src="/Resources/scripts/mapPlugin.js"></script>
 		<script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
@@ -43,7 +38,6 @@
 		
 	</head>
 	<body>	
-	<jsp:include page="../../header.jsp" />
 <!--*********************************************************************candidate page ***********************************************************************-->
 		<div id="wrapperCP">
 			<div id="containerCP" class="Cont">
@@ -97,8 +91,5 @@
 				</div>   
 			</div>
 		</div>
-		<jsp:include page="footer.jsp"></jsp:include>
 	</body>
-	
-	
 </html>
