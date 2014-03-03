@@ -4,7 +4,9 @@
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
 
-<html> 
+
+<html>
+	<title>Honourable Minister <c:out value="${candidate.name}"/></title>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/Map.css">
@@ -40,7 +42,7 @@
 					});
 		});
 		</script>
-		
+		<meta lang="en-US" content="Information about Indian minister <c:out value="${candidate.name}"/> Member of paliament Lok Sabha candidate" name="description"/>
 	</head>
 	<body>	
 	<jsp:include page="../../header.jsp" />
@@ -53,6 +55,7 @@
 							<img src="/Resources/Images/ministers/<c:out value="${candidate.name}" />.jpg" id="candidateImageCP">
 						</section>
 						<section id="candidateDetailsCP" class="col">
+						<h1 style="display:none">${candidate.name}</h1>
 							<p id="nameCP">  <span id="name"><c:out value="${candidate.name}" /></span>    
 							<p id="partyNameCP"><span id="value"><c:out value="${candidate.partyName}" /></span></p>
 							<p id="genderCP"><span id="gender"><c:out value="${candidate.gender}" /></span> </p>

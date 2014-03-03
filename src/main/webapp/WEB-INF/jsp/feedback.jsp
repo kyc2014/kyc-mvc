@@ -3,6 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
+<title>Feedback</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
