@@ -39,6 +39,7 @@ img
 }
 .Box
 {
+	cursor:pointer;
 	width:220px;
 	min-height:200px;
 	height:auto;
@@ -122,7 +123,7 @@ img
 	border-radius:25px;
 	padding:5px;
 	color:#EAEAEA;
-	transition:background-color ease-in;
+	transition:background-color ease-in; 
 }
 #pager li:hover
 {

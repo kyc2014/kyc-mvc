@@ -12,7 +12,7 @@ Indian voters select the best candidate contesting in polls" name="description"/
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
 </head>
-<body>
+<body> 
 <jsp:include page="header.jsp" />
 <div id="wrapper">
 <c:forEach var="candidate" items="${candidate}" varStatus="candidateStatus">

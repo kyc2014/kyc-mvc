@@ -4,6 +4,10 @@ $(".Box").click(function(){
 	var url = "/web/minister/q/"+name ;
 	showDialog(url);
 });
+$(".modalBg .contentWrapper").click(function(e){e.stopPropagation();e.preventDefault();})
+$(".modalBg .closepopupButton,.modalBg").click(function(){
+	closepopup();
+});
 
 function showDialog(url){
 	$(".modalBg").show();
@@ -12,8 +16,10 @@ function showDialog(url){
 		$(".modalBg .contentBox").removeClass('loading');
 	});
 	var h = $(window).height();
+	$(".modalBg .contentWrapper").css({
+		marginTop : 25 
+	});
 	$(".modalBg .contentBox").css({
-		marginTop : 25 ,
 		height : h-50 ,		
 	})
 	$(document).on("keyup.escapeListener",function(e){
