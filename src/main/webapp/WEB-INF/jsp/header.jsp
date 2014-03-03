@@ -108,7 +108,7 @@ Login/Sign Up
               <select name="year" id="year">
               </select>
               <select name="gender" id="gender">
-              <option>Male</option>
+              <option>Male</option> 
               <option>Female</option>
               </select>
               <input type="submit" id="signupButton" value="Sign up" class="signupFormButton">
@@ -118,5 +118,9 @@ Login/Sign Up
           </div>
 </div>
 <div class='modalBg hide'>
-	<div class='contentBox'></div>
+	<div class='contentWrapper'>
+		<div class="closepopupButton">      
+		</div>
+		<div class='contentBox'></div>
+	</div>
 </div>

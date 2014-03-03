@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
 </head>
-<body>
+<body> 
 <jsp:include page="header.jsp" />
 <div id="wrapper">
 <h1 style="display:none">Minsters List</h1>
@@ -22,7 +22,7 @@
 	<div class="Box" data-name='<c:out value="${candidate.name}" />'>
 		<a href="#"><img src="/Resources/Images/party/<c:out value="${candidate.partyShortName}" />-RO.png" class="PartyImage" /></a>
 		<div class="ImageWrapper"><img src="/Resources/Images/ministers/<c:out value="${candidate.name}" />.jpg" class="Image" /></div>
-		<div class="Name"><a href="/web/minister/<c:out value="${candidate.name}" />"><c:out value="${candidate.name}" /></a></div>
+		<div class="Name"><a href="/web/minister/<c:out value="${candidate.name}" />/"><c:out value="${candidate.name}" /></a></div>
 		<div class="Constituency"><a href="#"><c:out value="${candidate.constituency}" /></a></div>
 		<div class="Party"><a href="#"><c:out value="${candidate.partyName}" /></a></div>
 		<div class="Supporters"><c:out value="${candidate.supporters}" /></div>
