@@ -48,9 +48,9 @@
            
     </ul>
     <div id="footerSocial">
-	    <div class="SocialImage"><a href="http://www.facebook.com/knowyourcandidate"><img src="/Resources/Images/fb.png"/></a></div>
-	    <div class="SocialImage"><a href="http://www.google.com/"><img src="/Resources/Images/gp.png"/></a></div>
-	    <div class="SocialImage"><a href="http://www.twitter.com/"><img src="/Resources/Images/t.png"/></a></div>
+	    <div class="SocialImage"><a href="http://www.facebook.com/knowyourcandidate"><img src="/Resources/images/fb.png"/></a></div>
+	    <div class="SocialImage"><a href="http://www.google.com/"><img src="/Resources/images/gp.png"/></a></div>
+	    <div class="SocialImage"><a href="http://www.twitter.com/"><img src="/Resources/images/t.png"/></a></div>
     </div>
     <div class="footer_subscribe_div">
     	<input type="text" class="subscribe_fields footer_subscribe_text" placeholder="Enter email address" name="footer_subscribe_email" id="footer_subscribe_email"/>
@@ -60,7 +60,7 @@
 </section>
     
     <div id="madeWithLove">
-          Proudly made with <img src="/Resources/Images/heart.svg"> in INDIA
+          Proudly made with <img src="/Resources/images/heart.svg"> in INDIA
     </div>
     
 </footer>

@@ -107,7 +107,7 @@ padding:10px 0 0 10px;
 	padding-right:28px;
 	display: inline;
 	transition:background 0.5s,width 0.5s,padding 0.4s,box-shadow 0.9s ease-out 0.2s;
-	background:url(../Images/searchGrey.png) no-repeat right;
+	background:url(../images/searchGrey.png) no-repeat right;
 	background-color: #FFF;
 	letter-spacing:1px;
 	-webkit-box-sizing: border-box;
@@ -118,7 +118,7 @@ padding:10px 0 0 10px;
 }
 .SearchBox:focus
 {
-		background:url(../Images/searchWhite.png) no-repeat left;
+		background:url(../images/searchWhite.png) no-repeat left;
 		border:1px solid #ccc;
 		background-color:#EAEAEA;
 		width:240px;

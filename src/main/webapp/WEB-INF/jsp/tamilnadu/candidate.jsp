@@ -12,7 +12,7 @@
 	</head>
 	<body>	
 	<!-- ********************************************************************************header **********************************************************************-->
-<img src="/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" />
+<img src="/Resources/images/KYC%20Logo.png" id="logo" alt="Logo" />
 <div id="smallMenu">
 <div></div>
 <div></div>
@@ -104,9 +104,9 @@
 					           
 					    </ul>
 					    <div id="footerSocial">
-						    <div class="SocialImage"><img src="/Resources/Images/fb.png"/></div>
-						    <div class="SocialImage"><img src="/Resources/Images/gp.png"/></div>
-						    <div class="SocialImage"><img src="/Resources/Images/t.png"/></div>
+						    <div class="SocialImage"><img src="/Resources/images/fb.png"/></div>
+						    <div class="SocialImage"><img src="/Resources/images/gp.png"/></div>
+						    <div class="SocialImage"><img src="/Resources/images/t.png"/></div>
 						   
 					    
 					    </div>
