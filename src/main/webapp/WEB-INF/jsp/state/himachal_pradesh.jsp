@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Himachal Pradesh</title>
-<meta name="description" content="Himachal Pradesh - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Himachal Pradesh."/>
+<meta name="description" content="Himachal Pradesh - State of India. List of Chief Ministers, Political Parties and Politicians of Himachal Pradesh."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

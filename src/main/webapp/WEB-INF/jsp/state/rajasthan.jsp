@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Rajasthan</title>
-<meta name="description" content="Rajasthan - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Rajasthan."/>
+<meta name="description" content="Rajasthan - State of India. List of Chief Ministers, Political Parties and Politicians of Rajasthan."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

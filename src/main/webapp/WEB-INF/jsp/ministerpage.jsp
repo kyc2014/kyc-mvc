@@ -4,9 +4,8 @@
 <!DOCTYPE html>
 <head> 
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps
-Indian voters select the best candidate contesting in polls" name="description"/>
-<title>List of Ministers</title>
+<meta lang="en-US" content="Knowyourcandidate provides unbiased information Indian Policitans MLAs MPs Information 2014 Lok Sabha elections" name="description"/>
+<title>Current Parliament Members</title>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/MinisterPage.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
@@ -15,6 +14,7 @@ Indian voters select the best candidate contesting in polls" name="description"/
 <body>
 <jsp:include page="header.jsp" />
 <div id="wrapper">
+<h1 style="display:none">Minsters List</h1>
 <c:forEach var="candidate" items="${candidate}" varStatus="candidateStatus">
 	<c:if test="${candidateStatus.index%3==0}">
 		<div class="Row">	
@@ -22,7 +22,7 @@ Indian voters select the best candidate contesting in polls" name="description"/
 	<div class="Box" data-name='<c:out value="${candidate.name}" />'>
 		<a href="#"><img src="/Resources/Images/party/<c:out value="${candidate.partyShortName}" />-RO.png" class="PartyImage" /></a>
 		<div class="ImageWrapper"><img src="/Resources/Images/ministers/<c:out value="${candidate.name}" />.jpg" class="Image" /></div>
-		<div class="Name"><a href="/web/minister/<c:out value="${candidate.name}" />"><c:out value="${candidate.name}" /></a></div>
+		<div class="Name"><a href="/web/minister/<c:out value="${candidate.name}" />/"><c:out value="${candidate.name}" /></a></div>
 		<div class="Constituency"><a href="#"><c:out value="${candidate.constituency}" /></a></div>
 		<div class="Party"><a href="#"><c:out value="${candidate.partyName}" /></a></div>
 		<div class="Supporters"><c:out value="${candidate.supporters}" /></div>

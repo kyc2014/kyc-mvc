@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <head>
 <title>Mizoram</title>
-<meta name="description" content="Mizoram - State of India. List of Chief Ministers (CM), Political Parties and Politicians of Mizoram."/>
+<meta name="description" content="Mizoram - State of India. List of Chief Ministers, Political Parties and Politicians of Mizoram."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

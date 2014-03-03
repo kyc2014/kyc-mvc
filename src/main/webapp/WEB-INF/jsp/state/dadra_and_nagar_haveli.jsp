@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Dadra & Nagar Haveli</title>
+<title>Dadra Nagar Haveli</title>
 <meta name="description" content="Dadra and Nagar Haveli - Union Territory of India. List of Administrators, Political Parties and Politicians of Dadra and Nagar Haveli."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
