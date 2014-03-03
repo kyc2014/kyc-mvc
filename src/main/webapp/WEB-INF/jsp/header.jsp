@@ -56,8 +56,8 @@ Login/Sign Up
 <a href="/web/state/uttar_pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttar_pradesh.png" /></span><span class="stateName">Uttar Pradesh</span></a>
 <a href="/web/state/uttarakhand/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttarakhand.png" /></span><span class="stateName">Uttarakhand</span></a>
 <a href="/web/state/west_bengal/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/west_bengal.png" /></span><span class="stateName">West Bengal</span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
@@ -68,9 +68,9 @@ Login/Sign Up
 <a href="/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
 <a href="/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>
 <a href="/web/state/puducherry/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 </div>
 </li>
