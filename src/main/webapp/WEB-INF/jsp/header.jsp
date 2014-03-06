@@ -7,7 +7,7 @@
  <script type="text/javascript" src="/Resources/scripts/validator.js"></script>
  <script type="text/javascript" src="/Resources/scripts/jquery.cookie.js"></script>
 <header>
-<a href="/"><img src="/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
+<a href="/"><img src="/Resources/images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <!--<div id="logArea">
 Login/Sign Up
 </div>-->
@@ -56,8 +56,8 @@ Login/Sign Up
 <a href="/web/state/uttar_pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttar_pradesh.png" /></span><span class="stateName">Uttar Pradesh</span></a>
 <a href="/web/state/uttarakhand/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttarakhand.png" /></span><span class="stateName">Uttarakhand</span></a>
 <a href="/web/state/west_bengal/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/west_bengal.png" /></span><span class="stateName">West Bengal</span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
@@ -68,9 +68,9 @@ Login/Sign Up
 <a href="/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
 <a href="/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>
 <a href="/web/state/puducherry/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
+<a href="" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 </div>
 </li>
@@ -84,8 +84,8 @@ Login/Sign Up
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
             <div id="signupLeft">
-              <div class="diffSignup"><img src="/Resources/Images/gp.png" alt=""><span>Sign up using Google</span></div>
-              <div class="diffSignup"><img src="/Resources/Images/fb.png" alt=""><span>Sign up using Facebook</span></div>
+              <div class="diffSignup"><img src="/Resources/images/gp.png" alt=""><span>Sign up using Google</span></div>
+              <div class="diffSignup"><img src="/Resources/images/fb.png" alt=""><span>Sign up using Facebook</span></div>
               
             </div>
             <div id="signupRight">

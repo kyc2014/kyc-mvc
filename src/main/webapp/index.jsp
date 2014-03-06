@@ -123,12 +123,12 @@ $(function()
 	{
 		if(toggle)
 		{
-			$('#heart').prop("src","Resources/Images/heart2.png");
+			$('#heart').prop("src","Resources/images/heart2.png");
 			toggle=0;
 		}
 		else
 		{
-			$('#heart').prop("src","Resources/Images/heart.png");
+			$('#heart').prop("src","Resources/images/heart.png");
 			toggle=1;
 		}
 	});

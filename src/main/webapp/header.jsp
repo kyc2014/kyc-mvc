@@ -5,7 +5,7 @@
  <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
  <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
 <header>
-<a href="/"><img src="/Resources/Images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
+<a href="/"><img src="/Resources/images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <!--<div id="logArea">
 Login/Sign Up 
 </div>-->
@@ -82,8 +82,8 @@ Login/Sign Up
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
             <div id="signupLeft">
-              <div class="diffSignup"><img src="/Resources/Images/gp.png" alt=""><span>Sign up using Google</span></div>
-              <div class="diffSignup"><img src="/Resources/Images/fb.png" alt=""><span>Sign up using Facebook</span></div>
+              <div class="diffSignup"><img src="/Resources/images/gp.png" alt=""><span>Sign up using Google</span></div>
+              <div class="diffSignup"><img src="/Resources/images/fb.png" alt=""><span>Sign up using Facebook</span></div>
               
             </div>
             <div id="signupRight">
