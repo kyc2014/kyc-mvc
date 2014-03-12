@@ -14,4 +14,5 @@ public interface CandidateService {
 	public List<Candidate> retrieveCandidateList();
 	public List<LegislativeCandidate> retrieveStateCandidateList(String stateName,int pageNo);
 	public List<MinisterialCandidate> retrieveMinistersList(int pageNo);
+	List<MinisterialCandidate> searchMinisters(String keyword);
 }

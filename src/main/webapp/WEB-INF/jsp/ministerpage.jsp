@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css">
 <script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/Resources/scripts/jquery-ias.min.js"></script>
 <script type="text/javascript" src="/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="/Resources/scripts/pagination.js"></script>
 <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
@@ -41,5 +42,6 @@
 </div>
 </div>
 <jsp:include page="footer.jsp" />
+
 </body>
 </html>
