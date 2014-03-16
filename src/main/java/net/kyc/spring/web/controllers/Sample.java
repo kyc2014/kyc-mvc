@@ -44,8 +44,18 @@ public class Sample {
 	public String retrieveMinisterList(@PathVariable int pageNo, ModelMap model){
 		List<MinisterialCandidate> candidate = candidateService.retrieveMinistersList(pageNo);
 		model.addAttribute("candidate",candidate);
-		return "ministerpage";
+		model.addAttribute("pageNo", pageNo);
+		return "minister/paginated_minister_page";
 	}
+	
+	@RequestMapping(value="ministers/search", method = RequestMethod.GET)
+	public String retrieveMinisterSearch(@RequestParam(value="keyword", required=true) String keyword, ModelMap model){
+		List<MinisterialCandidate> candidate = candidateService.searchMinisters(keyword);
+		model.addAttribute("candidate",candidate);
+		return "minister/paginated_minister_search_page";
+	}
+	
+	
 	
 	@RequestMapping(value="editor")
 	public String displayEditorsPage(){

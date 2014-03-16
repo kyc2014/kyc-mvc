@@ -14,5 +14,6 @@ public interface CandidateDao {
 	public List<Object> retrieveCandidateAbstractList();
 	public List<LegislativeCandidate> retrieveStateCandidateList(String stateName,int pageNo);
 	public List<MinisterialCandidate> retrieveMinisterList(int pageNo);
+	List<MinisterialCandidate> searchMinister(String keyword);
 	
 }
