@@ -16,251 +16,83 @@
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
 <meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps
 Indian voters select the best candidate contesting in polls" name="description"/>
+<style>
+	#home-wrapper{
+    height: auto;
+    margin: 35px auto;
+    width: 1024px;
+    }
+#home-wrapper h1{
+font-size:25px;
+font-family: opensans;
+font-weight: bold;
+margin: 15px 0 15px 0;
+}
+#home-wrapper h2{
+font-size:22px;
+font-family: opensans;
+font-weight: bold;
+margin: 15px 0 15px 0;
+}
 
-</head>
+p{
+line-height:25px;
+font-family: opensans;
+}
+.news span{
+font-family:opensans;
+font-size: 12px;
+}
+.news{
+width:80%;
+}
+.news-updates span{
+margin: 10px 0 10px 0;
+}
+.news-updates a{
+margin: 10px 0 10px 0;
+color:#1f57a5;
+font-size: 18px;
+}
+.news-updates{
+width:20%;
+}
+
+</style>
+</head>	
 <body>
 <jsp:include page="header.jsp" />
-<div id="wrapper">
-<div id="homeBottom"class="MenuBottom">
+<div id="home-wrapper">
+<div class="news">
+<div class="news-1">
+<h1>Recent News</h1>
+<h2>Apps to bring in election results in real time</h2>
+<span>March 16, 2014 01:07 IST - The Hindu</span>
+<p>Voters in Kerala can soon download an Android-based application on their mobile phones to know Parliament election trends and results in real time on May 16, the counting day.
+The National Informatics Centre (NIC) here has developed the free application at the behest of the Chief Electoral Officer, Kerala, Nalini Netto. Mobile phone penetration in Kerala, which is growing at an exponential rate, is currently estimated at more than 80 per cent. Mobile phone usage has also transcended all class and age differences.
+Ms. Netto is scheduled to launch the application, which is expected to digitally empower the State's electorate, soon. The app will also benefit lakhs of Keralites far removed from the tumult of the Lok Sabha elections in their home State. An estimated 2,37,92,270 voters are expected to exercise their franchise in the elections to be held in Kerala on March 10.
+At the press of a keypad button or a swipe on their mobile phone screen, voters can follow election trends streaming in from 140 counting centres in the State. The application is configured to fetch information, every few minutes, from the central servers of the NIC and the Kerala State Wide Area Network (KSWAN), and alert users as new updates stream in.
+The election trends from the counting centres will be digitally fed into the servers in almost real time. The app is also expected to help reduce congestion on the government websites showing results and trends. In the future, the apps will become a repository of information on election figures, history, and trends in the State and also double as an easily accessible electoral archive. More importantly, the NIC has developed a highly secure cross-platform mobile messaging app for polling officers to communicate with returning officers, executive magistrates, and District Collectors on the polling day.
+Chiefly, they will be able to update voting percentage figures frequently, without having to make mobile phone calls on a day cell phone networks are likely to be congested. This app will be restricted to poll officers, who will have to register the identity of their mobile phone device</p>
 </div>
-<div id="articlesBottom"class="MenuBottom">
+<div class="news-2">
+<h2>Kejriwal keeps up the suspense on Varanasi</h2>
+<span>March 16, 2014 15:11 IST - The Hindu</span>
+<p>
+Aam Aadmi Party leader Arvind Kejriwal on Sunday kept up the suspense on whether he would contest against Narendra Modi in Varanasi, saying he would talk on the issue at the party’s Bangalore rally.
+“Many people asking me — “will i contest against Modi ji?” I will talk on this issue in today’s rally at Bangalore,” Mr. Kejriwal wrote in his post on the microblogging site Twitter.
+His remarks came a day after the BJP announced that its prime ministerial candidate Narendra Modi would contest the Varanasi seat in Uttar Pradesh. The Aam Aadmi Party has hinted at a direct fight between Mr. Modi and Mr. Kejriwal in the 2014 polls. Earlier, party leader Sanjay Singh had appealed to Mr. Kejriwal to contest against Mr. Modi from Varanasi. Addressing a rally recently, senior leader Manish Sisodia had said that “we want the people of Varanasi to answer all the issues that Kejriwal has raised on (Mukesh) Ambani.” “Kejriwal will ask Modi these questions from Varanasi,” Mr. Sisodia had said.
+</p>
 </div>
-<div id="candidatesBottom"class="MenuBottom">
-</div> 
-<div id="container">
-<span class="temp" style="font-size: 30px;width: 100%;float: left;text-align: center;font-family: inherit;"> Under Construction </span>
 </div>
-<jsp:include page="footer.jsp" />
+<div class="news-updates">
+<h2>Upcoming news</h2>
+<a href="#">Electoral Data</a>
+<a href="#">Statewise Election Details</a>
+<a href="#">Election Dates</a>
+</div>
+
+</div>
+<jsp:include page="WEB-INF/jsp/footer.jsp" />
 </body>
-<script type="text/javascript">
-var json;
-var votes=[];
-var total=0;
-$(function()
-{
-	// Poll Functionality
-	$.ajax({
-		url :"/web/user/poll",
-		type:"POST",
-		error:function(e,st,string)
-		{
-			console.log("Error "+e);
-		},
-		success:function(response){
-			json=jQuery.parseJSON(response);
-			console.log(json);
-			$('#question').html(json.question);
-			var i=0;
-			for(key in json.option)
-			{
-				radio="<input type='radio' name='opt' id='"+key+"' value='"+aid+"'><label for='"+key+"'>"+key+"</label><br>";
-				$('#options').append(radio);
-				total+=json.option[key];
-				votes.push(json.option[key]);
-				i++;
-				
-			}
-			$('#beforeVote').append("<span id='pollButtons'></span>");
-			var submit="<input type='button' id='pollVote' value='Vote'>";
-			var viewresults="<a id='viewResults'>View Results</a>";
-			$('#afterVote').append("<div id='holder'>");
-			i=0;
-			for(key in json.option)
-			{
-				$('#holder').append("<div id='bar"+(i++)+"' class='bar'>");
-				$('#holder').append("<div><b>"+key+"</b> ( "+json.option[key]+" votes cast )</div>");
-			}
-				$('.bar').each(function(index){
-					$(this).css({width:(votes[index]/total)*200});
-				});
-			$('#pollButtons').append(submit+viewresults);
-			$('#viewResults').click(function(){
-                	$('#beforeVote').css({position:"relative"});
--					$('#beforeVote').animate({top:"-10px"},200,function(){
-						$(this).hide();
-						$('#afterVote').show();
-					});
-			});
-			$('#afterVote').append("<input type='button' name='back' id='backPoll' value='Back' />");
-			$('#backPoll').click(function(){
-				$('#afterVote').hide();
-				$('#beforeVote').show();
-				$('#beforeVote').animate({top:"0px"},200);
-			});
-			
-		$('#pollVote').click(function(){
-			var option=$("input[name='opt']:checked").val();
-			$.ajax({
-				url:"/web/user/voteforpoll",
-				type:"POST",
-				data:{qid:pollquestionId,answer:option},
-				success:function(){
-						console.log("Voted");	
-				}
-			});
-		});
-		}
-		});		
-
-	/*$('#suggestionBox').css({"display":"none","left":$('#searchBox').position().left,"top":$('#searchBox').position().top+23,"position":"absolute"});
-	$('#searchBox').focusin(function(e){$('#suggestionBox').fadeIn();});
-	$('#searchBox').focusout(function(e){$('#suggestionBox').fadeOut();});*/
-	$('#comicWrapper img').add('#cmcRightArrow').add('#cmcLeftArrow').hover(
-		function(){
-			$('#cmcRightArrow').add('#cmcLeftArrow').height($('#comic').height());
-			$('#cmcRightArrow').add('#cmcLeftArrow').css({"top":$('#comic').position().top,"line-height":$('#comic').height()+'px'});
-			$('#cmcRightArrow').css({"left":$('#comic').position().left+$('#comic').width()-30});
-			$('#cmcRightArrow').fadeIn(0);
-			$('#cmcLeftArrow').fadeIn(0);
-			},
-		function(){
-			$('#cmcRightArrow').fadeOut(0);
-			$('#cmcLeftArrow').fadeOut(0);
-			}
-			);
-			var toggle=1;
-	$('#heart').click(function()
-	{
-		if(toggle)
-		{
-			$('#heart').prop("src","Resources/images/heart2.png");
-			toggle=0;
-		}
-		else
-		{
-			$('#heart').prop("src","Resources/images/heart.png");
-			toggle=1;
-		}
-	});
-  var barleft = true;
-  var barright = true;
-  var totalnews = $('#newsBarBackground').children().size();
-  var transitionend = "-webkitTransitionEnd transitionend otransitionend oTransitionEnd";
-	$('#newsBarLeft').css({"visibility":"hidden"});
-  $('#newsBarLeft').click(function()
-
-      {
-        
-        if(barleft == true)
-        {
-        $('#newsBarRight').css({"visibility":"visible"});
-        var position = $('#newsBarBackground').position().left;
-        position = convert(position);
-        if(position!=0)
-        { 
-          
-             var newposition = position + 681;
-            barleft = false;
-            newposition+='px';
-            $('#newsBarBackground').css({"-webkit-transform":"translate("+newposition+",0px)","transform":"translate("+newposition+",0px)","-ms-transform":"translate("+newposition+",0px)"}).on(transitionend,function(e){
-                       
-                      var ev = e.originalEvent;
-                      var s = ev.propertyName;
-                     if(s == "-webkit-transform" || s=="transform")
-                      barleft = true;
-                       
-            });
-             
-        }
-        if(position==-681)
-        {
-         $('#newsBarLeft').css({"visibility":"hidden"});
-        }
-      }
-      }
-    );
-  $('#newsBarRight').click(function()
-      {
-	       if(barright === true)
-        {
-          
-          var limit = Math.floor(totalnews/5);
-          limit=limit*681;
-          neg = -limit;
-          var position = $('#newsBarBackground').position().left;
-          position = convert(position);
-
-          if(position!=-4767)
-          { 
-             $('#newsBarLeft').css({"visibility":"visible"});
-              var newposition = position - 681;
-              if(newposition==neg)
-              $('#newsBarRight').css({"visibility":"hidden"});
-              newposition+='px';
-              barright = false;
-              $('#newsBarBackground').css({"-webkit-transform":"translate("+newposition+",0px)","transform":"translate("+newposition+",0px)","-ms-transform":"translate("+newposition+",0px)"}).on(transitionend,function(e){
-                      
-                      //console.log(barright);
-                      var ev = e.originalEvent;
-                      var s = ev.propertyName;
-                   if(s == "-webkit-transform" || s=="transform")
-                      barright = true;
-              });
-               
-          }
-        }
-      }
-    );
-    $('#articles').hover(function(){
-          
-        
-              $('.MenuBottom').css({"min-height":"0px"});
-              $('#articlesBottom').css({"min-height":"200px"});
-            
-
-    
-    },function()
-    {
-        var ishover = $('#articlesBottom').is(':hover')
-        console.log(ishover);
-        if(ishover === true)
-        {
-          $('#articles').addClass('menuHover');
-        }
-        else
-        {
-          $('.MenuBottom').css({"min-height":"0px"});
-        }
-        
-    });
-    $('.MenuBottom').hover(function(){},
-    function(){
-      
-      $('.MenuBottom').css({"min-height":"0px"});
-      $('#articles').removeClass('menuHover');
-
-    });
-     
-	
-});
-function resetForm()
-    {
-      $('#loginForm input:not(:last-child)').val("");
-      $('#signupForm input:not(:last-child)').val("");
-    }
-    function convert(position)
-{
-     var isneg=false;
-     if(position<0)
-      isneg = true;
-     var tt = (position-parseInt(position))*100;
-     tt=parseInt(tt);
-     if(isneg)
-     {
-        if(tt==-99)
-          position= Math.floor(position);
-        else
-          position=Math.ceil(position);
-     }
-     else
-     {
-        if(tt==-99)
-          position= Math.ceil(position);
-        else
-          position=Math.floor(position);
-
-     }
-    return position;
-}
-</script>
 </html>

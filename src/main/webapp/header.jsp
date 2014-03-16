@@ -15,7 +15,7 @@ Login/Sign Up
 <div id="menuContainer">
 <ul id="menuList">
 <li><a href="/">Home</a></li>
-<li>Assembly Candidates
+<li>Assembly Members
 <div id="assemblyCandidatesBox">
 <div class="assemblyStatesListColumn">
 
@@ -72,7 +72,7 @@ Login/Sign Up
 </div>
 </div>
 </li>
-<li><a href="/web/ministers/list/1">Parliamentary Candidates</a></li>
+<li><a href="/web/ministers/list/1">Parliament Members</a></li>
 </ul>
 <div style="clear:both"></div>
 </div>

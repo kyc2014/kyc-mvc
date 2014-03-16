@@ -3,8 +3,6 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
-
-<html>
 	<title>Honourable Minister <c:out value="${candidate.name}"/></title>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">

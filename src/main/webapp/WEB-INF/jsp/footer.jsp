@@ -39,12 +39,9 @@
 	    Copyright &copy;  2013-2014 
 	 </div>
     <ul id="footerLinks">
-	<li><a href="#">About-</a></li>
-        <li><a href="#">Contact Us-</a></li>
-        <li><a href="#">PrivacyPolicy-</a></li>
-        <li><a href="#">SiteMap-</a></li>
+        <li><a href="/web/contact">Contact Us-</a></li>
+        <li><a href="/web/about">About Us-</a></li>
         <li><a href="/web/feedback/">Feedback </a></li>
-           
     </ul>
     <div id="footerSocial">
 	    <div class="SocialImage"><a href="http://www.facebook.com/knowyourcandidate"><img src="/Resources/images/fb.png"/></a></div>
@@ -59,7 +56,7 @@
 </section>
     
     <div id="madeWithLove">
-          Proudly made with <img src="/Resources/images/heart.svg"> in INDIA
+          Proudly made in INDIA
     </div>
     
 </footer>

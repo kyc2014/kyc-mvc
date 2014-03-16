@@ -75,6 +75,15 @@ public class Sample {
 		return "";
 	}
 	
+	@RequestMapping(value="/contact")
+    public String contact(){
+		return "contact";
+	}
+	
+	@RequestMapping(value="/about")
+    public String about(){
+		return "about";
+	}
 	
         
 }
