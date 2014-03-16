@@ -2,18 +2,30 @@ a
 {
 	text-decoration:none;
 	color:inherit;
+	
 }
 header
 {
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
-padding:10px 0 0 10px;
+	padding:10px 0 0 10px;
 	min-height:120px;
 	min-width:1024px;
 	width: 100%;
 	border-bottom:1px solid #EAEAEA;
 	position: relative;
+}
+#socialButtons
+{
+	right:0px;
+	display:inline-block;
+	float:right;
+	
+}
+.g-plusone,.fb-like
+{
+	display:inline-block;
 }
 #logo
 {
@@ -363,7 +375,7 @@ padding:10px 0 0 10px;
 {
 	border-bottom:1px solid #EAEAEA;
 }
-
+/*
 @media screen and (max-width:800px){
 	header
 	{
@@ -422,3 +434,4 @@ padding:10px 0 0 10px;
 		margin:10px auto;
 	}
 }
+*/

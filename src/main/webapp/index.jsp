@@ -49,6 +49,7 @@ display:table-cell;
 box-sizing:border-box;
 border-right:1px solid #ccc;
 padding-right:10px;
+padding-left:10px;
 }
 .news-updates span{
 margin: 10px 0 10px 0;
@@ -130,8 +131,8 @@ His remarks came a day after the BJP announced that its prime ministerial candid
 <a href="#">Statewise Election Details</a>
 <a href="#">Election Dates</a>
 </div>
-
-</div>
 <jsp:include page="WEB-INF/jsp/footer.jsp" />
+</div>
+
 </body>
 </html>

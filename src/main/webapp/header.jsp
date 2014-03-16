@@ -9,6 +9,10 @@
 <!--<div id="logArea">
 Login/Sign Up
 </div>-->
+<div id="socialButtons">
+<div class="g-plusone" data-annotation="inline" data-width="300" data-href="https://plus.google.com/104349164165785185482"></div>
+<div class="fb-like" data-href="https://www.facebook.com/knwyourcandidate" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+</div>
 </header>	
 <div id="menuBar">
 <div id="menuWrapper">
@@ -78,6 +82,25 @@ Login/Sign Up
 </div>
 </div>
 </div>
+<!-- Place this tag where you want the +1 button to render. -->
+
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=625588524166491";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="signupPop">
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
@@ -114,4 +137,5 @@ Login/Sign Up
               <div id ="accountExists">Already have an account ?</div>
             </div>
           </div>
+          
 </div>
