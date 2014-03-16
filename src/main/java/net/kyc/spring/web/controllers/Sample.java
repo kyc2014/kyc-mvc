@@ -85,6 +85,5 @@ public class Sample {
 		return "about";
 	}
 	
-	
         
 }

@@ -21,7 +21,7 @@
 </section>
     
     <div id="madeWithLove">
-          Proudly made with <img src="/Resources/images/heart.svg"> in INDIA
+          Proudly made in INDIA
     </div>
     
 </footer>
