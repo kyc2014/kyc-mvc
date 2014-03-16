@@ -9,9 +9,8 @@
 	 </div>
     <ul id="footerLinks">
 	<li><a href="#">About-</a></li>
-        <li><a href="/web/contact">Contact Us-</a></li>
-        <li><a href="/web/privacy">PrivacyPolicy-</a></li>
-        <li><a href="/web/sitemap">SiteMap-</a></li>
+        <li><a href="/web/contact">Contact Us</a></li>
+        <li><a href="/web/about">About Us</a></li>
         <li><a href="/web/feedback/">Feedback </a></li>
            
     </ul>

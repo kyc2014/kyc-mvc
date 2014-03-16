@@ -16,8 +16,26 @@
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
 <meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Policitans. MLAs and MPs details at your desk. Helps
 Indian voters select the best candidate contesting in polls" name="description"/>
-
-</head>
+<style>
+.left-container{
+width:50%;
+display:inline;
+float:left;
+}
+.right-container{
+width:50%;
+display:inline;
+float:right;
+}
+.homepage-container h1{
+font-size: 25px;
+margin: 10px 0 12px 0;
+}
+.homepage-container p{
+margin: 0 0 12px 0;
+}
+</style>
+</head>	
 <body>
 <jsp:include page="header.jsp" />
 <div id="wrapper">
@@ -27,10 +45,36 @@ Indian voters select the best candidate contesting in polls" name="description"/
 </div>
 <div id="candidatesBottom"class="MenuBottom">
 </div> 
-<div id="container">
+<div id="container" class="homepage-container">
+<div class="left-container">
+<h1>News from media</h1>
+<div class="news-media">
+<p>
+<a href="/news/mamata-banerjee-rally-ramlila-maidan">Trinamool Congress chief Mamata Banerjee party rally at Ramlila Maidan</a>
+</p>
+<p>
+<a href="/news/ec-restriction-on-opinion-polls">EC again asks govt. for restrictions on opinion polls</a>
+</p>
+<a href="/news/antony-not-contesting">Antony not to contest</a>
+</div>
+</div>
+<div class="right-container">
+<h1>Updates from Election Commission</h1>
+<div class="eci">
+<p>
+<a href="/legisative-polls-arunachalpradesh">Arunchal Pradesh Legislative Assembly general election dates</a>
+</p>
+<p>
+<a href="/ls/electoral-roll-data/">Electoral roll data</a>
+</p>
+<p>
+<a href="/general-election-schedule">General Elections Schedule</a>
+</p>
+</div>
+</div>
 <span class="temp" style="font-size: 30px;width: 100%;float: left;text-align: center;font-family: inherit;"> Under Construction </span>
 </div>
-<jsp:include page="footer.jsp" />
+<jsp:include page="WEB-INF/jsp/footer.jsp" />
 </body>
 <script type="text/javascript">
 var json;
