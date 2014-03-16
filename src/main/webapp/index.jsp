@@ -43,42 +43,81 @@ font-family: opensans;
 font-family:opensans;
 font-size: 12px;
 }
-.news{
+.newsWrapper{
 width:80%;
+display:table-cell;
+box-sizing:border-box;
+border-right:1px solid #ccc;
+padding-right:10px;
 }
 .news-updates span{
 margin: 10px 0 10px 0;
 }
 .news-updates a{
 margin: 10px 0 10px 0;
-color:#1f57a5;
-font-size: 18px;
+color: #1f57a5;
+font-size: 16px;
+font-family: raleway;
+padding-left: 10px;
+margin-top: 10px;
+position: relative;
+display: block;
+}
+.news-updates h2
+{
+	text-align:center;
 }
 .news-updates{
-width:20%;
+width:19%;
+display:table-cell;
+box-sizing:border-box;
 }
-
+.newsContent
+{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+.newsTimeStamp
+{
+	border: 1px solid #ccc;
+	background-color: #eaeaea;
+	box-sizing: border-box;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.newsTitle
+{
+	
+}
+.news
+{
+	margin-top:10px;
+}
 </style>
 </head>	
 <body>
 <jsp:include page="header.jsp" />
 <div id="home-wrapper">
-<div class="news">
-<div class="news-1">
+<div class="newsWrapper">
+<div class="news-1 news">
 <h1>Recent News</h1>
-<h2>Apps to bring in election results in real time</h2>
-<span>March 16, 2014 01:07 IST - The Hindu</span>
-<p>Voters in Kerala can soon download an Android-based application on their mobile phones to know Parliament election trends and results in real time on May 16, the counting day.
+<h2 class="newsTitle">Apps to bring in election results in real time</h2>
+<span class="newsTimeStamp">March 16, 2014 01:07 IST - The Hindu</span>
+<p class="newsContent">Voters in Kerala can soon download an Android-based application on their mobile phones to know Parliament election trends and results in real time on May 16, the counting day.
 The National Informatics Centre (NIC) here has developed the free application at the behest of the Chief Electoral Officer, Kerala, Nalini Netto. Mobile phone penetration in Kerala, which is growing at an exponential rate, is currently estimated at more than 80 per cent. Mobile phone usage has also transcended all class and age differences.
 Ms. Netto is scheduled to launch the application, which is expected to digitally empower the State's electorate, soon. The app will also benefit lakhs of Keralites far removed from the tumult of the Lok Sabha elections in their home State. An estimated 2,37,92,270 voters are expected to exercise their franchise in the elections to be held in Kerala on March 10.
 At the press of a keypad button or a swipe on their mobile phone screen, voters can follow election trends streaming in from 140 counting centres in the State. The application is configured to fetch information, every few minutes, from the central servers of the NIC and the Kerala State Wide Area Network (KSWAN), and alert users as new updates stream in.
 The election trends from the counting centres will be digitally fed into the servers in almost real time. The app is also expected to help reduce congestion on the government websites showing results and trends. In the future, the apps will become a repository of information on election figures, history, and trends in the State and also double as an easily accessible electoral archive. More importantly, the NIC has developed a highly secure cross-platform mobile messaging app for polling officers to communicate with returning officers, executive magistrates, and District Collectors on the polling day.
 Chiefly, they will be able to update voting percentage figures frequently, without having to make mobile phone calls on a day cell phone networks are likely to be congested. This app will be restricted to poll officers, who will have to register the identity of their mobile phone device</p>
 </div>
-<div class="news-2">
-<h2>Kejriwal keeps up the suspense on Varanasi</h2>
-<span>March 16, 2014 15:11 IST - The Hindu</span>
-<p>
+<div class="news-2 news">
+<h2 class="newsTitle">Kejriwal keeps up the suspense on Varanasi</h2>
+<span class="newsTimeStamp">March 16, 2014 15:11 IST - The Hindu</span>
+<p class="newsContent">
 Aam Aadmi Party leader Arvind Kejriwal on Sunday kept up the suspense on whether he would contest against Narendra Modi in Varanasi, saying he would talk on the issue at the party’s Bangalore rally.
 “Many people asking me — “will i contest against Modi ji?” I will talk on this issue in today’s rally at Bangalore,” Mr. Kejriwal wrote in his post on the microblogging site Twitter.
 His remarks came a day after the BJP announced that its prime ministerial candidate Narendra Modi would contest the Varanasi seat in Uttar Pradesh. The Aam Aadmi Party has hinted at a direct fight between Mr. Modi and Mr. Kejriwal in the 2014 polls. Earlier, party leader Sanjay Singh had appealed to Mr. Kejriwal to contest against Mr. Modi from Varanasi. Addressing a rally recently, senior leader Manish Sisodia had said that “we want the people of Varanasi to answer all the issues that Kejriwal has raised on (Mukesh) Ambani.” “Kejriwal will ask Modi these questions from Varanasi,” Mr. Sisodia had said.
