@@ -1,22 +1,22 @@
 @import url(fonts.css);
 #footer
 {
-	min-width:100%;
-	margin:0px auto 0px;
-	min-height:60px;
-	font-family:'opensans';
-	font-size:15px;
-	color:#666666;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	padding: 10px;
-	position: relative;
-	bottom:0px;
-	border:1px solid #ccc;
-	background-color:#fafafa; 
+min-width: 100%;
+width:1024px;
+margin: 10px auto 0px;
+min-height: 60px;
+font-family: 'opensans';
+font-size: 15px;
+color: #666666;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding: 10px;
+position: absolute;
+left: 0px;
+border-top: 1px solid #ccc;
+background-color: #fafafa;
 }
-
 
 #footerContents
 {
@@ -97,6 +97,7 @@
 	width: 20px;
 	height: 20px;
 }
+/*
 @media screen and (max-width:800px){
 
 	#footer
@@ -120,3 +121,4 @@
 		margin: 2% auto;
 	}
 }
+*/
