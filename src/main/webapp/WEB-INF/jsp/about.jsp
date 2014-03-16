@@ -31,6 +31,7 @@
 		}
 		.us_wrapper p{
 		font: inherit;
+		line-height: 23px;
 		}
 		</style>
 	</head>

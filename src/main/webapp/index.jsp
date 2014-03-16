@@ -50,7 +50,7 @@ margin: 0 0 12px 0;
 <h1>News from media</h1>
 <div class="news-media">
 <p>
-<a href="/news/mamata-banerjee-rally-ramlila-maidan">Trinamool Congress chief Mamata Banerjee party rally at Ramlila Maidan</a>
+<a href="/news/election-results-app">Apps to bring in election results in real time</a>
 </p>
 <p>
 <a href="/news/ec-restriction-on-opinion-polls">EC again asks govt. for restrictions on opinion polls</a>
