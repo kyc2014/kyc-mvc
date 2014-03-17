@@ -10,7 +10,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=625588524166491";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <header>
@@ -20,7 +20,7 @@ Login/Sign Up
 </div>-->
 <div id="socialButtons">
 <div class="g-plusone" data-annotation="inline" data-width="90" data-href="https://plus.google.com/104349164165785185482"></div>
-<div class="fb-like-box" data-href="https://www.facebook.com/knwyourcandidate" data-width="150" data-height="22" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="true"></div>
+<div class="fb-like" data-href="https://www.facebook.com/knwyourcandidate" data-width="60" data-height="22" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="true"></div>
 </div>
 </header>	
 <div id="menuBar">
@@ -102,14 +102,6 @@ Login/Sign Up
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=625588524166491";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 <div id="signupPop">
           <div id="signupPopCloseButton">&times;</div>
           <div style="clear:both" id="signupContainer">
