@@ -19,7 +19,7 @@ Login/Sign Up
 </div>-->
 <div id="socialButtons">
 <div class="g-plusone" data-annotation="inline" data-width="90" data-href="https://plus.google.com/104349164165785185482"></div>
-<div class="fb-like" data-width="50" data-href="https://www.facebook.com/knwyourcandidate" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+<div class="fb-like-box" data-href="https://www.facebook.com/knwyourcandidate" data-width="150" data-height="22" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="true"></div>
 </div>
 </header>	
 <div id="menuBar">
