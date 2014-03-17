@@ -4,14 +4,22 @@
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
  <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
  <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <header>
 <a href="/"><img src="/Resources/images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <!--<div id="logArea">
 Login/Sign Up
 </div>-->
 <div id="socialButtons">
-<div class="g-plusone" data-annotation="inline" data-width="300" data-href="https://plus.google.com/104349164165785185482"></div>
-<div class="fb-like" data-href="https://www.facebook.com/knwyourcandidate" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="g-plusone" data-annotation="inline" data-width="90" data-href="https://plus.google.com/104349164165785185482"></div>
+<div class="fb-like" data-width="50" data-href="https://www.facebook.com/knwyourcandidate" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
 </div>
 </header>	
 <div id="menuBar">
