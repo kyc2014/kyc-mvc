@@ -4,6 +4,7 @@
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
  <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
  <script type="text/javascript" src="/Resources/scripts/analytics.js"></script>
+ <script type="text/javascript" src="/Resources/scripts/jquery.cookie.js"></script>
  <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
