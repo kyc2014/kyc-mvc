@@ -7,10 +7,22 @@
  <script type="text/javascript" src="/Resources/scripts/validator.js"></script>
  <script type="text/javascript" src="/Resources/scripts/jquery.cookie.js"></script>
 <header>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=625588524166491";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <a href="/"><img src="/Resources/images/KYC%20Logo.png" id="logo" alt="Logo" /></a>
 <!--<div id="logArea">
 Login/Sign Up
 </div>-->
+<div id="socialButtons">
+<div class="g-plusone" data-annotation="inline" data-width="90" data-href="https://plus.google.com/104349164165785185482"></div>
+<div class="fb-like" data-href="https://www.facebook.com/knwyourcandidate" data-width="60" data-share="true" data-height="25" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="true"></div>
+</div>
 </header>	
 <div id="menuBar">
 <div id="menuWrapper">
@@ -117,3 +129,10 @@ Login/Sign Up
             </div>
           </div>
 </div>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
