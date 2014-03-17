@@ -116,17 +116,18 @@ The election trends from the counting centres will be digitally fed into the ser
 Chiefly, they will be able to update voting percentage figures frequently, without having to make mobile phone calls on a day cell phone networks are likely to be congested. This app will be restricted to poll officers, who will have to register the identity of their mobile phone device</p>
 </div>
 <div class="news-2 news">
-<h2 class="newsTitle">Kejriwal keeps up the suspense on Varanasi</h2>
-<span class="newsTimeStamp">March 16, 2014 15:11 IST - The Hindu</span>
+<h2 class="newsTitle">Kejriwal ready to take on Modi</h2>
+<span class="newsTimeStamp">BANGALORE, March 16, 2014 - The Hindu</span>
 <p class="newsContent">
-Aam Aadmi Party leader Arvind Kejriwal on Sunday kept up the suspense on whether he would contest against Narendra Modi in Varanasi, saying he would talk on the issue at the party’s Bangalore rally.
-“Many people asking me — “will i contest against Modi ji?” I will talk on this issue in today’s rally at Bangalore,” Mr. Kejriwal wrote in his post on the microblogging site Twitter.
-His remarks came a day after the BJP announced that its prime ministerial candidate Narendra Modi would contest the Varanasi seat in Uttar Pradesh. The Aam Aadmi Party has hinted at a direct fight between Mr. Modi and Mr. Kejriwal in the 2014 polls. Earlier, party leader Sanjay Singh had appealed to Mr. Kejriwal to contest against Mr. Modi from Varanasi. Addressing a rally recently, senior leader Manish Sisodia had said that “we want the people of Varanasi to answer all the issues that Kejriwal has raised on (Mukesh) Ambani.” “Kejriwal will ask Modi these questions from Varanasi,” Mr. Sisodia had said.
+Aam Aadmi Party convener Arvind Kejriwal has declared that he is ready to take on Gujarat Chief Minister Narendra Modi in Varanasi in the Lok Sabha elections, but he will do so only if “the people want” it.
+He was addressing a rally here on Sunday, the second day of his tour of the Lok Sabha constituencies in and around Bangalore. It was attended by a large number of supporters, all wearing the AAP’s caps. Mr. Kejriwal said he would gauge the people’s support at a rally the AAP plans to hold in Varanasi on March 23. “I will do whatever the people say.”
+Speaking in Hindi in his trademark style that alternates between sardonic humour and references to himself as the common man, he spared the BJP’s prime ministerial candidate no criticism and spoke of the media’s “propaganda of falsehood” in their portrayal of Mr. Modi’s development model.
+“For a year, the media have tried to show that Gujarat has progressed under Modiji. So I decided to see the progress for myself. But what I witnessed in my 10-day visit shocked me. Farmers complain that their land is being grabbed and handed over to industries. Modiji represents the old school crony capitalism,” he said.
 </p>
 </div>
 </div>
 <div class="news-updates">
-<h2>Upcoming news</h2>
+<h2>Updates from ECI</h2>
 <a href="#">Electoral Data</a>
 <a href="#">Statewise Election Details</a>
 <a href="#">Election Dates</a>
