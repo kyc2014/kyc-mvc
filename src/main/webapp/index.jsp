@@ -99,6 +99,36 @@ box-sizing:border-box;
 {
 	margin-top:10px;
 }
+.tg
+{
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 1px solid #ccc !important;
+	overflow:hidden;
+	border-radius: 15px !important;
+	-webkit-border-radius: 15px !important;
+	-moz-border-radius: 15px !important;
+	box-shadow: 0 0px 1px #ccc !important;
+	margin:0px auto;
+}
+
+
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-spn1{background-color:#f9f9f9;text-align:center}
+.tg .tg-hgcj{font-weight:bold;text-align:center}
+th:first-child {
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    border-radius: 6px 6px 0 0;
+}
 </style>
 </head>	
 <body>
@@ -107,6 +137,64 @@ box-sizing:border-box;
 <div class="newsWrapper">
 <div class="news-1 news">
 <h1>Recent News</h1>
+<h2 class="newsTitle">AAP Candidate List-TamilNadu</h2>
+<span class="newsTimeStamp">Mar 18, 2014, 01.47 PM IST - Times of India</span>
+<div class="newsContent">
+<table class="tg" style="table-layout: fixed; width: 439px;">
+<colgroup>
+<col style="width: 50px">
+<col style="width: 163px">
+<col style="width: 226px">
+</colgroup>
+  <tr>
+    <th class="tg-hgcj">No</th>
+    <th class="tg-hgcj">Constituency</th>
+    <th class="tg-hgcj">Candidate</th>
+  </tr>
+  <tr>
+    <td class="tg-spn1">1</td>
+    <td class="tg-spn1">Kanyakumari</td>
+    <td class="tg-spn1">S.P Udayakumar</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">2</td>
+    <td class="tg-s6z2">Tirunelveli</td>
+    <td class="tg-s6z2">M.P Jesuraj</td>
+  </tr>
+  <tr>
+    <td class="tg-spn1">3</td>
+    <td class="tg-spn1">Tuticorin</td>
+    <td class="tg-spn1">M Pushparayan</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">4</td>
+    <td class="tg-s6z2">Coimbatore</td>
+    <td class="tg-s6z2">Pon Chandran</td>
+  </tr>
+  <tr>
+    <td class="tg-spn1">5</td>
+    <td class="tg-spn1">Erode</td>
+    <td class="tg-spn1">Kumarasamy</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">6</td>
+    <td class="tg-s6z2">Salem</td>
+    <td class="tg-s6z2">Satheesh Kumar</td>
+  </tr>
+  <tr>
+    <td class="tg-spn1">7</td>
+    <td class="tg-spn1">Chennai Central</td>
+    <td class="tg-spn1">J Prabhakar</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">8</td>
+    <td class="tg-s6z2">Tirupur</td>
+    <td class="tg-s6z2">Chakravarthy Rajagopalakrishnan</td>
+  </tr>
+</table>
+</div>
+</div>
+<div class="news-2 news">
 <h2 class="newsTitle">Apps to bring in election results in real time</h2>
 <span class="newsTimeStamp">March 16, 2014 01:07 IST - The Hindu</span>
 <p class="newsContent">Voters in Kerala can soon download an Android-based application on their mobile phones to know Parliament election trends and results in real time on May 16, the counting day.
@@ -116,7 +204,7 @@ At the press of a keypad button or a swipe on their mobile phone screen, voters 
 The election trends from the counting centres will be digitally fed into the servers in almost real time. The app is also expected to help reduce congestion on the government websites showing results and trends. In the future, the apps will become a repository of information on election figures, history, and trends in the State and also double as an easily accessible electoral archive. More importantly, the NIC has developed a highly secure cross-platform mobile messaging app for polling officers to communicate with returning officers, executive magistrates, and District Collectors on the polling day.
 Chiefly, they will be able to update voting percentage figures frequently, without having to make mobile phone calls on a day cell phone networks are likely to be congested. This app will be restricted to poll officers, who will have to register the identity of their mobile phone device</p>
 </div>
-<div class="news-2 news">
+<div class="news-3 news">
 <h2 class="newsTitle">Kejriwal ready to take on Modi</h2>
 <span class="newsTimeStamp">BANGALORE, March 16, 2014 - The Hindu</span>
 <p class="newsContent">
