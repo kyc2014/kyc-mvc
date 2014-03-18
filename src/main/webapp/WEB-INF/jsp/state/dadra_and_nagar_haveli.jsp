@@ -69,7 +69,7 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'Start' });
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
-		/*  dataTable.addRows([
+		  dataTable.addRows([
 		  	
 			['Mudras','',new Date(1954,7,22),new Date(1954,8,2)],
 			['Vishwanath Lawande','',new Date(1954,8,2),new Date(1954,12,12)],
@@ -94,14 +94,14 @@ $(document).ready(function(){
 			['Ramesh Negi(acting)','',new Date(1998,6,26),new Date(1999,2,23)],
 			['Sanat Kaul','',new Date(1999,2,23),new Date(1999,4,23)],
 			['Ramesh Negi(acting)','',new Date(1999,4,23),new Date(1999,7,19)],
-			['O.P. Kelkar','',new Date(1999,7,19),new Date(2003,0,0)],
-			['Arun Mathur','',new Date(2003,0,0),new Date(2006,0,0)],
-			['R.K. Verma','',new Date(2006,0,0),new Date(2009,0,0)],
-			['Shri Satya Gopal','',new Date(2009,0,0),new Date(2011,0,0)],
-			['Shri. Narendra Kumar','',new Date(2011,0,0),new Date(2012,0,0)],
-			['B. S. Bhalla','',new Date(2012,8,28),new Date(,,)]
+			['O.P. Kelkar','',new Date(1999,7,19),new Date(2003,7,18)],
+			['Arun Mathur','',new Date(2003,7,19),new Date(2006,7,18)],
+			['R.K. Verma','',new Date(2006,7,19),new Date(2009,7,18)],
+			['Shri Satya Gopal','',new Date(2009,7,19),new Date(2011,7,18)],
+			['Shri. Narendra Kumar','',new Date(2011,7,19),new Date(2012,8,27)],
+			['B. S. Bhalla','',new Date(2012,8,28),new Date()]
 		    
-		    ]);  */    
+		    ]);    
 			var options2 = {
 				timeline:{
 					barLabelStyle:{color:'#7c7878',fontName:'opensans',fontSize:'12'},
