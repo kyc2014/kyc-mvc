@@ -45,11 +45,12 @@ font-size: 12px;
 }
 .newsWrapper{
 width:80%;
-display:table-cell;
+display:inline-block;
 box-sizing:border-box;
 border-right:1px solid #ccc;
 padding-right:10px;
 padding-left:10px;
+vertical-align:top;
 }
 .news-updates span{
 margin: 10px 0 10px 0;
@@ -70,7 +71,7 @@ display: block;
 }
 .news-updates{
 width:19%;
-display:table-cell;
+display:inline-block;
 box-sizing:border-box;
 }
 .newsContent
