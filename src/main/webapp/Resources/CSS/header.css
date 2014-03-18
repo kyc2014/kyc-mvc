@@ -19,11 +19,11 @@ padding:10px 0 0 10px;
 }
 #logo
 {
-	-webkit-filter:brightness(105%);
+	-webkit-filter:brightness(100%);
 }
 #logo:hover
 {
-	-webkit-filter:brightness(110%);
+	-webkit-filter:brightness(90%) contrast(105%)
 	cursor:pointer;
 }
 #menuBar
