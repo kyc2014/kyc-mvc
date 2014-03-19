@@ -181,6 +181,7 @@ header
 		border-right:1px solid #EAEAEA;
 		border-right-radius:5px;
 		display:none;
+		vertical-align:top;
 		
 	}
 	.assemblyStatesListColumn
