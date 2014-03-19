@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>General Elections 2014 Schedule | Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta lang="en-US" content="India General Elections 2014 Timetable - Schedule" name="description">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />

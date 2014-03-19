@@ -3,8 +3,9 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Delhi</title>
-<meta name="description" content="Delhi - National Capital Territory of India. List of Chief Ministers, Political Parties and Politicians of Delhi."/>
+<title>Delhi | National Capital Territory of India | Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
+<meta name="description" content="Delhi - National Capital Territory (NCT) of India. List of Chief Ministers, Political Parties and Politicians of Delhi."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">

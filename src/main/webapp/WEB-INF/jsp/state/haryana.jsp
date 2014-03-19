@@ -3,7 +3,8 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Haryana</title>
+<title>Haryana | State of India | Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
 <meta name="description" content="Haryana - State of India. List of Chief Ministers, Political Parties and Politicians of Haryana."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">

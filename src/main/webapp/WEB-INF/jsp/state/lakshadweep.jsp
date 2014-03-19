@@ -3,7 +3,8 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Lakshadweep</title>
+<title>Lakshadweep | Union Territory of India | Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
 <meta name="description" content="Lakshadweep - Union Territory of India. List of Administrators, Political Parties and Politicians of Lakshadweep."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
