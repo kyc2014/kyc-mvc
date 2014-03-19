@@ -219,7 +219,7 @@ Speaking in Hindi in his trademark style that alternates between sardonic humour
 <h2>Updates from ECI</h2>
 <a href="#">Electoral Data</a>
 <a href="#">Statewise Election Details</a>
-<a href="/eci/election-schedule">Election Dates</a>
+<a href="/web/eci/election-schedule">Election Dates</a>
 </div>
 <jsp:include page="WEB-INF/jsp/footer.jsp" />
 </div>

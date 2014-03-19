@@ -191,6 +191,7 @@ header
 		height:auto;	
 		text-align: left;
 		padding:10px;
+		vertical-align:top;
 	}
 	.assemblyStatesListColumn img
 	{

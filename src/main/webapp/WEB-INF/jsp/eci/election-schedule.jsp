@@ -6,38 +6,81 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta lang="en-US" content="India General Elections 2014 Timetable - Schedule" name="description">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/generic2.css"/>
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css" />
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
+<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
 <style type="text/css">
+body
+{
+font-family:raleway;
+}
 #ImportantDate
 {
 	background-color:#c00;
 	color:white;
 }
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg  {border-spacing:0;}
+.tg td{vertical-align:middle;font-size: 14px;
+padding: 10px 5px;
+overflow: hidden;
+word-break: normal;
+border-color: #ccc;
+color: #333;
+background-color: #fff;
+border-left: 1px solid #ccc;
+border-bottom: 1px solid #ccc;}
+.tg th{vertical-align:middle;font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
 .tg .tg-dk5w{font-weight:bold;font-size:100%;text-align:center}
 .tg .tg-g8f1{font-size:100%;text-align:center}
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th
-{
-font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;
-border-color:#ccc;color:#333;background-color:#f0f0f0;
-}
+.tg  {border-spacing:0;}
+.tg td{font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+.tg th{font-size:14px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;color:#333;background-color:#f0f0f0;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
 .tg .tg-4eph{background-color:#f9f9f9;}
-.tg,h1
+.tg
 {
-	font-family:raleway;
-	margin:0px auto;
+	border-collapse:seperate;
+	font-family: raleway;
+	margin: 0px auto;
+	text-align: center;
+	-webkit-border-radius: 15px !important;
+	-moz-border-radius: 15px !important;
+	border-radius: 15px !important;
+	overflow: hidden;
+	border: 1px solid #ccc !important;
+}
+h1
+{
+	font-size:24px;
+	font-family:open sans;
+	margin-bottom:10px;
 	text-align:center;
 }
-
+#wrapper
+{
+	margin-top:10px;
+}
+#election-schedule
+{
+	border-collapse:seperate;
+}
+#legendRed
+{
+	color:#c00;
+}
+h4
+{
+	text-align:center;
+}
 </style>
 </head>
 <body>
-<jsp:include page="WEB-INF/jsp/header.jsp"/>
+<jsp:include page="../header.jsp"/>
+<div id="wrapper">
 <h1>General Elections 2014 Schedule</h1>
-<table class="tg" style="table-layout: fixed; width: 877px;">
+<h4>Important Dates are marked in <span id="legendRed">Red</span> color</h4>
+<table class="tg" id="election-schedule" style="table-layout: fixed; width: 877px;">
 <colgroup>
 <col style="width: 181px">
 <col style="width: 120px">
@@ -346,7 +389,8 @@ border-color:#ccc;color:#333;background-color:#f0f0f0;
 	<th class="tg-dk5w">543</th>
 	</tr>
 </table>
-<jsp:include page="WEB-INF/jsp/footer.jsp"/>
+</div>
+<jsp:include page="../footer.jsp"/>
 </body>
 </html>
 

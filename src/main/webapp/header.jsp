@@ -31,7 +31,7 @@ Login/Sign Up
 <li>Assembly Members
 <div id="assemblyCandidatesBox">
 <div class="assemblyStatesListColumn">
-
+<span><span class="stateSeal"></span><span class="stateName"></span></span>
 <a href="/web/state/andhra-pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/andhra-pradhesh.png" /></span><span class="stateName">Andhra Pradesh</span></a>
 <a href="/web/state/arunachal-pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/arunachal-pradhesh.png" /></span><span class="stateName">Arunachal Pradesh</span></a>
 <a href="/web/state/assam/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/assam.png" /></span><span class="stateName">Assam</span></a>
@@ -59,6 +59,7 @@ Login/Sign Up
 </div>
 
 <div class="assemblyStatesListColumn">
+<span><span class="stateSeal"></span><span class="stateName"></span></span>
 <a href="/web/state/punjab/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/punjab.png" /></span><span class="stateName">Punjab</span></a>
 <a href="/web/state/rajasthan/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/rajasthan.png" /></span><span class="stateName">Rajasthan</span></a>
 <a href="/web/state/sikkim/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/sikkim.png" /></span><span class="stateName">Sikkim</span></a>
@@ -67,8 +68,6 @@ Login/Sign Up
 <a href="/web/state/uttar_pradesh/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttar_pradesh.png" /></span><span class="stateName">Uttar Pradesh</span></a>
 <a href="/web/state/uttarakhand/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/uttarakhand.png" /></span><span class="stateName">Uttarakhand</span></a>
 <a href="/web/state/west_bengal/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/west_bengal.png" /></span><span class="stateName">West Bengal</span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 
 <div class="assemblyStatesListColumn"><div class="stateTitle">Union Territories</div>
@@ -79,9 +78,6 @@ Login/Sign Up
 <a href="/web/state/nct-delhi/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/nct-delhi.png" /></span><span class="stateName">National Capital Territory of Delhi</span></a> 
 <a href="/web/state/lakshadweep/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/lakshadweep.png" /></span><span class="stateName">Lakshadweep</span></a>
 <a href="/web/state/puducherry/" id=""><span class="stateSeal"><img src="/Resources/images/state/seals/puducherry.png" /></span><span class="stateName">Puducherry</span></a> 
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
-<a href="/web/state//" id=""><span class="stateSeal"></span><span class="stateName"></span></a>
 </div>
 </div>
 </li>

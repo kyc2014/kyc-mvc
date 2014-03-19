@@ -14,8 +14,8 @@
            
     </ul>
     <div id="footerSocial">
-	    <div class="SocialImage"><a href="https://www.facebook.com/knowyourcandidate"><img src="/Resources/images/fb.png"/></a></div>
-	    <div class="SocialImage"><a href="https://plus.google.com/104349164165785185482"><img src="/Resources/images/gp.png"/></a></div>
+	    <div class="SocialImage"><a href="https://www.facebook.com/knwurcandidate"><img src="/Resources/images/fb.png"/></a></div>
+	    <div class="SocialImage"><a href="https://plus.google.com/104349164165785185482" rel="publisher"><img src="/Resources/images/gp.png"/></a></div>
 	    <!-- <div class="SocialImage"><a href="http://www.twitter.com/"><img src="/Resources/images/t.png"/></a></div> -->
     </div>
 </section>

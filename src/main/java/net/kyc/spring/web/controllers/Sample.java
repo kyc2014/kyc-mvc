@@ -55,7 +55,11 @@ public class Sample {
 		return "minister/paginated_minister_search_page";
 	}
 	
-	
+	/*@RequestMapping(value="/eci/election-schedule")
+	public String displayElectionSchedulePage()
+	{
+		return "eci/election-schedule";
+	}*/
 	
 	@RequestMapping(value="editor")
 	public String displayEditorsPage(){

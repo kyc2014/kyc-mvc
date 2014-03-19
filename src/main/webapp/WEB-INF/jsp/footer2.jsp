@@ -16,7 +16,7 @@
         <li><a href="#">Feedback</a></li>
     </ul>
     <div id="footerSocial">
-    <div class="SocialImage">a href="www.facebook.com/knowyourcandidate"><img src="/Resources/images/fb.png"/><img src="/Resources/images/fb.png"/></a></div>
+    <div class="SocialImage">a href="www.facebook.com/knwurcandidate"><img src="/Resources/images/fb.png"/><img src="/Resources/images/fb.png"/></a></div>
     <div class="SocialImage"><img src="/Resources/images/gp.png"/></div>
     <div class="SocialImage"><img src="/Resources/images/t.png"/></div>
    
