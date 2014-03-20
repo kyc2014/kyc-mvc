@@ -152,7 +152,8 @@ $(document).ready(function(){
 		    ['N. Chandrababu Naidu','TDP',new Date(1995,9,1),new Date(2004,5,14)],
 		    ['Y. S. Rajasekhara Reddy','INC',new Date(2004,5,14), new Date(2009,9,2)],
 		    ['Konijeti Rosaiah','INC',new Date(2009,9,2),new Date(2010,11,24)],
-		    ['N. Kiran Kumar Reddy','INC',new Date(2010,11,25),new Date()]
+		    ['N. Kiran Kumar Reddy','INC',new Date(2010,11,25),new Date(2014,3,1)],
+		    ['President\'s Rule ','',new Date(2014,3,1),new Date(2014,3,20)]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -194,10 +195,10 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/AndhraPradesh/cm.jpg">
+						<img src="/Resources/images/state/AndhraPradesh/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Kiran Kumar Reddy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="">President's Rule</a></div>
+						<div class="mparty"><a href=""></a></div>
 						</div>
 					</div>
 					
@@ -241,9 +242,9 @@ $(document).ready(function(){
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/AndhraPradesh/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K J SuryaPrakash Reddy</a></div>
+						<div class="mname"><a href="">Kiran Kumar Reddy</a></div>
 						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minster of State - Railways</div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 				</div>
