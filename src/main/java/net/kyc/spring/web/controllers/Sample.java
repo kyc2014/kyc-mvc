@@ -66,13 +66,6 @@ public class Sample {
 		return "editorLogin";
 	}
 	
-
-	@RequestMapping(value="/search.jsp",method=RequestMethod.POST)
-    public List<Candidate> addUser(@RequestParam("searchString") String searchText, BindingResult result ){
-		List<Candidate> list=new ArrayList<Candidate>();
-		return list;
-	}
-	
 	@RequestMapping(value="/parliament/all")
     public String addUser(){
 		
