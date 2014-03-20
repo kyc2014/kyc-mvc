@@ -90,5 +90,21 @@ public class UserController {
 			return "Email Invalid";
 		}
 	}
+	
+	@RequestMapping(value="/user/survey", method = RequestMethod.POST)
+	@ResponseBody	
+	public String feedBack(@RequestParam(value="manifesto", required=true) String manifesto,
+			@RequestParam(value="recaptcha_challenge_field", required=true) String challenge,
+			@RequestParam(value="recaptcha_response_field", required=true) String uresponse,
+			@RequestParam(value="freebies", required=true) boolean freebies,  HttpServletRequest request){
+		ReCaptchaImpl reCaptcha = new ReCaptchaImpl();
+		reCaptcha.setPrivateKey("6Lc7au4SAAAAAF4LbtPwGI59Ysvk6yG0x1gdNfQz ");
+		ReCaptchaResponse reCaptchaResponse = reCaptcha.checkAnswer(request.getRemoteAddr(), challenge, uresponse);
+		if(reCaptchaResponse.isValid()){
+			feedbackService.saveSurvey(manifesto, freebies);
+			return "success";
+		}
+		return "failure";
+	}
 		
 }
