@@ -30,11 +30,6 @@ public class UserController {
 	@Autowired
 	private FeedbackService feedbackService;
 	
-	@RequestMapping(value="/user/loginpage")
-	public String loginpage(){
-		return "login";
-	}
-	
 	@RequestMapping(value="/feedback")
 	public String feedBackPage(){
 		return "feedback";
@@ -95,51 +90,5 @@ public class UserController {
 			return "Email Invalid";
 		}
 	}
-	@RequestMapping(value="/user/login")
-	public String login(@RequestParam("user_identifier") String userIdentifier,
-			@RequestParam("password") String password, WebRequest request){
-		User user = userService.validateUserLogin(userIdentifier, password);
-		if(user == null){
-			request.setAttribute("error", "0", WebRequest.SCOPE_REQUEST);
-			request.setAttribute("errorMessage", ErrorCodes.userLoginError, WebRequest.SCOPE_REQUEST);
-		}
-		else{
-			request.setAttribute("userName", user.getUserName(), WebRequest.SCOPE_SESSION);
-			request.setAttribute("firstName", user.getFirstName(), WebRequest.SCOPE_SESSION);
-		}
 		
-		return "login";
-	}
-	
-	@RequestMapping(value="/user/logout")
-	public String logout(HttpServletRequest request){
-		request.getSession().invalidate();
-		return "login";
-	}
-
-	@RequestMapping(value="/user/register")
-	public String register(){
-		return "/users/register";
-	}
-	
-	@RequestMapping(value="/user/add", method=RequestMethod.POST)
-	public String addUser(	@RequestParam(value="email", required=true) String email,
-			@RequestParam(value="password", required=true) String password,
-			@RequestParam(value="dob", required=true) String dob,
-			@RequestParam(value="user_name", required=true) String userName,
-			@RequestParam(value="gender", required=true) String gender,
-			@RequestParam(value="mobile", required=true) String mobile,
-			Model model){
-		User user = new User();
-		user.setUserName(userName);
-		//user.setUserId(userId);
-		user.setPassword(password);
-		user.setEmail(email);
-		user.setGender(gender);
-		user.setDob(dob);
-		String status = userService.addUser(user);
-		System.out.println(status);
-		model.addAttribute("status", status);
-		return "login.jsp";
-	}	
 }
