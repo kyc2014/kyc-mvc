@@ -80,7 +80,6 @@ box-sizing:border-box;
 	border-bottom:1px solid #ccc;
 	padding-top:10px;
 	padding-bottom:10px;
-	
 }
 .newsTimeStamp
 {
@@ -128,6 +127,14 @@ th:last-child {
 
 th:only-child{
     border-radius: 6px 6px 0 0;
+}
+p.newsContent
+{
+	line-height:40px;
+}
+.poll h2
+{
+	text-align:center;
 }
 </style>
 </head>	
@@ -220,6 +227,11 @@ Speaking in Hindi in his trademark style that alternates between sardonic humour
 <a href="#">Electoral Data</a>
 <a href="#">Statewise Election Details</a>
 <a href="/web/eci/election-schedule">Election Dates</a>
+</div>
+<div id="right">
+<div class="poll">
+<h2>Polls</h2>
+</div>
 </div>
 <jsp:include page="WEB-INF/jsp/footer.jsp" />
 </div>
