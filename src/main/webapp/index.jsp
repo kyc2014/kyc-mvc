@@ -3,8 +3,9 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/generic2.css"/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css" />

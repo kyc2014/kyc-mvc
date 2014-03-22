@@ -3,7 +3,8 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Andaman Nicobar Islands</title>
+<title>Andaman and Nicobar Islands | Union Territory of India | Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
 <meta name="description" content="Andaman and Nicobar Islands - Union Territory of India. List of Administrators, Political Parties and Politicians of Andaman and Nicobar Islands."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">

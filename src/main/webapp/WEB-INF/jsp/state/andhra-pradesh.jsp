@@ -3,7 +3,8 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Andhra Pradesh</title>
+<title>Andhra Pradesh | State of India | Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
 <meta name="description" content="Andhra Pradesh - State of India. List of Chief Ministers, Political Parties and Politicians of Andhra Pradesh."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
@@ -151,7 +152,8 @@ $(document).ready(function(){
 		    ['N. Chandrababu Naidu','TDP',new Date(1995,9,1),new Date(2004,5,14)],
 		    ['Y. S. Rajasekhara Reddy','INC',new Date(2004,5,14), new Date(2009,9,2)],
 		    ['Konijeti Rosaiah','INC',new Date(2009,9,2),new Date(2010,11,24)],
-		    ['N. Kiran Kumar Reddy','INC',new Date(2010,11,25),new Date()]
+		    ['N. Kiran Kumar Reddy','INC',new Date(2010,11,25),new Date(2014,3,1)],
+		    ['President\'s Rule ','',new Date(2014,3,1),new Date(2014,3,20)]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -193,10 +195,10 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/AndhraPradesh/cm.jpg">
+						<img src="/Resources/images/state/AndhraPradesh/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Kiran Kumar Reddy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="">President's Rule</a></div>
+						<div class="mparty"><a href=""></a></div>
 						</div>
 					</div>
 					
@@ -240,9 +242,9 @@ $(document).ready(function(){
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/AndhraPradesh/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K J SuryaPrakash Reddy</a></div>
+						<div class="mname"><a href="">Kiran Kumar Reddy</a></div>
 						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minster of State - Railways</div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 				</div>

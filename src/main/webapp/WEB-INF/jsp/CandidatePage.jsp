@@ -3,7 +3,8 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
  <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
-	<title>Honourable Minister <c:out value="${candidate.name}"/></title>
+	<title>Honourable Minister - <c:out value="${candidate.name}"/> | Know Your Candidate</title>
+	<link rel="shortcut icon" href="/Resources/images/title_icon.png">
 	<head>
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/Map.css">

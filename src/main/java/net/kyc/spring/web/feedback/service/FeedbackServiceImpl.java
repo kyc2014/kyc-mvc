@@ -21,4 +21,8 @@ public class FeedbackServiceImpl implements FeedbackService{
 		return feedbackDao.subscribe(email);
 	}
 
+	@Override
+	public boolean saveSurvey(String manifesto, boolean freebies) {
+		return feedbackDao.saveSurvey(manifesto,freebies);
+	}
 }

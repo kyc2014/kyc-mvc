@@ -5,7 +5,9 @@
 <!DOCTYPE html>
 	<title>About Us</title>
 	<head>
-			<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
+		<title>Electoral Data | Know Your Candidate</title>
+		<link rel="shortcut icon" href="/Resources/images/title_icon.png">
+		<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/Map.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
 		<link rel="stylesheet" type="text/css" href="/Resources/CSS/CandidatePage.css">
