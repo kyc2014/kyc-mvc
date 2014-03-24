@@ -71,13 +71,13 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Gegong Apang','INC',new Date(1987, 2, 20), new Date(1999, 1, 19) ],
-		    [ 'Mukut Mithi', 'INC',  new Date(1999, 1, 19),  new Date(2003, 8, 3) ],
-		  [ 'Gegong Apang','BJP' , new Date(2003, 8, 3),  new Date(2004, 5, 14) ],
-		  [ 'Gegong Apang','INC' , new Date(2004, 5, 14),  new Date(2007,4,9) ],
-		    [ 'Dorjee Khandu', 'INC', new Date(2007, 4, 9),  new Date(2011, 4, 30) ],
-		    [ 'Jarbom Gamlin','INC', new Date(2011, 5, 5), new Date(2011, 10, 31) ],
-		    ['Nabam tuki','INC',new Date(2011, 11, 1),new Date()],
+		  [ 'Gegong Apang','INC',new Date(1987, 0, 18), new Date(1999, 0, 19) ],
+		    [ 'Mukut Mithi', 'INC',  new Date(1999, 0, 19),  new Date(2003, 7, 3) ],
+		  [ 'Gegong Apang','BJP' , new Date(2003, 7, 3),  new Date(2004, 4, 14) ],
+		  [ 'Gegong Apang','INC' , new Date(2004, 4, 14),  new Date(2007,3,9) ],
+		    [ 'Dorjee Khandu', 'INC', new Date(2007, 3, 9),  new Date(2011, 3, 30) ],
+		    [ 'Jarbom Gamlin','INC', new Date(2011, 4, 5), new Date(2011, 9, 31) ],
+		    ['Nabam tuki','INC',new Date(2011, 10, 1),new Date()],
 		    
 		    
 		    

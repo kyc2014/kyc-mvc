@@ -82,7 +82,7 @@ $(document).ready(function(){
 		  	  [ 'Madhu Koda', 'Independent',new Date(2006,9,14),  new Date(2008,8,23)],
 		  	  [ 'Shibu Soren', 'JMM',  new Date(2008, 8, 27),  new Date(2009,1,18) ],
 		  	  [ 'President rule', '',  new Date(2009,1,19),  new Date(2009,12,29) ],
-		  	  [ 'Shibu Soren', 'BJP',  new Date(2009,12,30),  new Date(2010,5,31) ],
+		  	  [ 'Shibu Soren', 'JMM',  new Date(2009,12,30),  new Date(2010,5,31) ],
 		  	  [ 'President rule', '',  new Date(2010,6,1),  new Date(2010,9,11) ],
 		  	  [ 'Arjun Munda', 'BJP',  new Date(2010,9,11),  new Date(2013,1,18) ],
 		  	  [ 'President rule', '',  new Date(2013,1,18),  new Date(2013,7,12) ],

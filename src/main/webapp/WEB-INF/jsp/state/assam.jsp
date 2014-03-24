@@ -74,26 +74,25 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Gopinath Bordoloi','INC',new Date(1947, 8, 15), new Date(1950, 8, 6) ],
-		    [ 'Bishnu Ram Medhi', 'INC',  new Date(1950, 8, 9),  new Date(1957, 12, 27) ],
-		  [ 'Bimala Prasad Chaliha','INC' , new Date(1957, 12, 28),  new Date(1970, 11, 6) ],
-		  [ 'Mahendra Mohan Choudhry','INC' , new Date(1970, 11, 11),  new Date(1972,1,30) ],
-		    [ 'Sarat Chandra Sinha', 'INC', new Date(1972, 1, 31),  new Date(1978, 3, 12) ],
-		    [ 'Golap Borbora', 'JP', new Date(1978, 3, 12),  new Date(1979,9,4) ],
-
-		    [ 'Jogendra Nath Hazarika','JP', new Date(1979,9,9), new Date(1979,11,10) ],
-		    ['President rule','',new Date(1979, 12, 12),new Date(1980,12,5)],
-		    ['Anowara Taimur','INC',new Date(1980,12,6),new Date(1981,6,30)],
-		    ['President rule','',new Date(1981,6,30),new Date(1982,1,13)],
-		    ['Kesab Chandra Gogoi','INC',new Date(1982,1,13),new Date(1982,3,19)],
-		    ['President rule','',new Date(1982,3,19),new Date(1983,2,27)],
-		    ['Hiteswar Saikia','INC',new Date(1983,2,27),new Date(1985,12,23)],
-		    ['Prafulla Kumar Mahanta','AGP',new Date(1985,12,24),new Date(1990,11,28)],
-		    ['President rule','',new Date(1990,11,28),new Date(1991,6,30)],
-		    ['Hiteswar Saikia','INC',new Date(1991,6,30),new Date(1996,4,22)],
-		    ['Bhumidhar Barman','INC',new Date(1996,4,22),new Date(1996,5,14)],
-		    ['Prafulla Kumar Mahanta','AGP',new Date(1996,5,15),new Date(2001,5,17)],
-		    ['Tarun Gogoi','INC',new Date(2001,5,17),new Date()],
+		  [ 'Gopinath Bordoloi','INC',new Date(1947, 7, 15), new Date(1950, 7, 6) ],
+		    [ 'Bishnu Ram Medhi', 'INC',  new Date(1950, 7, 9),  new Date(1957, 11, 27) ],
+		  [ 'Bimala Prasad Chaliha','INC' , new Date(1957, 11, 28),  new Date(1970, 10, 6) ],
+		  [ 'Mahendra Mohan Choudhry','INC' , new Date(1970, 10, 11),  new Date(1972,0,30) ],
+		    [ 'Sarat Chandra Sinha', 'INC', new Date(1972, 0, 31),  new Date(1978, 2, 12) ],
+		    [ 'Golap Borbora', 'JP', new Date(1978, 2, 12),  new Date(1979,8,4) ],
+		    [ 'Jogendra Nath Hazarika','JP', new Date(1979,8,9), new Date(1979,11,11) ],
+		    ['President rule','',new Date(1979, 11, 12),new Date(1980,11,5)],
+		    ['Anowara Taimur','INC',new Date(1980,11,6),new Date(1981,5,30)],
+		    ['President rule','',new Date(1981,5,30),new Date(1982,0,13)],
+		    ['Kesab Chandra Gogoi','INC',new Date(1982,0,13),new Date(1982,2,19)],
+		    ['President rule','',new Date(1982,2,19),new Date(1983,1,27)],
+		    ['Hiteswar Saikia','INC',new Date(1983,1,27),new Date(1985,11,23)],
+		    ['Prafulla Kumar Mahanta','AGP',new Date(1985,11,24),new Date(1990,10,28)],
+		    ['President rule','',new Date(1990,10,28),new Date(1991,5,30)],
+		    ['Hiteswar Saikia','INC',new Date(1991,5,30),new Date(1996,3,22)],
+		    ['Bhumidhar Barman','INC',new Date(1996,3,22),new Date(1996,4,14)],
+		    ['Prafulla Kumar Mahanta','AGP',new Date(1996,4,15),new Date(2001,4,17)],
+		    ['Tarun Gogoi','INC',new Date(2001,4,17),new Date()]
 		    
 		    
 		    

@@ -75,11 +75,11 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  ['Ajit Jogi','INC',new Date(2000, 11, 1), new Date(2003, 12, 7) ],
-		    [ 'Raman Singh', 'BJP',  new Date(2003, 12, 7),  new Date() ],
-		  
-		    
-		    
+		  ['Ajit Jogi','INC',new Date(2000, 10, 1), new Date(2003, 11, 7) ],
+		   /* [ 'Raman Singh', 'BJP',  new Date(2003, 11, 7),  new Date(2008,11,7) ],
+		   [ 'Raman Singh', 'BJP',  new Date(2008, 11, 7),  new Date(2013,11,12) ],
+		 [ 'Raman Singh', 'BJP',  new Date(2013, 11, 12),  new Date() ]    */
+		 [ 'Raman Singh', 'BJP',  new Date(2003, 11, 7),  new Date() ]  
 
 
 		    ]);
