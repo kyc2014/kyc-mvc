@@ -71,26 +71,26 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'P. Shilu Ao','NNO',new Date(1963, 12, 1), new Date(1966, 8, 14) ],
-		    [ 'T.N. Angami', 'NNO',  new Date(1966, 8, 14),  new Date(1969, 2, 22) ],
-		  [ 'Hokishe Sema','NNO' , new Date(1969, 2, 22),  new Date(1974,2,26) ],
-		    [ 'Vizol Angami', 'UDF', new Date(1974,2,26),  new Date(1975, 3, 10) ],
-		    [ 'John Bosco Jasokie','NNDP', new Date(1975, 3, 10), new Date(1975, 3, 20) ],
-		    ['President rule','',new Date(1975, 3, 20),new Date(1977,11,25)],
-		    ['Vizol Angami','UDF',new Date(1977,11,25),new Date(1980,4,18)],
-		    ['S.C. Jamir','UDF(P)',new Date(1980,4,18),new Date(1980,6,5)],
-		    ['John Bosco Jasokie','NNDP',new Date(1980,6,5),new Date(1982,11,18)],
-		    ['S.C. Jamir','UDF(P)',new Date(1982,11,18),new Date(1986,10,28)],
-		    ['Hokishe Sema','INC',new Date(1986,10,29),new Date(1988,8,7)],
-		    ['President rule','',new Date(1988,8,7),new Date(1989,1,25)],
-		    ['S.C. Jamir','INC',new Date(1989,1,25),new Date(1990,5,10)],
-		    ['K.L Chishi','INC',new Date(1990,5,16),new Date(1990,6,19)],
-		    ['Vamuzo Phesao','NPC',new Date(1990,6,19),new Date(1992,4,2)],
-		    ['President rule','',new Date(1992,4,2),new Date(1993,2,22)],
-		     ['S.C. Jamir','INC',new Date(1993,2,22),new Date(2003,3,6)],
-		      ['Neiphiu Rio','NPF',new Date(2003,3,6),new Date(2008,1,3)],
-		       ['President rule','',new Date(2008,1,3),new Date(2008,3,12)],
-		        ['Neiphiu Rio','NPF',new Date(2008,3,12),new Date()]
+		  [ 'P. Shilu Ao','NNO',new Date(1963, 11, 1), new Date(1966, 7, 14) ],
+		    [ 'T.N. Angami', 'NNO',  new Date(1966, 7, 14),  new Date(1969, 1, 22) ],
+		  [ 'Hokishe Sema','NNO' , new Date(1969, 1, 22),  new Date(1974,1,26) ],
+		    [ 'Vizol Angami', 'UDF', new Date(1974,1,26),  new Date(1975, 2, 10) ],
+		    [ 'John Bosco Jasokie','NNDP', new Date(1975, 2, 10), new Date(1975, 2, 20) ],
+		    ['President rule','',new Date(1975, 2, 20),new Date(1977,10,25)],
+		    ['Vizol Angami','UDF',new Date(1977,10,25),new Date(1980,3,18)],
+		    ['S.C. Jamir','UDF(P)',new Date(1980,3,18),new Date(1980,5,5)],
+		    ['John Bosco Jasokie','NNDP',new Date(1980,5,5),new Date(1982,10,18)],
+		    ['S.C. Jamir','UDF(P)',new Date(1982,10,18),new Date(1986,9,28)],
+		    ['Hokishe Sema','INC',new Date(1986,9,29),new Date(1988,7,7)],
+		    ['President rule','',new Date(1988,7,7),new Date(1989,0,25)],
+		    ['S.C. Jamir','INC',new Date(1989,0,25),new Date(1990,4,10)],
+		    ['K.L Chishi','INC',new Date(1990,4,16),new Date(1990,5,19)],
+		    ['Vamuzo Phesao','NPC',new Date(1990,5,19),new Date(1992,3,2)],
+		    ['President rule','',new Date(1992,3,2),new Date(1993,1,22)],
+		     ['S.C. Jamir','INC',new Date(1993,1,22),new Date(2003,2,6)],
+		      ['Neiphiu Rio','NPF',new Date(2003,2,6),new Date(2008,0,3)],
+		       ['President rule','',new Date(2008,0,3),new Date(2008,2,12)],
+		        ['Neiphiu Rio','NPF',new Date(2008,2,12),new Date()]
 		    
 
 

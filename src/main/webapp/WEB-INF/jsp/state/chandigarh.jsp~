@@ -3,7 +3,7 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Chandigarh - Union Territory of India - Know Your Candidate</title>
+<title>Chandigarh | Union Territory of India | Know Your Candidate</title>
 <link rel="shortcut icon" href="/Resources/images/title_icon.png">
 <meta name="description" content="Chandigarh - Union Territory of India. List of Administrators, Political Parties and Politicians of Chandigarh."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
@@ -74,23 +74,23 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    ['Bhairab Dutt Pande','',new Date(1984,6,2),new Date(1984,7,3)],
-['Kershasp Tehmurasp Satarawala','',new Date(1984,7,3),new Date(1984,8,2)],
-['Arjun Singh','',new Date(1985,5,30),new Date(1985,11,14)],
-['Hokishe Sema','',new Date(1985,11,14),new Date(1985,11,26)],
-['Shankar Dayal Sharma','',new Date(1985,11,26),new Date(1986,4,2)],
-['Siddharta Shankar Ray','',new Date(1986,4,2),new Date(1989,12,8)],
-['Nirmal Mukarji','',new Date(1989,12,8),new Date(1990,6,14)],
-['Virendra Verma','',new Date(1990,6,14),new Date(1990,12,18)],
-['Om Prakash Malhotra','',new Date(1990,12,18),new Date(1991,8,7)],
-['Surendra Nath','',new Date(1991,8,7),new Date(1994,7,9)],
-['Sudhakar Panditrao Kurdukar','',new Date(1994,7,10),new Date(1994,9,18)],
-['B.K.N. Chhibber','',new Date(1994,9,18),new Date(1999,11,27)],
-['J. F. R. Jacob','',new Date(1999,11,27),new Date(2003,5,8)],
-['Om Prakash Verma','',new Date(2003,5,8),new Date(2004,11,3)],
-['Akhlaqur Rahman Kidwai','',new Date(2004,11,3),new Date(2004,11,16)],
-['Sunith Francis Rodrigues','',new Date(2004,11,16),new Date(2010,1,22)],
-['Shivraj Patil','',new Date(2010,1,22),new Date()]
+		    ['Bhairab Dutt Pande','',new Date(1984,5,2),new Date(1984,6,3)],
+['Kershasp Tehmurasp Satarawala','',new Date(1984,6,3),new Date(1984,7,2)],
+['Arjun Singh','',new Date(1985,4,30),new Date(1985,10,14)],
+['Hokishe Sema','',new Date(1985,10,14),new Date(1985,10,26)],
+['Shankar Dayal Sharma','',new Date(1985,10,26),new Date(1986,3,2)],
+['Siddharta Shankar Ray','',new Date(1986,3,2),new Date(1989,11,8)],
+['Nirmal Mukarji','',new Date(1989,11,8),new Date(1990,5,14)],
+['Virendra Verma','',new Date(1990,5,14),new Date(1990,11,18)],
+['Om Prakash Malhotra','',new Date(1990,11,18),new Date(1991,7,7)],
+['Surendra Nath','',new Date(1991,7,7),new Date(1994,6,9)],
+['Sudhakar Panditrao Kurdukar','',new Date(1994,6,10),new Date(1994,8,18)],
+['B.K.N. Chhibber','',new Date(1994,8,18),new Date(1999,10,27)],
+['J. F. R. Jacob','',new Date(1999,10,27),new Date(2003,4,8)],
+['Om Prakash Verma','',new Date(2003,4,8),new Date(2004,10,3)],
+['Akhlaqur Rahman Kidwai','',new Date(2004,10,3),new Date(2004,10,16)],
+['Sunith Francis Rodrigues','',new Date(2004,10,16),new Date(2010,0,22)],
+['Shivraj Patil','',new Date(2010,0,22),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{

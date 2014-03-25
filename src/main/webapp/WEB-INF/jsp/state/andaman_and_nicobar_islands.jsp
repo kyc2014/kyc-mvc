@@ -74,18 +74,18 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    	['Manohar L. Kampani','',new Date(1982,11,12),new Date(1985,12,3)],
-			['Tirath Singh Oberoi','',new Date(1985,12,4),new Date(1989,12,0)],
-			['Romesh Bhandari','',new Date(1989,12,0),new Date(1990,2,24)],
-			['Ranjit Singh Dayal','',new Date(1990,2,25),new Date(1990,12,0)],
-			['Surjit Singh Barnala','',new Date(1990,12,0),new Date(1993,3,18)],
-			['Vakkom Purushothaman','',new Date(1993,3,19),new Date(1996,3,18)],
-			['Ishwari Prasad Gupta','',new Date(1996,12,23),new Date(2001,5,25)],
-			['Nagendra Nath Jha','',new Date(2001,5,26),new Date(2004,1,4)],
-			['Ramchandra Kapse','',new Date(2004,1,5),new Date(2006,5,30)],
-			['Madan Mohan Lakhera','',new Date(2006,2,12),new Date(2006,12,29)],
-			['Bhopinder Singh','',new Date(2006,12,29),new Date(2013,6,30)],
-			['A. K. Singh','',new Date(2013,7,8),new Date()]
+		    	['Manohar L. Kampani','',new Date(1982,10,12),new Date(1985,11,3)],
+			['Tirath Singh Oberoi','',new Date(1985,11,4),new Date(1989,11,0)],
+			['Romesh Bhandari','',new Date(1989,11,0),new Date(1990,1,24)],
+			['Ranjit Singh Dayal','',new Date(1990,1,25),new Date(1990,11,0)],
+			['Surjit Singh Barnala','',new Date(1990,11,0),new Date(1993,2,18)],
+			['Vakkom Purushothaman','',new Date(1993,2,19),new Date(1996,2,18)],
+			['Ishwari Prasad Gupta','',new Date(1996,11,23),new Date(2001,4,25)],
+			['Nagendra Nath Jha','',new Date(2001,4,26),new Date(2004,0,4)],
+			['Ramchandra Kapse','',new Date(2004,0,5),new Date(2006,4,30)],
+			['Madan Mohan Lakhera','',new Date(2006,1,12),new Date(2006,11,29)],
+			['Bhopinder Singh','',new Date(2006,11,29),new Date(2013,5,30)],
+			['A. K. Singh','',new Date(2013,6,8),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{

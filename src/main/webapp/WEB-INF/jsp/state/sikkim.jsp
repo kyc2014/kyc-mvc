@@ -71,17 +71,17 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Kazi Lhendup Dorjee','INC',new Date(1975, 5, 16), new Date(1979, 8, 18) ],
-		    [ 'President\'s Rule', '',  new Date(1979, 8, 18),  new Date(1979, 10, 18) ],
-		  [ 'Nar Bahadur Bhandari','SJP' , new Date(1979, 10, 18),  new Date(1984,5,11) ],
-		    [ 'B.B.Gurung', 'INC', new Date(1984,5,11),  new Date(1984, 5, 25) ],
-		    [ 'President\'s Rule','', new Date(1984, 5, 25), new Date(1985, 3, 8) ],
-		    ['Nar Bahadur Bhandari','SSP',new Date(1985,3,8),new Date(1994,6,17)],
-		    ['Sanchaman Limboo','SSP',new Date(1994,6,17),new Date(1994,12,12)],
-		    ['Pawan Kumar Chamling','SDF',new Date(1994,12,12),new Date(1999,12,11)],
-		    ['Pawan Kumar Chamling','SDF',new Date(1999,12,12),new Date(2004,12,11)],
-		    ['Pawan Kumar Chamling','SDF',new Date(2004,12,12),new Date(2009,12,11)],
-		    ['Pawan Kumar Chamling','SDF',new Date(2009,12,12),new Date()]
+		  [ 'Kazi Lhendup Dorjee','INC',new Date(1975, 4, 16), new Date(1979, 7, 18) ],
+		    [ 'President\'s Rule', '',  new Date(1979, 7, 18),  new Date(1979, 9, 18) ],
+		  [ 'Nar Bahadur Bhandari','SJP' , new Date(1979, 9, 18),  new Date(1984,4,11) ],
+		    [ 'B.B.Gurung', 'INC', new Date(1984,4,11),  new Date(1984, 4, 25) ],
+		    [ 'President\'s Rule','', new Date(1984, 4, 25), new Date(1985, 2, 8) ],
+		    ['Nar Bahadur Bhandari','SSP',new Date(1985,2,8),new Date(1994,5,17)],
+		    ['Sanchaman Limboo','SSP',new Date(1994,5,17),new Date(1994,11,12)],
+		    ['Pawan Kumar Chamling','SDF',new Date(1994,11,12),new Date(1999,11,11)],
+		    ['Pawan Kumar Chamling','SDF',new Date(1999,11,12),new Date(2004,11,11)],
+		    ['Pawan Kumar Chamling','SDF',new Date(2004,11,12),new Date(2009,11,11)],
+		    ['Pawan Kumar Chamling','SDF',new Date(2009,11,12),new Date()]
 		    
 		    ]);
 			var options2 = {

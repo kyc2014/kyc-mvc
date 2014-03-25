@@ -70,14 +70,14 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Nityanand Swami','BJP',new Date(2000, 11, 9), new Date(2001, 10, 29) ],
-		  [ 'Bhagat Singh Koshiyari', 'BJP',  new Date(2001, 10, 30),  new Date(2002, 3, 1) ],
-		  [ 'N.D.Tiwari','INC' , new Date(2002, 3, 2),  new Date(2007,3,7) ],
-		    [ 'B.C.Khanduri', 'BJP', new Date(2007,3,8),  new Date(2009, 6, 23) ],
-		    [ 'Ramesh Pokhriyal Nishank','BJP', new Date(2009, 6, 24), new Date(2011, 9, 10) ],
-		    ['B.C.Khanduri','BJP',new Date(2011,9,11),new Date(2012,3,13)],
-		    ['Vijay Bahuguna','INC',new Date(2012,3,13),new Date(/*2014,1,31*/)]
-		    /*['Harish Rawat','INC',new Date(2014,2,1),new Date()]*/
+		  [ 'Nityanand Swami','BJP',new Date(2000, 10, 9), new Date(2001, 9, 29) ],
+		  [ 'Bhagat Singh Koshiyari', 'BJP',  new Date(2001, 9, 30),  new Date(2002, 2, 1) ],
+		  [ 'N.D.Tiwari','INC' , new Date(2002, 2, 2),  new Date(2007,2,7) ],
+		    [ 'B.C.Khanduri', 'BJP', new Date(2007,2,8),  new Date(2009, 5, 23) ],
+		    [ 'Ramesh Pokhriyal Nishank','BJP', new Date(2009, 5, 24), new Date(2011, 8, 10) ],
+		    ['B.C.Khanduri','BJP',new Date(2011,8,11),new Date(2012,2,13)],
+		    ['Vijay Bahuguna','INC',new Date(2012,2,13),new Date(2014,0,31)],
+		    ['Harish Rawat','INC',new Date(2014,1,1),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{

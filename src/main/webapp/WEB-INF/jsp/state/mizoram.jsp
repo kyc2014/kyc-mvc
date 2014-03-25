@@ -71,17 +71,17 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Ch. Chhunga','Mizo Union',new Date(1972, 5, 3), new Date(1977, 5, 10) ],
-		    [ 'President\'s Rule', '',  new Date(1977, 5, 11),  new Date(1978, 6, 1) ],
-		  [ 'Thenphunga Sailo','MPC' , new Date(1978, 6, 2),  new Date(1978,11,10) ],
-		    [ 'President\'s Rule', '', new Date(1978,11,10),  new Date(1979, 5, 8) ],
-		    [ 'Thenphunga Sailo','MPC', new Date(1979, 5, 8), new Date(1984, 5,4) ],
-		    ['Pu Lalthanhawla','INC',new Date(1984,5,5),new Date(1986,8,20)],
-		    ['Pu Laldenga','MNF',new Date(1986,8,21),new Date(1988,9,7)],
-		    ['President\'s rule','',new Date(1988,9,7),new Date(1989,1,24)],
-		    ['Pu Lalthanhawla','INC',new Date(1989,1,24),new Date(1998,12,3)],
-		    ['Pu Zoramthanga','MNF',new Date(1998,12,3),new Date(2008,12,11)],
-		    ['Pu Lalthanhawla','INC',new Date(2008,12,11),new Date()]
+		  [ 'Ch. Chhunga','Mizo Union',new Date(1972, 4, 3), new Date(1977, 4, 10) ],
+		    [ 'President\'s Rule', '',  new Date(1977, 4, 11),  new Date(1978, 5, 1) ],
+		  [ 'Thenphunga Sailo','MPC' , new Date(1978, 5, 2),  new Date(1978,10,10) ],
+		    [ 'President\'s Rule', '', new Date(1978,10,10),  new Date(1979, 4, 8) ],
+		    [ 'Thenphunga Sailo','MPC', new Date(1979, 4, 8), new Date(1984, 4,4) ],
+		    ['Pu Lalthanhawla','INC',new Date(1984,4,5),new Date(1986,7,20)],
+		    ['Pu Laldenga','MNF',new Date(1986,7,21),new Date(1988,8,7)],
+		    ['President\'s rule','',new Date(1988,8,7),new Date(1989,0,24)],
+		    ['Pu Lalthanhawla','INC',new Date(1989,0,24),new Date(1998,11,3)],
+		    ['Pu Zoramthanga','MNF',new Date(1998,11,3),new Date(2008,11,11)],
+		    ['Pu Lalthanhawla','INC',new Date(2008,11,11),new Date()]
 		    
 
 

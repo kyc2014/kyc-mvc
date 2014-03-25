@@ -1,4 +1,4 @@
-<<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
@@ -70,22 +70,22 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Ghulam Mohammed Sadiq','INC',new Date(1965, 3, 30), new Date(1971, 12, 12) ],
-		    [ 'Syed Mir Qasim', 'INC',  new Date(1971, 12, 12),  new Date(1975, 2, 25) ],
-		  [ 'Sheikh Abdullah','JKN' , new Date(1975, 2, 25),  new Date(1977,3,26) ],
-		    [ 'President\'s Rule', '', new Date(1977,3,26),  new Date(1977, 7, 9) ],
-		    [ 'Sheikh Abdullah','JKN', new Date(1977, 7, 9), new Date(1982, 9, 8) ],
-		    ['Farooq Abdullah','JKN',new Date(1982,9,8),new Date(1984,7,2)],
-		    ['Ghulam Mohammad Shah','Awami National Conference',new Date(1984,7,2),new Date(1986,3,6)],
-		    ['President\'s Rule','',new Date(1986,3,6),new Date(1986,11,7)],
-		    ['Farooq Abdullah','JKN',new Date(1986,11,7),new Date(1990,1,19)],
-		    ['President\'s Rule','',new Date(1990,1,19),new Date(1996,10,9)],
-		    ['Farooq Abdullah','JKN',new Date(1996,10,9),new Date(2002,10,18)],
-		    ['President\'s Rule','',new Date(2002,10,18),new Date(2002,11,2)],
-		    ['Mufti Mohammad Sayeed','PDP',new Date(2002,11,2),new Date(2005,11,2)],
-		    ['Ghulam Nabi Azad','INC',new Date(2005,11,2),new Date(2008,7,11)],
-		    ['President\'s Rule','',new Date(2008,7,11),new Date(2009,1,5)],
-		    ['Omar Abdullah','JKN',new Date(2009,1,5),new Date()]
+		  [ 'Ghulam Mohammed Sadiq','INC',new Date(1965, 2, 30), new Date(1971, 11, 12) ],
+		    [ 'Syed Mir Qasim', 'INC',  new Date(1971, 11, 12),  new Date(1975, 1, 25) ],
+		  [ 'Sheikh Abdullah','JKN' , new Date(1975, 1, 25),  new Date(1977,2,26) ],
+		    [ 'President\'s Rule', '', new Date(1977,2,26),  new Date(1977, 6, 9) ],
+		   [ 'Sheikh Abdullah','JKN', new Date(1977, 6, 9), new Date(1982, 8, 8) ],
+		    ['Farooq Abdullah','JKN',new Date(1982,8,8),new Date(1984,6,2)],
+		    ['Ghulam Mohammad Shah','Awami National Conference',new Date(1984,6,2),new Date(1986,2,6)],
+		    ['President\'s Rule','',new Date(1986,2,6),new Date(1986,10,7)],
+		    ['Farooq Abdullah','JKN',new Date(1986,10,7),new Date(1990,0,19)],
+		    ['President\'s Rule','',new Date(1990,0,19),new Date(1996,9,9)],
+		    ['Farooq Abdullah','JKN',new Date(1996,9,9),new Date(2002,9,18)],
+		    ['President\'s Rule','',new Date(2002,9,18),new Date(2002,10,2)],
+		    ['Mufti Mohammad Sayeed','PDP',new Date(2002,10,2),new Date(2005,10,2)],
+		    ['Ghulam Nabi Azad','INC',new Date(2005,10,2),new Date(2008,6,11)],
+		    ['President\'s Rule','',new Date(2008,6,11),new Date(2009,0,5)],
+		    ['Omar Abdullah','JKN',new Date(2009,0,5),new Date()]
 			]);
 			var options2 = {
 				timeline:{

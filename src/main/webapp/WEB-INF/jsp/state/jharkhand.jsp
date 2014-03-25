@@ -75,18 +75,18 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-			  ['Babulal Marandi','BJP',new Date(2000, 11, 15), new Date(2003, 3, 17) ],
-			  [ 'Arjun Munda', 'BJP',  new Date(2003, 3, 18),  new Date(2005,3,2) ],
-		  	  [ 'Shibu Soren', 'JMM',  new Date(2005,3,2),  new Date(2005,3,12) ],
-		  	  [ 'Arjun Munda', 'BJP',  new Date(2005,3,12),  new Date(2006,9,14) ],
-		  	  [ 'Madhu Koda', 'Independent',new Date(2006,9,14),  new Date(2008,8,23)],
-		  	  [ 'Shibu Soren', 'JMM',  new Date(2008, 8, 27),  new Date(2009,1,18) ],
-		  	  [ 'President rule', '',  new Date(2009,1,19),  new Date(2009,12,29) ],
-		  	  [ 'Shibu Soren', 'JMM',  new Date(2009,12,30),  new Date(2010,5,31) ],
-		  	  [ 'President rule', '',  new Date(2010,6,1),  new Date(2010,9,11) ],
-		  	  [ 'Arjun Munda', 'BJP',  new Date(2010,9,11),  new Date(2013,1,18) ],
-		  	  [ 'President rule', '',  new Date(2013,1,18),  new Date(2013,7,12) ],
-		  	  [ 'Hemant Soren', 'JMM',  new Date(2013,7,13),  new Date() ]
+			  ['Babulal Marandi','BJP',new Date(2000, 10, 15), new Date(2003, 2, 17) ],
+			  [ 'Arjun Munda', 'BJP',  new Date(2003, 2, 18),  new Date(2005,2,2) ],
+		  	  [ 'Shibu Soren', 'JMM',  new Date(2005,2,2),  new Date(2005,2,12) ],
+		  	  [ 'Arjun Munda', 'BJP',  new Date(2005,2,12),  new Date(2006,8,14) ],
+		  	  [ 'Madhu Koda', 'Independent',new Date(2006,8,14),  new Date(2008,7,23)],
+		  	  [ 'Shibu Soren', 'JMM',  new Date(2008, 7, 27),  new Date(2009,0,18) ],
+		  	  [ 'President\'s rule', '',  new Date(2009,0,19),  new Date(2009,11,29) ],
+		  	  [ 'Shibu Soren', 'JMM',  new Date(2009,11,30),  new Date(2010,4,31) ],
+		  	  [ 'President\'s rule', '',  new Date(2010,5,1),  new Date(2010,8,11) ],
+		  	  [ 'Arjun Munda', 'BJP',  new Date(2010,8,11),  new Date(2013,0,18) ],
+		  	  [ 'President\'s rule', '',  new Date(2013,0,18),  new Date(2013,6,12) ],
+		  	  [ 'Hemant Soren', 'JMM',  new Date(2013,6,13),  new Date() ]
 
 		    
 		    

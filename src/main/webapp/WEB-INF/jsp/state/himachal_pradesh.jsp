@@ -132,21 +132,21 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		   ['Yashwant Singh Parmar','INC',new Date(1952,3,8),new Date(1956,10,31)],
-		['Yashwant Singh Parmar','INC',new Date(1963,7,1),new Date(1977,1,28)],
-		['Thakur Ram Lal','INC',new Date(1977,1,28),new Date(1977,4,30)],
-		['President\'s rule','',new Date(1977,NaN,30),new Date(1977,NaN,22)],
-		['Shanta Kumar','JP',new Date(1977,6,22),new Date(1980,2,14)],
-		['Thakur Ram Lal','INC',new Date(1980,2,14),new Date(1983,4,7)],
-		['Virbhadra Singh','INC',new Date(1983,4,8),new Date(1985,3,8)],
-		['Virbhadra Singh','INC',new Date(1985,3,8),new Date(1990,3,5)],
-		['Shanta Kumar','BJP',new Date(1990,3,5),new Date(1992,12,15)],
-		['President\'s rule','',new Date(1992,NaN,15),new Date(1993,NaN,03)],
-		['Virbhadra Singh','INC',new Date(1993,12,3),new Date(1998,3,23)],
-		['Prem Kumar Dhumal','BJP',new Date(1998,3,24),new Date(2003,3,5)],
-		['Virbhadra Singh','INC',new Date(2003,3,6),new Date(2007,12,30)],
-		['Prem Kumar Dhumal','BJP',new Date(2007,12,30),new Date(2012,12,25)],
-		['Virbhadra Singh','INC',new Date(2012,12,25),new Date()]
+		   ['Yashwant Singh Parmar','INC',new Date(1952,2,8),new Date(1956,9,31)],
+		['Yashwant Singh Parmar','INC',new Date(1963,6,1),new Date(1977,0,28)],
+		['Thakur Ram Lal','INC',new Date(1977,0,28),new Date(1977,3,30)],
+		['President\'s rule','',new Date(1977,3,30),new Date(1977,5,22)],
+		['Shanta Kumar','JP',new Date(1977,5,22),new Date(1980,1,14)],
+		['Thakur Ram Lal','INC',new Date(1980,1,14),new Date(1983,3,7)],
+		['Virbhadra Singh','INC',new Date(1983,3,8),new Date(1985,2,8)],
+		['Virbhadra Singh','INC',new Date(1985,2,8),new Date(1990,2,5)],
+		['Shanta Kumar','BJP',new Date(1990,2,5),new Date(1992,11,15)],
+		['President\'s rule','',new Date(1992,11,15),new Date(1993,11,03)],
+		['Virbhadra Singh','INC',new Date(1993,11,3),new Date(1998,2,23)],
+		['Prem Kumar Dhumal','BJP',new Date(1998,2,24),new Date(2003,2,5)],
+		['Virbhadra Singh','INC',new Date(2003,2,6),new Date(2007,11,30)],
+		['Prem Kumar Dhumal','BJP',new Date(2007,11,30),new Date(2012,11,25)],
+		['Virbhadra Singh','INC',new Date(2012,11,25),new Date()]
 
 		    ]);
 			var options2 = {

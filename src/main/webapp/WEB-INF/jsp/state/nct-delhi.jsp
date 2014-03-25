@@ -83,13 +83,14 @@ $(document).ready(function(){
  			['G N Singh',' INC',new Date(1955,0,0),new Date(1956,0,0)],
 			['President\'s Rule',' ',new Date(1956,0,0),new Date(1993,0,0)],
 			['Madan Lal Khurana',' BJP',new Date(1993,0,0),new Date(1996,0,0)],
-			['Sahib Singh Verma',' BJP',new Date(1996,0,0),new Date(1998,0,0)],
-			['Sushma Swaraj',' BJP',new Date(1998,0,0),new Date(1998,0,0)],
-			['Sheila Dikshit',' INC',new Date(1998,0,0),new Date(2003,0,0)],
-			['Sheila Dikshit',' INC',new Date(2003,0,0),new Date(2008,0,0)],
-			['Sheila Dikshit',' INC',new Date(2008,0,0),new Date(2013,0,0)],
-			['Arvind Kejriwal',' Aam Aadmi Party',new Date(2013,0,0),new Date(2014,0,0)],
-			['President\'s Rule',' ',new Date(2014,0,0),new Date()]		    
+			['Sahib Singh Verma',' BJP',new Date(1996,0,0),new Date(1998,9,13)],
+			['Sushma Swaraj',' BJP',new Date(1998,9,13),new Date(1998,11,2)],
+			['Sheila Dikshit',' INC',new Date(1998,11,2),new Date(2013,11,8)],
+		/*	['Sheila Dikshit',' INC',new Date(2003,0,0),new Date(2008,0,0)],
+			['Sheila Dikshit',' INC',new Date(2008,0,0),new Date(2013,0,0)],  */
+			['President\'s Rule',' ',new Date(2013,11,8),new Date(2013,11,28)],
+			['Arvind Kejriwal',' Aam Aadmi Party',new Date(2013,11,28),new Date(2014,1,14)],
+			['President\'s Rule',' ',new Date(2014,1,17),new Date()]		    
 
 
 		    ]);

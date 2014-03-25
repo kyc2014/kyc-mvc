@@ -132,27 +132,27 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    [ 'C.N Annadurai','DMK', new Date(1964, 1, 14), new Date(1969, 2, 3) ],
-		    [ 'V.R.Nedunchezhiyan(acting)', 'DMK',     new Date(1969, 2, 3),  new Date(1969, 2, 10) ],
-		  [ 'M.Karunanidhi','DMK' , new Date(1969, 2, 10),  new Date(1971, 1, 4) ],
-		    [ 'M.Karunanidhi', 'DMK', new Date(1971, 1, 4),  new Date(1976, 1, 31) ],
-		    [ 'President rule','', new Date(1976, 1, 31), new Date(1977, 6, 30) ],
-		    ['M.G.Ramachandran','AIADMK',new Date(1977,6,30),new Date(1980,2,17)],
-		    ['President rule','',new Date(1980,2,17),new Date(1980,6,9)],
-		    ['M.G.Ramachandran','AIADMK',new Date(1980,6,9),new Date(1984,11,15)],
-		    ['M.G.Ramachandran','AIADMK',new Date(1984,11,15),new Date(1987,12,24)],
-		    ['V.R.Nedunchezhiyan(acting)','AIADMK',new Date(1987,12,24),new Date(1988,1,7)],
-		    ['Janaki Ramachandran','AIADMK',new Date(1988,1,7),new Date(1988,1,30)],
-		    ['President rule','',new Date(1988,1,30),new Date(1989,1,27)],
-		    ['M.Karunanidhi','DMK',new Date(1989,1,27),new Date(1991,1,30)],
-		    ['President rule','',new Date(1991,1,30),new Date(1991,6,24)],
-		    ['J.Jayalalitha','AIADMK',new Date(1991,6,24),new Date(1996,5,12)],
-		    ['M.Karunanidhi','DMK',new Date(1996,5,13),new Date(2001,5,13)],
-		    ['J.Jayalalitha','AIADMK',new Date(2001,5,14),new Date(2001,9,21)],
-		    ['O.Panneerselvam','AIADMK',new Date(2001,9,21),new Date(2002,3,1)],
-		    ['J.Jayalalitha','AIADMK',new Date(2002,3,2),new Date(2006,5,12)],
-		    ['M.Karunanidhi','DMK',new Date(2006,5,13), new Date(2011,5,15)],
-		    ['J.Jayalalitha','AIADMK',new Date(2011,5,16),new Date()]
+		    [ 'C.N Annadurai','DMK', new Date(1967, 2, 6), new Date(1969, 1, 3) ],
+		    [ 'V.R.Nedunchezhiyan(acting)', 'DMK',     new Date(1969, 1, 3),  new Date(1969, 1, 10) ],
+		  [ 'M.Karunanidhi','DMK' , new Date(1969, 1, 10),  new Date(1971, 0, 4) ],
+		    [ 'M.Karunanidhi', 'DMK', new Date(1971, 0, 4),  new Date(1976, 0, 31) ],
+		    [ 'President rule','', new Date(1976, 0, 31), new Date(1977, 5, 30) ],
+		    ['M.G.Ramachandran','AIADMK',new Date(1977,5,30),new Date(1980,1,17)],
+		    ['President rule','',new Date(1980,1,17),new Date(1980,5,9)],
+		    ['M.G.Ramachandran','AIADMK',new Date(1980,5,9),new Date(1984,10,15)],
+		    ['M.G.Ramachandran','AIADMK',new Date(1984,10,15),new Date(1987,11,24)],
+		    ['V.R.Nedunchezhiyan(acting)','AIADMK',new Date(1987,11,24),new Date(1988,0,7)],
+		    ['Janaki Ramachandran','AIADMK',new Date(1988,0,7),new Date(1988,0,30)],
+		    ['President rule','',new Date(1988,0,30),new Date(1989,0,27)],
+		    ['M.Karunanidhi','DMK',new Date(1989,0,27),new Date(1991,0,30)],
+		    ['President rule','',new Date(1991,0,30),new Date(1991,5,24)],
+		    ['J.Jayalalitha','AIADMK',new Date(1991,5,24),new Date(1996,4,12)],
+		    ['M.Karunanidhi','DMK',new Date(1996,4,13),new Date(2001,4,13)],
+		    ['J.Jayalalitha','AIADMK',new Date(2001,4,14),new Date(2001,8,21)],
+		    ['O.Panneerselvam','AIADMK',new Date(2001,8,21),new Date(2002,2,1)],
+		    ['J.Jayalalitha','AIADMK',new Date(2002,2,2),new Date(2006,4,12)],
+		    ['M.Karunanidhi','DMK',new Date(2006,4,13), new Date(2011,4,15)],
+		    ['J.Jayalalitha','AIADMK',new Date(2011,4,16),new Date()]
 
 
 		    ]);

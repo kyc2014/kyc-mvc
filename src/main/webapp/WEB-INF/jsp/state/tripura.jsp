@@ -71,16 +71,16 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Sukhamoy Sen Gupta','INC',new Date(1972, 3, 20), new Date(1977, 3, 31) ],
-		    [ 'Prafulla Kumar Das', 'CFD',  new Date(1977, 4, 1),  new Date(1977, 7, 25) ],
-		  [ 'Radhika Ranjan Gupta','JP' , new Date(1977, 7, 26),  new Date(1977,11,4) ],
-		    [ 'President\'s Rule', '', new Date(1977,11,5),  new Date(1978, 1, 5) ],
-		    [ 'Nripen Chakraborty','CPI(M)', new Date(1978, 1, 5), new Date(1988, 2, 5) ],
-		    ['Sudhir Ranjan Majumdar','INC',new Date(1988,3,5),new Date(1992,2,19)],
-		    ['Samir Ranjan Barman','INC',new Date(1992,2,19),new Date(1993,3,10)],
-		    ['President\'s Rule','',new Date(1993,3,11),new Date(1993,4,10)],
-		    ['Dasarath Deb','CPI(M)',new Date(1993,4,10),new Date(1998,3,11)],
-		    ['Manik Sarkar','CPI(M)',new Date(1998,3,11),new Date()]
+		  [ 'Sukhamoy Sen Gupta','INC',new Date(1972, 2, 20), new Date(1977, 2, 31) ],
+		    [ 'Prafulla Kumar Das', 'CFD',  new Date(1977, 5, 1),  new Date(1977, 6, 25) ],
+		  [ 'Radhika Ranjan Gupta','JP' , new Date(1977, 6, 26),  new Date(1977,10,4) ],
+		    [ 'President\'s Rule', '', new Date(1977,10,5),  new Date(1978, 0, 5) ],
+		    [ 'Nripen Chakraborty','CPI(M)', new Date(1978, 0, 5), new Date(1988, 1, 5) ],
+		    ['Sudhir Ranjan Majumdar','INC',new Date(1988,1,5),new Date(1992,1,19)],
+		    ['Samir Ranjan Barman','INC',new Date(1992,1,19),new Date(1993,2,10)],
+		    ['President\'s Rule','',new Date(1993,2,11),new Date(1993,3,10)],
+		    ['Dasarath Deb','CPI(M)',new Date(1993,3,10),new Date(1998,2,11)],
+		    ['Manik Sarkar','CPI(M)',new Date(1998,2,11),new Date()]
 		    
 		    ]);
 			var options2 = {

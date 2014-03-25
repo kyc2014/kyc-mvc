@@ -73,21 +73,21 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'Start' });
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
-		 dataTable.addRows([['Gopal Singh','',new Date(1987,5,30),new Date(1989,7,18)],
-['Khurshed Alam Khan','',new Date(1989,7,18),new Date(1991,3,25)],
-['Bhanu Prakash Singh','',new Date(1991,3,25),new Date(1992,3,16)],
-['K.S. Baidwan','',new Date(1992,3,16),new Date(1994,3,28)],
-['Ramesh Chandra','',new Date(1994,3,28),new Date(1995,7,15)],
-['S.P. Aggarwal','',new Date(1995,7,15),new Date(1998,6,26)],
-['Ramesh Negi','',new Date(1998,6,26),new Date(1999,2,23)],
-['Sanat Kaul','',new Date(1999,2,23),new Date(1999,4,23)],
-['Ramesh Negi','',new Date(1999,4,23),new Date(1999,7,19)],
-['O.P. Kelkar','',new Date(1999,7,19),new Date(2003,7,19)],
-['Arun Mathur','',new Date(2003,7,20),new Date(2006,7,20)],
-['R.K. Verma','',new Date(2006,7,21),new Date(2009,7,21)],
-['Shri Satya Gopal','',new Date(2009,7,22),new Date(2011,7,22)],
-['Shri. Narendra Kumar','',new Date(2011,7,23),new Date(2012,7,23)],
-['B. S. Bhalla','',new Date(2012,7,23),new Date()]
+		 dataTable.addRows([['Gopal Singh','',new Date(1987,4,30),new Date(1989,6,18)],
+['Khurshed Alam Khan','',new Date(1989,6,18),new Date(1991,2,25)],
+['Bhanu Prakash Singh','',new Date(1991,2,25),new Date(1992,2,16)],
+['K.S. Baidwan','',new Date(1992,2,16),new Date(1994,2,28)],
+['Ramesh Chandra','',new Date(1994,2,28),new Date(1995,6,15)],
+['S.P. Aggarwal','',new Date(1995,6,15),new Date(1998,5,26)],
+['Ramesh Negi','',new Date(1998,5,26),new Date(1999,1,23)],
+['Sanat Kaul','',new Date(1999,1,23),new Date(1999,3,23)],
+['Ramesh Negi','',new Date(1999,3,23),new Date(1999,6,19)],
+['O.P. Kelkar','',new Date(1999,6,19),new Date(2003,6,19)],
+['Arun Mathur','',new Date(2003,6,20),new Date(2006,6,20)],
+['R.K. Verma','',new Date(2006,6,21),new Date(2009,6,21)],
+['Shri Satya Gopal','',new Date(2009,6,22),new Date(2011,6,22)],
+['Shri. Narendra Kumar','',new Date(2011,6,23),new Date(2012,8,28)],
+['B. S. Bhalla','',new Date(2012,8,28),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{

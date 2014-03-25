@@ -132,21 +132,21 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    ['Prafulla Chandra Ghosh','INC',new Date(1947,8,15),new Date(1948,1,14)],
-		['Bidhan Chandra Roy','INC',new Date(1948,1,14),new Date(1962,7,1)],
-		['President\'s rule','',new Date(1962,7,1),new Date(1962,7,8)],
-		['Prafulla Chandra Sen','INC',new Date(1962,7,8),new Date(1967,3,15)],
-		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1967,3,15),new Date(1967,11,2)],
-		['Prafulla Chandra Ghosh','Independent Progressive Democratic Alliance Front',new Date(1967,11,2),new Date(1968,2,20)],
-		['President\'s rule','',new Date(1968,2,20),new Date(1969,2,25)],
-		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1969,2,25),new Date(1970,3,19)],
-		['President\'s rule','',new Date(1970,3,19),new Date(1971,4,2)],
-		['Prafulla Chandra Ghosh','INC',new Date(1971,4,2),new Date(1971,6,28)],
-		['President\'s rule','',new Date(1971,6,28),new Date(1972,3,19)],
-		['Siddhartha Shankar Ray','INC',new Date(1972,3,19),new Date(1977,6,21)],
-		['Jyoti Basu','CPI(M)(Left Front)',new Date(1977,6,21),new Date(2000,11,6)],
-		['Buddhadeb Bhattacharya','CPI(M)(Left Front)',new Date(2000,11,6),new Date(2011,5,13)],
-		['Mamata Banerjee','AITMC',new Date(2011,5,20),new Date()]
+		    ['Prafulla Chandra Ghosh','INC',new Date(1947,7,15),new Date(1948,0,14)],
+		['Bidhan Chandra Roy','INC',new Date(1948,0,14),new Date(1962,6,1)],
+		['President\'s rule','',new Date(1962,6,1),new Date(1962,6,8)],
+		['Prafulla Chandra Sen','INC',new Date(1962,6,8),new Date(1967,2,15)],
+		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1967,2,15),new Date(1967,10,2)],
+		['Prafulla Chandra Ghosh','Independent Progressive Democratic Alliance Front',new Date(1967,10,2),new Date(1968,1,20)],
+		['President\'s rule','',new Date(1968,1,20),new Date(1969,1,25)],
+		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1969,1,25),new Date(1970,2,19)],
+		['President\'s rule','',new Date(1970,2,19),new Date(1971,3,2)],
+		['Prafulla Chandra Ghosh','INC',new Date(1971,3,2),new Date(1971,5,28)],
+		['President\'s rule','',new Date(1971,5,28),new Date(1972,2,19)],
+		['Siddhartha Shankar Ray','INC',new Date(1972,2,19),new Date(1977,5,21)],
+		['Jyoti Basu','CPI(M)(Left Front)',new Date(1977,5,21),new Date(2000,10,6)],
+		['Buddhadeb Bhattacharya','CPI(M)(Left Front)',new Date(2000,10,6),new Date(2011,4,13)],
+		['Mamata Banerjee','AITMC',new Date(2011,4,20),new Date()]
 
 
 
