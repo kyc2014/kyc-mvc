@@ -229,13 +229,11 @@ Speaking in Hindi in his trademark style that alternates between sardonic humour
 <a href="#">Statewise Election Details</a>
 <a href="/web/eci/election-schedule">Election Dates</a>
 </div>
-<div id="right">
+<!-- <div id="right">
 <div class="poll">
-<h2>Polls</h2>
 </div>
+</div>  -->
 </div>
 <jsp:include page="WEB-INF/jsp/footer.jsp" />
-</div>
-
 </body>
 </html>
