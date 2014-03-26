@@ -129,7 +129,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1987</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -141,8 +141,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/goa/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Manohar Parrikar</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="https://www.goa.gov.in/government/cmprofile.html" target=_blank>Manohar Parrikar</a></div>
+						<div class="mparty"><a href="http://goabjp.org/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -170,24 +170,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/goa/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Digambar Kamat</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="https://www.goa.gov.in/government/DigambarKamat_Profile.html" target=_blank>Digambar Kamat</a></div>
+						<div class="mparty"><a href="http://www.gpcc.co.in/home.php" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/goa/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Shripad Naik</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://164.100.47.132/lssnew/Members/Biography.aspx?mpsno=273" target=_blank>Shripad Naik</a></div>
+						<div class="mparty"><a href="http://goabjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Member of Parliament - Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/goa/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Shantaram Naik</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=1981" target=_blank>Shantaram Naik</a></div>
+						<div class="mparty"><a href="http://www.gpcc.co.in/home.php" target=_blank>INC</a></div>
 						<div class="mpost">Member of Parliament - Rajya Sabha</div>
 						</div>
 					</div>
@@ -198,9 +198,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">MAG</a>
+			    <a href="http://goabjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.gpcc.co.in/home.php" target=_blank class="PartiesList">INC</a>
+			 <span class="PartiesList"><!--<a href="http://www.ncp.org.in/" target=_blank class="PartiesList">MGP</a>-->MGP</span>
 			    
 			   
 

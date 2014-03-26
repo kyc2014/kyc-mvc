@@ -129,7 +129,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">15 August 1947</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">14</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>14</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -141,8 +141,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Assam/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Tarun Gogoi</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://tarungogoi.in/" target=_blank>Tarun Gogoi</a></div>
+						<div class="mparty"><a href="http://www.assampcc.org/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -170,24 +170,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/Assam/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Badruddin Ajmal</a></div>
-						<div class="mparty"><a href="">AIUDF</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4436" target=_blank>Badruddin Ajmal</a></div>
+						<div class="mparty"> <!-- <a href="" target=_blank>AIUDF</a> -->AIUDF</div>
 						<div class="mpost">Party Chairperson</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/Assam/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Paban Singh Ghatowar</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=139" target=_blank>Paban Singh Ghatowar</a></div>
+						<div class="mparty"><a href="http://www.assampcc.org/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State (Independent Charges) - Development of North Eastern Region,Parliamentary Affairs</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/Assam/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Prafulla Kumar Mahanta</a></div>
-						<div class="mparty"><a href="">AGP</a></div>
+						<div class="mname"><a href="http://www.asomganaparishad.org/organisation/president.html" target=_blank>Prafulla Kumar Mahanta</a></div>
+						<div class="mparty"><a href="http://www.asomganaparishad.org/" target=_blank>AGP</a></div>
 						<div class="mpost">Party Chairperson,Former CM</div>
 						</div>
 					</div>
@@ -197,11 +197,11 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-				<a href="" class="PartiesList">AGP</a>
-			    <a href="" class="PartiesList">AIUDF</a>
-			    <a href="" class="PartiesList">BPF</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
+				<a href="http://www.asomganaparishad.org/" target=_blank class="PartiesList">AGP</a>
+			    <span class="PartiesList"> <!-- <a href="" target=_blank class="PartiesList">AIUDF</a> -->AIUDF</span>
+			    <a href="http://www.bpfassam.in/" target=_blank class="PartiesList">BPF</a>
+			    <a href="http://www.nebjp2014.in/index.php?parent=556192137889500789268&child=50671137944114946451" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.assampcc.org/" target=_blank class="PartiesList">INC</a>
 			   
 			       
 			    

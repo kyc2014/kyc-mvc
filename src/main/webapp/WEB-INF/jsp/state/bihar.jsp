@@ -145,7 +145,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">2 April 1946</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">40</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>40</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -157,8 +157,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/bihar/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Nitish Kumar</a></div>
-						<div class="mparty"><a href="">JD(U)</a></div>
+						<div class="mname"><a href="http://gov.bih.nic.in/governance/nitishkumar.htm" target=_blank>Nitish Kumar</a></div>
+						<div class="mparty"><a href="http://www.janatadalunited.org/" target=_blank>JD(U)</a></div>
 						</div>
 					</div>
 					
@@ -186,24 +186,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/bihar/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Meira Kumar</a></div>
-						<div class="mparty"><a href=""></a></div>
-						<div class="mpost">Loksabha Speaker</div>
+						<div class="mname"><a href="http://speakerloksabha.nic.in/biography.asp" target=_blank>Meira Kumar</a></div>
+						<div class="mparty"><a href="http://www.bpcc.co.in/" target=_blank>INC</a></div>
+						<div class="mpost">Lok Sabha Speaker</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/bihar/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Paban Singh Ghatowar</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State (Independent Charges) - Development of North Eastern Region,Parliamentary Affairs</div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=430" target=_blank>Dr. Raghuvansh Prasad Singh</a></div>
+						<div class="mparty"><a href="http://www.rjd.co.in/" target=_blank>RJD</a></div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/bihar/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Lalu Prasad Yadav</a></div>
-						<div class="mparty"><a href="">JD,RJD</a></div>
+						<div class="mname"><a href="http://timesofindia.indiatimes.com/home/specials/Profile-Lalu-Prasad-Yadav/articleshow/2015298.cms" target=_blank>Lalu Prasad Yadav</a></div>
+						<div class="mparty"><a href="http://www.rjd.co.in/" target=_blank>RJD</a></div>
 						<div class="mpost">Former CM, Former Railway Minister</div>
 						</div>
 					</div>
@@ -213,10 +213,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-				<a href="" class="PartiesList">INC</a>
-				<a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">RJD</a>
-			    <a href="" class="PartiesList">JD(U)</a>
+				<a href="http://www.bpcc.co.in/" target=_blank class="PartiesList">INC</a>
+				<a href="http://www.biharbjp.org/" target=_blank class="PartiesList">BJP</a>
+			    	<a href="http://www.rjd.co.in/" target=_blank class="PartiesList">RJD</a>
+			    	<a href="http://www.janatadalunited.org/" target=_blank class="PartiesList">JD(U)</a>
 			</div>
 		</div>
 		<div id="chartContainer">
