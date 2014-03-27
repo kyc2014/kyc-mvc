@@ -190,7 +190,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">20</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>20</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -202,8 +202,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Kerala/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Oommen Chandy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/oommen_chandy" target=_blank>Oommen Chandy</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -232,8 +232,8 @@ $(document).ready(function(){
 					
 						<img src="/Resources/images/state/Kerala/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">A.K Antony</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=517" target=_blank>A.K Antony</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of Defence , MP - RajyaSabha</div>
 						</div>
 						
@@ -241,8 +241,8 @@ $(document).ready(function(){
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/Kerala/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.V Thomas</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://164.100.47.132/lssnew/Members/Biography.aspx?mpsno=3209" target=_blank>K.V Thomas</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State (Independent Charges) - Consumer Affairs,Food and Public distribution</div>
 						</div>
 						
@@ -250,8 +250,8 @@ $(document).ready(function(){
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/Kerala/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Shashi Tharoor</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4569" target=_blank>Shashi Tharoor</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Minster of State - Human Resource Development</div>
 						</div>
 					</div>
@@ -262,11 +262,11 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">CPI</a>
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">KC(M)</a>
-			    <a href="" class="PartiesList">IUML</a>
+			    <a href="http://cpikerala.com/" target=_blank class="PartiesList">CPI</a>
+			    <a href="http://www.cpimkerala.org/eng/" target=_blank class="PartiesList">CPI(M)</a>
+			    <a href="http://kpcc.org.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">KC(M)</a>-->KC(M)</span>
+			    <a href="http://www.indianunionmuslimleague.in/" target=_blank class="PartiesList">IUML</a>
 			   
 
 			</div>

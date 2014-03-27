@@ -135,7 +135,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 May 1960</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">33</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>33</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -147,8 +147,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/gujarat/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Narendra Modi</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.narendramodi.in/" target=_blank>Narendra Modi</a></div>
+						<div class="mparty"><a href="http://www.bjpgujarat.org/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -176,24 +176,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/gujarat/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Bharatsinh Madhavsinh Solanki</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4038" target=_blank>Bharatsinh Madhavsinh Solanki</a></div>
+						<div class="mparty"><a href="http://www.gujaratcongress.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State (Independent Charges) - Drinking Water and Sanitation</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/gujarat/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Keshubhai Patel</a></div>
-						<div class="mparty"><a href="">GPP</a></div>
+						<div class="mname"><a href="http://archive.indianexpress.com/news/profile-keshubhai-patel/1047649/" target=_blank>Keshubhai Patel</a></div>
+						<div class="mparty"><a href="http://indiatoday.intoday.in/story/keshubhai-patel-steps-down-as-gpp-president/1/339810.html" target=_blank>GPP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/gujarat/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ahmed Patel</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=205" target=_blank>Ahmed Patel</a></div>
+						<div class="mparty"><a href="http://www.gujaratcongress.org/" target=_blank>INC</a></div>
 						<div class="mpost">Senior Leader (INC)</div>
 						</div>
 					</div>
@@ -204,9 +204,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">GPP</a>
+			    <a href="http://www.bjpgujarat.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.gujaratcongress.org/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://indianexpress.com/article/india/politics/gujarat-parivartan-party-gpp-joins-hand-with-bjp/" target=_blank class="PartiesList">GPP</a>
 			    
 			   
 

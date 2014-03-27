@@ -123,7 +123,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">15 November 2000</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">14</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>14</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -135,8 +135,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Jharkhand/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Hemant Soren</a></div>
-						<div class="mparty"><a href="">JMM</a></div>
+						<div class="mname"><a href="http://prdjharkhand.in/cm.php" target=_blank>Hemant Soren</a></div>
+						<div class="mparty"><a href="http://www.colorofnation.com/political-party/jharkhand-mukti-morcha" target=_blank>JMM</a></div>
 						</div>
 					</div>
 					
@@ -164,24 +164,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/Jharkhand/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Yashwant Sinha</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=464" target=_blank>Yashwant Sinha</a></div>
+						<div class="mparty"><a href="http://www.bjpjharkhand.com/" target=_blank>BJP</a></div>
 						<div class="mpost">MP - LokSabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/Jharkhand/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Arjun Munda</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://arjunmunda.in/political/website/arjunmunda1/index.php/about-ajun-munda.html" target=_blank>Arjun Munda</a></div>
+						<div class="mparty"><a href="http://www.bjpjharkhand.com/" target=_blank>BJP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/Jharkhand/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Shibu Soren</a></div>
-						<div class="mparty"><a href="">JMM</a></div>
+						<div class="mname"><a href="http://shibusoren.com/?p=7" target=_blank>Shibu Soren</a></div>
+						<div class="mparty"><a href="http://www.colorofnation.com/political-party/jharkhand-mukti-morcha" target=_blank>JMM</a></div>
 						<div class="mpost">Former CM , Former Minister of Coal</div>
 						</div>
 					</div>
@@ -192,13 +192,13 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			
-				<a href="" class="PartiesList">AJSU</a>
-			    <a href="" class="PartiesList">BJP</a>
+				<a href="http://www.ajsuparty.org/" target=_blank class="PartiesList">AJSU</a>
+			    <a href="http://www.bjpjharkhand.com/" target=_blank class="PartiesList">BJP</a>
 			    
-			    <a href="" class="PartiesList">INC</a>
-			   <a href="" class="PartiesList">JD(U)</a>
-			     <a href="" class="PartiesList">JMM</a>
-			     <a href="" class="PartiesList">RJD</a>  
+			    <a href="http://www.jpcc.org.in/" target=_blank class="PartiesList">INC</a>
+			   <a href="http://www.janatadalunited.org/" target=_blank class="PartiesList">JD(U)</a>
+			     <a href="http://www.colorofnation.com/political-party/jharkhand-mukti-morcha" target=_blank class="PartiesList">JMM</a>
+			     <a href="http://rjd.co.in/index.html" target=_blank class="PartiesList">RJD</a>  
 			    
 			   
 

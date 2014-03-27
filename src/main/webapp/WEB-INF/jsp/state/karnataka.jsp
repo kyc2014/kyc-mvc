@@ -129,7 +129,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">28</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>28</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -141,8 +141,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Karnataka/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Siddaramaiah</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/siddaramaiah" target=_blank>Siddaramaiah</a></div>
+						<div class="mparty"><a href="http://www.karnatakapcc.com/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -170,24 +170,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/Karnataka/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Deve Gowda</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
+						<div class="mname"><a href="http://www.hddevegowda.in/" target=_blank>H.D Deve Gowda</a></div>
+						<div class="mparty"><a href="http://jds.ind.in/" target=_blank>JD(S)</a></div>
 						<div class="mpost">Former PM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/Karnataka/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.H Muniyappa</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=261" target=_blank>K.H Muniyappa</a></div>
+						<div class="mparty"><a href="http://www.karnatakapcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/Karnataka/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/h_d_kumaraswamy" target=_blank>H.D Kumaraswamy</a></div>
+						<div class="mparty"><a href="http://jds.ind.in/" target=_blank>JD(S)</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
@@ -198,9 +198,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">JD(S)</a>
+			    <a href="http://bjpkarnataka.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.karnatakapcc.com/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://jds.ind.in/" target=_blank class="PartiesList">JD(S)</a>
 			    
 			   
 

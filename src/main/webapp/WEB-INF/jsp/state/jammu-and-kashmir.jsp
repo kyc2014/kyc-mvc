@@ -117,7 +117,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">30 March 1965</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">6</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>6</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -129,8 +129,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/jammu-and-kashmir/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Omar Abdullah</a></div>
-						<div class="mparty"><a href="">JKN</a></div>
+						<div class="mname"><a href="http://jkcmsecretariat.nic.in/" target=_blank>Omar Abdullah</a></div>
+						<div class="mparty"><a href="http://www.jknc.in/" target=_blank>JKN</a></div>
 						</div>
 					</div>
 					
@@ -158,24 +158,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/jammu-and-kashmir/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ghulam Nabi Azad</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=126" target=_blank>Ghulam Nabi Azad</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Union Minister - Ministry of Health and Family Welfare</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/jammu-and-kashmir/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Farooq Abdullah</a></div>
-						<div class="mparty"><a href="">JKN</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=2654" target=_blank>Farooq Abdullah</a></div>
+						<div class="mparty"><a href="http://www.jknc.in/" target=_blank>JKN</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/jammu-and-kashmir/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Mohammad Shafi Uri</div>
-						<div class="mparty"><a href="">JKN</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2104" target=_blank>Mohammad Shafi Uri</a></div>
+						<div class="mparty"><a href="http://www.jknc.in/" target=_blank>JKN</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -186,9 +186,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">JKN</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">JKPDP</a>
+			    <a href="http://www.jknc.in/" target=_blank class="PartiesList">JKN</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://jkpdp.org/" target=_blank class="PartiesList">JKPDP</a>
 			    
 			   
 
