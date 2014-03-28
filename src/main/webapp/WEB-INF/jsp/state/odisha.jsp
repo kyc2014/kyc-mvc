@@ -136,7 +136,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 April 1936</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">31</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>21</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -148,8 +148,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/odisha/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Naveen Patnaik</a></div>
-						<div class="mparty"><a href="">BJD</a></div>
+						<div class="mname"><a href="http://www.naveenpatnaik.com/Profile-of-Shri-Naveen-Patnaik-of-HINJILI-constituency-131.html" target=_blank>Naveen Patnaik</a></div>
+						<div class="mparty"><a href="http://www.bjdodisha.org.in/" target=_blank>BJD</a></div>
 						</div>
 					</div>
 					
@@ -177,24 +177,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/odisha/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Srikant Kumar Jena</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3294" target=_blank>Srikant Kumar Jena</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State(Independent Charges)-Statistics and Program Implementation and Chemicals and Fertilizers</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/odisha/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Hemanand Biswal</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4416" target=_blank>Hemanand Biswal</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Former CM , Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/odisha/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Baishnab Charan Parida</a></div>
-						<div class="mparty"><a href="">BJD</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2153" target=_blank>Baishnab Charan Parida</a></div>
+						<div class="mparty"><a href="http://www.bjdodisha.org.in/" target=_blank>BJD</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -205,9 +205,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJD</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BJP</a>
+			    <a href="http://www.bjdodisha.org.in/" target=_blank class="PartiesList">BJD</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.bjp.org/" target=_blank class="PartiesList">BJP</a>
 			 			    
 			   
 

@@ -127,7 +127,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">21 January 1972</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -139,8 +139,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/manipur/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Okram Ibobi Singh</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.in.com/okram-ibobi-singh/profile-1388.html" target=_blank>Okram Ibobi Singh</a></div>
+						<div class="mparty"><a href="http://www.manipurpcc.org.in/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -168,24 +168,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/manipur/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Rishang Keishing</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=1894" target=_blank>Rishang Keishing</a></div>
+						<div class="mparty"><a href="http://www.manipurpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/manipur/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Thokchom Meinya</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4055" target=_blank>Thokchom Meinya</a></div>
+						<div class="mparty"><a href="http://www.manipurpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/manipur/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Thangso Baite</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4351" target=_blank>Thangso Baite</a></div>
+						<div class="mparty"><a href="http://www.manipurpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
@@ -196,9 +196,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">MSCP</a>
-			    <a href="" class="PartiesList">AITC</a>
+			    <a href="http://www.manipurpcc.org.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">MSCP</a>-->MSCP</span>
+			    <a href="https://aitmc.org/manipur.php" target=_blank class="PartiesList">AITC</a>
 			    
 			   
 

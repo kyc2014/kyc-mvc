@@ -191,7 +191,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 Nov 1960</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">48</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>48</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -203,8 +203,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/maharashtra/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Prithviraj Chavan</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://realityviews.blogspot.in/2010/11/detailed-profile-biography-of.html" target=_blank>Prithviraj Chavan</a></div>
+						<div class="mparty"><a href="http://maharashtracongress.com/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -232,24 +232,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/maharashtra/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sharad Pawar</a></div>
-						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=327" target=_blank>Sharad Pawar</a></div>
+						<div class="mparty"><a href="http://www.ncp.org.in/" target=_blank>NCP</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/maharashtra/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Raj Shrikant Thackeray</a></div>
-						<div class="mparty"><a href="">SS</a></div>
+						<div class="mname"><a href="http://www.indiasite.com/Personalities/Raj-Thackeray" target=_blank>Raj Shrikant Thackeray</a></div>
+						<div class="mparty"><a href="http://www.manase.org/" target=_blank>MNS</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/maharashtra/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sushilkumar Shinde</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=423" target=_blank>Sushilkumar Shinde</a></div>
+						<div class="mparty"><a href="http://maharashtracongress.com/" target=_blank>INC</a></div>
 						<div class="mpost">Minster of Home Affairs</div>
 						</div>
 					</div>
@@ -260,10 +260,10 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">NCP</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">SS</a>
+			    <a href="http://maharashtracongress.com/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.ncp.org.in/" target=_blank class="PartiesList">NCP</a>
+			    <a href="http://www.mahabjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.manase.org/" target=_blank class="PartiesList">MNS</a>
 
 			</div>
 		</div>

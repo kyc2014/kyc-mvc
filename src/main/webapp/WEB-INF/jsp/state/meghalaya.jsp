@@ -132,7 +132,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">21 January 1972</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -144,8 +144,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/meghalaya/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Mukul Sangma</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://meghalaya.gov.in:8080/megportal/government/keycontact/14795" target=_blank>Mukul Sangma</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -173,24 +173,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/meghalaya/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vincent H Pala</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4352" target=_blank>Vincent H Pala</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/meghalaya/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Agatha K. Sangma</a></div>
-						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4251" target=_blank>Agatha K. Sangma</a></div>
+						<div class="mparty"><a href="http://www.ncp.org.in/" target=_blank>NCP</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/meghalaya/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Thomas A Sangma</a></div>
-						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2084" target=_blank>Thomas A Sangma</a></div>
+						<div class="mparty"><a href="http://www.ncp.org.in/" target=_blank>NCP</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -201,9 +201,10 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">UDP</a>
-			    <a href="" class="PartiesList">IND</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">UDP</a>-->UDP</span>
+			    <a href="http://www.ncp.org.in/" target=_blank class="PartiesList">NCP</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">IND</a>-->IND</span>
 			    
 			   
 

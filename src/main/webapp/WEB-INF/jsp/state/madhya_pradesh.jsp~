@@ -198,7 +198,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">29</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>29</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -210,8 +210,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/madhya_pradesh/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Shivraj Singh Chouhan</div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://shivrajsinghchouhan.org/Biography.aspx" target=_blank>Shivraj Singh Chouhan</a></div>
+						<div class="mparty"><a href="http://mp.bjp.org/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -239,24 +239,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/madhya_pradesh/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Jyotiraditya Madhavrao Scindia</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3958" target=_blank>Jyotiraditya Madhavrao Scindia</a></div>
+						<div class="mparty"><a href="http://www.mpcongress.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State (Independent Charges) - Power</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/madhya_pradesh/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sushma Swaraj</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3812" target=_blank>Sushma Swaraj</a></div>
+						<div class="mparty"><a href="http://mp.bjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/madhya_pradesh/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Kailash Vijayvargiya</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/shri_Kailash_vijayvargiya#tab_tab0" target=_blank>Kailash Vijayvargiya</a></div>
+						<div class="mparty"><a href="http://mp.bjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Minister of Urban Administration, Housing & Environment</div>
 						</div>
 					</div>
@@ -266,10 +266,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">SP</a>
+			    <a href="http://mp.bjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.mpcongress.org/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.bspindia.org/madhyapradesh/" target=_blank class="PartiesList">BSP</a>
+			    <a href="http://www.samajwadiparty.in/" target=_blank class="PartiesList">SP</a>
 
 			</div>
 		</div>

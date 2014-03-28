@@ -116,7 +116,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">20 February 1987</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>1</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -128,8 +128,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/mizoram/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Lal Thanhawla</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://cmmizoram.nic.in/cm.html" target=_blank>Lal Thanhawla</a></div>
+						<div class="mparty"><a href="http://mpccmizoram.org/mpcc/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -157,24 +157,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/mizoram/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pu Zoramthanga</a></div>
-						<div class="mparty"><a href="">MNF</a></div>
+						<div class="mname"><a href="http://news.oneindia.in/india/mizoram-assembly-polls-2013-brief-profile-on-pu-zoramthanga-1339392.html" target=_blank>Pu Zoramthanga</a></div>
+						<div class="mparty">MNF</div>
 						<div class="mpost">Party President, Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/mizoram/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Thenphunga Sailo</a></div>
-						<div class="mparty"><a href="">MPC</a></div>
+						<div class="mname"><a href="http://mizorampeoplesconference.com/our-founding-father/" target=_blank>Thenphunga Sailo</a></div>
+						<div class="mparty"><a href="http://mizorampeoplesconference.com/" target=_blank>MPC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/mizoram/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">C.L Ruala</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4353" target=_blank>C.L Ruala</a></div>
+						<div class="mparty"><a href="http://mpccmizoram.org/mpcc/" target=_blank>INC</a></div>
 						<div class="mpost">MP-LokSabha</div>
 						</div>
 					</div>
@@ -185,10 +185,10 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">MNF</a>
-			    <a href="" class="PartiesList">MPC</a>
-			       <a href="" class="PartiesList">ZNF</a>
+			    <a href="http://mpccmizoram.org/mpcc/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">MNF</a>-->MNF</span>
+			    <a href="http://mizorampeoplesconference.com/" target=_blank class="PartiesList">MPC</a>
+			    <!--<a href="" target=_blank class="PartiesList">ZNF</a>-->
 			    
 			   
 
