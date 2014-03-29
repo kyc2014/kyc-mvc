@@ -133,7 +133,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1966</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">13</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>13</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -145,8 +145,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/punjab/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Parkash Singh Badal</a></div>
-						<div class="mparty"><a href="">SAD</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/parkash_singh_badal" target=_blank>Parkash Singh Badal</a></div>
+						<div class="mparty"><a href="http://www.shiromaniakalidal.org.in/" target=_blank>SAD</a></div>
 						</div>
 					</div>
 					
@@ -174,24 +174,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/punjab/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Manish Tewari</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4430" target=_blank>Manish Tewari</a></div>
+						<div class="mparty"><a href="http://ppcc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State (Independent Charges) - Information and Broadcasting</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/punjab/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Preneet Kaur</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=186" target=_blank>Preneet Kaur</a></div>
+						<div class="mparty"><a href="http://ppcc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - External Affairs</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/punjab/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ashwani Kumar</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=1902" target=_blank>Ashwani Kumar</a></div>
+						<div class="mparty"><a href="http://ppcc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Rajya Sabha & retired IPS officer</div>
 						</div>
 					</div>
@@ -202,9 +202,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">SAD</a>
+			    <a href="http://ppcc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.bjppunjab.in/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.shiromaniakalidal.org.in/" target=_blank class="PartiesList">SAD</a>
 			    
 			   
 

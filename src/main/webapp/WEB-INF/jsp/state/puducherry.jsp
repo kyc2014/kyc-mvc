@@ -137,7 +137,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 July 1963</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>1</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -149,8 +149,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Puducherry/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">N.Rangaswamy</a></div>
-						<div class="mparty"><a href="">AINRC</a></div>
+						<div class="mname"><a href="https://www.py.gov.in/government/chiefminister.html" target=_blank>N.Rangaswamy</a></div>
+						<div class="mparty"><a href="http://allindianrcongress.com/" target=_blank>AINRC</a></div>
 						</div>
 					</div>
 					
@@ -178,24 +178,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/Puducherry/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">V.Narayanasamy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4350" target=_blank>V.Narayanasamy</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State - Personnel, Public Grievances and Pensions and Prime Minister Office</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/Puducherry/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">V.Vaithilingam</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.in.com/v-vaithilingam/profile-1382.html" target=_blank>V.Vaithilingam</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/Puducherry/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">P.Kannan</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2125" target=_blank>P.Kannan</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">MP - RajyaSabha</div>
 						</div>
 					</div>
@@ -207,10 +207,10 @@ $(document).ready(function(){
 			<div id="partiesInfoCont">
 			
 				
-			    <a href="" class="PartiesList">AIADMK</a>
-			    <a href="" class="PartiesList">AINRC</a>
-			    <a href="" class="PartiesList">DMK</a>
-			   <a href="" class="PartiesList">INC</a>
+			    <a href="http://www.aiadmk.com/" target=_blank class="PartiesList">AIADMK</a>
+			    <a href="http://allindianrcongress.com/" target=_blank class="PartiesList">AINRC</a>
+			    <a href="http://www.dmk.in/" target=_blank class="PartiesList">DMK</a>
+			   <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
 			   
 			    
 			   

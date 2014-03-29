@@ -189,7 +189,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">25</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>25</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -201,8 +201,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/rajasthan/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vasundhara Raje</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.vasundhararaje.in/en/" target=_blank>Vasundhara Raje</a></div>
+						<div class="mparty"><a href="http://bjpraj.in/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -230,24 +230,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/rajasthan/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Jitendra Singh</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4403" target=_blank>Jitendra Singh</a></div>
+						<div class="mparty"><a href="http://rajasthanpcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers Of State (Independent Charges) - Youth Affairs and Sports</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 					<img src="/Resources/images/state/rajasthan/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sachin Pilot</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4058" target=_blank>Sachin Pilot</a></div>
+						<div class="mparty"><a href="http://rajasthanpcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers Of State (Independent Charges) - Corporate Affairs</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 					<img src="/Resources/images/state/rajasthan/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ashok Gehlot</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.elections.in/political-leaders/ashok-gehlot.html" target=_blank>Ashok Gehlot</a></div>
+						<div class="mparty"><a href="http://rajasthanpcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
@@ -257,11 +257,11 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">IND</a>
-			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">NPP</a>
+			    <a href="http://bjpraj.in/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://rajasthanpcc.com/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">IND</a>-->IND</span>
+			    <a href="http://www.bspindia.org/" target=_blank class="PartiesList">BSP</a>
+			    <a href="http://npprajasthan.com/" target=_blank class="PartiesList">NPP</a>
 			    
 
 			</div>

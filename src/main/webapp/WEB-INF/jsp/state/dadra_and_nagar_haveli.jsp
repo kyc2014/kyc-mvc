@@ -133,7 +133,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1961</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>1</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -150,8 +150,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/dadra_and_nagar_haveli/administrator.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Bhupinder S.Bhalla</a></div>
-						<div class="mparty"><a href=""></a></div>
+						<div class="mname">Bhupinder S.Bhalla</div>
+						<div class="mparty"></div>
 						</div>
 					</div>
 					
@@ -165,8 +165,8 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/dadra_and_nagar_haveli/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Natubhai Gomanbhai Patel</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4365" target=_blank>Natubhai Gomanbhai Patel</a></div>
+						<div class="mparty"><a href="http://www.bjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Member Of Parliament</div>
 						</div>
 					</div>
@@ -178,9 +178,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BNP</a>
+			    <a href="http://www.bjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">BNP</a>-->BNP</span>
 			    
 			   
 

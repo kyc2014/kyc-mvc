@@ -114,7 +114,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">16 May 1975</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>1</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -126,8 +126,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/sikkim/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pawan Kumar Chamling</a></div>
-						<div class="mparty"><a href="">SDF</a></div>
+						<div class="mname"><a href="http://sikkim.nic.in/sws/pawan_cha.html" target=_blank>Pawan Kumar Chamling</a></div>
+						<div class="mparty"><a href="http://sikkimdemocraticfront.org/" target=_blank>SDF</a></div>
 						</div>
 					</div>
 					
@@ -155,24 +155,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/sikkim/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Prem Das Rai</a></div>
-						<div class="mparty"><a href="">SDF</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4347" target=_blank>Prem Das Rai</a></div>
+						<div class="mparty"><a href="http://sikkimdemocraticfront.org/" target=_blank>SDF</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/sikkim/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">O.T. Lepcha</a></div>
-						<div class="mparty"><a href="">SDF</a></div>
+						<div class="mname"><a href="http://www.in.com/o-t-lepcha/biography-210829.html" target=_blank>O.T. Lepcha</a></div>
+						<div class="mparty"><a href="http://sikkimdemocraticfront.org/" target=_blank>SDF</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/sikkim/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Nar Bahadur Bhandari</a></div>
-						<div class="mparty"><a href="">SSP</a></div>
+						<div class="mname"><a href="http://sikkim.nic.in/sws/n_bha.htm" target=_blank>Nar Bahadur Bhandari</a></div>
+						<div class="mparty"><!--<a href="" target=_blank>SSP</a>-->SSP</div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
@@ -183,9 +183,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">SDF</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">SHRP</a>
+			    <a href="http://sikkimdemocraticfront.org/" target=_blank class="PartiesList">SDF</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">SHRP</a>-->SHRP</span>
 			    
 			   
 

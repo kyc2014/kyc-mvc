@@ -122,7 +122,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1966</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>1</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -144,7 +144,7 @@ $(document).ready(function(){
 						<img src="/Resources/images/state/chandigarh/governor.jpg">
 						<div class="mphotoDetails">
 						<div class="mname">Shivraj V.Patil</div>
-						<div class="mparty">INC</div>
+						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
 					</div>
@@ -159,8 +159,8 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/chandigarh/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pawan kumar bansal</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=42" target=_blank>Pawan kumar bansal</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Parliament</div>
 						</div>
 					</div>
@@ -172,8 +172,8 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
+			    <a href="http://www.bjpchandigarh.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
 			    
 			   
 		        </div>

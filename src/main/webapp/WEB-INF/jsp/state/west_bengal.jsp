@@ -181,7 +181,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">42</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>42</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -193,8 +193,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/west_bengal/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Mamata Banerjee</div>
-						<div class="mparty"><a href="">AITMC</a></div>
+						<div class="mname"><a href="https://aitmc.org/theleaderspeaks.php" target=_blank>Mamata Banerjee</a></div>
+						<div class="mparty"><a href="https://aitmc.org/" target=_blank>AITMC</a></div>
 						</div>
 					</div>
 					
@@ -222,24 +222,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/west_bengal/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Adhir Ranjan Chowdhury</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=97" target=_blank>Adhir Ranjan Chowdhury</a></div>
+						<div class="mparty"><a href="http://www.wbpcc.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - Railways</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/west_bengal/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Abu Hasem Khan Choudhury</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4212" target=_blank>Abu Hasem Khan Choudhury</a></div>
+						<div class="mparty"><a href="http://www.wbpcc.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - Health and Family Welfare</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/west_bengal/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Deepa Dasmunsi</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4481" target=_blank>Deepa Dasmunsi</a></div>
+						<div class="mparty"><a href="http://www.wbpcc.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - Urban Development</div>
 						</div>
 					</div>
@@ -249,10 +249,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">AITMC</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">AIFB</a>
+			    <a href="https://aitmc.org/" target=_blank class="PartiesList">AITMC</a>
+			    <a href="http://www.wbpcc.org/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.cpimwb.org.in/" target=_blank class="PartiesList">CPI(M)</a>
+			    <a href="http://www.forwardbloc.org/" target=_blank class="PartiesList">AIFB</a>
 
 			</div>
 		</div>

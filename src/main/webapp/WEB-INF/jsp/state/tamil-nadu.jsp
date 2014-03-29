@@ -186,7 +186,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">26 January 1950</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">39</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>39</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -198,8 +198,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/TamilNadu/jayalalitha.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">J.Jayalalitha</a></div>
-						<div class="mparty"><a href="">AIADMK</a></div>
+						<div class="mname"><a href="http://www.assembly.tn.gov.in/members/profile/139.html" target=_blank>J.Jayalalitha</a></div>
+						<div class="mparty"><a href="http://www.aiadmk.com/‎" target=_blank>AIADMK</a></div>
 						</div>
 					</div>
 					
@@ -227,24 +227,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/TamilNadu/chidambaram.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">P.Chidambaram</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3000" target=_blank>P.Chidambaram</a></div>
+						<div class="mparty"><a href="http://tncc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Union Finance Minister</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/TamilNadu/karunanidhi.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">M.Karunanidhi</a></div>
-						<div class="mparty"><a href="">DMK</a></div>
+						<div class="mname"><a href="http://www.southdreamz.com/portfolio/dr-kalaignar-karunanidhi/" target=_blank>M.Karunanidhi</a></div>
+						<div class="mparty"><a href="http://www.dmk.in/" target=_blank>DMK</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/TamilNadu/vijayakanth.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vijayakanth</a></div>
-						<div class="mparty"><a href="">DMDK</a></div>
+						<div class="mname"><a href="http://vijayakanth-dmdk.blogspot.in/2008/11/captain-full-bio-data-for-u-all.html" target=_blank>Vijayakanth</a></div>
+						<div class="mparty"><a href="http://dmdkparty.com/dmdk/" target=_blank>DMDK</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
@@ -254,14 +254,14 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">AIADMK</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">CPI</a>
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">DMDK</a>
-			    <a href="" class="PartiesList">DMK</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">PMK</a>
+			    <a href="http://www.aiadmk.com/‎" target=_blank class="PartiesList">AIADMK</a>
+			    <a href="http://bjptn.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.communistparty.in/" target=_blank class="PartiesList">CPI</a>
+			    <a href="http://cpim.org/tags/tamilnadu" target=_blank class="PartiesList">CPI(M)</a>
+			    <a href="http://dmdkparty.com/dmdk/" target=_blank class="PartiesList">DMDK</a>
+			    <a href="http://www.dmk.in/" target=_blank class="PartiesList">DMK</a>
+			    <a href="http://tncc.org.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.pmkparty.in/" target=_blank class="PartiesList">PMK</a>
 
 			</div>
 		</div>

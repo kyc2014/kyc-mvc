@@ -124,7 +124,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1911</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">7</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>7</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -136,8 +136,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/nct-delhi/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">President's Rule</a></div>
-						<div class="mparty"><a href=""></a></div>
+						<div class="mname"><a href="http://indiatoday.intoday.in/story/presidents-rule-imposed-in-delhi/1/343916.html" target=_blank>President's Rule</a></div>
+						<div class="mparty"><!--<a href="" target=_blank></a>--></div>
 						</div>
 					</div>
 					
@@ -165,24 +165,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/nct-delhi/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sheila Dikshit</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/sheila_dikshit#tab_tab0" target=_blank>Sheila Dikshit</a></div>
+						<div class="mparty"><a href="http://www.dpcc.co.in/dpcc.php" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/nct-delhi/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Arvind Kejriwal</a></div>
-						<div class="mparty"><a href="">Aam Aadmi Party</a></div>
+						<div class="mname"><a href="http://www.arvindkejriwal.net.in/biography.htm" target=_blank>Arvind Kejriwal</a></div>
+						<div class="mparty"><a href="http://www.aamaadmiparty.org/" target=_blank>Aam Aadmi Party</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/nct-delhi/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Dr. Harsh Vardhan</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.drharshvardhan.com/about-me-profile.aspx" target=_blank>Dr. Harsh Vardhan</a></div>
+						<div class="mparty"><a href="http://www.bjpdelhi.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Delhi Cheif Ministerial Candidate</div>
 						</div>
 					</div>
@@ -194,9 +194,9 @@ $(document).ready(function(){
 			<div id="partiesInfoCont">
 			
 				
-			    <a href="" class="PartiesList">AAP</a>
-			    <a href="" class="PartiesList">BJP</a>
-			   <a href="" class="PartiesList">INC</a>
+			    <a href="http://www.aamaadmiparty.org/" target=_blank class="PartiesList">AAP</a>
+			    <a href="http://www.bjpdelhi.org/" target=_blank class="PartiesList">BJP</a>
+			   <a href="http://www.dpcc.co.in/dpcc.php" target=_blank class="PartiesList">INC</a>
 			   
 			    
 			   

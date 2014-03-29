@@ -215,7 +215,7 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Kerala/governor.jpg">
 						<div class="mphotoDetails">
-						<div class="mname">Nikhil Kumar</div>
+						<div class="mname">Sheila Dikshit</div>
 						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>

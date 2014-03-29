@@ -211,7 +211,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1950</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">80</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>80</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -223,8 +223,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/uttar_pradesh/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Akhilesh Yadav</div>
-						<div class="mparty"><a href="">SP</a></div>
+						<div class="mname"><a href="http://information.up.nic.in/cmprofile.html" target=_blank>Akhilesh Yadav</a></div>
+						<div class="mparty"><a href="http://www.samajwadiparty.in/" target=_blank>SP</a></div>
 						</div>
 					</div>
 					
@@ -252,24 +252,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/uttar_pradesh/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Jitin Prasada</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4065" target=_blank>Jitin Prasada</a></div>
+						<div class="mparty"><a href="http://www.uttarpradeshcongress.com/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - Human Resource Development and Defence</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/uttar_pradesh/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Mulayam Singh Yadav</a></div>
-						<div class="mparty"><a href="">SP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=530" target=_blank>Mulayam Singh Yadav</a></div>
+						<div class="mparty"><a href="http://www.samajwadiparty.in/" target=_blank>SP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/uttar_pradesh/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Mayawati</a></div>
-						<div class="mparty"><a href="">BSP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=1511" target=_blank>Mayawati</a></div>
+						<div class="mparty"><a href="http://www.bspindia.org/" target=_blank>BSP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
@@ -279,10 +279,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">SP</a>
-			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
+			    <a href="http://www.samajwadiparty.in/" target=_blank class="PartiesList">SP</a>
+			    <a href="http://www.bspindia.org/" target=_blank class="PartiesList">BSP</a>
+			    <a href="http://bjpup.in/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.uttarpradeshcongress.com/" target=_blank class="PartiesList">INC</a>
 
 			</div>
 		</div>
