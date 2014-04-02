@@ -163,8 +163,9 @@ float: right;
 		<a href="#"><img src="/Resources/images/party/<c:out value="${candidate.partyShortName}" />-RO.png" class="PartyImage" /></a>
 		<div class="ImageWrapper"><img src="/Resources/images/ministers/<c:out value="${candidate.name}" />.jpg" class="Image" /></div>
 		<div class="Name"><a href="/web/minister/<c:out value="${candidate.name}" />/"><c:out value="${candidate.name}" /></a></div>
-		<div class="Constituency"><a href="#"><c:out value="${candidate.constituency}" /></a></div>
-		<div class="Party"><a href="#"><c:out value="${candidate.partyName}" /></a></div>
+		<!--<div class="Constituency"><a href="#"><c:out value="${candidate.constituency}" /></a></div>-->
+		<div class="Constituency" href="#"><c:out value="${candidate.constituency}" /></div>
+		<div class="Party" href="#"><c:out value="${candidate.partyName}" /></div>
 		<div class="Supporters"><c:out value="${candidate.supporters}" /></div>
 	</div>
 	<c:if test="${candidateStatus.index%3==2}">
