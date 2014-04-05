@@ -15,7 +15,7 @@
 <script type="text/javascript" src="/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Politicians. MLAs and MPs details at your desk. Helps
+<meta lang="en-US" content="Know Your Candidate gives unbiased information about Indian Politicians. MLAs and MPs details at your desk. Helps
 Indian voters select the best candidate contesting in polls" name="description"/>
 <style>
 	#home-wrapper{
@@ -111,9 +111,13 @@ box-sizing:border-box;
 	box-shadow: 0 0px 1px #ccc !important;
 	margin:0px auto;
 }
+.linkColor
+{
+	color:#1f57a5;
+}
 
 
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+.tg td{font-family:raleway;font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 .tg .tg-s6z2{text-align:center}
 .tg .tg-spn1{background-color:#f9f9f9;text-align:center}
@@ -145,7 +149,61 @@ p.newsContent
 <div class="newsWrapper">
 <div class="news-1 news">
 <h1>Recent News</h1>
-<h2 class="newsTitle">AAP Candidate List-TamilNadu</h2>
+<h2 class="newsTitle">Harsh Vardhan as honest as Vajpayee , says Advani</h2>
+<span class="newsTimeStamp">Apr 5, 2014, 12.32 PM IST - India Today</span>
+<p class="newsContent">As the general polls draw near, the BJP is going on an overdrive to secure its vote bank in the Capital. On Friday, party patriarch LK Advani championed the candidature of Harsh Vardhan who has been fielded from the Chandni Chowk constituency.<br>
+
+The party leaders pulled out all the stops to woo the Muslim voters in the constituency, who had reportedly denied support to Vardhan and subsequently the party's PM nominee Narendra Modi, fearing marginalisation.<br>
+
+Vardhan vociferously asked Muslim voters in the constituency to vote sensibly in the upcoming polls.<br>
+
+"You have voted for Kapil Sibal in the past, assuming that he will work for the welfare of the Muslim community. But did he even show his face in the constituency after he was elected? What work did he do for the community's welfare?" he asked.<br>
+
+For further reading , visit <span class="linkColor"><a href="http://indiatoday.intoday.in/story/lk-advani-harsh-vardhan-muslims-voters-chandni-chowk-2014-lok-sabha-polls/1/353060.html" target=_blank>Harsh Vardhan as honest as Vajpayee, says Advani</a></span></p>
+</div>
+<div class="news-2 news">
+<h2 class="newsTitle">NDTV Opinion Poll: Advantage NDA , game-changer Uttar Pradesh</h2>
+<span class="newsTimeStamp">Apr 4, 2014, 23.19 PM IST - NDTV</span>
+<div class="newsContent">
+<h3 style="text-align:center;font-weight:lighter;font-size:120%">All India : Forecast (543 Seats)</h3><br>
+<h3 style="text-align:center;font-weight:lighter">Halfway : 272</h3>
+<table class="tg" style="table-layout: fixed; width: 415px">
+<colgroup>
+<col style="width: 103px">
+<col style="width: 100px">
+<col style="width: 109px">
+<col style="width: 103px">
+</colgroup>
+  <tr>
+    <th class="tg-hgcj">Alliances</th>
+    <th class="tg-hgcj">Seats</th>
+    <th class="tg-hgcj">Change</th>
+    <th class="tg-hgcj">Votes</th>
+  </tr>
+  <tr>
+    <td class="tg-spn1">BJP +</td>
+    <td class="tg-spn1">259</td>
+    <td class="tg-spn1">+118</td>
+    <td class="tg-spn1">32.9%</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">Congress +</td>
+    <td class="tg-s6z2">123</td>
+    <td class="tg-s6z2">-108</td>
+    <td class="tg-s6z2">26.9%</td>
+  </tr>
+  <tr>
+    <td class="tg-spn1">Others</td>
+    <td class="tg-spn1">161</td>
+    <td class="tg-spn1">-10</td>
+    <td class="tg-spn1">40.2%</td>
+  </tr>
+</table>
+<p><br>For further reading , visit <span class="linkColor"><a href="http://www.ndtv.com/elections/article/election-2014/ndtv-opinion-poll-advantage-nda-game-changer-uttar-pradesh-504607?curl=1396718472" target=_blank>NDTV Opinion Poll: Advantage NDA, game-changer Uttar Pradesh</a></span></p>
+</div>
+</div>
+<div class="news-3 news">
+<h2 class="newsTitle">AAP Candidate List - TamilNadu</h2>
 <span class="newsTimeStamp">Mar 18, 2014, 01.47 PM IST - Times of India</span>
 <div class="newsContent">
 <table class="tg" style="table-layout: fixed; width: 439px;">
@@ -200,26 +258,31 @@ p.newsContent
     <td class="tg-s6z2">Chakravarthy Rajagopalakrishnan</td>
   </tr>
 </table>
+<p><br>For further reading , visit <span class="linkColor"><a href="http://www.aamaadmiparty.org/complete-candidate-list-2014-elections" target=_blank>AAP Candidate List - TamilNadu</a></span>
+</p>
 </div>
 </div>
-<div class="news-2 news">
+<div class="news-4 news">
 <h2 class="newsTitle">Apps to bring in election results in real time</h2>
 <span class="newsTimeStamp">March 16, 2014 01:07 IST - The Hindu</span>
-<p class="newsContent">Voters in Kerala can soon download an Android-based application on their mobile phones to know Parliament election trends and results in real time on May 16, the counting day.
-The National Informatics Centre (NIC) here has developed the free application at the behest of the Chief Electoral Officer, Kerala, Nalini Netto. Mobile phone penetration in Kerala, which is growing at an exponential rate, is currently estimated at more than 80 per cent. Mobile phone usage has also transcended all class and age differences.
-Ms. Netto is scheduled to launch the application, which is expected to digitally empower the State's electorate, soon. The app will also benefit lakhs of Keralites far removed from the tumult of the Lok Sabha elections in their home State. An estimated 2,37,92,270 voters are expected to exercise their franchise in the elections to be held in Kerala on March 10.
-At the press of a keypad button or a swipe on their mobile phone screen, voters can follow election trends streaming in from 140 counting centres in the State. The application is configured to fetch information, every few minutes, from the central servers of the NIC and the Kerala State Wide Area Network (KSWAN), and alert users as new updates stream in.
-The election trends from the counting centres will be digitally fed into the servers in almost real time. The app is also expected to help reduce congestion on the government websites showing results and trends. In the future, the apps will become a repository of information on election figures, history, and trends in the State and also double as an easily accessible electoral archive. More importantly, the NIC has developed a highly secure cross-platform mobile messaging app for polling officers to communicate with returning officers, executive magistrates, and District Collectors on the polling day.
-Chiefly, they will be able to update voting percentage figures frequently, without having to make mobile phone calls on a day cell phone networks are likely to be congested. This app will be restricted to poll officers, who will have to register the identity of their mobile phone device</p>
+<p class="newsContent">Voters in Kerala can soon download an Android-based application on their mobile phones to know Parliament election trends and results in real time on May 16, the counting day.<br>
+
+The National Informatics Centre (NIC) here has developed the free application at the behest of the Chief Electoral Officer, Kerala, Nalini Netto.<br>
+
+Mobile phone penetration in Kerala, which is growing at an exponential rate, is currently estimated at more than 80 per cent. Mobile phone usage has also transcended all class and age differences.<br>
+
+Ms. Netto is scheduled to launch the application, which is expected to digitally empower the State’s electorate, soon.<br>
+
+For further reading , visit <span class="linkColor"><a href="http://www.thehindu.com/news/cities/Thiruvananthapuram/apps-to-bring-in-election-results-in-real-time/article5789545.ece" target=_blank>Apps to bring in election results in real time</a></span></p>
 </div>
-<div class="news-3 news">
+<div class="news-5 news">
 <h2 class="newsTitle">Kejriwal ready to take on Modi</h2>
 <span class="newsTimeStamp">BANGALORE, March 16, 2014 - The Hindu</span>
 <p class="newsContent">
-Aam Aadmi Party convener Arvind Kejriwal has declared that he is ready to take on Gujarat Chief Minister Narendra Modi in Varanasi in the Lok Sabha elections, but he will do so only if “the people want” it.
-He was addressing a rally here on Sunday, the second day of his tour of the Lok Sabha constituencies in and around Bangalore. It was attended by a large number of supporters, all wearing the AAP’s caps. Mr. Kejriwal said he would gauge the people’s support at a rally the AAP plans to hold in Varanasi on March 23. “I will do whatever the people say.”
-Speaking in Hindi in his trademark style that alternates between sardonic humour and references to himself as the common man, he spared the BJP’s prime ministerial candidate no criticism and spoke of the media’s “propaganda of falsehood” in their portrayal of Mr. Modi’s development model.
-“For a year, the media have tried to show that Gujarat has progressed under Modiji. So I decided to see the progress for myself. But what I witnessed in my 10-day visit shocked me. Farmers complain that their land is being grabbed and handed over to industries. Modiji represents the old school crony capitalism,” he said.
+Aam Aadmi Party convener Arvind Kejriwal has declared that he is ready to take on Gujarat Chief Minister Narendra Modi in Varanasi in the Lok Sabha elections, but he will do so only if “the people want” it.<br>
+He was addressing a rally here on Sunday, the second day of his tour of the Lok Sabha constituencies in and around Bangalore. It was attended by a large number of supporters, all wearing the AAP’s caps. Mr. Kejriwal said he would gauge the people’s support at a rally the AAP plans to hold in Varanasi on March 23. “I will do whatever the people say.”<br>
+
+For further reading , visit <span class="linkColor"><a href="http://www.thehindu.com/news/cities/Thiruvananthapuram/apps-to-bring-in-election-results-in-real-time/article5789545.ece" target=_blank>Apps to bring in election results in real time</a></span>
 </p>
 </div>
 </div>
