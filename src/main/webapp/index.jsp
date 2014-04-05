@@ -15,7 +15,7 @@
 <script type="text/javascript" src="/Resources/scripts/signin.js"></script>
 <script type="text/javascript" src="/Resources/scripts/menu.js"></script>
 <meta name="google-site-verification" content="ilBL4o12qfyykV6MrBsq71pbe0Q8OnhMLDBV6mmOUYs" />
-<meta lang="en-US" content="Knowyourcandidate gives unbiased information about Indian Politicians. MLAs and MPs details at your desk. Helps
+<meta lang="en-US" content="Know Your Candidate gives unbiased information about Indian Politicians. MLAs and MPs details at your desk. Helps
 Indian voters select the best candidate contesting in polls" name="description"/>
 <style>
 	#home-wrapper{
