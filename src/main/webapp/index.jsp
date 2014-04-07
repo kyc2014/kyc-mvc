@@ -365,10 +365,6 @@ For further reading , visit <span class="linkColor"><a href="http://www.thehindu
 <div class="poll">
 </div>
 </div>  -->
-<!--div class="games">
-<h2>Games</h2>
-<a href="#">Memory Game</a>
-</div-->
 
 </div>
 <jsp:include page="WEB-INF/jsp/footer.jsp" />
