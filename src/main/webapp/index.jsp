@@ -358,6 +358,12 @@ For further reading , visit <span class="linkColor"><a href="http://www.thehindu
 <a href="#">Electoral Data</a>
 <a href="#">Statewise Election Details</a>
 <a href="/web/eci/election-schedule">Election Dates</a>
+
+<h2>Election Manifesto</h2>
+<a href="/web/eci/aap-election-manifesto" target=_blank>AAP</a>
+<a href="/web/eci/bjp-election-manifesto" target=_blank>BJP</a>
+<a href="/web/eci/inc-election-manifesto" target=_blank>INC</a>
+
 <h2>Games</h2>
 <a href="http://shiv6146.github.io/" target=_blank>Memory Game</a>
 </div>
