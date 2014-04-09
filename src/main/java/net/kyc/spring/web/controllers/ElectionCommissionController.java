@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ElectionCommissionController {
 
-	@RequestMapping(value="/eci/election-schedule")
-		public String stateDetails(){
-			return "eci/election-schedule";
+	@RequestMapping(value="/eci/{election}")
+		public String stateDetails(@PathVariable String election){
+			return "eci/"+election;
 		}
 }
