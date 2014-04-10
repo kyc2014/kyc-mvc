@@ -176,8 +176,51 @@ p.newsContent
 <jsp:include page="header.jsp" />
 <div id="home-wrapper">
 <div class="newsWrapper">
-<div class="news-1 news">
+<div class="news-13 news">
 <h1>Recent News</h1>
+<h2 class="newsTitle">Akhilesh Yadav defends Azam Khan's Kargil comment</h2>
+<span class="newsTimeStamp">Lucknow Apr 9, 2014, 18.45 PM IST - India Today</span>
+<p class="newsContent">Uttar Pradesh Chief Minister Akhilesh Yadav has come out in support of Azam Khan, who is in a fix after a controversial comment on the role of Muslims in the Kargil conflict. Referring to martyr Abdul Hameed, he said it was true that he won a Param Vir Chakra.<br>
+
+"What's wrong in Azam Khan saying Muslims helped us win Kargil. Isn't it true that he (Abdul Hameed) won a Param Vir Chakra. If I say Yogendra Yadav got a Param Vir Chakra you will say I'm favoring people," he said.<br>
+
+For further reading , visit <span class="linkColor"><a href="http://indiatoday.intoday.in/story/akhilesh-yadav-defends-azam-khans-kargil-comment/1/354839.html" target=_blank>Akhilesh Yadav defends Azam Khan's Kargil comment</a></span>
+</p>
+</div>
+
+<div class="news-12 news">
+<h2 class="newsTitle">Two AAP candidates , Jaaved Jaaferi and Adarsh Shastri , file nominations from Lucknow</h2>
+<span class="newsTimeStamp">Apr 9, 2014, 3.00 PM IST - Times of India</span>
+<p class="newsContent">The Aam Aadmi Party has landed in yet another embarrassing situation. Apprehending that party's Lucknow candidate Jaaved Jaaferi's nomination might be rejected because of 'some anomalies' in his voter registration, the AAP also made Adarsh Shastri file his nomination as a "covering candidate". Both filed their papers on the last day for nominations on Wednesday.<br>
+
+Jaaferi, who lives in Mumbai, sources said, had last voted in 2008. Thereafter, his name got deleted from the voters' list and he was not registered as a voter anywhere in India. When party decided to field him from Lucknow, Jaaferi applied online to get himself listed as a voter in Lucknow at the eleventh hour. The last date for voter registration was March 30. His name was included in the voters' list on April 7.<br>
+
+For further reading , visit <span class="linkColor"><a href="http://timesofindia.indiatimes.com/home/lok-sabha-elections-2014/news/Two-AAP-candidates-Jaaved-Jaaferi-and-Adarsh-Shastri-file-nominations-from-Lucknow/articleshow/33500608.cms" target=_blank>Two AAP candidates , Jaaved Jaaferi and Adarsh Shastri , file nominations from Lucknow</a></span></p>
+</div>
+
+<div class="news-11 news">
+<h2 class="newsTitle">Firm on development plank , Modi invokes Sayajirao Gaekwad after filing nomination</h2>
+<span class="newsTimeStamp">Apr 9, 2014, 14.46 PM IST - India Today</span>
+<p class="newsContent">Putting the development agenda in the forefront of his electoral campaign, Bharatiya Janata Party's Prime Minister nominee on Wednesday invoked the legendary Vadodara ruler Sayajirao Gaekwad who he lauded as an epitome of good governance and modernisation while filing his nomination for the Vadodara Lok Sabha constituency.<br>
+  
+Accompanied by his ministerial colleagues Anandiben Patel, Saurabh Patel and Nitin Patel and State BJP president RC Faldu in a jeep, the Gujarat Chief Minister reached the Vadodra collector's office in a massive procession, straight from a roadshow he held in the city earlier.<br>
+
+For further reading , visit <span class="linkColor"><a href="http://indiatoday.intoday.in/story/narendra-modi-nomination-paper-roadshow/1/353684.html" target=_blank>Firm on development plank , Modi invokes Sayajirao Gaekwad after filing nomination</a></span>
+</p>
+</div>
+
+<div class="news-10 news">
+<h2 class="newsTitle">Delhi to cast vote tomorrow, punters bet big on BJP</h2>
+<span class="newsTimeStamp">Apr 9, 2014, 9.46 AM IST - India Today</span>
+<p class="newsContent">With only one day left for the Battle of Delhi, India's ruling party seems to have given up, the party that recently ruled Delhi for 49 days seems to have slipped, and the party that got the largest number of seats in the December 2013 Assembly elections seems headed for victory. The lotus is set to bloom amid Delhi's tectonic shift from bipolar to triangular contests.<br>
+
+Thursday will be a very big day for AAP. Delhi's triangular fights could well decide the future of the party in national politics. AAP, despite its strong showing in the Assembly polls, is in troubled waters after its 49-day debacle in Delhi. Recent opinion polls have shown the Congress recapturing a substantial part of the voteshare it lost in the Assembly elections to the Kejriwal-led outfit. A poor AAP show could send the new party relentlessly downhill. Anything less than three seats will be bad news indeed for AAP.<br>
+
+For further reading , visit <span class="linkColor"><a href="http://indiatoday.intoday.in/story/delhi-polls-modi-wave-arvind-kejriwal-aap-bjp-congress/1/353648.html" target=_blank>Delhi to cast vote tomorrow, punters bet big on BJP</a></span>
+</p>
+</div>
+
+<div class="news-9 news">
 <h2 class="newsTitle">TDP joins hands with BJP in Andhra, returns to NDA</h2>
 <span class="newsTimeStamp">Apr 6, 2014, 18.00 PM IST - India Today</span>
 <p class="newsContent">The Telugu Desam Party has returned to the National Democratic Alliance and arrived at a seat-sharing arrangement with the BJP for Telangana and Andhra Pradesh. "Ours is a lucky combination and our alliance will record a landslide victory getting 300 seats and more in the new Lok Sabha," declared the TDP chief N. Chandrababu Naidu at a media conference in Hyderabad on Sunday.<br>
@@ -187,7 +230,7 @@ After a fortnight of wrangling, the TDP and BJP have agreed to the arrangement i
 For further reading , visit <span class="linkColor"><a href="http://indiatoday.intoday.in/story/tdp-joins-hands-with-bjp-in-andhra-returns-to-nda/1/353247.html" target=_blank>TDP joins hands with BJP in Andhra , returns to NDA</a></span></p>
 </div>
 
-<div class="news-2 news">
+<div class="news-8 news">
 <h2 class="newsTitle">Trinamool Congress to woo voters with 'Didi Direct', blogs by IIM grads</h2>
 <span class="newsTimeStamp">Apr 6, 2014, 17.46 PM IST - NDTV</span>
 <p class="newsContent">With all major political parties using the social media to woo voters, the Trinamool Congress (TMC) is bolstering its Internet presence by introducing 'Didi Direct' section on its website and getting Indian Institute of Management (IIM) graduates to write blogs for the party to make the most of it.<br>
@@ -197,7 +240,7 @@ For further reading , visit <span class="linkColor"><a href="http://indiatoday.i
 For further reading , visit <span class="linkColor"><a href="http://www.ndtv.com/elections/article/election-2014/trinamool-congress-to-woo-voters-with-didi-direct-blogs-by-iim-grads-505058?fb" target=_blank>Trinamool Congress to woo voters with 'Didi Direct' , blogs by IIM grads</a></span></p>
 </div>
 
-<div class="news-3 news">
+<div class="news-7 news">
 <h2 class="newsTitle">Modi accuses Sonia , Mulayam of misleading Muslims</h2>
 <span class="newsTimeStamp">Apr 6, 2014, 15.29 PM IST - India Today</span>
 <p class="newsContent">Narendra Modi today attacked Sonia Gandhi and Samajwadi Party chief Mulayam Singh Yadav accusing them of indulging in vote bank politics and "misleading" Muslims in the name of secularism.<br>
@@ -205,7 +248,7 @@ He also sought to blame Gandhi and Yadav for the communal clashes, saying "700 r
 For further reading , visit <span class="linkColor"><a href="http://indiatoday.intoday.in/story/modi-aligarh-uttar-pradesh-rally-sonia-mulayam-misleading-muslims/1/353254.html" target=_blank>Modi accuses Sonia , Mulayam of misleading Muslims</a></span></p>
 </div>
 
-<div class="news-4 news">
+<div class="news-6 news">
 <h2 class="newsTitle">Karunanidhi says this may be his last poll, calls Modi irrelavant</h2>
 <span class="newsTimeStamp">Apr 6, 2014, 12.53 AM IST - Times of India</span>
 <p class="newsContent">In his first election rally of the season outside Chennai, former chief Minister and DMK supremo M Karunanidhi decided to touch an emotional chord with the voters here as he proclaimed that the 2014 Lok Sabha election could be his final poll outing. Addressing a public meeting at VOC ground on late Saturday evening, the veteran of many electoral battles quickly added that he could go on for another 50 years if DMK's political relevance is reinstated in the state.<br> 
@@ -228,7 +271,7 @@ Vardhan vociferously asked Muslim voters in the constituency to vote sensibly in
 
 For further reading , visit <span class="linkColor"><a href="http://indiatoday.intoday.in/story/lk-advani-harsh-vardhan-muslims-voters-chandni-chowk-2014-lok-sabha-polls/1/353060.html" target=_blank>Harsh Vardhan as honest as Vajpayee, says Advani</a></span></p>
 </div>
-<div class="news-6 news">
+<div class="news-4 news">
 <h2 class="newsTitle">NDTV Opinion Poll: Advantage NDA , game-changer Uttar Pradesh</h2>
 <span class="newsTimeStamp">Apr 4, 2014, 23.19 PM IST - NDTV</span>
 <div class="newsContent">
@@ -269,7 +312,7 @@ For further reading , visit <span class="linkColor"><a href="http://indiatoday.i
 <p><br>For further reading , visit <span class="linkColor"><a href="http://www.ndtv.com/elections/article/election-2014/ndtv-opinion-poll-advantage-nda-game-changer-uttar-pradesh-504607?curl=1396718472" target=_blank>NDTV Opinion Poll: Advantage NDA, game-changer Uttar Pradesh</a></span></p>
 </div>
 </div>
-<div class="news-7 news">
+<div class="news-3 news">
 <h2 class="newsTitle">AAP Candidate List - TamilNadu</h2>
 <span class="newsTimeStamp">Mar 18, 2014, 01.47 PM IST - Times of India</span>
 <div class="newsContent">
@@ -329,7 +372,7 @@ For further reading , visit <span class="linkColor"><a href="http://indiatoday.i
 </p>
 </div>
 </div>
-<div class="news-8 news">
+<div class="news-2 news">
 <h2 class="newsTitle">Apps to bring in election results in real time</h2>
 <span class="newsTimeStamp">March 16, 2014 01:07 IST - The Hindu</span>
 <p class="newsContent">Voters in Kerala can soon download an Android-based application on their mobile phones to know Parliament election trends and results in real time on May 16, the counting day.<br>
@@ -342,7 +385,7 @@ Ms. Netto is scheduled to launch the application, which is expected to digitally
 
 For further reading , visit <span class="linkColor"><a href="http://www.thehindu.com/news/cities/Thiruvananthapuram/apps-to-bring-in-election-results-in-real-time/article5789545.ece" target=_blank>Apps to bring in election results in real time</a></span></p>
 </div>
-<div class="news-9 news">
+<div class="news-1 news">
 <h2 class="newsTitle">Kejriwal ready to take on Modi</h2>
 <span class="newsTimeStamp">BANGALORE, March 16, 2014 - The Hindu</span>
 <p class="newsContent">
