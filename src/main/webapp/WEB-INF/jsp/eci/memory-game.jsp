@@ -1,20 +1,30 @@
-<!doctype html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<link href="style1.css" media="screen and (device-height:900px)" rel="stylesheet" type="text/css" />
-<link href="style2.css" media="screen and (device-height:768px) and (device-width:1366px)" rel="stylesheet" type="text/css" />
-<title>Memory game</title>
+<title>Election Memory Game | Know Your Candidate</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/Resources/CSS/style1.css" media="screen and (device-height:900px)" rel="stylesheet" type="text/css" />
+<link href="/Resources/CSS/style2.css" media="screen and (device-height:768px) and (device-width:1366px)" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
+<meta lang="en-US" content="India General Elections 2014 Timetable - Schedule" name="description">
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css" />
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/generic2.css"/>
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/footer.css" />
+<link rel="stylesheet" type="text/css" href="/Resources/CSS/header3.css">
+<script type="text/javascript" src="/Resources/Libraries/jquery-2.0.2.min.js"></script>
 <style type="text/css">
 @media screen and (max-width: 960px) 
 {
-   @import url('style1.css');
-   @import url('style2.css');
+   @import url('/Resources/CSS/style1.css');
+   @import url('/Resources/CSS/style2.css');
 }
 </style>
 <script type="text/javascript">
 var score;
-var mem_arr = ['leader/1.png','emblem/1.png','leader/2.png','emblem/2.png','leader/3.png','emblem/3.png','leader/4.png','emblem/4.png','leader/5.png','emblem/5.png','leader/6.png','emblem/6.png','leader/7.png','emblem/7.png','leader/8.png','emblem/8.png','leader/9.png','emblem/9.png','leader/10.png','emblem/10.png','leader/11.png','emblem/11.png','leader/12.png','emblem/12.png'];
+var mem_arr = ['/Resources/leader/1.png','/Resources/emblem/1.png','/Resources/leader/2.png','/Resources/emblem/2.png','/Resources/leader/3.png','/Resources/emblem/3.png','/Resources/leader/4.png','/Resources/emblem/4.png','/Resources/leader/5.png','/Resources/emblem/5.png','/Resources/leader/6.png','/Resources/emblem/6.png','/Resources/leader/7.png','/Resources/emblem/7.png','/Resources/leader/8.png','/Resources/emblem/8.png','/Resources/leader/9.png','/Resources/emblem/9.png','/Resources/leader/10.png','/Resources/emblem/10.png','/Resources/leader/11.png','/Resources/emblem/11.png','/Resources/leader/12.png','/Resources/emblem/12.png'];
 var mem_val = [];
 var mem_tile_id = [];
 var tiles_flipped = 0;
@@ -59,10 +69,10 @@ function memFlipTile(tile,val){
 					function flipBack(){
 						var tile_1 = document.getElementById(mem_tile_id[0]);
 						var tile_2 = document.getElementById(mem_tile_id[1]);
-						tile_1.style.background = 'url(images/fb_kyc.png) no-repeat';
+						tile_1.style.background = 'url(/Resources/images/fb_kyc.png) no-repeat';
 						tile_1.style.backgroundSize = 'cover';
 						tile_1.innerHTML = "";
-						tile_2.style.background = 'url(images/fb_kyc.png) no-repeat';
+						tile_2.style.background = 'url(/Resources/images/fb_kyc.png) no-repeat';
 						tile_2.style.backgroundSize = 'cover';
 						tile_2.innerHTML = "";
 						//clear arrays
@@ -114,9 +124,10 @@ function customAlert(){
 var Alert = new customAlert();
 </script>
 </head>
-
+<jsp:include page="../header.jsp" />
 <body>
-<img src="images/desc.png" id="desc" />
+<div id="wrapper">
+<img src="/Resources/images/desc.png" id="desc" />
 <div id="dialogoverlay"></div>
 <div id="dialog">
 	<div>
@@ -129,5 +140,7 @@ var Alert = new customAlert();
 <div id="min"></div>
 <input type="button" id="btn" onClick="countSecs(60,'min');" />
 <script type="text/javascript">newBoard();</script>
+</div>
 </body>
+<jsp:include page="../footer.jsp" />
 </html>

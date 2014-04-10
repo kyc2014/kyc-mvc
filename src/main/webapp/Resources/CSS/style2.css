@@ -1,0 +1,116 @@
+body
+{
+	background:url(images/bg.png);
+	overflow:hidden;
+}
+span#logout-timer
+{
+	color:#FFF;	
+}
+#dialogoverlay
+{
+	display:none;
+	opacity:0.8;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:#FFF;
+	width:100%;
+	z-index:10;
+}
+#dialog
+{
+	display:none;
+	position:fixed;
+	background:#999;
+	border-radius:7px;
+	width:550px;
+	z-index:10;
+}
+#dialog > div
+{
+	background:#FFF;
+	margin:8px;	
+}
+#dialog > div > #dialoghead
+{
+	background:#666;
+	font-size:19px;
+	padding:10px;
+	color:#FFF;	
+}
+#dialog > div > #dialogbody
+{
+	background:#333;
+	padding:20px;
+	color:#FFF;	
+}
+#dialog > div > #dialogfoot
+{
+	background:#666;
+	text-align:right;
+	padding:10px;
+	color:#FFF;	
+}
+a
+{
+	text-decoration:none;
+	color:#FFF;	
+}
+#btn
+{
+	width:100px;
+	height:112px;
+	margin:0px;
+	border:none !important;
+	padding:0px;
+	position:absolute;
+	cursor:pointer;
+	bottom:100px;
+	right:85px;
+	background:url(images/ThinkingSmiley.png);	
+}
+div#min
+{
+	background:transparent;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:65px;
+	right:90px;
+	text-align:center;
+	font-family:"NBA Heat";
+	font-size:100px;
+	color:#FFF;	
+}
+div#memory_board
+{
+	background:#666;
+	position:absolute;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px;
+	top:25px;
+	left:250px;
+	display:none;	
+}
+div#memory_board > div
+{
+	background:url(images/fb_kyc.png) no-repeat;
+	background-size:cover;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+#desc
+{
+	display:none;
+}
