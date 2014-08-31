@@ -88,5 +88,10 @@ public class Sample {
 		return "about";
 	}
 	
+	@RequestMapping(value="/memory-game")
+    public String memory_game(){
+		return "memory/index";
+	}
+	
         
 }

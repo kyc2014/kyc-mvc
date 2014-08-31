@@ -407,8 +407,8 @@ For further reading , visit <span class="linkColor"><a href="http://www.thehindu
 <a href="/web/eci/bjp-election-manifesto" target=_blank>BJP</a>
 <a href="/web/eci/inc-election-manifesto" target=_blank>INC</a>
 
-<!--  <h2>Games</h2>
-<a href="http://shiv6146.github.io/" target=_blank>Memory Game</a> -->
+<h2>Games</h2>
+<a href="/web/memory-game" target=_blank>Memory Game</a>
 </div>
 <!-- <div id="right">
 <div class="poll">
