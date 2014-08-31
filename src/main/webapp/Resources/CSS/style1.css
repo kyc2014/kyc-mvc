@@ -1,6 +1,6 @@
 body
 {
-	background:url(images/bg.png);
+	background:url(/Resources/img2/bg.png);
 	overflow:hidden;
 }
 span#logout-timer
@@ -68,7 +68,7 @@ a
 	cursor:pointer;
 	bottom:220px;
 	right:85px;
-	background:url(images/ThinkingSmiley.png);	
+	background:url(/Resources/img2/ThinkingSmiley.png);	
 }
 div#min
 {
@@ -98,7 +98,7 @@ div#memory_board
 }
 div#memory_board > div
 {
-	background:url(images/fb_kyc.png) no-repeat;
+	background:url(/Resources/img2/fb_kyc.png) no-repeat;
 	background-size:cover;
 	border:#000 1px solid;
 	width:71px;
