@@ -23,12 +23,65 @@ import com.mysql.jdbc.Statement;
 
 
 public class TNConstituency{
-	public static final String wikipediaStateUniveristy = "WikiStateUniversities.txt";
-	public static final String base = "/home/maxsteal/universities/";
+	public static final String wikipediaStateUniveristiesFile = "WikiStateUniversities.txt";
+	public static final String forbesHundreadFile = "forbesHundread.txt";
+	public static final String baseFolder = "/home/maxsteal/universities/";
+	public static final String forbesBaseURL = "http://www.forbes.com";
+	public static final String wikipediaStateUniversitiesListURL = "http://en.wikipedia.org/wiki/List_of_state_universities_in_the_United_States";
+	public static final String forbesTopHundreadURL = "http://www.forbes.com/top-colleges/list/";
 	public static void main(String args[]) throws IOException, SQLException{
 		//TNCandidate();;
-		collegeURLs();
+		//wikiStateCollegeURLs();
+		forbesHundreadColleges();
 		//test();
+	}
+	private static void forbesHundreadColleges() throws IOException {
+		Connection connectList = null;
+		Document documentList = null;
+		try{ 
+			connectList = Jsoup.connect(forbesTopHundreadURL).timeout(6*1000);
+			documentList = connectList.get();
+		}
+		catch(SocketTimeoutException ste){
+			System.out.println("Retrying");
+			forbesHundreadColleges();
+		}
+		File file = new File(baseFolder+forbesHundreadFile);
+		 
+		// if file doesnt exists, then create it
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		BufferedWriter bw = new BufferedWriter(fw);
+		Elements forbesURLs = documentList.select("td.company a");
+		for(int i=0; i<forbesURLs.size(); i++){
+			String forbeURLs = forbesURLs.get(i).attr("href");
+			try{
+			Connection collegeConnect = Jsoup.connect(forbesBaseURL+forbeURLs).timeout(6*1000);
+			Document collegeDocument = collegeConnect.get();
+			Elements elements = collegeDocument.select(".profileLeft ul a");
+			String name = collegeDocument.select(".profileRight.fright h1").text();
+			for(Element element:elements){
+				if(element.attr("href").contains(".edu")){
+					String url = element.attr("href");
+					bw.write(name+","+url+"\n");
+					bw.flush();
+					break;
+				}
+				
+			}
+			}
+			catch(SocketTimeoutException ste){
+				i--;
+				System.out.println("Retying");
+			}
+			catch(Exception e){
+				System.out.println(e);
+			}
+			
+		}
+		bw.close();
 	}
 	public static void test() throws IOException{
 		Connection connect = Jsoup.connect("http://en.wikipedia.org/wiki/Howard_University");
@@ -48,13 +101,20 @@ public class TNConstituency{
 		
 		
 	}
-	public static void collegeURLs() throws IOException{
-		Connection connect = Jsoup.connect("http://en.wikipedia.org/wiki/List_of_state_universities_in_the_United_States");
-		Document document = connect.get();
+	public static void wikiStateCollegeURLs() throws IOException{
+		Document document = null;
+		Connection connect = null;
+		try{
+		connect = Jsoup.connect(wikipediaStateUniversitiesListURL);
+		document = connect.get();
+		}
+		catch(SocketTimeoutException ste){
+			wikiStateCollegeURLs();
+		}
 		Element div = document.getElementById("mw-content-text");
 		Elements anchors = div.getElementsByTag("a");
 		String baseURL = "http://en.wikipedia.org";
-		File file = new File(base+wikipediaStateUniveristy);
+		File file = new File(baseFolder+wikipediaStateUniveristiesFile);
 		 
 		// if file doesnt exists, then create it
 		if (!file.exists()) {
