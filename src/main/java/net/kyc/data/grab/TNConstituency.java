@@ -1,11 +1,13 @@
 package net.kyc.data.grab;
 
-import java.io.FileNotFoundException;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.MalformedURLException;
+import java.net.SocketTimeoutException;
 import java.net.URL;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -21,8 +23,82 @@ import com.mysql.jdbc.Statement;
 
 
 public class TNConstituency{
+	public static final String wikipediaStateUniveristy = "WikiStateUniversities.txt";
+	public static final String base = "/home/maxsteal/universities/";
 	public static void main(String args[]) throws IOException, SQLException{
-		TNCandidate();;
+		//TNCandidate();;
+		collegeURLs();
+		//test();
+	}
+	public static void test() throws IOException{
+		Connection connect = Jsoup.connect("http://en.wikipedia.org/wiki/Howard_University");
+		Document document = connect.get();
+		Elements webs = document.select("table.infobox.vcard tr");
+		for(Element web:webs){
+			Elements th = web.getElementsByTag("th");
+			if(th.text().contains("Website")){
+				Elements url = web.getElementsByTag("a");
+				if(url.attr("href").trim() != "")
+				{
+					System.out.println(url.attr("href"));
+				}
+				
+			}
+		}
+		
+		
+	}
+	public static void collegeURLs() throws IOException{
+		Connection connect = Jsoup.connect("http://en.wikipedia.org/wiki/List_of_state_universities_in_the_United_States");
+		Document document = connect.get();
+		Element div = document.getElementById("mw-content-text");
+		Elements anchors = div.getElementsByTag("a");
+		String baseURL = "http://en.wikipedia.org";
+		File file = new File(base+wikipediaStateUniveristy);
+		 
+		// if file doesnt exists, then create it
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		BufferedWriter bw = new BufferedWriter(fw);
+
+		for(int i=0; i<anchors.size(); i++){
+			if(!anchors.get(i).attr("href").contains("#")){
+			String url = baseURL+anchors.get(i).attr("href");
+			try{
+			Connection connectWiki = Jsoup.connect(url);
+			Document documentWiki = connectWiki.get();
+			//System.out.println(url);
+			Elements webs = documentWiki.select("table.infobox.vcard tr");
+			for(Element web:webs){
+				Elements th = web.getElementsByTag("th");
+				if(th.text().contains("Website")){
+					Elements officialurl = web.getElementsByTag("a");
+					
+					if(officialurl.attr("href").trim() != "" && officialurl.attr("href").contains("edu"))
+					{
+						bw.write(anchors.get(i).text()+","+officialurl.attr("href")+"\n");
+						bw.flush();
+						System.out.println(anchors.get(i).text()+","+officialurl.attr("href"));
+					}
+				}
+			}
+//			System.out.println(weburls.html());
+//			if(weburls.size()>0){
+//			Elements webanchors = weburls.get(0).getElementsByTag("a");
+//			String weburl = webanchors.get(0).attr("href");
+//			System.out.println(weburl+":"+name);
+//			}
+			}
+			catch(SocketTimeoutException ste){
+				i--;
+			}
+			catch(Exception e){
+				System.out.println(e);
+			}
+		}}
+		bw.close();
 	}
 	
 	public static void TNCandidate() throws SQLException, IOException{
