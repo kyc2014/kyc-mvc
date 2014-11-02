@@ -1,8 +1,14 @@
 package net.kyc.spring.web.controllers;
 
 
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
+
+import javax.servlet.http.HttpServletResponse;
 
 import net.kyc.spring.web.candidate.model.Candidate;
 import net.kyc.spring.web.candidate.model.MinisterialCandidate;
@@ -12,11 +18,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.util.FileCopyUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 @Controller
 public class Sample {
@@ -61,10 +71,6 @@ public class Sample {
 		return "eci/election-schedule";
 	}*/
 	
-	@RequestMapping(value="editor")
-	public String displayEditorsPage(){
-		return "editorLogin";
-	}
 	
 	@RequestMapping(value="/parliament/all")
     public String addUser(){
@@ -80,6 +86,11 @@ public class Sample {
 	@RequestMapping(value="/about")
     public String about(){
 		return "about";
+	}
+	
+	@RequestMapping(value="/memory-game")
+    public String memory_game(){
+		return "memory/index";
 	}
 	
         

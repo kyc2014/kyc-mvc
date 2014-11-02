@@ -80,7 +80,7 @@ h4
 <body>
 <jsp:include page="../header.jsp"/>
 <div id="wrapper">
-<h1>General Elections 2014 Schedule</h1>
+<h1>General Elections 2014 Schedule | Know Your Candidate</h1>
 <h4>Important Dates are marked in <span id="legendRed">Red</span> color</h4>
 <table class="tg" id="election-schedule" style="table-layout: fixed; width: 877px;">
 <colgroup>

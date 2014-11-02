@@ -71,31 +71,31 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'D. Devaraj Urs','INC',new Date(1972, 3, 20), new Date(1977, 12, 31) ],
-		    [ 'President Rule', '',  new Date(1977, 12, 31),  new Date(1978, 2, 28) ],
-		  [ 'D. Devaraj Urs','INC' , new Date(1978, 2, 28),  new Date(1980,1,7) ],
-		    [ 'R. Gundu Rao', 'INC', new Date(1980,1,12),  new Date(1983, 1, 6) ],
-		    [ 'Ramakrishna Hegde','JP', new Date(1983, 1, 10), new Date(1984, 12, 29) ],
-		    ['Ramakrishna Hegde','JP',new Date(1985,3,8),new Date(1986,2,13)],
-		    ['Ramakrishna Hegde','JP',new Date(1986,2,16),new Date(1988,8,10)],
-		    ['S. R. Bommai','JP',new Date(1988,3,13),new Date(1989,4,21)],
-		    ['President Rule','',new Date(1989,4,21),new Date(1989,11,30)],
-		    ['Veerendra Patil','INC',new Date(1989,11,30),new Date(1990,10,10)],
-		    ['President Rule','',new Date(1990,10,10),new Date(1990,10,17)],
-		    ['S. Bangarappa','INC',new Date(1990,10,17),new Date(1992,11,19)],
-		    ['M. Veerappa Moily','INC',new Date(1992,11,19),new Date(1994,12,11)],
-		    ['H. D. Deve Gowda	','JD',new Date(1994,12,11),new Date(1996,5,31)],
-		    ['J. H. Patel','JD',new Date(1996,5,31),new Date(1999,10,7)],
-		    ['S. M. Krishna','INC',new Date(1999,10,11),new Date(2004,5,28)],
-		    ['Dharam Singh','INC',new Date(2004,5,28),new Date(2006,5,28)],
-		    ['H. D. Kumaraswamy','JD(S)',new Date(2006,2,3),new Date(2007,10,8)],
-		    ['President Rule','',new Date(2007,10,9),new Date(2007,11,11)],
-		    ['B. S. Yeddyurappa ','BJP',new Date(2007,11,12),new Date(2007,11,19)],
-		    ['President Rule','',new Date(2007,11,20),new Date(2008,5,27)],
-		    ['B. S. Yeddyurappa','BJP',new Date(2008,5,30),new Date(2011,7,31)],
-		    ['D. V. Sadananda Gowda','BJP',new Date(2011,8,4), new Date(2012,7,12)],
-		    ['Jagadish Shettar','BJP',new Date(2012,7,12),new Date(2013,5,12)],
-		    ['Siddaramaiah','INC',new Date(2013,5,13),new Date()]
+		  [ 'D. Devaraj Urs','INC',new Date(1972, 2, 20), new Date(1977, 11, 31) ],
+		    [ 'President Rule', '',  new Date(1977, 11, 31),  new Date(1978, 1, 28) ],
+		  [ 'D. Devaraj Urs','INC' , new Date(1978, 1, 28),  new Date(1980,0,7) ],
+		    [ 'R. Gundu Rao', 'INC', new Date(1980,0,12),  new Date(1983, 0, 6) ],
+		    [ 'Ramakrishna Hegde','JP', new Date(1983, 0, 10), new Date(1984, 11, 29) ],
+		    ['Ramakrishna Hegde','JP',new Date(1985,2,8),new Date(1986,1,13)],
+		    ['Ramakrishna Hegde','JP',new Date(1986,1,16),new Date(1988,7,10)],
+		    ['S. R. Bommai','JP',new Date(1988,2,13),new Date(1989,3,21)],
+		    ['President Rule','',new Date(1989,3,21),new Date(1989,10,30)],
+		    ['Veerendra Patil','INC',new Date(1989,10,30),new Date(1990,9,10)],
+		    ['President Rule','',new Date(1990,9,10),new Date(1990,9,17)],
+		    ['S. Bangarappa','INC',new Date(1990,9,17),new Date(1992,10,19)],
+		    ['M. Veerappa Moily','INC',new Date(1992,10,19),new Date(1994,11,11)],
+		    ['H. D. Deve Gowda	','JD',new Date(1994,11,11),new Date(1996,4,31)],
+		    ['J. H. Patel','JD',new Date(1996,4,31),new Date(1999,9,7)],
+		    ['S. M. Krishna','INC',new Date(1999,9,11),new Date(2004,4,28)],
+		    ['Dharam Singh','INC',new Date(2004,4,28),new Date(2006,4,28)],
+		    ['H. D. Kumaraswamy','JD(S)',new Date(2006,1,3),new Date(2007,9,8)],
+		    ['President Rule','',new Date(2007,9,9),new Date(2007,10,11)],
+		    ['B. S. Yeddyurappa ','BJP',new Date(2007,10,12),new Date(2007,10,19)],
+		    ['President Rule','',new Date(2007,10,20),new Date(2008,4,27)],
+		    ['B. S. Yeddyurappa','BJP',new Date(2008,4,30),new Date(2011,6,31)],
+		    ['D. V. Sadananda Gowda','BJP',new Date(2011,7,4), new Date(2012,6,12)],
+		    ['Jagadish Shettar','BJP',new Date(2012,6,12),new Date(2013,4,12)],
+		    ['Siddaramaiah','INC',new Date(2013,4,13),new Date()]
 
 
 		    ]);
@@ -129,7 +129,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">28</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>28</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -141,8 +141,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Karnataka/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Siddaramaiah</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/siddaramaiah" target=_blank>Siddaramaiah</a></div>
+						<div class="mparty"><a href="http://www.karnatakapcc.com/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -170,24 +170,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/Karnataka/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Deve Gowda</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
+						<div class="mname"><a href="http://www.hddevegowda.in/" target=_blank>H.D Deve Gowda</a></div>
+						<div class="mparty"><a href="http://jds.ind.in/" target=_blank>JD(S)</a></div>
 						<div class="mpost">Former PM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/Karnataka/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.H Muniyappa</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=261" target=_blank>K.H Muniyappa</a></div>
+						<div class="mparty"><a href="http://www.karnatakapcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State(Independent Charges) - Micro,Small and Medium Enterprises</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/Karnataka/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">H.D Kumaraswamy</a></div>
-						<div class="mparty"><a href="">JD(S)</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/h_d_kumaraswamy" target=_blank>H.D Kumaraswamy</a></div>
+						<div class="mparty"><a href="http://jds.ind.in/" target=_blank>JD(S)</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
@@ -198,9 +198,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">JD(S)</a>
+			    <a href="http://bjpkarnataka.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.karnatakapcc.com/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://jds.ind.in/" target=_blank class="PartiesList">JD(S)</a>
 			    
 			   
 

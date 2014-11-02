@@ -3,7 +3,8 @@
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
 <head>
-<title>Madhya Pradesh</title>
+<title>Madhya Pradesh | State of India | Know Your Candidate</title>
+<link rel="shortcut icon" href="/Resources/images/title_icon.png">
 <meta name="description" content="Madhya Pradesh - State of India. List of Chief Ministers, Political Parties and Politicians of Madhya Pradesh."/>
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/reset.css">
 <link rel="stylesheet" type="text/css" href="/Resources/CSS/state.css">
@@ -131,39 +132,39 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		   ['Ravishankar Shukla','INC',new Date(1956,11,1),new Date(1956,12,31)],
-		['Bhagwantrao Mandloi','INC',new Date(1957,1,1),new Date(1957,1,30)],
-		['Kailash Nath Katju','INC',new Date(1957,1,31),new Date(1957,3,14)],
-		['Kailash Nath Katju','INC',new Date(1957,3,14),new Date(1962,3,11)],
-		['Bhagwantrao Mandloi','INC',new Date(1962,3,12),new Date(1963,9,29)],
-		['Dwarka Prasad Mishra','INC',new Date(1963,9,30),new Date(1967,3,8)],
-		['Dwarka Prasad Mishra','INC',new Date(1967,3,9),new Date(1967,7,29)],
-		['Govind Narayan Singh','INC',new Date(1967,7,30),new Date(1969,3,12)],
-		['Nareshchandra Singh','INC',new Date(1969,3,13),new Date(1969,3,25)],
-		['Shyama Charan Shukla','INC',new Date(1969,3,26),new Date(1972,1,28)],
-		['Prakash Chandra Sethi','INC',new Date(1972,1,29),new Date(1972,3,22)],
-		['Prakash Chandra Sethi','INC',new Date(1972,3,23),new Date(1975,12,22)],
-		['Shyama Charan Shukla','INC',new Date(1975,12,23),new Date(1977,4,29)],
-		['President\'s rule','',new Date(1977,4,29),new Date(1977,6,25)],
-		['Kailash Chandra Joshi','JP',new Date(1977,6,26),new Date(1978,1,17)],
-		['Virendra Kumar Saklecha','JP',new Date(1978,1,18),new Date(1980,1,19)],
-		['Sunderlal Patwa','JP',new Date(1980,1,20),new Date(1980,2,17)],
-		['President\'s rule','',new Date(1980,2,18),new Date(1980,6,8)],
-		['Arjun Singh','INC',new Date(1980,6,8),new Date(1985,3,10)],
-		['Arjun Singh','INC',new Date(1985,3,11),new Date(1985,3,12)],
-		['Motilal Vora','INC',new Date(1985,3,13),new Date(1988,2,13)],
-		['Arjun Singh','INC',new Date(1988,2,14),new Date(1989,1,24)],
-		['Motilal Vora','INC',new Date(1989,1,25),new Date(1989,12,8)],
-		['Shyama Charan Shukla','INC',new Date(1989,12,9),new Date(1990,3,4)],
-		['Sunderlal Patwa','BJP',new Date(1990,3,5),new Date(1992,12,15)],
-		['President\'s rule','',new Date(1992,12,16),new Date(1993,12,6)],
-		['Digvijaya Singh','INC',new Date(1993,12,7),new Date(1998,12,1)],
-		['Digvijaya Singh','INC',new Date(1998,12,1),new Date(2003,12,8)],
-		['Uma Bharti','BJP',new Date(2003,12,8),new Date(2004,8,23)],
-		['Babulal Gaur','BJP',new Date(2004,8,23),new Date(2005,11,29)],
-		['Shivraj Singh Chouhan','BJP',new Date(2005,11,29),new Date(2008,12,12)],
-		['Shivraj Singh Chouhan','BJP',new Date(2008,12,12),new Date(2013,12,12)],
-		['Shivraj Singh Chouhan','BJP',new Date(2013,12,13),new Date()]
+		   ['Ravishankar Shukla','INC',new Date(1956,10,1),new Date(1956,11,31)],
+		['Bhagwantrao Mandloi','INC',new Date(1957,0,1),new Date(1957,0,30)],
+		['Kailash Nath Katju','INC',new Date(1957,0,31),new Date(1957,2,14)],
+		['Kailash Nath Katju','INC',new Date(1957,2,14),new Date(1962,2,11)],
+		['Bhagwantrao Mandloi','INC',new Date(1962,2,12),new Date(1963,8,29)],
+		['Dwarka Prasad Mishra','INC',new Date(1963,8,30),new Date(1967,2,8)],
+		['Dwarka Prasad Mishra','INC',new Date(1967,2,9),new Date(1967,6,29)],
+		['Govind Narayan Singh','INC',new Date(1967,6,30),new Date(1969,2,12)],
+		['Nareshchandra Singh','INC',new Date(1969,2,13),new Date(1969,2,25)],
+		['Shyama Charan Shukla','INC',new Date(1969,2,26),new Date(1972,0,28)],
+		['Prakash Chandra Sethi','INC',new Date(1972,0,29),new Date(1972,2,22)],
+		['Prakash Chandra Sethi','INC',new Date(1972,2,23),new Date(1975,11,22)],
+		['Shyama Charan Shukla','INC',new Date(1975,11,23),new Date(1977,3,29)],
+		['President\'s rule','',new Date(1977,3,29),new Date(1977,5,25)],
+		['Kailash Chandra Joshi','JP',new Date(1977,5,26),new Date(1978,0,17)],
+		['Virendra Kumar Saklecha','JP',new Date(1978,0,18),new Date(1980,0,19)],
+		['Sunderlal Patwa','JP',new Date(1980,0,20),new Date(1980,1,17)],
+		['President\'s rule','',new Date(1980,1,18),new Date(1980,5,8)],
+		['Arjun Singh','INC',new Date(1980,5,8),new Date(1985,2,10)],
+		['Arjun Singh','INC',new Date(1985,2,11),new Date(1985,2,12)],
+		['Motilal Vora','INC',new Date(1985,2,13),new Date(1988,1,13)],
+		['Arjun Singh','INC',new Date(1988,1,14),new Date(1989,0,24)],
+		['Motilal Vora','INC',new Date(1989,0,25),new Date(1989,11,8)],
+		['Shyama Charan Shukla','INC',new Date(1989,11,9),new Date(1990,2,4)],
+		['Sunderlal Patwa','BJP',new Date(1990,2,5),new Date(1992,11,15)],
+		['President\'s rule','',new Date(1992,11,16),new Date(1993,11,6)],
+		['Digvijaya Singh','INC',new Date(1993,11,7),new Date(1998,11,1)],
+		['Digvijaya Singh','INC',new Date(1998,11,1),new Date(2003,11,8)],
+		['Uma Bharti','BJP',new Date(2003,11,8),new Date(2004,7,23)],
+		['Babulal Gaur','BJP',new Date(2004,7,23),new Date(2005,10,29)],
+		['Shivraj Singh Chouhan','BJP',new Date(2005,10,29),new Date(2008,11,12)],
+		['Shivraj Singh Chouhan','BJP',new Date(2008,11,12),new Date(2013,11,12)],
+		['Shivraj Singh Chouhan','BJP',new Date(2013,11,13),new Date()]
 
 
 		    ]);
@@ -197,7 +198,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">29</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>29</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -209,8 +210,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/madhya_pradesh/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Shivraj Singh Chouhan</div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://shivrajsinghchouhan.org/Biography.aspx" target=_blank>Shivraj Singh Chouhan</a></div>
+						<div class="mparty"><a href="http://mp.bjp.org/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -238,24 +239,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/madhya_pradesh/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Jyotiraditya Madhavrao Scindia</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3958" target=_blank>Jyotiraditya Madhavrao Scindia</a></div>
+						<div class="mparty"><a href="http://www.mpcongress.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State (Independent Charges) - Power</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/madhya_pradesh/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sushma Swaraj</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3812" target=_blank>Sushma Swaraj</a></div>
+						<div class="mparty"><a href="http://mp.bjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/madhya_pradesh/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Kailash Vijayvargiya</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/shri_Kailash_vijayvargiya#tab_tab0" target=_blank>Kailash Vijayvargiya</a></div>
+						<div class="mparty"><a href="http://mp.bjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Minister of Urban Administration, Housing & Environment</div>
 						</div>
 					</div>
@@ -265,10 +266,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">SP</a>
+			    <a href="http://mp.bjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.mpcongress.org/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.bspindia.org/madhyapradesh/" target=_blank class="PartiesList">BSP</a>
+			    <a href="http://www.samajwadiparty.in/" target=_blank class="PartiesList">SP</a>
 
 			</div>
 		</div>

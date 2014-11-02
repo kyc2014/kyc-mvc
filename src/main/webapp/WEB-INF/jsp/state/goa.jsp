@@ -72,31 +72,31 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  ['Dayanand Bandodkar','MGP',new Date(1963,12,20),new Date(1966,12,2)],
-		  ['President\'s rule','',new Date(1966,12,2),new Date(1967,4,5)],
-		  ['Dayanand Bandodkar','MGP',new Date(1967,4,5),new Date(1973,8,12)],
-		  ['Shashikala Kakodkar','MGP',new Date(1973,8,12),new Date(1979,4,27)],
-		  ['President\'s rule','',new Date(1979,4,27),new Date(1980,1,16)],
-		  ['Pratapsingh Rane','INC',new Date(1980,1,16),new Date(1990,3,27)],
-		  ['Churchill Alemao','Progressive Democratic Front',new Date(1990,3,27),new Date(1990,4,14)],
-		  ['Dr. Luis Proto Barbosa','Progressive Democratic Front',new Date(1990,4,14),new Date(1990,12,14)],
-		  ['President\'s rule','',new Date(1990,12,14),new Date(1991,1,25)],
-		  ['Ravi S. Naik','INC',new Date(1991,1,25),new Date(1993,5,18)],
-		  ['Dr Wilfred de Souza','INC',new Date(1993,5,18),new Date(1994,4,2)],
-		  ['Ravi S. Naik','INC',new Date(1994,4,2),new Date(1994,4,8)],
-		  ['Dr Wilfred de Souza','INC',new Date(1994,4,8),new Date(1994,12,16)],
-		  ['Pratapsing Rane','INC',new Date(1994,12,16),new Date(1998,7,30)],
-		  ['Dr Wilfred de Souza','Goa Rajiv Congress',new Date(1998,7,30),new Date(1998,11,26)],
-		  ['Luizinho Faleiro','INC',new Date(1998,11,26),new Date(1999,2,9)],
-		  ['President\'s rule','',new Date(1999,2,9),new Date(1999,6,9)],
-		  ['Luizinho Faleiro','INC',new Date(1999,6,9),new Date(1999,11,24)],
-		  ['Francisco Sardinha','Goa People\'s Congress',new Date(1999,11,24),new Date(2000,10,24)],
-		  ['Manohar Parrikar','BJP',new Date(2000,10,24),new Date(2005,2,2)],
-		  ['Pratapsing Rane','INC',new Date(2005,2,2),new Date(2005,3,4)],
-		  ['President\'s rule','',new Date(2005,3,4),new Date(2005,6,7)],
-		  ['Pratapsing Rane','INC',new Date(2005,6,7),new Date(2007,6,8)],
-		  ['Digambar Kamat','INC',new Date(2007,6,8),new Date(2012,3,9)],
-		  ['Manohar Parrikar','BJP',new Date(2012,3,9),new Date()]
+		  ['Dayanand Bandodkar','MGP',new Date(1963,11,20),new Date(1966,11,2)],
+		  ['President\'s rule','',new Date(1966,11,2),new Date(1967,3,5)],
+		  ['Dayanand Bandodkar','MGP',new Date(1967,3,5),new Date(1973,7,12)],
+		  ['Shashikala Kakodkar','MGP',new Date(1973,7,12),new Date(1979,3,27)],
+		  ['President\'s rule','',new Date(1979,3,27),new Date(1980,0,16)],
+		  ['Pratapsingh Rane','INC',new Date(1980,0,16),new Date(1990,2,27)],
+		  ['Churchill Alemao','Progressive Democratic Front',new Date(1990,2,27),new Date(1990,3,14)],
+		  ['Dr. Luis Proto Barbosa','Progressive Democratic Front',new Date(1990,3,14),new Date(1990,11,14)],
+		  ['President\'s rule','',new Date(1990,11,14),new Date(1991,0,25)],
+		  ['Ravi S. Naik','INC',new Date(1991,0,25),new Date(1993,4,18)],
+		  ['Dr Wilfred de Souza','INC',new Date(1993,4,18),new Date(1994,3,2)],
+		  ['Ravi S. Naik','INC',new Date(1994,3,2),new Date(1994,3,8)],
+		  ['Dr Wilfred de Souza','INC',new Date(1994,3,8),new Date(1994,11,16)],
+		  ['Pratapsing Rane','INC',new Date(1994,11,16),new Date(1998,6,29)],
+		  ['Dr Wilfred de Souza','Goa Rajiv Congress',new Date(1998,6,29),new Date(1998,10,23)],
+		  ['Luizinho Faleiro','INC',new Date(1998,10,26),new Date(1999,1,9)],
+		  ['President\'s rule','',new Date(1999,1,9),new Date(1999,5,9)],
+		  ['Luizinho Faleiro','INC',new Date(1999,5,9),new Date(1999,10,24)],
+		  ['Francisco Sardinha','Goa People\'s Congress',new Date(1999,10,24),new Date(2000,9,23)],
+		  ['Manohar Parrikar','BJP',new Date(2000,9,24),new Date(2005,1,2)],
+		  ['Pratapsing Rane','INC',new Date(2005,1,2),new Date(2005,2,4)],
+		  ['President\'s rule','',new Date(2005,2,4),new Date(2005,5,7)],
+		  ['Pratapsing Rane','INC',new Date(2005,5,7),new Date(2007,5,8)],
+		  ['Digambar Kamat','INC',new Date(2007,5,8),new Date(2012,2,9)],
+		  ['Manohar Parrikar','BJP',new Date(2012,2,9),new Date()]
 		    
 		    ]);
 			var options2 = {
@@ -129,7 +129,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1987</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -141,8 +141,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/goa/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Manohar Parrikar</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="https://www.goa.gov.in/government/cmprofile.html" target=_blank>Manohar Parrikar</a></div>
+						<div class="mparty"><a href="http://goabjp.org/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -170,24 +170,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/goa/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Digambar Kamat</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="https://www.goa.gov.in/government/DigambarKamat_Profile.html" target=_blank>Digambar Kamat</a></div>
+						<div class="mparty"><a href="http://www.gpcc.co.in/home.php" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/goa/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Shripad Naik</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://164.100.47.132/lssnew/Members/Biography.aspx?mpsno=273" target=_blank>Shripad Naik</a></div>
+						<div class="mparty"><a href="http://goabjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Member of Parliament - Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/goa/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Shantaram Naik</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=1981" target=_blank>Shantaram Naik</a></div>
+						<div class="mparty"><a href="http://www.gpcc.co.in/home.php" target=_blank>INC</a></div>
 						<div class="mpost">Member of Parliament - Rajya Sabha</div>
 						</div>
 					</div>
@@ -198,9 +198,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">MAG</a>
+			    <a href="http://goabjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.gpcc.co.in/home.php" target=_blank class="PartiesList">INC</a>
+			 <span class="PartiesList"><!--<a href="http://www.ncp.org.in/" target=_blank class="PartiesList">MGP</a>-->MGP</span>
 			    
 			   
 

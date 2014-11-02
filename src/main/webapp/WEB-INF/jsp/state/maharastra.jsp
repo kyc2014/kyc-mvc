@@ -131,33 +131,33 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    [ 'Yashwantrao Chavan','INC', new Date(1960, 5, 1), new Date(1962, 6, 19) ],
-		    [ 'Marotrao Kannamwar', 'INC',     new Date(1962, 11, 20),  new Date(1963, 11, 24) ],
-		  [ 'P. K. Sawant','INC' , new Date(1963, 11, 25),  new Date(1963, 12, 4) ],
-		    [ 'Vasantrao Naik', 'INC', new Date(1963, 12, 5),  new Date(1967, 3, 1) ],
-		    [ 'Vasantrao Naik','INC', new Date(1967, 3, 1), new Date(1972, 3, 13) ],
-		    ['Vasantrao Naik','INC',new Date(1972,3,13),new Date(1975,2,20)],
-		    ['Shankarrao Chavan','INC',new Date(1975,2,21),new Date(1977,4,16)],
-		    ['Vasantdada Patil','INC',new Date(1977,4,17),new Date(1978,3,2)],
-		    ['Vasantdada Patil','INC',new Date(1978,3,7),new Date(1978,7,18)],
-		    ['Sharad Pawar','PDF',new Date(1978,4,24),new Date(1980,2,17)],
-		    ['President"s rule','',new Date(1980,2,17),new Date(1980,6,8)],
-		    ['Abdul Rehman Antulay','INC',new Date(1980,6,9),new Date(1982,1,12)],
-		    ['Babasaheb Bhosale','INC',new Date(1982,1,21),new Date(1983,2,1)],
-		    ['Vasantdada Patil','INC',new Date(1983,2,2),new Date(1985,6,1)],
-		    ['Shivajirao Patil Nilangekar','INC',new Date(1985,6,3),new Date(1986,3,6)],
-		    ['Shankarrao Chavan','INC',new Date(1986,3,12),new Date(1988,6,26)],
-		    ['Sharad Pawar','INC',new Date(1988,6,26),new Date(1991,6,25)],
-		    ['Sudhakarrao Naik','INC',new Date(1991,6,26),new Date(1993,2,22)],
-		    ['Sharad Pawar','INC',new Date(1993,3,6),new Date(1995,3,14)],
-		    ['Manohar Joshi','SS',new Date(1995,3,14), new Date(1999,1,31)],
-		    ['Narayan Rane','SS',new Date(1999,2,1),new Date(1999,10,17)],
-			['Vilasrao Deshmukh','INC',new Date(1999,10,18),new Date(2003,1,16)],
-			['Sushilkumar Shinde','INC',new Date(2003,1,18),new Date(2004,10,30)],
-			['Vilasrao Deshmukh','INC',new Date(2004,11,1),new Date(2008,12,4)],
-			['Ashok Chavan','INC',new Date(2008,12,8),new Date(2009,10,15)],
-			['Ashok Chavan','INC',new Date(2009,11,7),new Date(2010,11,9)],
-		    ['Prithviraj Chavan','INC',new Date(2010,11,11),new Date()]
+		    [ 'Yashwantrao Chavan','INC', new Date(1960, 4, 1), new Date(1962, 10, 19) ],
+		    [ 'Marotrao Kannamwar', 'INC',     new Date(1962, 10, 20),  new Date(1963, 10, 24) ],
+		  [ 'P. K. Sawant','INC' , new Date(1963, 10, 25),  new Date(1963, 11, 4) ],
+		    [ 'Vasantrao Naik', 'INC', new Date(1963, 11, 5),  new Date(1967, 2, 1) ],
+		    [ 'Vasantrao Naik','INC', new Date(1967, 2, 1), new Date(1972, 2, 13) ],
+		    ['Vasantrao Naik','INC',new Date(1972,2,13),new Date(1975,1,20)],
+		    ['Shankarrao Chavan','INC',new Date(1975,1,21),new Date(1977,3,16)],
+		    ['Vasantdada Patil','INC',new Date(1977,3,17),new Date(1978,2,2)],
+		    ['Vasantdada Patil','INC',new Date(1978,2,7),new Date(1978,6,18)],
+		    ['Sharad Pawar','PDF',new Date(1978,6,18),new Date(1980,1,17)],
+		    ['Presiden\'s rule','',new Date(1980,1,17),new Date(1980,5,8)],
+		    ['Abdul Rehman Antulay','INC',new Date(1980,5,9),new Date(1982,0,12)],
+		    ['Babasaheb Bhosale','INC',new Date(1982,0,21),new Date(1983,1,1)],
+		    ['Vasantdada Patil','INC',new Date(1983,1,2),new Date(1985,5,1)],
+		    ['Shivajirao Patil Nilangekar','INC',new Date(1985,5,3),new Date(1986,2,6)],
+		    ['Shankarrao Chavan','INC',new Date(1986,2,12),new Date(1988,5,26)],
+		    ['Sharad Pawar','INC',new Date(1988,5,26),new Date(1991,5,25)],
+		    ['Sudhakarrao Naik','INC',new Date(1991,5,26),new Date(1993,1,22)],
+		    ['Sharad Pawar','INC',new Date(1993,2,6),new Date(1995,2,14)],
+		    ['Manohar Joshi','SS',new Date(1995,2,14), new Date(1999,0,31)],
+		    ['Narayan Rane','SS',new Date(1999,1,1),new Date(1999,9,17)],
+			['Vilasrao Deshmukh','INC',new Date(1999,9,18),new Date(2003,0,16)],
+			['Sushilkumar Shinde','INC',new Date(2003,0,18),new Date(2004,9,30)],
+			['Vilasrao Deshmukh','INC',new Date(2004,10,1),new Date(2008,11,4)],
+			['Ashok Chavan','INC',new Date(2008,11,8),new Date(2009,9,15)],
+			['Ashok Chavan','INC',new Date(2009,10,7),new Date(2010,10,9)],
+		    ['Prithviraj Chavan','INC',new Date(2010,10,11),new Date()]
 
 
 		    ]);
@@ -191,7 +191,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 Nov 1960</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">48</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>48</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -203,8 +203,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/maharashtra/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Prithviraj Chavan</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://realityviews.blogspot.in/2010/11/detailed-profile-biography-of.html" target=_blank>Prithviraj Chavan</a></div>
+						<div class="mparty"><a href="http://maharashtracongress.com/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -232,24 +232,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/maharashtra/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sharad Pawar</a></div>
-						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=327" target=_blank>Sharad Pawar</a></div>
+						<div class="mparty"><a href="http://www.ncp.org.in/" target=_blank>NCP</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/maharashtra/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Raj Shrikant Thackeray</a></div>
-						<div class="mparty"><a href="">SS</a></div>
+						<div class="mname"><a href="http://www.indiasite.com/Personalities/Raj-Thackeray" target=_blank>Raj Shrikant Thackeray</a></div>
+						<div class="mparty"><a href="http://www.manase.org/" target=_blank>MNS</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/maharashtra/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sushilkumar Shinde</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=423" target=_blank>Sushilkumar Shinde</a></div>
+						<div class="mparty"><a href="http://maharashtracongress.com/" target=_blank>INC</a></div>
 						<div class="mpost">Minster of Home Affairs</div>
 						</div>
 					</div>
@@ -260,10 +260,10 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">NCP</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">SS</a>
+			    <a href="http://maharashtracongress.com/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.ncp.org.in/" target=_blank class="PartiesList">NCP</a>
+			    <a href="http://www.mahabjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.manase.org/" target=_blank class="PartiesList">MNS</a>
 
 			</div>
 		</div>

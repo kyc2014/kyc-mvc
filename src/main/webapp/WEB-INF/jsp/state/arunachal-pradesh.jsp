@@ -71,13 +71,13 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Gegong Apang','INC',new Date(1987, 2, 20), new Date(1999, 1, 19) ],
-		    [ 'Mukut Mithi', 'INC',  new Date(1999, 1, 19),  new Date(2003, 8, 3) ],
-		  [ 'Gegong Apang','BJP' , new Date(2003, 8, 3),  new Date(2004, 5, 14) ],
-		  [ 'Gegong Apang','INC' , new Date(2004, 5, 14),  new Date(2007,4,9) ],
-		    [ 'Dorjee Khandu', 'INC', new Date(2007, 4, 9),  new Date(2011, 4, 30) ],
-		    [ 'Jarbom Gamlin','INC', new Date(2011, 5, 5), new Date(2011, 10, 31) ],
-		    ['Nabam tuki','INC',new Date(2011, 11, 1),new Date()],
+		  [ 'Gegong Apang','INC',new Date(1987, 0, 18), new Date(1999, 0, 19) ],
+		    [ 'Mukut Mithi', 'INC',  new Date(1999, 0, 19),  new Date(2003, 7, 3) ],
+		  [ 'Gegong Apang','BJP' , new Date(2003, 7, 3),  new Date(2004, 4, 14) ],
+		  [ 'Gegong Apang','INC' , new Date(2004, 4, 14),  new Date(2007,3,9) ],
+		    [ 'Dorjee Khandu', 'INC', new Date(2007, 3, 9),  new Date(2011, 3, 30) ],
+		    [ 'Jarbom Gamlin','INC', new Date(2011, 4, 5), new Date(2011, 9, 31) ],
+		    ['Nabam tuki','INC',new Date(2011, 10, 1),new Date()],
 		    
 		    
 		    
@@ -114,7 +114,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">20 February 1987</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -126,8 +126,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/ArunachalPradesh/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Nabam Tuki</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://apcc.in/?page_id=41&page=CM%20Profile" target=_blank>Nabam Tuki</a></div>
+						<div class="mparty"><a href="http://apcc.in/?page_id=1&page=Home" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -155,24 +155,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/ArunachalPradesh/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ninong Ering</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://164.100.47.132/lssnew/Members/homepage.aspx?mpsno=4367" target=_blank>Ninong Ering</a></div>
+						<div class="mparty"><a href="http://apcc.in/?page_id=1&page=Home" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State - Minority Affairs</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/ArunachalPradesh/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Gegong Apang</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.in.com/gegong-apang/profile-100707.html" target=_blank>Gegong Apang</a></div>
+						<div class="mparty"><a href="http://www.nebjp2014.in/blog_page.php?post=4202371379444049-346020868" target=_blank>BJP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/ArunachalPradesh/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Takom Sanjoy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://164.100.47.132/lssnew/Members/Biography.aspx?mpsno=4366" target=_blank>Takom Sanjoy</a></div>
+						<div class="mparty"><a href="http://apcc.in/?page_id=1&page=Home" target=_blank>INC</a></div>
 						<div class="mpost">MP - LokSabha</div>
 						</div>
 					</div>
@@ -182,10 +182,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">AITMC</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">NCP</a>
+			    <a href="https://aitmc.org/index.php" target=_blank class="PartiesList">AITMC</a>
+			    <a href="http://www.nebjp2014.in/blog_page.php?post=4202371379444049-346020868" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://apcc.in/?page_id=1&page=Home" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.ncp.org.in/" target=_blank class="PartiesList">NCP</a>
 			       
 			    
 			   

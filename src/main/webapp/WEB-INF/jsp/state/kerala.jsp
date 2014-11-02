@@ -132,31 +132,31 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    [ 'E. M. S. Namboodiripad','CPI', new Date(1956, 4, 5), new Date(1959, 7, 31) ],
-		    [ 'President Rule', '',     new Date(1959, 7, 31),  new Date(1960, 2, 22) ],
-		  [ 'Pattom Thanupillai','PSP' , new Date(1960, 2, 22),  new Date(1962, 9, 26) ],
-		    [ 'R. Sankar', 'INC', new Date(1962, 9, 26),  new Date(1964, 9, 10) ],
-		    [ 'President rule','', new Date(1964, 9, 10), new Date(1967, 3, 6) ],
-		    ['E. M. S. Namboodiripad','CPI(M)',new Date(1967,3,6),new Date(1969,11,1)],
-		    ['C. Achutha Menon','CPI',new Date(1969,11,1),new Date(1970,8,1)],
-		    ['President rule','',new Date(1970,8,1),new Date(1970,10,4)],
-		    ['C. Achutha Menon','CPI',new Date(1970,10,4),new Date(1977,3,25)],
-		    ['K. Karunakaran','INC',new Date(1977,3,25),new Date(1977,4,25)],
-		    ['A.K Antony','INC',new Date(1977,4,27),new Date(1978,10,27)],
-		    ['P. K. Vasudevan Nair	','CPI',new Date(1978,10,29),new Date(1979,10,7)],
-		    ['C. H. Mohammed Koya','IUML',new Date(1979,10,12),new Date(1979,12,1)],
-		    ['President rule','',new Date(1979,12,1),new Date(1980,1,25)],
-		    ['E. K. Nayanar','CPI(M)',new Date(1980,1,25),new Date(1981,10,20)],
-		    ['K. Karunakaran','INC',new Date(1981,12,28),new Date(1982,3,17)],
-		    ['K. Karunakaran','INC',new Date(1982,4,24),new Date(1987,3,25)],
-		    ['E. K. Nayanar ','CPI(M)',new Date(1987,3,26),new Date(1991,6,17)],
-		    ['K. Karunakaran','INC',new Date(1991,6,24),new Date(1995,3,16)],
-		    ['A.K Antony','INC',new Date(1995,3,22),new Date(1996,5,9)],
-		    ['E. K. Nayanar','CPI(M)',new Date(1996,5,20), new Date(2001,5,13)],
-		    ['A.K Antony','INC',new Date(2001,5,17),new Date(2004,8,29)],
-		    ['Oommen Chandy','INC',new Date(2004,8,31),new Date(2006,5,18)],
-		     ['V.S Achuthanandan','CPI(M)',new Date(2006,5,18),new Date(2011,5,14)],
-		      ['Oommen Chandy','INC',new Date(2011,5,18),new Date()],
+		    [ 'E. M. S. Namboodiripad','CPI', new Date(1956, 3, 5), new Date(1959, 6, 31) ],
+		    [ 'President Rule', '',     new Date(1959, 6, 31),  new Date(1960, 1, 22) ],
+		  [ 'Pattom Thanupillai','PSP' , new Date(1960, 1, 22),  new Date(1962, 8, 26) ],
+		    [ 'R. Sankar', 'INC', new Date(1962, 8, 26),  new Date(1964, 8, 10) ],
+		    [ 'President rule','', new Date(1964, 8, 10), new Date(1967, 2, 6) ],
+		    ['E. M. S. Namboodiripad','CPI(M)',new Date(1967,2,6),new Date(1969,10,1)],
+		    ['C. Achutha Menon','CPI',new Date(1969,10,1),new Date(1970,7,1)],
+		    ['President rule','',new Date(1970,7,1),new Date(1970,9,4)],
+		    ['C. Achutha Menon','CPI',new Date(1970,9,4),new Date(1977,2,25)],
+		    ['K. Karunakaran','INC',new Date(1977,2,25),new Date(1977,3,25)],
+		    ['A.K Antony','INC',new Date(1977,3,27),new Date(1978,9,27)],
+		    ['P. K. Vasudevan Nair	','CPI',new Date(1978,9,29),new Date(1979,9,7)],
+		    ['C. H. Mohammed Koya','IUML',new Date(1979,9,12),new Date(1979,11,1)],
+		    ['President rule','',new Date(1979,11,1),new Date(1980,0,25)],
+		    ['E. K. Nayanar','CPI(M)',new Date(1980,0,25),new Date(1981,9,20)],
+		    ['K. Karunakaran','INC',new Date(1981,11,28),new Date(1982,2,17)],
+		    ['K. Karunakaran','INC',new Date(1982,4,24),new Date(1987,2,25)],
+		    ['E. K. Nayanar ','CPI(M)',new Date(1987,2,26),new Date(1991,5,17)],
+		    ['K. Karunakaran','INC',new Date(1991,5,24),new Date(1995,2,16)],
+		    ['A.K Antony','INC',new Date(1995,2,22),new Date(1996,4,9)],
+		    ['E. K. Nayanar','CPI(M)',new Date(1996,4,20), new Date(2001,4,13)],
+		    ['A.K Antony','INC',new Date(2001,4,17),new Date(2004,7,29)],
+		    ['Oommen Chandy','INC',new Date(2004,7,31),new Date(2006,4,18)],
+		     ['V.S Achuthanandan','CPI(M)',new Date(2006,4,18),new Date(2011,4,14)],
+		      ['Oommen Chandy','INC',new Date(2011,4,18),new Date()],
 
 
 		    ]);
@@ -190,7 +190,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">20</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>20</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -202,8 +202,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Kerala/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Oommen Chandy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/oommen_chandy" target=_blank>Oommen Chandy</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -215,7 +215,7 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/Kerala/governor.jpg">
 						<div class="mphotoDetails">
-						<div class="mname">Nikhil Kumar</div>
+						<div class="mname">Sheila Dikshit</div>
 						<div class="mparty"></div>
 						<div class="mpost"></div>
 						</div>
@@ -232,8 +232,8 @@ $(document).ready(function(){
 					
 						<img src="/Resources/images/state/Kerala/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">A.K Antony</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=517" target=_blank>A.K Antony</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of Defence , MP - RajyaSabha</div>
 						</div>
 						
@@ -241,8 +241,8 @@ $(document).ready(function(){
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/Kerala/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K.V Thomas</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://164.100.47.132/lssnew/Members/Biography.aspx?mpsno=3209" target=_blank>K.V Thomas</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State (Independent Charges) - Consumer Affairs,Food and Public distribution</div>
 						</div>
 						
@@ -250,8 +250,8 @@ $(document).ready(function(){
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/Kerala/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Shashi Tharoor</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4569" target=_blank>Shashi Tharoor</a></div>
+						<div class="mparty"><a href="http://kpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Minster of State - Human Resource Development</div>
 						</div>
 					</div>
@@ -262,11 +262,11 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">CPI</a>
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">KC(M)</a>
-			    <a href="" class="PartiesList">IUML</a>
+			    <a href="http://cpikerala.com/" target=_blank class="PartiesList">CPI</a>
+			    <a href="http://www.cpimkerala.org/eng/" target=_blank class="PartiesList">CPI(M)</a>
+			    <a href="http://kpcc.org.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">KC(M)</a>-->KC(M)</span>
+			    <a href="http://www.indianunionmuslimleague.in/" target=_blank class="PartiesList">IUML</a>
 			   
 
 			</div>

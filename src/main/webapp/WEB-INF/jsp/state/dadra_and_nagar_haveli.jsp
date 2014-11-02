@@ -72,35 +72,35 @@ $(document).ready(function(){
 
 		  dataTable.addRows([
 		  	
-			['Mudras','',new Date(1954,7,22),new Date(1954,8,2)],
-			['Vishwanath Lawande','',new Date(1954,8,2),new Date(1954,12,12)],
-			['Appasaheb (Atmaram Narsinh) Karmalkar','',new Date(1954,12,12),new Date(1962,2,9)],
-			['Tumkur Sivasankar','',new Date(1962,2,9),new Date(1963,9,2)],
-			['M.R. Sachdev','',new Date(1963,9,2),new Date(1964,12,8)],
-			['Hari Sharma','',new Date(1964,12,12),new Date(1965,2,24)],
-			['Kashinath Raghunath Damle','',new Date(1965,2,24),new Date(1967,4,18)],
-			['Nakul Sen','',new Date(1967,4,18),new Date(1972,11,16)],
-			['S.K. Banerjee','',new Date(1972,11,16),new Date(1977,11,16)],
-			['Pratap Singh Gill','',new Date(1977,11,16),new Date(1981,3,31)],
-			['Jagmohan','',new Date(1981,3,31),new Date(1982,8,30)],
-			['Idris Hasan Latif(acting)','',new Date(1982,8,30),new Date(1983,2,24)],
-			['Kershasp Tehmurasp Satarawala','',new Date(1983,2,24),new Date(1984,7,4)],
-			['Idris Hasan Latif(acting)','',new Date(1984,7,4),new Date(1984,9,24)],
-			['Gopal Singh','',new Date(1984,9,24),new Date(1989,7,18)],
-			['Khurshed Alam Khan','',new Date(1989,7,18),new Date(1991,3,25)],
-			['Bhanu Prakash Singh','',new Date(1991,3,25),new Date(1992,3,16)],
-			['K.S. Baidwan','',new Date(1992,3,16),new Date(1994,3,28)],
-			['Ramesh Chandra','',new Date(1994,3,28),new Date(1995,7,15)],
-			['S.P. Aggarwal','',new Date(1995,7,15),new Date(1998,6,26)],
-			['Ramesh Negi(acting)','',new Date(1998,6,26),new Date(1999,2,23)],
-			['Sanat Kaul','',new Date(1999,2,23),new Date(1999,4,23)],
-			['Ramesh Negi(acting)','',new Date(1999,4,23),new Date(1999,7,19)],
-			['O.P. Kelkar','',new Date(1999,7,19),new Date(2003,7,18)],
-			['Arun Mathur','',new Date(2003,7,19),new Date(2006,7,18)],
-			['R.K. Verma','',new Date(2006,7,19),new Date(2009,7,18)],
-			['Shri Satya Gopal','',new Date(2009,7,19),new Date(2011,7,18)],
-			['Shri. Narendra Kumar','',new Date(2011,7,19),new Date(2012,8,27)],
-			['B. S. Bhalla','',new Date(2012,8,28),new Date()]
+			['Mudras','',new Date(1954,6,22),new Date(1954,7,2)],
+			['Vishwanath Lawande','',new Date(1954,7,2),new Date(1954,11,12)],
+			['Appasaheb (Atmaram Narsinh) Karmalkar','',new Date(1954,11,12),new Date(1962,1,9)],
+			['Tumkur Sivasankar','',new Date(1962,1,9),new Date(1963,8,2)],
+			['M.R. Sachdev','',new Date(1963,8,2),new Date(1964,11,8)],
+			['Hari Sharma','',new Date(1964,11,12),new Date(1965,1,24)],
+			['Kashinath Raghunath Damle','',new Date(1965,1,24),new Date(1967,3,18)],
+			['Nakul Sen','',new Date(1967,3,18),new Date(1972,10,16)],
+			['S.K. Banerjee','',new Date(1972,10,16),new Date(1977,10,16)],
+			['Pratap Singh Gill','',new Date(1977,10,16),new Date(1981,2,31)],
+			['Jagmohan','',new Date(1981,2,31),new Date(1982,7,30)],
+			['Idris Hasan Latif(acting)','',new Date(1982,7,30),new Date(1983,1,24)],
+			['Kershasp Tehmurasp Satarawala','',new Date(1983,1,24),new Date(1984,6,4)],
+			['Idris Hasan Latif(acting)','',new Date(1984,6,4),new Date(1984,8,24)],
+			['Gopal Singh','',new Date(1984,8,24),new Date(1989,6,18)],
+			['Khurshed Alam Khan','',new Date(1989,6,18),new Date(1991,2,25)],
+			['Bhanu Prakash Singh','',new Date(1991,2,25),new Date(1992,2,16)],
+			['K.S. Baidwan','',new Date(1992,2,16),new Date(1994,2,28)],
+			['Ramesh Chandra','',new Date(1994,2,28),new Date(1995,6,15)],
+			['S.P. Aggarwal','',new Date(1995,6,15),new Date(1998,5,26)],
+			['Ramesh Negi(acting)','',new Date(1998,5,26),new Date(1999,1,23)],
+			['Sanat Kaul','',new Date(1999,1,23),new Date(1999,3,23)],
+			['Ramesh Negi(acting)','',new Date(1999,3,23),new Date(1999,6,19)],
+			['O.P. Kelkar','',new Date(1999,6,19),new Date(2003,6,18)],
+			['Arun Mathur','',new Date(2003,6,19),new Date(2006,6,18)],
+			['R.K. Verma','',new Date(2006,6,19),new Date(2009,6,18)],
+			['Shri Satya Gopal','',new Date(2009,6,19),new Date(2011,6,18)],
+			['Shri. Narendra Kumar','',new Date(2011,6,19),new Date(2012,7,27)],
+			['B. S. Bhalla','',new Date(2012,7,28),new Date()]
 		    
 		    ]);    
 			var options2 = {
@@ -133,7 +133,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1961</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>1</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -150,8 +150,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/dadra_and_nagar_haveli/administrator.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Bhupinder S.Bhalla</a></div>
-						<div class="mparty"><a href=""></a></div>
+						<div class="mname">Bhupinder S.Bhalla</div>
+						<div class="mparty"></div>
 						</div>
 					</div>
 					
@@ -165,8 +165,8 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/dadra_and_nagar_haveli/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Natubhai Gomanbhai Patel</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4365" target=_blank>Natubhai Gomanbhai Patel</a></div>
+						<div class="mparty"><a href="http://www.bjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Member Of Parliament</div>
 						</div>
 					</div>
@@ -178,9 +178,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BNP</a>
+			    <a href="http://www.bjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">BNP</a>-->BNP</span>
 			    
 			   
 

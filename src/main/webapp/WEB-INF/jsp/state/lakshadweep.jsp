@@ -74,37 +74,37 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-['U. R. Panicker','',new Date(1956,11,1),new Date(1956,11,7)],
-['S. Mony','',new Date(1956,11,8),new Date(1958,9,21)],
-['C. K. Balakrishna Nair','',new Date(1958,9,22),new Date(1961,12,5)],
-['M. Ramunny','',new Date(1961,12,6),new Date(1965,4,8)],
-['C. H. Naire','',new Date(1965,4,9),new Date(1969,10,31)],
-['K. D. Menon','',new Date(1969,11,1),new Date(1973,4,30)],
-['W. Shaiza','',new Date(1973,5,22),new Date(1975,6,21)],
-['M. C. Verma','',new Date(1975,6,22),new Date(1977,2,14)],
-['S. D. Lakhar','',new Date(1977,2,21),new Date(1978,7,30)],
-['P. M. Nair','',new Date(1978,7,31),new Date(1981,6,15)],
-['Pradip Mehra','',new Date(1981,6,15),new Date(1982,7,21)],
-['Omesh Saigal','',new Date(1982,7,21),new Date(1985,7,9)],
-['J. Sagar','',new Date(1985,7,9),new Date(1987,9,8)],
-['Wajahat Habibullah','',new Date(1987,9,8),new Date(1990,1,31)],
-['Pradip Singh','',new Date(1990,2,1),new Date(1990,5,1)],
-['S. P. Aggarwal','',new Date(1990,5,2),new Date(1992,5,3)],
-['Satish Chandra','',new Date(1992,5,4),new Date(1994,9,9)],
-['G.S. Chima','',new Date(1994,9,9),new Date(1996,6,14)],
-['Rajeev Talwar','',new Date(1996,8,1),new Date(1999,6,1)],
-['R. K. Varma','',new Date(1999,6,1),new Date(1999,8,20)],
-['Chaman Lal','',new Date(1999,8,21),new Date(2001,4,30)],
-['R. K. Verma','',new Date(2001,4,30),new Date(2001,6,19)],
-['K. S. Mehra','',new Date(2001,6,19),new Date(2004,6,20)],
-['S. P. Singh','',new Date(2004,6,21),new Date(2004,11,21)],
-['Parimal Rai','',new Date(2004,11,22),new Date(2006,8,11)],
-['Rajendra Kumar','',new Date(2006,8,11),new Date(2006,12,21)],
-['B. V. Selvaraj','',new Date(2006,12,22),new Date(2009,5,16)],
-['Satya Gopal','',new Date(2009,5,27),new Date(2009,7,12)],
-['J. K. Dadoo','',new Date(2009,7,13),new Date(2011,6,15)],
-['Amar Nath','',new Date(2011,7,11),new Date(2012,11,6)],
-['H. Rajesh Prasad','',new Date(2012,11,7),new Date()]
+['U. R. Panicker','',new Date(1956,10,1),new Date(1956,10,7)],
+['S. Mony','',new Date(1956,10,8),new Date(1958,8,21)],
+['C. K. Balakrishna Nair','',new Date(1958,8,22),new Date(1961,10,5)],
+['M. Ramunny','',new Date(1961,11,6),new Date(1965,3,8)],
+['C. H. Naire','',new Date(1965,3,9),new Date(1969,9,31)],
+['K. D. Menon','',new Date(1969,10,1),new Date(1973,3,30)],
+['W. Shaiza','',new Date(1973,4,22),new Date(1975,5,21)],
+['M. C. Verma','',new Date(1975,5,22),new Date(1977,1,14)],
+['S. D. Lakhar','',new Date(1977,1,21),new Date(1978,6,30)],
+['P. M. Nair','',new Date(1978,6,31),new Date(1981,5,15)],
+['Pradip Mehra','',new Date(1981,5,15),new Date(1982,6,21)],
+['Omesh Saigal','',new Date(1982,6,21),new Date(1985,6,9)],
+['J. Sagar','',new Date(1985,6,9),new Date(1987,8,8)],
+['Wajahat Habibullah','',new Date(1987,8,8),new Date(1990,0,31)],
+['Pradip Singh','',new Date(1990,1,1),new Date(1990,4,1)],
+['S. P. Aggarwal','',new Date(1990,4,2),new Date(1992,4,3)],
+['Satish Chandra','',new Date(1992,4,4),new Date(1994,8,9)],
+['G.S. Chima','',new Date(1994,8,9),new Date(1996,5,14)],
+['Rajeev Talwar','',new Date(1996,7,1),new Date(1999,5,1)],
+['R. K. Varma','',new Date(1999,5,1),new Date(1999,7,20)],
+['Chaman Lal','',new Date(1999,7,21),new Date(2001,3,30)],
+['R. K. Verma','',new Date(2001,3,30),new Date(2001,5,19)],
+['K. S. Mehra','',new Date(2001,5,19),new Date(2004,5,20)],
+['S. P. Singh','',new Date(2004,5,21),new Date(2004,10,21)],
+['Parimal Rai','',new Date(2004,10,22),new Date(2006,7,11)],
+['Rajendra Kumar','',new Date(2006,7,11),new Date(2006,11,21)],
+['B. V. Selvaraj','',new Date(2006,11,22),new Date(2009,4,16)],
+['Satya Gopal','',new Date(2009,4,27),new Date(2009,6,12)],
+['J. K. Dadoo','',new Date(2009,6,13),new Date(2011,5,15)],
+['Amar Nath','',new Date(2011,6,11),new Date(2012,10,6)],
+['H. Rajesh Prasad','',new Date(2012,10,7),new Date()]
          ]);
 			var options2 = {
 				timeline:{
@@ -136,7 +136,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">10 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">1</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>1</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -166,9 +166,9 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/lakshadweep/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Adv.M.Hamdullah Sayeed</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Member of Parliament</div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4349" target=_blank>Adv.M.Hamdullah Sayeed</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					
@@ -178,8 +178,8 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			     <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">JD(U)</a>
+			     <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.janatadalunited.org/" target=_blank class="PartiesList">JD(U)</a>
 			</div>
 		</div>
 		<div id="chartContainer">

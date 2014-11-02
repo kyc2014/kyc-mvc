@@ -1,6 +1,6 @@
-package src.main.java.net.kyc.spring.web.poll.service;
+package net.kyc.spring.web.poll.service;
 
-import src.main.java.net.kyc.spring.web.poll.model.Poll;
+import net.kyc.spring.web.poll.model.Poll;
 
 public interface PollService
 {

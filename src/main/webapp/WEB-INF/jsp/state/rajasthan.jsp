@@ -132,32 +132,32 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-			['Heera Lal Shastri','INC',new Date(1949,4,7),new Date(1951,1,5)],
-			['C. S. Venkatachari','INC',new Date(1951,1,6),new Date(1951,4,25)],
-			['Jai Narayan Vyas','INC',new Date(1951,4,26),new Date(1952,3,3)],
-			['Tika Ram Paliwal','INC',new Date(1952,3,3),new Date(1952,10,31)],
-			['Jai Narayan Vyas','INC',new Date(1952,11,1),new Date(1954,11,12)],
-			['Mohan Lal Sukhadia','INC',new Date(1954,11,13),new Date(1967,3,13)],
-			['President\'s rule','',new Date(1967,3,13),new Date(1967,4,26)],
-			['Mohan Lal Sukhadia','INC',new Date(1967,4,26),new Date(1971,7,9)],
-			['Barkatullah Khan','INC',new Date(1971,7,9),new Date(1973,8,11)],
-			['Hari Dev Joshi','INC',new Date(1973,8,11),new Date(1977,4,29)],
-			['President\'s rule','',new Date(1977,4,29),new Date(1977,6,22)],
-			['Bhairon Singh Shekhawat','JP',new Date(1977,6,22),new Date(1980,2,16)],
-			['President\'s rule','',new Date(1980,2,16),new Date(1980,6,6)],
-			['Jagannath Pahadia','INC',new Date(1980,6,6),new Date(1981,7,13)],
-			['Shiv Charan Mathur','INC',new Date(1981,7,14),new Date(1985,2,23)],
-			['Hira Lal Devpura','INC',new Date(1985,2,23),new Date(1985,3,10)],
-			['Hari Dev Joshi','INC',new Date(1985,3,10),new Date(1988,1,20)],
-			['Shiv Charan Mathur','INC',new Date(1988,1,20),new Date(1989,12,4)],
-			['Hari Dev Joshi','INC',new Date(1989,12,4),new Date(1990,3,4)],
-			['Bhairon Singh Shekhawat','BJP',new Date(1990,3,4),new Date(1992,12,15)],
-			['President\'s rule','',new Date(1992,12,15),new Date(1993,12,4)],
-			['Bhairon Singh Shekhawat','BJP',new Date(1993,12,4),new Date(1998,11,29)],
-			['Ashok Gehlot','INC',new Date(1998,12,1),new Date(2003,12,8)],
-			['Vasundhara Raje','BJP',new Date(2003,12,8),new Date(2008,12,11)],
-			['Ashok Gehlot','INC',new Date(2008,12,12),new Date(2013,12,13)],
-			['Vasundhara Raje','BJP',new Date(2013,12,13),new Date()]
+			['Heera Lal Shastri','INC',new Date(1949,3,7),new Date(1951,0,5)],
+			['C. S. Venkatachari','INC',new Date(1951,0,6),new Date(1951,3,25)],
+			['Jai Narayan Vyas','INC',new Date(1951,3,26),new Date(1952,2,3)],
+			['Tika Ram Paliwal','INC',new Date(1952,2,3),new Date(1952,9,31)],
+			['Jai Narayan Vyas','INC',new Date(1952,10,1),new Date(1954,10,12)],
+			['Mohan Lal Sukhadia','INC',new Date(1954,10,13),new Date(1967,2,13)],
+			['President\'s rule','',new Date(1967,2,13),new Date(1967,3,26)],
+			['Mohan Lal Sukhadia','INC',new Date(1967,3,26),new Date(1971,6,9)],
+			['Barkatullah Khan','INC',new Date(1971,6,9),new Date(1973,7,11)],
+			['Hari Dev Joshi','INC',new Date(1973,7,11),new Date(1977,3,29)],
+			['President\'s rule','',new Date(1977,3,29),new Date(1977,5,22)],
+			['Bhairon Singh Shekhawat','JP',new Date(1977,5,22),new Date(1980,1,16)],
+			['President\'s rule','',new Date(1980,1,16),new Date(1980,5,6)],
+			['Jagannath Pahadia','INC',new Date(1980,5,6),new Date(1981,6,13)],
+			['Shiv Charan Mathur','INC',new Date(1981,6,14),new Date(1985,1,23)],
+			['Hira Lal Devpura','INC',new Date(1985,1,23),new Date(1985,2,10)],
+			['Hari Dev Joshi','INC',new Date(1985,2,10),new Date(1988,0,20)],
+			['Shiv Charan Mathur','INC',new Date(1988,0,20),new Date(1989,11,4)],
+			['Hari Dev Joshi','INC',new Date(1989,11,4),new Date(1990,2,4)],
+			['Bhairon Singh Shekhawat','BJP',new Date(1990,2,4),new Date(1992,11,15)],
+			['President\'s rule','',new Date(1992,11,15),new Date(1993,11,4)],
+			['Bhairon Singh Shekhawat','BJP',new Date(1993,11,4),new Date(1998,10,29)],
+			['Ashok Gehlot','INC',new Date(1998,11,1),new Date(2003,11,8)],
+			['Vasundhara Raje','BJP',new Date(2003,11,8),new Date(2008,11,11)],
+			['Ashok Gehlot','INC',new Date(2008,11,12),new Date(2013,11,13)],
+			['Vasundhara Raje','BJP',new Date(2013,11,13),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -189,7 +189,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">25</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>25</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -201,8 +201,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/rajasthan/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vasundhara Raje</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.vasundhararaje.in/en/" target=_blank>Vasundhara Raje</a></div>
+						<div class="mparty"><a href="http://bjpraj.in/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -230,24 +230,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/rajasthan/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Jitendra Singh</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4403" target=_blank>Jitendra Singh</a></div>
+						<div class="mparty"><a href="http://rajasthanpcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers Of State (Independent Charges) - Youth Affairs and Sports</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 					<img src="/Resources/images/state/rajasthan/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Sachin Pilot</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4058" target=_blank>Sachin Pilot</a></div>
+						<div class="mparty"><a href="http://rajasthanpcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers Of State (Independent Charges) - Corporate Affairs</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 					<img src="/Resources/images/state/rajasthan/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ashok Gehlot</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.elections.in/political-leaders/ashok-gehlot.html" target=_blank>Ashok Gehlot</a></div>
+						<div class="mparty"><a href="http://rajasthanpcc.com/" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
@@ -257,11 +257,11 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">IND</a>
-			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">NPP</a>
+			    <a href="http://bjpraj.in/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://rajasthanpcc.com/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">IND</a>-->IND</span>
+			    <a href="http://www.bspindia.org/" target=_blank class="PartiesList">BSP</a>
+			    <a href="http://npprajasthan.com/" target=_blank class="PartiesList">NPP</a>
 			    
 
 			</div>

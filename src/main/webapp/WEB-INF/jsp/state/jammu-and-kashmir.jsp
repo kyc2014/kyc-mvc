@@ -1,4 +1,4 @@
-<<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <!DOCTYPE html>
@@ -70,22 +70,22 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Ghulam Mohammed Sadiq','INC',new Date(1965, 3, 30), new Date(1971, 12, 12) ],
-		    [ 'Syed Mir Qasim', 'INC',  new Date(1971, 12, 12),  new Date(1975, 2, 25) ],
-		  [ 'Sheikh Abdullah','JKN' , new Date(1975, 2, 25),  new Date(1977,3,26) ],
-		    [ 'President\'s Rule', '', new Date(1977,3,26),  new Date(1977, 7, 9) ],
-		    [ 'Sheikh Abdullah','JKN', new Date(1977, 7, 9), new Date(1982, 9, 8) ],
-		    ['Farooq Abdullah','JKN',new Date(1982,9,8),new Date(1984,7,2)],
-		    ['Ghulam Mohammad Shah','Awami National Conference',new Date(1984,7,2),new Date(1986,3,6)],
-		    ['President\'s Rule','',new Date(1986,3,6),new Date(1986,11,7)],
-		    ['Farooq Abdullah','JKN',new Date(1986,11,7),new Date(1990,1,19)],
-		    ['President\'s Rule','',new Date(1990,1,19),new Date(1996,10,9)],
-		    ['Farooq Abdullah','JKN',new Date(1996,10,9),new Date(2002,10,18)],
-		    ['President\'s Rule','',new Date(2002,10,18),new Date(2002,11,2)],
-		    ['Mufti Mohammad Sayeed','PDP',new Date(2002,11,2),new Date(2005,11,2)],
-		    ['Ghulam Nabi Azad','INC',new Date(2005,11,2),new Date(2008,7,11)],
-		    ['President\'s Rule','',new Date(2008,7,11),new Date(2009,1,5)],
-		    ['Omar Abdullah','JKN',new Date(2009,1,5),new Date()]
+		  [ 'Ghulam Mohammed Sadiq','INC',new Date(1965, 2, 30), new Date(1971, 11, 12) ],
+		    [ 'Syed Mir Qasim', 'INC',  new Date(1971, 11, 12),  new Date(1975, 1, 25) ],
+		  [ 'Sheikh Abdullah','JKN' , new Date(1975, 1, 25),  new Date(1977,2,26) ],
+		    [ 'President\'s Rule', '', new Date(1977,2,26),  new Date(1977, 6, 9) ],
+		   [ 'Sheikh Abdullah','JKN', new Date(1977, 6, 9), new Date(1982, 8, 8) ],
+		    ['Farooq Abdullah','JKN',new Date(1982,8,8),new Date(1984,6,2)],
+		    ['Ghulam Mohammad Shah','Awami National Conference',new Date(1984,6,2),new Date(1986,2,6)],
+		    ['President\'s Rule','',new Date(1986,2,6),new Date(1986,10,7)],
+		    ['Farooq Abdullah','JKN',new Date(1986,10,7),new Date(1990,0,19)],
+		    ['President\'s Rule','',new Date(1990,0,19),new Date(1996,9,9)],
+		    ['Farooq Abdullah','JKN',new Date(1996,9,9),new Date(2002,9,18)],
+		    ['President\'s Rule','',new Date(2002,9,18),new Date(2002,10,2)],
+		    ['Mufti Mohammad Sayeed','PDP',new Date(2002,10,2),new Date(2005,10,2)],
+		    ['Ghulam Nabi Azad','INC',new Date(2005,10,2),new Date(2008,6,11)],
+		    ['President\'s Rule','',new Date(2008,6,11),new Date(2009,0,5)],
+		    ['Omar Abdullah','JKN',new Date(2009,0,5),new Date()]
 			]);
 			var options2 = {
 				timeline:{
@@ -117,7 +117,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">30 March 1965</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">6</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>6</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -129,8 +129,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/jammu-and-kashmir/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Omar Abdullah</a></div>
-						<div class="mparty"><a href="">JKN</a></div>
+						<div class="mname"><a href="http://jkcmsecretariat.nic.in/" target=_blank>Omar Abdullah</a></div>
+						<div class="mparty"><a href="http://www.jknc.in/" target=_blank>JKN</a></div>
 						</div>
 					</div>
 					
@@ -158,24 +158,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/jammu-and-kashmir/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ghulam Nabi Azad</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=126" target=_blank>Ghulam Nabi Azad</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Union Minister - Ministry of Health and Family Welfare</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/jammu-and-kashmir/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Farooq Abdullah</a></div>
-						<div class="mparty"><a href="">JKN</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=2654" target=_blank>Farooq Abdullah</a></div>
+						<div class="mparty"><a href="http://www.jknc.in/" target=_blank>JKN</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/jammu-and-kashmir/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Mohammad Shafi Uri</div>
-						<div class="mparty"><a href="">JKN</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2104" target=_blank>Mohammad Shafi Uri</a></div>
+						<div class="mparty"><a href="http://www.jknc.in/" target=_blank>JKN</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -186,9 +186,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">JKN</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">JKPDP</a>
+			    <a href="http://www.jknc.in/" target=_blank class="PartiesList">JKN</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://jkpdp.org/" target=_blank class="PartiesList">JKPDP</a>
 			    
 			   
 

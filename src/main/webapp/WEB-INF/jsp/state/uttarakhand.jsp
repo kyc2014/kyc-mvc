@@ -70,14 +70,14 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Nityanand Swami','BJP',new Date(2000, 11, 9), new Date(2001, 10, 29) ],
-		  [ 'Bhagat Singh Koshiyari', 'BJP',  new Date(2001, 10, 30),  new Date(2002, 3, 1) ],
-		  [ 'N.D.Tiwari','INC' , new Date(2002, 3, 2),  new Date(2007,3,7) ],
-		    [ 'B.C.Khanduri', 'BJP', new Date(2007,3,8),  new Date(2009, 6, 23) ],
-		    [ 'Ramesh Pokhriyal Nishank','BJP', new Date(2009, 6, 24), new Date(2011, 9, 10) ],
-		    ['B.C.Khanduri','BJP',new Date(2011,9,11),new Date(2012,3,13)],
-		    ['Vijay Bahuguna','INC',new Date(2012,3,13),new Date(/*2014,1,31*/)]
-		    /*['Harish Rawat','INC',new Date(2014,2,1),new Date()]*/
+		  [ 'Nityanand Swami','BJP',new Date(2000, 10, 9), new Date(2001, 9, 29) ],
+		  [ 'Bhagat Singh Koshiyari', 'BJP',  new Date(2001, 9, 30),  new Date(2002, 2, 1) ],
+		  [ 'N.D.Tiwari','INC' , new Date(2002, 2, 2),  new Date(2007,2,7) ],
+		    [ 'B.C.Khanduri', 'BJP', new Date(2007,2,8),  new Date(2009, 5, 23) ],
+		    [ 'Ramesh Pokhriyal Nishank','BJP', new Date(2009, 5, 24), new Date(2011, 8, 10) ],
+		    ['B.C.Khanduri','BJP',new Date(2011,8,11),new Date(2012,2,13)],
+		    ['Vijay Bahuguna','INC',new Date(2012,2,13),new Date(2014,0,31)],
+		    ['Harish Rawat','INC',new Date(2014,1,1),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -109,7 +109,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">9 November 2000</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">5</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>5</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -121,8 +121,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/uttarakhand/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Harish Rawat</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=2864" target=_blank>Harish Rawat</a></div>
+						<div class="mparty"><a href="http://www.ukpcc.org.in/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -150,24 +150,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/uttarakhand/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">B. C. Khanduri</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.hindustantimes.com/india-news/dehradun/bjp-likely-to-field-bc-khanduri-from-garhwal-ls-seat/article1-1193571.aspx" target=_blank>B. C. Khanduri</a></div>
+						<div class="mparty"><a href="http://www.bjputtarakhand.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/uttarakhand/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vijay Bahuguna</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.ndtv.com/article/india/uttarakhand-chief-minister-vijay-bahuguna-resigns-477634" target=_blank>Vijay Bahuguna</a></div>
+						<div class="mparty"><a href="http://www.ukpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/uttarakhand/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Pradeep Tamta</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4363" target=_blank>Pradeep Tamta</a></div>
+						<div class="mparty"><a href="http://www.ukpcc.org.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
@@ -178,9 +178,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">BSP</a>
+			    <a href="http://www.ukpcc.org.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.bjputtarakhand.org/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.bspindia.org/" target=_blank class="PartiesList">BSP</a>
 			    
 			   
 

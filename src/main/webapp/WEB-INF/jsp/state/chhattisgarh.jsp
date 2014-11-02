@@ -75,11 +75,11 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  ['Ajit Jogi','INC',new Date(2000, 11, 1), new Date(2003, 12, 7) ],
-		    [ 'Raman Singh', 'BJP',  new Date(2003, 12, 7),  new Date() ],
-		  
-		    
-		    
+		  ['Ajit Jogi','INC',new Date(2000, 10, 1), new Date(2003, 11, 7) ],
+		   /* [ 'Raman Singh', 'BJP',  new Date(2003, 11, 7),  new Date(2008,11,7) ],
+		   [ 'Raman Singh', 'BJP',  new Date(2008, 11, 7),  new Date(2013,11,12) ],
+		 [ 'Raman Singh', 'BJP',  new Date(2013, 11, 12),  new Date() ]    */
+		 [ 'Raman Singh', 'BJP',  new Date(2003, 11, 7),  new Date() ]  
 
 
 		    ]);
@@ -113,7 +113,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">01 November 2000</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">11</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>11</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -125,8 +125,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/chhattisgarh/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Raman Singh</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://drramansingh.in/user/biography.aspx" target=_blank>Raman Singh</a></div>
+						<div class="mparty"><a href="http://www.bjpcg.com/" target=_blank>BJP</a></div>
 						</div>
 					</div>
 					
@@ -154,24 +154,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/chhattisgarh/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Charan Das Mahant</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=222" target=_blank>Charan Das Mahant</a></div>
+						<div class="mparty"><a href="http://www.pccchhattisgarh.org/index-en" target=_blank>INC</a></div>
 						<div class="mpost">Minister of State - Agriculture and Food Processing Industries</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/chhattisgarh/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ajit Jogi</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.pccchhattisgarh.org/shri-ajit-jogi" target=_blank>Ajit Jogi</a></div>
+						<div class="mparty"><a href="http://www.pccchhattisgarh.org/index-en" target=_blank>INC</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/chhattisgarh/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ramesh Bais</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=33" target=_blank>Ramesh Bais</a></div>
+						<div class="mparty"><a href="http://www.bjpcg.com/" target=_blank>BJP</a></div>
 						<div class="mpost">MP - LokSabha</div>
 						</div>
 					</div>
@@ -183,9 +183,9 @@ $(document).ready(function(){
 			<div id="partiesInfoCont">
 			
 			
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">BSP</a>
-			    <a href="" class="PartiesList">INC</a>
+			    <a href="http://www.bjpcg.com/" target=_blank class="PartiesList">BJP</a>
+			    <a href="http://www.bspindia.org/chhattisgarh/" target=_blank class="PartiesList">BSP</a>
+			    <a href="http://www.pccchhattisgarh.org/index-en" target=_blank class="PartiesList">INC</a>
 			   
 			       
 			    

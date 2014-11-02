@@ -78,27 +78,27 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-			  ['Pandit Bhagwat Dayal Sharma','INC',new Date(1966,11,1),new Date(1967,3,23)],
-				['Rao Birender Singh','Vishal Haryana Party',new Date(1967,3,24),new Date(1967,11,2)],
-				['President\'s Rule','',new Date(1967,11,2),new Date(1968,5,22)],
-				['Bansi Lal','INC',new Date(1968,5,22),new Date(1975,11,30)],
-				['Banarsi Das Gupta','INC',new Date(1975,12,1),new Date(1977,4,30)],
-				['President\'s Rule','',new Date(1977,4,30),new Date(1977,6,21)],
-				['Chaudhary Devi Lal','JP',new Date(1977,6,21),new Date(1979,6,28)],
-				['Bhajan Lal','JP',new Date(1979,6,29),new Date(1980,1,22)],
-				['Bhajan Lal','INC',new Date(1980,1,22),new Date(1985,7,5)],
-				['Bansi Lal','INC',new Date(1985,7,5),new Date(1987,6,19)],
-				['Chaudhary Devi Lal','JD',new Date(1987,7,17),new Date(1989,12,2)],
-				['Om Prakash Chautala','JD',new Date(1989,12,2),new Date(1990,5,22)],
-				['Banarsi Das Gupta','JD',new Date(1990,5,22),new Date(1990,7,12)],
-				['Om Prakash Chautala','JD',new Date(1990,7,12),new Date(1990,7,17)],
-				['Hukam Singh','JD',new Date(1990,7,17),new Date(1991,3,21)],
-				['Om Prakash Chautala','Samajwadi JP',new Date(1991,3,22),new Date(1991,4,6)],
-				['President\'s Rule','',new Date(1991,4,6),new Date(1991,7,23)],
-				['Bhajan Lal','INC',new Date(1991,7,23),new Date(1996,5,9)],
-				['Bansi Lal','Haryana Vikas Party',new Date(1996,5,11),new Date(1999,7,23)],
-				['Om Prakash Chautala','Indian National Lok Dal',new Date(1999,7,24),new Date(2005,3,4)],
-				['Bhupinder Singh Hooda','INC',new Date(2005,3,5),new Date()]
+			  ['Pandit Bhagwat Dayal Sharma','INC',new Date(1966,10,1),new Date(1967,2,23)],
+				['Rao Birender Singh','Vishal Haryana Party',new Date(1967,2,24),new Date(1967,10,2)],
+				['President\'s Rule','',new Date(1967,10,2),new Date(1968,4,22)],
+				['Bansi Lal','INC',new Date(1968,4,22),new Date(1975,10,30)],
+				['Banarsi Das Gupta','INC',new Date(1975,11,1),new Date(1977,3,30)],
+				['President\'s Rule','',new Date(1977,3,30),new Date(1977,5,21)],
+				['Chaudhary Devi Lal','JP',new Date(1977,5,21),new Date(1979,5,28)],
+				['Bhajan Lal','JP',new Date(1979,5,29),new Date(1980,0,22)],
+				['Bhajan Lal','INC',new Date(1980,0,22),new Date(1985,6,5)],
+				['Bansi Lal','INC',new Date(1985,6,5),new Date(1987,5,19)],
+				['Chaudhary Devi Lal','JD',new Date(1987,6,17),new Date(1989,11,2)],
+				['Om Prakash Chautala','JD',new Date(1989,11,2),new Date(1990,4,22)],
+				['Banarsi Das Gupta','JD',new Date(1990,4,22),new Date(1990,6,12)],
+				['Om Prakash Chautala','JD',new Date(1990,6,12),new Date(1990,6,17)],
+				['Hukam Singh','JD',new Date(1990,6,17),new Date(1991,2,21)],
+				['Om Prakash Chautala','Samajwadi JP',new Date(1991,2,22),new Date(1991,3,6)],
+				['President\'s Rule','',new Date(1991,3,6),new Date(1991,6,23)],
+				['Bhajan Lal','INC',new Date(1991,6,23),new Date(1996,4,9)],
+				['Bansi Lal','Haryana Vikas Party',new Date(1996,4,11),new Date(1999,6,23)],
+				['Om Prakash Chautala','Indian National Lok Dal',new Date(1999,6,24),new Date(2005,2,4)],
+				['Bhupinder Singh Hooda','INC',new Date(2005,2,5),new Date()]
 		    
 		    
 
@@ -134,7 +134,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1966</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">15</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>10</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -146,8 +146,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/haryana/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Bhupinder Singh Hooda</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/bhupinder_singh_hooda" target=_blank>Bhupinder Singh Hooda</a></div>
+						<div class="mparty"><a href="http://www.hrpccvicharvibhag.org/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -175,24 +175,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/haryana/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Om Prakash Chautala</a></div>
-						<div class="mparty"><a href="">INLD</a></div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/om_prakash_chautala" target=_blank>Om Prakash Chautala</a></div>
+						<div class="mparty"><a href="http://www.colorofnation.com/political-party/indian-national-lok-dal#tab_tab0" target=_blank>INLD</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/haryana/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Deepender Singh Hooda</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://164.100.47.132/lssnew/Members/Biography.aspx?mpsno=4207" target=_blank>Deepender Singh Hooda</a></div>
+						<div class="mparty"><a href="http://www.hrpccvicharvibhag.org/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Lak Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/haryana/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Ram Prakash</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2041" target=_blank>Ram Prakash</a></div>
+						<div class="mparty"><a href="http://www.hrpccvicharvibhag.org/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -204,9 +204,9 @@ $(document).ready(function(){
 			<div id="partiesInfoCont">
 			
 				
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">INLD</a>
-			   <a href="" class="PartiesList">IND</a>
+			    <a href="http://www.hrpccvicharvibhag.org/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.colorofnation.com/political-party/indian-national-lok-dal#tab_tab0" target=_blank class="PartiesList">INLD</a>
+			   <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">IND</a>-->IND</span>
 			   
 			    
 			   

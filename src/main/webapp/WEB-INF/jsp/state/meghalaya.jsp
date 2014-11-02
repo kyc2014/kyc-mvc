@@ -71,33 +71,33 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  ['Williamson A. Sangma','APHLC',new Date(1970,4,2),new Date(1972,7,21)],
-		['W.A. Sangma','APHLC',new Date(1972,7,21),new Date(1973,3,18)],
-		['W.A. Sangma','APHLC',new Date(1973,3,18),new Date(1976,11,21)],
-		['W.A. Sangma','INC',new Date(1976,11,22),new Date(1978,3,3)],
-		['Darwin Diengdoh Pugh','APHLC',new Date(1978,3,10),new Date(1979,2,21)],
-		['Darwin Diengdoh Pugh','APHLC',new Date(1979,2,21),new Date(1979,5,6)],
-		['B.B. Lyngdoh','APHLC',new Date(1979,5,7),new Date(1981,5,7)],
-		['W.A. Sangma','INC',new Date(1981,5,7),new Date(1983,2,24)],
-		['B.B. Lyngdoh','APHLC',new Date(1983,3,2),new Date(1983,3,31)],
-		['W.A. Sangma','INC',new Date(1983,4,2),new Date(1988,2,5)],
-		['P.A. Sangma','INC',new Date(1988,2,6),new Date(1990,3,25)],
-		['B.B. Lyngdoh','HPU',new Date(1990,3,26),new Date(1991,10,10)],
-		['President\'s rule','',new Date(1991,10,11),new Date(1992,2,5)],
-		['D.D. Lapang','INC',new Date(1992,2,5),new Date(1993,2,19)],
-		['S.C. Marak','INC',new Date(1993,2,19),new Date(1998,2,27)],
-		['S.C. Marak','INC',new Date(1998,2,27),new Date(1998,3,10)],
-		['B.B. Lyngdoh','UDP',new Date(1998,3,10),new Date(2000,3,8)],
-		['E.K. Mawlong','UDP',new Date(2000,3,8),new Date(2001,12,8)],
-		['Flinder Anderson Khonglam','Independent',new Date(2001,12,8),new Date(2003,3,4)],
-		['D.D. Lapang','INC',new Date(2003,3,4),new Date(2006,6,15)],
-		['J. D. Rymbai','INC',new Date(2006,6,15),new Date(2007,3,10)],
-		['D.D. Lapang','INC',new Date(2007,3,10),new Date(2008,3,4)],
-		['D.D. Lapang','INC',new Date(2008,3,4),new Date(2008,3,19)],
-		['Donkupar Roy','UDP',new Date(2008,3,19),new Date(2009,3,18)],
-		['President\'s rule','',new Date(2009,3,18),new Date(2009,5,12)],
-		['D.D. Lapang','INC',new Date(2009,5,13),new Date(2010,4,19)],
-		['Mukul Sangma','INC',new Date(2010,4,20),new Date()]
+		  ['Williamson A. Sangma','APHLC',new Date(1970,3,2),new Date(1972,6,21)],
+		['W.A. Sangma','APHLC',new Date(1972,6,21),new Date(1973,2,18)],
+		['W.A. Sangma','APHLC',new Date(1973,2,18),new Date(1976,10,21)],
+		['W.A. Sangma','INC',new Date(1976,10,22),new Date(1978,2,3)],
+		['Darwin Diengdoh Pugh','APHLC',new Date(1978,2,10),new Date(1979,1,21)],
+		['Darwin Diengdoh Pugh','APHLC',new Date(1979,1,21),new Date(1979,4,6)],
+		['B.B. Lyngdoh','APHLC',new Date(1979,4,7),new Date(1981,4,7)],
+		['W.A. Sangma','INC',new Date(1981,4,7),new Date(1983,1,24)],
+		['B.B. Lyngdoh','APHLC',new Date(1983,2,2),new Date(1983,2,31)],
+		['W.A. Sangma','INC',new Date(1983,3,2),new Date(1988,1,5)],
+		['P.A. Sangma','INC',new Date(1988,1,6),new Date(1990,2,25)],
+		['B.B. Lyngdoh','HPU',new Date(1990,2,26),new Date(1991,9,10)],
+		['President\'s rule','',new Date(1991,9,11),new Date(1992,1,5)],
+		['D.D. Lapang','INC',new Date(1992,1,5),new Date(1993,1,19)],
+		['S.C. Marak','INC',new Date(1993,1,19),new Date(1998,1,27)],
+		['S.C. Marak','INC',new Date(1998,1,27),new Date(1998,2,10)],
+		['B.B. Lyngdoh','UDP',new Date(1998,2,10),new Date(2000,2,8)],
+		['E.K. Mawlong','UDP',new Date(2000,2,8),new Date(2001,11,8)],
+		['Flinder Anderson Khonglam','Independent',new Date(2001,11,8),new Date(2003,2,4)],
+		['D.D. Lapang','INC',new Date(2003,2,4),new Date(2006,5,15)],
+		['J. D. Rymbai','INC',new Date(2006,5,15),new Date(2007,2,10)],
+		['D.D. Lapang','INC',new Date(2007,2,10),new Date(2008,2,4)],
+		['D.D. Lapang','INC',new Date(2008,2,4),new Date(2008,2,19)],
+		['Donkupar Roy','UDP',new Date(2008,2,19),new Date(2009,2,18)],
+		['President\'s rule','',new Date(2009,2,18),new Date(2009,4,12)],
+		['D.D. Lapang','INC',new Date(2009,4,13),new Date(2010,3,19)],
+		['Mukul Sangma','INC',new Date(2010,3,20),new Date()]
 
 
 
@@ -132,7 +132,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">21 January 1972</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -144,8 +144,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/meghalaya/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Mukul Sangma</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://meghalaya.gov.in:8080/megportal/government/keycontact/14795" target=_blank>Mukul Sangma</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -173,24 +173,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/meghalaya/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Vincent H Pala</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4352" target=_blank>Vincent H Pala</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/meghalaya/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Agatha K. Sangma</a></div>
-						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4251" target=_blank>Agatha K. Sangma</a></div>
+						<div class="mparty"><a href="http://www.ncp.org.in/" target=_blank>NCP</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/meghalaya/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Thomas A Sangma</a></div>
-						<div class="mparty"><a href="">NCP</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2084" target=_blank>Thomas A Sangma</a></div>
+						<div class="mparty"><a href="http://www.ncp.org.in/" target=_blank>NCP</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -201,9 +201,10 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">UDP</a>
-			    <a href="" class="PartiesList">IND</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">UDP</a>-->UDP</span>
+			    <a href="http://www.ncp.org.in/" target=_blank class="PartiesList">NCP</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">IND</a>-->IND</span>
 			    
 			   
 

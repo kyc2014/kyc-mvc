@@ -71,37 +71,37 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		 ['Harekrushna Mahatab','INC',new Date(1946,4,23),new Date(1950,5,12)],
-		['Nabakrushna Choudhury','INC',new Date(1950,5,12),new Date(1952,NaN,20)],
-		['Nabakrushna Choudhury','INC',new Date(1952,NaN,20),new Date(1956,NaN,19)],
-		['Harekrushna Mahatab','INC',new Date(1956,10,19),new Date(1957,NaN,6)],
-		['Harekrushna Mahatab','INC',new Date(1957,NaN,6),new Date(1959,5,22)],
-		['Harekrushna Mahatab','INC',new Date(1959,5,22),new Date(1961,NaN,25)],
-		['President\'s rule','',new Date(1961,2,25),new Date(1961,6,23)],
-		['Biju Patnaik','INC',new Date(1961,6,23),new Date(1963,10,2)],
-		['Biren Mitra','INC',new Date(1963,10,2),new Date(1965,2,21)],
-		['Sadashiva Tripathy','INC',new Date(1965,2,21),new Date(1967,3,8)],
-		['Rajendra Narayan Singh Deo','Swatantra Party',new Date(1967,3,8),new Date(1971,1,9)],
-		['President\'s rule','',new Date(1971,1,11),new Date(1971,4,3)],
-		['Biswanath Das','Independent',new Date(1971,4,3),new Date(1972,6,14)],
-		['Nandini Satpathy','INC',new Date(1972,6,14),new Date(1973,3,3)],
-		['President\'s rule','',new Date(1973,3,3),new Date(1974,3,6)],
-		['Nandini Satpathy','INC',new Date(1974,3,6),new Date(1976,12,16)],
-		['President\'s rule','',new Date(1976,12,16),new Date(1976,12,29)],
-		['Binayak Acharya','INC',new Date(1976,12,29),new Date(1977,4,30)],
-		['President\'s rule','',new Date(1977,4,30),new Date(1977,6,26)],
-		['Nilamani Routray','JP',new Date(1977,6,26),new Date(1980,2,17)],
-		['President\'s rule','',new Date(1980,2,17),new Date(1980,6,9)],
-		['Janaki Ballabh Patnaik','INC',new Date(1980,6,9),new Date(1985,3,10)],
-		['Janaki Ballabh Patnaik','INC',new Date(1985,3,10),new Date(1989,12,7)],
-		['Hemananda Biswal','INC',new Date(1989,12,7),new Date(1995,3,15)],
-		['Biju Patnaik','JD',new Date(1990,3,5),new Date(1999,2,17)],
-		['Janaki Ballabh Patnaik','INC',new Date(1995,3,15),new Date(1999,12,6)],
-		['Giridhar Gamang','INC',new Date(1999,2,17),new Date(2000,3,5)],
-		['Hemananda Biswal','INC',new Date(1999,12,6),new Date(2004,5,16)],
-		['Naveen Patnaik','BJD',new Date(2000,3,5),new Date(2009,5,21)],
-		['Naveen Patnaik','BJD',new Date(2004,5,16),new Date(2009,5,21)],
-		['Naveen Patnaik','BJD',new Date(2009,5,21),new Date()]
+		 ['Harekrushna Mahatab','INC',new Date(1946,3,23),new Date(1950,4,12)],
+		['Nabakrushna Choudhury','INC',new Date(1950,4,12),new Date(1952,1,20)],
+		['Nabakrushna Choudhury','INC',new Date(1952,1,20),new Date(1956,9,19)],
+		['Harekrushna Mahatab','INC',new Date(1956,9,19),new Date(1957,3,6)],
+		['Harekrushna Mahatab','INC',new Date(1957,3,6),new Date(1959,4,22)],
+		['Harekrushna Mahatab','INC',new Date(1959,4,22),new Date(1961,4,25)],
+		['President\'s rule','',new Date(1961,1,25),new Date(1961,5,23)],
+		['Biju Patnaik','INC',new Date(1961,5,23),new Date(1963,9,2)],
+		['Biren Mitra','INC',new Date(1963,9,2),new Date(1965,1,21)],
+		['Sadashiva Tripathy','INC',new Date(1965,1,21),new Date(1967,2,8)],
+		['Rajendra Narayan Singh Deo','Swatantra Party',new Date(1967,2,8),new Date(1971,0,9)],
+		['President\'s rule','',new Date(1971,0,11),new Date(1971,3,3)],
+		['Biswanath Das','Independent',new Date(1971,3,3),new Date(1972,5,14)],
+		['Nandini Satpathy','INC',new Date(1972,5,14),new Date(1973,2,3)],
+		['President\'s rule','',new Date(1973,2,3),new Date(1974,2,6)],
+		['Nandini Satpathy','INC',new Date(1974,2,6),new Date(1976,11,16)],
+		['President\'s rule','',new Date(1976,11,16),new Date(1976,11,29)],
+		['Binayak Acharya','INC',new Date(1976,11,29),new Date(1977,3,30)],
+		['President\'s rule','',new Date(1977,3,30),new Date(1977,5,26)],
+		['Nilamani Routray','JP',new Date(1977,5,26),new Date(1980,1,17)],
+		['President\'s rule','',new Date(1980,1,17),new Date(1980,5,9)],
+		['Janaki Ballabh Patnaik','INC',new Date(1980,5,9),new Date(1985,2,10)],
+		['Janaki Ballabh Patnaik','INC',new Date(1985,2,10),new Date(1989,11,7)],
+		['Hemananda Biswal','INC',new Date(1989,11,7),new Date(1995,2,15)],
+		['Biju Patnaik','JD',new Date(1990,2,5),new Date(1999,2,15)],
+		['Janaki Ballabh Patnaik','INC',new Date(1995,2,15),new Date(1999,1,17)],
+		['Giridhar Gamang','INC',new Date(1999,1,17),new Date(2000,11,6)],
+		['Hemananda Biswal','INC',new Date(1999,11,6),new Date(2000,2,5)],
+		['Naveen Patnaik','BJD',new Date(2000,2,5),new Date()]
+	      /* ['Naveen Patnaik','BJD',new Date(2004,5,16),new Date(2009,5,21)], 
+		['Naveen Patnaik','BJD',new Date(2009,5,21),new Date()] */
 
 
 
@@ -136,7 +136,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 April 1936</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">31</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>21</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -148,8 +148,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/odisha/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Naveen Patnaik</a></div>
-						<div class="mparty"><a href="">BJD</a></div>
+						<div class="mname"><a href="http://www.naveenpatnaik.com/Profile-of-Shri-Naveen-Patnaik-of-HINJILI-constituency-131.html" target=_blank>Naveen Patnaik</a></div>
+						<div class="mparty"><a href="http://www.bjdodisha.org.in/" target=_blank>BJD</a></div>
 						</div>
 					</div>
 					
@@ -177,24 +177,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/odisha/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Srikant Kumar Jena</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3294" target=_blank>Srikant Kumar Jena</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State(Independent Charges)-Statistics and Program Implementation and Chemicals and Fertilizers</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/odisha/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Hemanand Biswal</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4416" target=_blank>Hemanand Biswal</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Former CM , Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/odisha/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Baishnab Charan Parida</a></div>
-						<div class="mparty"><a href="">BJD</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2153" target=_blank>Baishnab Charan Parida</a></div>
+						<div class="mparty"><a href="http://www.bjdodisha.org.in/" target=_blank>BJD</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -205,9 +205,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJD</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BJP</a>
+			    <a href="http://www.bjdodisha.org.in/" target=_blank class="PartiesList">BJD</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.bjp.org/" target=_blank class="PartiesList">BJP</a>
 			 			    
 			   
 

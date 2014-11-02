@@ -71,16 +71,16 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Sukhamoy Sen Gupta','INC',new Date(1972, 3, 20), new Date(1977, 3, 31) ],
-		    [ 'Prafulla Kumar Das', 'CFD',  new Date(1977, 4, 1),  new Date(1977, 7, 25) ],
-		  [ 'Radhika Ranjan Gupta','JP' , new Date(1977, 7, 26),  new Date(1977,11,4) ],
-		    [ 'President\'s Rule', '', new Date(1977,11,5),  new Date(1978, 1, 5) ],
-		    [ 'Nripen Chakraborty','CPI(M)', new Date(1978, 1, 5), new Date(1988, 2, 5) ],
-		    ['Sudhir Ranjan Majumdar','INC',new Date(1988,3,5),new Date(1992,2,19)],
-		    ['Samir Ranjan Barman','INC',new Date(1992,2,19),new Date(1993,3,10)],
-		    ['President\'s Rule','',new Date(1993,3,11),new Date(1993,4,10)],
-		    ['Dasarath Deb','CPI(M)',new Date(1993,4,10),new Date(1998,3,11)],
-		    ['Manik Sarkar','CPI(M)',new Date(1998,3,11),new Date()]
+		  [ 'Sukhamoy Sen Gupta','INC',new Date(1972, 2, 20), new Date(1977, 2, 31) ],
+		    [ 'Prafulla Kumar Das', 'CFD',  new Date(1977, 5, 1),  new Date(1977, 6, 25) ],
+		  [ 'Radhika Ranjan Gupta','JP' , new Date(1977, 6, 26),  new Date(1977,10,4) ],
+		    [ 'President\'s Rule', '', new Date(1977,10,5),  new Date(1978, 0, 5) ],
+		    [ 'Nripen Chakraborty','CPI(M)', new Date(1978, 0, 5), new Date(1988, 1, 5) ],
+		    ['Sudhir Ranjan Majumdar','INC',new Date(1988,1,5),new Date(1992,1,19)],
+		    ['Samir Ranjan Barman','INC',new Date(1992,1,19),new Date(1993,2,10)],
+		    ['President\'s Rule','',new Date(1993,2,11),new Date(1993,3,10)],
+		    ['Dasarath Deb','CPI(M)',new Date(1993,3,10),new Date(1998,2,11)],
+		    ['Manik Sarkar','CPI(M)',new Date(1998,2,11),new Date()]
 		    
 		    ]);
 			var options2 = {
@@ -113,7 +113,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">21 January 1972</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">2</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>2</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -125,8 +125,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/tripura/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Manik Sarkar</a></div>
-						<div class="mparty"><a href="">CPI(M)</a></div>
+						<div class="mname"><a href="http://www.tripurainfo.com/info/ATripura/Chief_Minister.htm" target=_blank>Manik Sarkar</a></div>
+						<div class="mparty"><a href="http://cpim.org/tags/tripura" target=_blank>CPI(M)</a></div>
 						</div>
 					</div>
 					
@@ -154,24 +154,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/tripura/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Khagen Das</a></div>
-						<div class="mparty"><a href="">CPI(M)</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=3957" target=_blank>Khagen Das</a></div>
+						<div class="mparty"><a href="http://cpim.org/tags/tripura" target=_blank>CPI(M)</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/tripura/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Baju Ban Riyan</a></div>
-						<div class="mparty"><a href="">CPI(M)</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=381" target=_blank>Baju Ban Riyan</a></div>
+						<div class="mparty"><a href="http://cpim.org/tags/tripura" target=_blank>CPI(M)</a></div>
 						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/tripura/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Jharna Das</a></div>
-						<div class="mparty"><a href="">CPI(M)</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=2141" target=_blank>Jharna Das</a></div>
+						<div class="mparty"><a href="http://cpim.org/tags/tripura" target=_blank>CPI(M)</a></div>
 						<div class="mpost">Member of Rajya Sabha</div>
 						</div>
 					</div>
@@ -182,9 +182,9 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">CPI</a>
+			    <a href="http://cpim.org/tags/tripura" target=_blank class="PartiesList">CPI(M)</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.communistparty.in/" target=_blank class="PartiesList">CPI</a>
 			    
 			   
 

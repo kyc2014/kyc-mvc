@@ -132,21 +132,21 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		   ['Yashwant Singh Parmar','INC',new Date(1952,3,8),new Date(1956,10,31)],
-		['Yashwant Singh Parmar','INC',new Date(1963,7,1),new Date(1977,1,28)],
-		['Thakur Ram Lal','INC',new Date(1977,1,28),new Date(1977,4,30)],
-		['President\'s rule','',new Date(1977,NaN,30),new Date(1977,NaN,22)],
-		['Shanta Kumar','JP',new Date(1977,6,22),new Date(1980,2,14)],
-		['Thakur Ram Lal','INC',new Date(1980,2,14),new Date(1983,4,7)],
-		['Virbhadra Singh','INC',new Date(1983,4,8),new Date(1985,3,8)],
-		['Virbhadra Singh','INC',new Date(1985,3,8),new Date(1990,3,5)],
-		['Shanta Kumar','BJP',new Date(1990,3,5),new Date(1992,12,15)],
-		['President\'s rule','',new Date(1992,NaN,15),new Date(1993,NaN,03)],
-		['Virbhadra Singh','INC',new Date(1993,12,3),new Date(1998,3,23)],
-		['Prem Kumar Dhumal','BJP',new Date(1998,3,24),new Date(2003,3,5)],
-		['Virbhadra Singh','INC',new Date(2003,3,6),new Date(2007,12,30)],
-		['Prem Kumar Dhumal','BJP',new Date(2007,12,30),new Date(2012,12,25)],
-		['Virbhadra Singh','INC',new Date(2012,12,25),new Date()]
+		   ['Yashwant Singh Parmar','INC',new Date(1952,2,8),new Date(1956,9,31)],
+		['Yashwant Singh Parmar','INC',new Date(1963,6,1),new Date(1977,0,28)],
+		['Thakur Ram Lal','INC',new Date(1977,0,28),new Date(1977,3,30)],
+		['President\'s rule','',new Date(1977,3,30),new Date(1977,5,22)],
+		['Shanta Kumar','JP',new Date(1977,5,22),new Date(1980,1,14)],
+		['Thakur Ram Lal','INC',new Date(1980,1,14),new Date(1983,3,7)],
+		['Virbhadra Singh','INC',new Date(1983,3,8),new Date(1985,2,8)],
+		['Virbhadra Singh','INC',new Date(1985,2,8),new Date(1990,2,5)],
+		['Shanta Kumar','BJP',new Date(1990,2,5),new Date(1992,11,15)],
+		['President\'s rule','',new Date(1992,11,15),new Date(1993,11,03)],
+		['Virbhadra Singh','INC',new Date(1993,11,3),new Date(1998,2,23)],
+		['Prem Kumar Dhumal','BJP',new Date(1998,2,24),new Date(2003,2,5)],
+		['Virbhadra Singh','INC',new Date(2003,2,6),new Date(2007,11,30)],
+		['Prem Kumar Dhumal','BJP',new Date(2007,11,30),new Date(2012,11,25)],
+		['Virbhadra Singh','INC',new Date(2012,11,25),new Date()]
 
 		    ]);
 			var options2 = {
@@ -179,7 +179,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">25 January 1971</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">4</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>4</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -191,8 +191,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/himachal_pradesh/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Virbhadra Singh</div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=1689" target=_blank>Virbhadra Singh</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						</div>
 					</div>
 					
@@ -220,24 +220,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/himachal_pradesh/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Anand Sharma</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/rajyasabhampbiodata.php?mpcode=431" target=_blank>Anand Sharma</a></div>
+						<div class="mparty"><a href="http://www.inc.in/" target=_blank>INC</a></div>
 						<div class="mpost">Union Minister - Ministry of Commerce and Industry</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/himachal_pradesh/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Prem Kumar Dhumal</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.hpbjp.org/page/prof-prem-kumar-dhumal/21?p=OUR%20LEADERSHIP" target=_blank>Prem Kumar Dhumal</a></div>
+						<div class="mparty"><a href="http://www.hpbjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/himachal_pradesh/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Anurag Thakur</a></div>
-						<div class="mparty"><a href="">BJP</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4249" target=_blank>Anurag Thakur</a></div>
+						<div class="mparty"><a href="http://www.hpbjp.org/" target=_blank>BJP</a></div>
 						<div class="mpost">Member of Lok Sabha , BCCI - Joint Secretary</div>
 						</div>
 					</div>
@@ -247,9 +247,9 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">HLP</a>
+			    <a href="http://www.inc.in/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.hpbjp.org/" target=_blank class="PartiesList">BJP</a>
+			    <span class="PartiesList"><!--<a href="" target=_blank class="PartiesList">HLP</a>-->HLP</span>
 			 
 			</div>
 		</div>

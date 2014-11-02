@@ -74,43 +74,46 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		  [ 'Krishna Singh','INC',new Date(1946, 4, 2), new Date(1961, 1, 31) ],
-		    [ 'Deep Narayan Singh', 'INC',  new Date(1961, 2, 1),  new Date(1961, 2, 18) ],
-		  [ 'Binodanand Jha','INC' , new Date(1961, 2, 18),  new Date(1963, 10, 2) ],
-		  [ 'K. B. Sahay','INC' , new Date(1963, 10, 2),  new Date(1967,3,5) ],
-		    [ 'Mahamaya Prasad Sinha', 'JKD', new Date(1967, 3, 5),  new Date(1968, 1, 28) ],
-		    [ 'Satish Prasad Singh', 'INC', new Date(1968, 1, 28),  new Date(1968,2,1) ],
+		  [ 'Krishna Singh','INC',new Date(1946, 3, 2), new Date(1961, 0, 31) ],
+		    [ 'Deep Narayan Singh', 'INC',  new Date(1961, 1, 1),  new Date(1961, 1, 18) ],
+		  [ 'Binodanand Jha','INC' , new Date(1961, 1, 18),  new Date(1963, 9, 2) ],
+		  [ 'K. B. Sahay','INC' , new Date(1963, 9, 2),  new Date(1967,2,5) ],
+		    [ 'Mahamaya Prasad Sinha', 'JKD', new Date(1967, 2, 5),  new Date(1968, 0, 28) ],
+		    [ 'Satish Prasad Singh', 'INC', new Date(1968, 0, 28),  new Date(1968,1,1) ],
 
-		    [ 'B.P. Mandal','INC', new Date(1968,1,1), new Date(1968,3,2) ],
-		    ['Bhola Paswan Shastri','INC(O)',new Date(1968, 3, 22),new Date(1968,6,29)],
-		    ['President rule','',new Date(1968,6,29),new Date(1970,2,16)],
-		    ['Daroga Prasad Rai','INC',new Date(1970,2,16),new Date(1970,12,22)],
-		    ['Karpoori Thakur','Socialist Party',new Date(1970,12,22),new Date(1971,6,2)],
-		    ['Bhola Paswan Shastri','INC',new Date(1971,6,2),new Date(1972,1,9)],
-		    ['President Rule','',new Date(1972,1,9),new Date(1972,3,19)],
-		    ['Kedar Pandey','INC',new Date(1972,3,19),new Date(1973,7,2)],
-		    ['Abdul Gafoor','INC',new Date(1973,7,2),new Date(1975,4,11)],
-		    ['Jagannath Mishra','INC',new Date(1975,4,11),new Date(1977,4,30)],
-		    ['President rule','',new Date(1977,4,30),new Date(1977,6,24)],
-		    ['Karpoori Thakur','Janata Party',new Date(1977,6,24),new Date(1979,4,21)],
-		    ['Ram Sundar Das','Janata Party',new Date(1979,4,21),new Date(1980,2,17)],
-		    ['President rule','',new Date(1980,2,17),new Date(1980,6,8)],
-		    ['Jagannath Mishra','INC',new Date(1980,6,8),new Date(1983,8,14)],
-		    ['Chandrasekhar Singh','INC',new Date(1983,8,14),new Date(1985,3,12)],
-		    ['Bindeshwari Dubey','INC',new Date(1985,3,12),new Date(1988,2,13)],
-		    ['Bhagwat Jha Azad','INC',new Date(1988,2,14),new Date(1989,3,10)],
-		    ['Satyendra Narayan Sinha','INC',new Date(1989,3,11),new Date(1989,12,6)],
-		    ['Jagannath Mishra','INC',new Date(1989,12,6),new Date(1990,3,10)],
-		    ['Lalu Prasad Yadav','JD',new Date(1990,3,10),new Date(1995,3,28)],
-		    ['President rule','',new Date(1995,3,28),new Date(1995,4,4)],
-		    ['Lalu Prasad Yadav','JD',new Date(1995,3,4),new Date(1997,7,25)],
-		    ['Rabri Devi','RJD',new Date(1997,7,25),new Date(1999,2,11)],
-		    ['President rule','',new Date(1999,2,11),new Date(1999,3,9)],
-		    ['Rabri Devi','RJD',new Date(1999,3,9),new Date(2000,3,2)],
-		    ['Nitish Kumar','JD(U)',new Date(2000,3,3),new Date(2000,3,10)],
-		    ['Rabri Devi','RJD',new Date(2000,3,11),new Date(2005,3,6)],
-		    ['President rule','',new Date(2005,3,7),new Date(2005,11,24)],
-		    ['Nithish Kumar','JD(U)',new Date(2005,11,24),new Date()]
+		    [ 'B.P. Mandal','INC', new Date(1968,0,1), new Date(1968,2,2) ],
+		    ['Bhola Paswan Shastri','INC(O)',new Date(1968, 2, 22),new Date(1968,5,29)],
+		    ['President rule','',new Date(1968,5,29),new Date(1969,1,26)],
+		    [ 'Harihar Singh','INC', new Date(1969,1,26), new Date(1969,5,22) ],
+		    [ 'Bhola Paswan Shastri','INC(O)', new Date(1969,5,22), new Date(1969,6,4) ],
+		    ['President rule','',new Date(1969,6,6),new Date(1970,1,16)],			  
+		    ['Daroga Prasad Rai','INC',new Date(1970,1,16),new Date(1970,11,22)],
+		    ['Karpoori Thakur','Socialist Party',new Date(1970,11,22),new Date(1971,5,2)],
+		    ['Bhola Paswan Shastri','INC',new Date(1971,5,2),new Date(1972,0,9)],
+		    ['President Rule','',new Date(1972,0,9),new Date(1972,2,19)],
+		    ['Kedar Pandey','INC',new Date(1972,2,19),new Date(1973,6,2)],
+		    ['Abdul Gafoor','INC',new Date(1973,6,2),new Date(1975,3,11)],
+		    ['Jagannath Mishra','INC',new Date(1975,3,11),new Date(1977,3,30)],
+		    ['President rule','',new Date(1977,3,30),new Date(1977,5,24)],
+		    ['Karpoori Thakur','Janata Party',new Date(1977,5,24),new Date(1979,3,21)],
+		    ['Ram Sundar Das','Janata Party',new Date(1979,3,21),new Date(1980,1,17)],
+		    ['President rule','',new Date(1980,1,17),new Date(1980,5,8)],
+		    ['Jagannath Mishra','INC',new Date(1980,5,8),new Date(1983,7,14)],
+		    ['Chandrasekhar Singh','INC',new Date(1983,7,14),new Date(1985,2,12)],
+		    ['Bindeshwari Dubey','INC',new Date(1985,2,12),new Date(1988,1,13)],
+		    ['Bhagwat Jha Azad','INC',new Date(1988,1,14),new Date(1989,2,10)],
+		    ['Satyendra Narayan Sinha','INC',new Date(1989,2,11),new Date(1989,11,6)],
+		    ['Jagannath Mishra','INC',new Date(1989,11,6),new Date(1990,2,10)],
+		    ['Lalu Prasad Yadav','JD',new Date(1990,2,10),new Date(1995,2,28)],
+		    ['President rule','',new Date(1995,2,28),new Date(1995,3,4)],
+		    ['Lalu Prasad Yadav','JD',new Date(1995,3,4),new Date(1997,6,25)],
+		    ['Rabri Devi','RJD',new Date(1997,6,25),new Date(1999,1,11)],
+		    ['President rule','',new Date(1999,1,11),new Date(1999,2,9)],
+		    ['Rabri Devi','RJD',new Date(1999,2,9),new Date(2000,2,2)],
+		    ['Nitish Kumar','JD(U)',new Date(2000,2,3),new Date(2000,2,10)],
+		    ['Rabri Devi','RJD',new Date(2000,2,11),new Date(2005,2,6)],
+		    ['President rule','',new Date(2005,2,7),new Date(2005,10,24)],
+		    ['Nitish Kumar','JD(U)',new Date(2005,10,24),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -142,7 +145,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">2 April 1946</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">40</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>40</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -154,8 +157,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/bihar/cm.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Nitish Kumar</a></div>
-						<div class="mparty"><a href="">JD(U)</a></div>
+						<div class="mname"><a href="http://gov.bih.nic.in/governance/nitishkumar.htm" target=_blank>Nitish Kumar</a></div>
+						<div class="mparty"><a href="http://www.janatadalunited.org/" target=_blank>JD(U)</a></div>
 						</div>
 					</div>
 					
@@ -183,24 +186,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/bihar/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Meira Kumar</a></div>
-						<div class="mparty"><a href=""></a></div>
-						<div class="mpost">Loksabha Speaker</div>
+						<div class="mname"><a href="http://speakerloksabha.nic.in/biography.asp" target=_blank>Meira Kumar</a></div>
+						<div class="mparty"><a href="http://www.bpcc.co.in/" target=_blank>INC</a></div>
+						<div class="mpost">Lok Sabha Speaker</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/bihar/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Paban Singh Ghatowar</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minister of State (Independent Charges) - Development of North Eastern Region,Parliamentary Affairs</div>
+						<div class="mname"><a href="http://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=430" target=_blank>Dr. Raghuvansh Prasad Singh</a></div>
+						<div class="mparty"><a href="http://www.rjd.co.in/" target=_blank>RJD</a></div>
+						<div class="mpost">Member of Lok Sabha</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/bihar/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Lalu Prasad Yadav</a></div>
-						<div class="mparty"><a href="">JD,RJD</a></div>
+						<div class="mname"><a href="http://timesofindia.indiatimes.com/home/specials/Profile-Lalu-Prasad-Yadav/articleshow/2015298.cms" target=_blank>Lalu Prasad Yadav</a></div>
+						<div class="mparty"><a href="http://www.rjd.co.in/" target=_blank>RJD</a></div>
 						<div class="mpost">Former CM, Former Railway Minister</div>
 						</div>
 					</div>
@@ -210,10 +213,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-				<a href="" class="PartiesList">INC</a>
-				<a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">RJD</a>
-			    <a href="" class="PartiesList">JD(U)</a>
+				<a href="http://www.bpcc.co.in/" target=_blank class="PartiesList">INC</a>
+				<a href="http://www.biharbjp.org/" target=_blank class="PartiesList">BJP</a>
+			    	<a href="http://www.rjd.co.in/" target=_blank class="PartiesList">RJD</a>
+			    	<a href="http://www.janatadalunited.org/" target=_blank class="PartiesList">JD(U)</a>
 			</div>
 		</div>
 		<div id="chartContainer">

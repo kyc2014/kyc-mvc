@@ -132,21 +132,21 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    ['Prafulla Chandra Ghosh','INC',new Date(1947,8,15),new Date(1948,1,14)],
-		['Bidhan Chandra Roy','INC',new Date(1948,1,14),new Date(1962,7,1)],
-		['President\'s rule','',new Date(1962,7,1),new Date(1962,7,8)],
-		['Prafulla Chandra Sen','INC',new Date(1962,7,8),new Date(1967,3,15)],
-		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1967,3,15),new Date(1967,11,2)],
-		['Prafulla Chandra Ghosh','Independent Progressive Democratic Alliance Front',new Date(1967,11,2),new Date(1968,2,20)],
-		['President\'s rule','',new Date(1968,2,20),new Date(1969,2,25)],
-		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1969,2,25),new Date(1970,3,19)],
-		['President\'s rule','',new Date(1970,3,19),new Date(1971,4,2)],
-		['Prafulla Chandra Ghosh','INC',new Date(1971,4,2),new Date(1971,6,28)],
-		['President\'s rule','',new Date(1971,6,28),new Date(1972,3,19)],
-		['Siddhartha Shankar Ray','INC',new Date(1972,3,19),new Date(1977,6,21)],
-		['Jyoti Basu','CPI(M)(Left Front)',new Date(1977,6,21),new Date(2000,11,6)],
-		['Buddhadeb Bhattacharya','CPI(M)(Left Front)',new Date(2000,11,6),new Date(2011,5,13)],
-		['Mamata Banerjee','AITMC',new Date(2011,5,20),new Date()]
+		    ['Prafulla Chandra Ghosh','INC',new Date(1947,7,15),new Date(1948,0,14)],
+		['Bidhan Chandra Roy','INC',new Date(1948,0,14),new Date(1962,6,1)],
+		['President\'s rule','',new Date(1962,6,1),new Date(1962,6,8)],
+		['Prafulla Chandra Sen','INC',new Date(1962,6,8),new Date(1967,2,15)],
+		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1967,2,15),new Date(1967,10,2)],
+		['Prafulla Chandra Ghosh','Independent Progressive Democratic Alliance Front',new Date(1967,10,2),new Date(1968,1,20)],
+		['President\'s rule','',new Date(1968,1,20),new Date(1969,1,25)],
+		['Ajoy Kumar Mukherjee','Bangla Congress',new Date(1969,1,25),new Date(1970,2,19)],
+		['President\'s rule','',new Date(1970,2,19),new Date(1971,3,2)],
+		['Prafulla Chandra Ghosh','INC',new Date(1971,3,2),new Date(1971,5,28)],
+		['President\'s rule','',new Date(1971,5,28),new Date(1972,2,19)],
+		['Siddhartha Shankar Ray','INC',new Date(1972,2,19),new Date(1977,5,21)],
+		['Jyoti Basu','CPI(M)(Left Front)',new Date(1977,5,21),new Date(2000,10,6)],
+		['Buddhadeb Bhattacharya','CPI(M)(Left Front)',new Date(2000,10,6),new Date(2011,4,13)],
+		['Mamata Banerjee','AITMC',new Date(2011,4,20),new Date()]
 
 
 
@@ -181,7 +181,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">42</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>42</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -193,8 +193,8 @@ $(document).ready(function(){
 					<div class="mphoto">
 						<img src="/Resources/images/state/west_bengal/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href=""></a>Mamata Banerjee</div>
-						<div class="mparty"><a href="">AITMC</a></div>
+						<div class="mname"><a href="https://aitmc.org/theleaderspeaks.php" target=_blank>Mamata Banerjee</a></div>
+						<div class="mparty"><a href="https://aitmc.org/" target=_blank>AITMC</a></div>
 						</div>
 					</div>
 					
@@ -222,24 +222,24 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/west_bengal/1.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Adhir Ranjan Chowdhury</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=97" target=_blank>Adhir Ranjan Chowdhury</a></div>
+						<div class="mparty"><a href="http://www.wbpcc.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - Railways</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/west_bengal/2.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Abu Hasem Khan Choudhury</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4212" target=_blank>Abu Hasem Khan Choudhury</a></div>
+						<div class="mparty"><a href="http://www.wbpcc.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - Health and Family Welfare</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/west_bengal/3.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Deepa Dasmunsi</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4481" target=_blank>Deepa Dasmunsi</a></div>
+						<div class="mparty"><a href="http://www.wbpcc.org/" target=_blank>INC</a></div>
 						<div class="mpost">Ministers of State - Urban Development</div>
 						</div>
 					</div>
@@ -249,10 +249,10 @@ $(document).ready(function(){
 		<div id = "partiesInfo">
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
-			    <a href="" class="PartiesList">AITMC</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">AIFB</a>
+			    <a href="https://aitmc.org/" target=_blank class="PartiesList">AITMC</a>
+			    <a href="http://www.wbpcc.org/" target=_blank class="PartiesList">INC</a>
+			    <a href="http://www.cpimwb.org.in/" target=_blank class="PartiesList">CPI(M)</a>
+			    <a href="http://www.forwardbloc.org/" target=_blank class="PartiesList">AIFB</a>
 
 			</div>
 		</div>

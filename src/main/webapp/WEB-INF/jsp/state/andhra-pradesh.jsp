@@ -131,28 +131,29 @@ $(document).ready(function(){
 		  dataTable.addColumn({ type: 'date', id: 'End' });
 
 		  dataTable.addRows([
-		    [ 'Neelam Sanjiva Reddy','INC', new Date(1956,11, 1), new Date(1960, 1, 11) ],
-		    [ 'Damodaram Sanjivayya', 'INC',     new Date(1960, 1, 11),  new Date(1962, 3, 12) ],
-		  [ 'Neelam Sanjiva Reddy','INC' , new Date(1962, 3, 12),  new Date(1964, 2, 20) ],
-		    [ 'Kasu Brahmananda Reddy', 'INC', new Date(1964, 2, 21),  new Date(1971, 9, 30) ],
-		    [ 'P. V. Narasimha Rao','INC', new Date(1971, 9, 30), new Date(1973, 1, 10) ],
-		    ['President rule','',new Date(1973,1,11),new Date(1973,12,10)],
-		    ['Jalagam Vengala Rao','INC',new Date(1973,12,10),new Date(1978,3,6)],
-		    ['Marri Chenna Reddy','INC',new Date(1978,3,6),new Date(1980,10,11)],
-		    ['Tanguturi Anjaiah','INC',new Date(1980,10,11),new Date(1982,2,24)],
-		    ['Bhavanam Venkatarami Reddy','INC',new Date(1982,2,24),new Date(1982,9,20)],
-		    ['Kotla Vijaya Bhaskara Reddy','INC',new Date(1982,9,20),new Date(1983,1,9)],
-		    ['N. T. Rama Rao','TDP',new Date(1983,1,9),new Date(1984,8,16)],
-		    ['Nadendla Bhaskara Rao','TDP',new Date(1984,8,16),new Date(1984,9,16)],
-		    ['N. T. Rama Rao','TDP',new Date(1984,9,16),new Date(1989,12,2)],
-		    ['Marri Chenna Reddy','INC',new Date(1989,12,3),new Date(1990,12,17)],
-		    ['Nedurumalli Janardhana Reddy','INC',new Date(1990,12,17),new Date(1992,10,9)],
-		    ['Kotla Vijaya Bhaskara Reddy ','INC',new Date(1992,10,9),new Date(1994,12,12)],
-		    ['N. T. Rama Rao','TDP',new Date(1994,12,12),new Date(1995,9,1)],
-		    ['N. Chandrababu Naidu','TDP',new Date(1995,9,1),new Date(2004,5,14)],
-		    ['Y. S. Rajasekhara Reddy','INC',new Date(2004,5,14), new Date(2009,9,2)],
-		    ['Konijeti Rosaiah','INC',new Date(2009,9,2),new Date(2010,11,24)],
-		    ['N. Kiran Kumar Reddy','INC',new Date(2010,11,25),new Date()]
+		    [ 'Neelam Sanjiva Reddy','INC', new Date(1956,10, 1), new Date(1960, 0, 11) ],
+		    [ 'Damodaram Sanjivayya', 'INC',     new Date(1960, 0, 11),  new Date(1962, 2, 12) ],
+		  [ 'Neelam Sanjiva Reddy','INC' , new Date(1962, 2, 12),  new Date(1964, 1, 20) ],
+		    [ 'Kasu Brahmananda Reddy', 'INC', new Date(1964, 1, 21),  new Date(1971, 8, 30) ],
+		    [ 'P. V. Narasimha Rao','INC', new Date(1971, 8, 30), new Date(1973, 0, 10) ],
+		    ['President rule','',new Date(1973,0,11),new Date(1973,11,10)],
+		    ['Jalagam Vengala Rao','INC',new Date(1973,11,10),new Date(1978,2,6)],
+		    ['Marri Chenna Reddy','INC',new Date(1978,2,6),new Date(1980,9,11)],
+		    ['Tanguturi Anjaiah','INC',new Date(1980,9,11),new Date(1982,1,24)],
+		    ['Bhavanam Venkatarami Reddy','INC',new Date(1982,1,24),new Date(1982,8,20)],
+		    ['Kotla Vijaya Bhaskara Reddy','INC',new Date(1982,8,20),new Date(1983,0,9)],
+		    ['N. T. Rama Rao','TDP',new Date(1983,0,9),new Date(1984,7,16)],
+		    ['Nadendla Bhaskara Rao','TDP',new Date(1984,7,16),new Date(1984,8,16)],
+		    ['N. T. Rama Rao','TDP',new Date(1984,8,16),new Date(1989,11,2)],
+		    ['Marri Chenna Reddy','INC',new Date(1989,11,3),new Date(1990,11,17)],
+		    ['Nedurumalli Janardhana Reddy','INC',new Date(1990,11,17),new Date(1992,9,9)],
+		    ['Kotla Vijaya Bhaskara Reddy ','INC',new Date(1992,9,9),new Date(1994,11,12)],
+		    ['N. T. Rama Rao','TDP',new Date(1994,11,12),new Date(1995,8,1)],
+		    ['N. Chandrababu Naidu','TDP',new Date(1995,8,1),new Date(2004,4,14)],
+		    ['Y. S. Rajasekhara Reddy','INC',new Date(2004,4,14), new Date(2009,8,2)],
+		    ['Konijeti Rosaiah','INC',new Date(2009,8,2),new Date(2010,10,24)],
+		    ['N. Kiran Kumar Reddy','INC',new Date(2010,10,25),new Date(2014,2,1)],
+		    ['President\'s Rule ','',new Date(2014,2,1),new Date()]
 		    ]);
 			var options2 = {
 				timeline:{
@@ -184,7 +185,7 @@ $(document).ready(function(){
 				<span>Date of Formation - </span><span id="dofValue">1 November 1956</span>
 			</div>
 			<div id="totConst">
-				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="">42</a></span>
+				<span>Number of Lok Sabha Seats - <span><span id="totConstValue"><a href="http://164.100.47.132/lssnew/Members/Statewiselist.aspx" target=_blank>42</a></span>
 			</div>
 		</div>
 		<div id="personalities">
@@ -194,10 +195,10 @@ $(document).ready(function(){
 					Chief Minister
 					</div>
 					<div class="mphoto">
-						<img src="/Resources/images/state/AndhraPradesh/cm.jpg">
+						<img src="/Resources/images/state/AndhraPradesh/cm.png">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">Kiran Kumar Reddy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
+						<div class="mname"><a href="http://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-to-be-under-presidents-rule/article5736028.ece" target=_blank>President's Rule</a></div>
+						<div class="mparty"> <!-- <a href=""></a> --></div>
 						</div>
 					</div>
 					
@@ -225,25 +226,25 @@ $(document).ready(function(){
 					<div id="minister1" class="photo">
 					<img src="/Resources/images/state/AndhraPradesh/1.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">N.Chandrababu Naidu</a></div>
-						<div class="mparty"><a href="">TDP</a></div>
+						<div class="mname"><a href="http://telugudesam.org/cbn/" target=_blank>N.Chandrababu Naidu</a></div>
+						<div class="mparty"><a href="http://www.telugudesam.org/tdpcms/" target=_blank>TDP</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
 					<div id="minister2" class="photo">
 						<img src="/Resources/images/state/AndhraPradesh/2.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K. Chandrashekar Rao</a></div>
-						<div class="mparty"><a href="">TRS</a></div>
+						<div class="mname"><a href="http://trsuk.com/home.php" target=_blank>K. Chandrashekar Rao</a></div>
+						<div class="mparty"><a href="http://trsuk.com/" target=_blank>TRS</a></div>
 						<div class="mpost">Party President</div>
 						</div>
 					</div>
 					<div id = "minister3" class="photo">
 						<img src="/Resources/images/state/AndhraPradesh/3.jpg">
 						<div class="mphotoDetails">
-						<div class="mname"><a href="">K J SuryaPrakash Reddy</a></div>
-						<div class="mparty"><a href="">INC</a></div>
-						<div class="mpost">Minster of State - Railways</div>
+						<div class="mname"><a href="http://www.colorofnation.com/profile/nallari_kiran_kumar_reddy" target=_blank>Kiran Kumar Reddy</a></div>
+						<div class="mparty"><a href="http://www.apcongress.org/" target=_blank>INC</a></div>
+						<div class="mpost">Former CM</div>
 						</div>
 					</div>
 				</div>
@@ -253,12 +254,12 @@ $(document).ready(function(){
 		<div id="partiesInfoHeading">List of Prominent Political Parties</div>
 			<div id="partiesInfoCont">
 			    
-			    <a href="" class="PartiesList">BJP</a>
-			    <a href="" class="PartiesList">CPI</a>
-			    <a href="" class="PartiesList">CPI(M)</a>
-			    <a href="" class="PartiesList">INC</a>
-			    <a href="" class="PartiesList">TDP</a>
-			    <a href="" class="PartiesList">TRS</a>
+			    <a href="http://ap.bjp.org/" class="PartiesList" target=_blank>BJP</a>
+			    <a href="http://ap.communistparty.in/" class="PartiesList" target=_blank>CPI</a>
+			    <a href="http://cpimap.org/" class="PartiesList" target=_blank>CPI(M)</a>
+			    <a href="http://www.apcongress.org/" class="PartiesList" target=_blank>INC</a>
+			    <a href="http://www.telugudesam.org/tdpcms/" class="PartiesList" target=_blank>TDP</a>
+			    <a href="http://trsuk.com/" class="PartiesList" target=_blank>TRS</a>
 
 			</div>
 		</div>
