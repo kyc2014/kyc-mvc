@@ -31,7 +31,7 @@ public class TNConstituency{
 	public static final String forbesTopHundreadURL = "http://www.forbes.com/top-colleges/list/";
 	public static void main(String args[]) throws IOException, SQLException{
 		//TNCandidate();;
-		//wikiStateCollegeURLs();
+		wikiStateCollegeURLs();
 		forbesHundreadColleges();
 		//test();
 	}
